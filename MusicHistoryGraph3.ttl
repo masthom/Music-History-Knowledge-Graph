@@ -20,7 +20,6 @@ mhg:isoCountryCode rdfs:subPropertyOf dcterms:identifier ;
 ## COMPOSERS
 #################################################################
 
-
 mhg:AlbanBerg a mhg:composer ;
     mhg:pupilOf mhg:ArnoldSchönberg ;
     frbr:creatorOf mhg:AB_9Blätter,
@@ -30,15 +29,17 @@ mhg:AlbanBerg a mhg:composer ;
     schema:deathDate "1935-12-24"^^xsd:date ;
     schema:deathPlace <http://www.wikidata.org/entity/Q1741> ;
     schema:name "Alban Berg" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q21379>,
+    schema:sameAs <http://www.wikidata.org/entity/Q78475>,
         <https://de.wikipedia.org/wiki/Alban_Berg>,
         <https://en.wikipedia.org/wiki/Alban_Berg> .
 
 mhg:AlexanderGoehr a mhg:composer ;
     schema:birthDate "1932-08-10"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q81176> ;
+    schema:birthPlace <http://www.wikidata.org/entity/Q64> ;
+    schema:deathDate "2024-08-26"^^xsd:date ;
+    schema:deathPlace <http://www.wikidata.org/entity/Q23112> ;
     schema:name "Alexander Goehr" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q314982> .
+    schema:sameAs <http://www.wikidata.org/entity/Q215847> .
     
 mhg:AntonWebern a mhg:composer ;
     mhg:pupilOf mhg:ArnoldSchönberg ;
@@ -60,9 +61,9 @@ mhg:AntonWebern a mhg:composer ;
     schema:birthDate "1883-12-03"^^xsd:date ;
     schema:birthPlace <http://www.wikidata.org/entity/Q1741> ;
     schema:deathDate "1945-09-15"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q83071> ;
+    schema:deathPlace <http://www.wikidata.org/entity/Q257244> ;
     schema:name "Anton Webern" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q25246>,
+    schema:sameAs <http://www.wikidata.org/entity/Q190933>,
         <https://de.wikipedia.org/wiki/Anton_Webern>,
         <https://en.wikipedia.org/wiki/Anton_Webern> .
 
@@ -77,43 +78,43 @@ mhg:ArnoldSchönberg a mhg:author,
     schema:deathDate "1951-07-13"^^xsd:date ;
     schema:deathPlace <http://www.wikidata.org/entity/Q65> ;
     schema:name "Arnold Schönberg" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q254>,
+    schema:sameAs <http://www.wikidata.org/entity/Q154770>,
         <https://de.wikipedia.org/wiki/Arnold_Sch%C3%B6nberg>,
         <https://en.wikipedia.org/wiki/Arnold_Schoenberg> .
 
 mhg:ArrigoBarnabe a mhg:composer ;
     schema:birthDate "1951-09-14"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q174422> ;
+    schema:birthPlace <http://www.wikidata.org/entity/Q192387> ;
     schema:name "Arrigo Barnabé" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q514377> .
+    schema:sameAs <http://www.wikidata.org/entity/Q4795987> .
 
 mhg:BerndAloisZimmermann a mhg:composer ;
     schema:birthDate "1918-03-20"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q161806> ;
+    schema:birthPlace <http://www.wikidata.org/entity/Q884073> ;
     schema:deathDate "1970-08-10"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q3550> ;
+    schema:deathPlace <http://www.wikidata.org/entity/Q365> ;
     schema:name "Bernd Alois Zimmermann" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q317049> .
+    schema:sameAs <http://www.wikidata.org/entity/Q312582> .
 
 mhg:BillEvans a mhg:composer ;
     schema:birthDate "1929-08-16"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q18426> ;
+    schema:birthPlace <http://www.wikidata.org/entity/Q544890> ;
     schema:deathDate "1980-09-15"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q18426> ;
+    schema:deathPlace <http://www.wikidata.org/entity/Q60> ;
     schema:name "Bill Evans" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q213481> .
+    schema:sameAs <http://www.wikidata.org/entity/Q208205> .
 
 mhg:DavidShire a mhg:composer ;
     schema:birthDate "1937-07-03"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q18426> ;
+    schema:birthPlace <http://www.wikidata.org/entity/Q40435> ;
     schema:name "David Shire" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q1184738> .
+    schema:sameAs <http://www.wikidata.org/entity/Q719035> .
 
 mhg:DikaNewlin a mhg:composer ;
     schema:birthDate "1923-05-23"^^xsd:date ;
     schema:birthPlace <http://www.wikidata.org/entity/Q6106> ;
     schema:deathDate "2006-07-22"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q49266> ;
+    schema:deathPlace <http://www.wikidata.org/entity/Q43421> ;
     schema:name "Dika Newlin" ;
     schema:sameAs <http://www.wikidata.org/entity/Q1225258>,
         <https://de.wikipedia.org/wiki/Dika_Newlin>,
@@ -121,27 +122,27 @@ mhg:DikaNewlin a mhg:composer ;
 
 mhg:EduardSteuermann a mhg:composer ;
     schema:birthDate "1892-06-18"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q144416> ;
+    schema:birthPlace <http://www.wikidata.org/entity/Q156593> ;
     schema:deathDate "1964-11-11"^^xsd:date ;
     schema:deathPlace <http://www.wikidata.org/entity/Q60> ;
     schema:name "Eduard Steuermann" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q312230> .
+    schema:sameAs <http://www.wikidata.org/entity/Q214108> .
 
 mhg:ErichItorKahn a mhg:composer ;
     schema:birthDate "1905-07-23"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q2863> ;
+    schema:birthPlace <http://www.wikidata.org/entity/Q2153346> ;
     schema:deathDate "1956-03-05"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q1899> ;
+    schema:deathPlace <http://www.wikidata.org/entity/Q60> ;
     schema:name "Erich Itor Kahn" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q267520> .
+    schema:sameAs <http://www.wikidata.org/entity/Q215430> .
 
 mhg:ErichSchmid a mhg:composer ;
     schema:birthDate "1907-05-01"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q6813> ;
+    schema:birthPlace <http://www.wikidata.org/entity/Q65455> ;
     schema:deathDate "2000-05-27"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q6813> ;
+    schema:deathPlace <http://www.wikidata.org/entity/Q72> ;
     schema:name "Erich Schmid" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q451946> .
+    schema:sameAs <http://www.wikidata.org/entity/Q690827> .
 
 mhg:ErnstKrenek a mhg:author,
         mhg:composer ;
@@ -151,9 +152,9 @@ mhg:ErnstKrenek a mhg:author,
     schema:birthDate "1900-08-23"^^xsd:date ;
     schema:birthPlace <http://www.wikidata.org/entity/Q1741> ;
     schema:deathDate "1991-12-22"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q49266> ;
+    schema:deathPlace <http://www.wikidata.org/entity/Q488004> ;
     schema:name "Ernst Krenek" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q22253>,
+    schema:sameAs <http://www.wikidata.org/entity/Q158436>,
         <https://de.wikipedia.org/wiki/Ernst_Krenek>,
         <https://en.wikipedia.org/wiki/Ernst_Krenek> .
 
@@ -161,9 +162,9 @@ mhg:ErwinStein a mhg:author, mhg:composer ;
     schema:birthDate "1885-11-19"^^xsd:date ;
     schema:birthPlace <http://www.wikidata.org/entity/Q1741> ;
     schema:deathDate "1958-07-17"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q1794> ;
+    schema:deathPlace <http://www.wikidata.org/entity/Q84> ;
     schema:name "Erwin Stein" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q130619> .
+    schema:sameAs <http://www.wikidata.org/entity/Q1247683> .
 
 mhg:FritzHeinrichKlein a mhg:composer ;
     mhg:pupilOf mhg:AlbanBerg,
@@ -171,11 +172,11 @@ mhg:FritzHeinrichKlein a mhg:composer ;
     frbr:creatorOf mhg:FHK_DieMaschine_op1,
         mhg:FHK_Variationen_op14 ;
     schema:birthDate "1892-02-11"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q1741> ;
+    schema:birthPlace <http://www.wikidata.org/entity/Q1781> ;
     schema:deathDate "1977-07-02"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q1741> ;
+    schema:deathPlace <http://www.wikidata.org/entity/Q41329> ;
     schema:name "Fritz Heinrich Klein" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q1377850>,
+    schema:sameAs <http://www.wikidata.org/entity/Q86808>,
         <https://de.wikipedia.org/wiki/Fritz_Heinrich_Klein>,
         <https://en.wikipedia.org/wiki/Fritz_Heinrich_Klein> .
 
@@ -186,28 +187,28 @@ mhg:HannsEisler a mhg:author,
     frbr:creatorOf mhg:HE_14Arten,
         mhg:HE_DeutscheSymphonie ;
     schema:birthDate "1898-07-06"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q1741> ;
+    schema:birthPlace <http://www.wikidata.org/entity/Q2079> ;
     schema:deathDate "1962-09-06"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q3651> ;
+    schema:deathPlace <http://www.wikidata.org/entity/Q56037> ;
     schema:name "Hanns Eisler" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q21394>,
+    schema:sameAs <http://www.wikidata.org/entity/Q78704>,
         <https://de.wikipedia.org/wiki/Hanns_Eisler>,
         <https://en.wikipedia.org/wiki/Hanns_Eisler> .
 
 mhg:HansErichApostel a mhg:composer ;
     schema:birthDate "1901-01-22"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q3107> ;
+    schema:birthPlace <http://www.wikidata.org/entity/Q1040> ;
     schema:deathDate "1972-11-30"^^xsd:date ;
     schema:deathPlace <http://www.wikidata.org/entity/Q1741> ;
     schema:name "Hans Erich Apostel" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q447868> .
+    schema:sameAs <http://www.wikidata.org/entity/Q643317> .
 
 mhg:HerbertEimert a mhg:author,
         mhg:composer ;
     schema:birthDate "1897-11-12"^^xsd:date ;
     schema:birthPlace <http://www.wikidata.org/entity/Q7047> ;
     schema:deathDate "1972-12-15"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q1580> ;
+    schema:deathPlace <http://www.wikidata.org/entity/Q365> ;
     schema:name "Herbert Eimert" ;
     schema:sameAs <http://www.wikidata.org/entity/Q318631>,
         <https://de.wikipedia.org/wiki/Herbert_Eimert>,
@@ -249,7 +250,7 @@ mhg:JosefRufer a mhg:author ;
     schema:birthDate "1893-06-21"^^xsd:date ;
     schema:birthPlace <http://www.wikidata.org/entity/Q1741> ;
     schema:deathDate "1985-03-07"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q3651> ;
+    schema:deathPlace <http://www.wikidata.org/entity/Q64> ;
     schema:name "Josef Rufer" ;
     schema:sameAs <http://www.wikidata.org/entity/Q71198>,
         <https://de.wikipedia.org/wiki/Josef_Rufer>,
@@ -261,7 +262,7 @@ mhg:LeopoldSpinner a mhg:composer ;
     schema:birthDate "1906-03-26"^^xsd:date ;
     schema:birthPlace <http://www.wikidata.org/entity/Q36036> ;
     schema:deathDate "1980-12-12"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q1794> ;
+    schema:deathPlace <http://www.wikidata.org/entity/Q84> ;
     schema:name "Leopold Spinner" ;
     schema:sameAs <http://www.wikidata.org/entity/Q214729>,
         <https://de.wikipedia.org/wiki/Leopold_Spinner>,
@@ -274,15 +275,16 @@ mhg:LudwigZenk a mhg:composer ;
     schema:deathDate "1941-04-01"^^xsd:date ;
     schema:deathPlace <http://www.wikidata.org/entity/Q1741> ;
     schema:name "Ludwig Zenk" ;
-    schema:sameAs <https://musiklexikon.ac.at/ml/musik_Z/Zenk_Ludwig.xml> .
+    schema:sameAs <http://www.wikidata.org/entity/Q26804631>,
+        <https://musiklexikon.ac.at/ml/musik_Z/Zenk_Ludwig.xml> .
 
 mhg:LuigiDallapiccola a mhg:composer ;
     schema:birthDate "1904-02-03"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q5475> ;
+    schema:birthPlace <http://www.wikidata.org/entity/Q211968> ;
     schema:deathDate "1975-02-19"^^xsd:date ;
     schema:deathPlace <http://www.wikidata.org/entity/Q2044> ;
     schema:name "Luigi Dallapiccola" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q96384> .
+    schema:sameAs <http://www.wikidata.org/entity/Q17575> .
 
 mhg:LuigiNono a mhg:composer ;
     mhg:pupilOf mhg:BrunoMaderna ;
@@ -292,7 +294,7 @@ mhg:LuigiNono a mhg:composer ;
     schema:deathDate "1990-05-08"^^xsd:date ;
     schema:deathPlace <http://www.wikidata.org/entity/Q641> ;
     schema:name "Luigi Nono" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q157027>,
+    schema:sameAs <http://www.wikidata.org/entity/Q160451>,
         <https://de.wikipedia.org/wiki/Luigi_Nono>,
         <https://en.wikipedia.org/wiki/Luigi_Nono> .
 
@@ -301,11 +303,11 @@ mhg:MiltonBabbitt a mhg:author,
     frbr:creatorOf mhg:MB_AllSet,
         mhg:MB_ThreeCompositions ;
     schema:birthDate "1916-05-10"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q60> ;
+    schema:birthPlace <http://www.wikidata.org/entity/Q1345> ;
     schema:deathDate "2011-01-29"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q60> ;
+    schema:deathPlace <http://www.wikidata.org/entity/Q138518> ;
     schema:name "Milton Babbitt" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q192640>,
+    schema:sameAs <http://www.wikidata.org/entity/Q318518>,
         <https://de.wikipedia.org/wiki/Milton_Babbitt>,
         <https://en.wikipedia.org/wiki/Milton_Babbitt> .
 
@@ -319,20 +321,20 @@ mhg:NikosSkalkotas a mhg:composer ;
 
 mhg:PeterMaxwellDavies a mhg:composer ;
     schema:birthDate "1934-09-08"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q1794> ;
+    schema:birthPlace <http://www.wikidata.org/entity/Q47952> ;
     schema:deathDate "2016-03-14"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q1794> ;
+    schema:deathPlace <http://www.wikidata.org/entity/Q1268170> ;
     schema:name "Peter Maxwell Davies" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q317592> .
+    schema:sameAs <http://www.wikidata.org/entity/Q139223> .
 
 mhg:PierreBoulez a mhg:composer ;
     frbr:creatorOf mhg:PB_Notations ;
     schema:birthDate "1925-03-26"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q3832> ;
+    schema:birthPlace <http://www.wikidata.org/entity/Q213288> ;
     schema:deathDate "2016-01-05"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q33959> ;
+    schema:deathPlace <http://www.wikidata.org/entity/Q4100> ;
     schema:name "Pierre Boulez" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q155984>,
+    schema:sameAs <http://www.wikidata.org/entity/Q156193>,
         <https://de.wikipedia.org/wiki/Pierre_Boulez>,
         <https://en.wikipedia.org/wiki/Pierre_Boulez> .
 
@@ -343,17 +345,16 @@ mhg:TheodorWAdorno a mhg:author,
     schema:birthDate "1903-09-11"^^xsd:date ;
     schema:birthPlace <http://www.wikidata.org/entity/Q1794> ;
     schema:deathDate "1969-08-06"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q2863> ;
+    schema:deathPlace <http://www.wikidata.org/entity/Q64147> ;
     schema:name "Theodor W. Adorno" ;
     schema:sameAs <http://www.wikidata.org/entity/Q152388>,
         <https://de.wikipedia.org/wiki/Theodor_W._Adorno>,
         <https://en.wikipedia.org/wiki/Theodor_W._Adorno> .
-
 #################################################################
 ## SELECTED WORKS
 #################################################################
 
-mhg:AB_LyrischeSuite a mhg:composition, frbr:work ;
+mhg:AB_LyrischeSuite a mhg:composition , frbr:work ;
     rdfs:label "Lyrische Suite"@de ;
     frbr:hasCreationDate "1926"^^xsd:gYear ;
     dcterms:spatial wd:Q40 ;
@@ -365,7 +366,7 @@ mhg:AB_LyrischeSuite a mhg:composition, frbr:work ;
                  mhg:AB_LyrischeSuite_5,
                  mhg:AB_LyrischeSuite_6 .
 
-mhg:AS_op23 a mhg:composition, frbr:work ;
+mhg:AS_op23 a mhg:composition , frbr:work ;
     dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" ;
     frbr:hasPart mhg:AS_op23_1 ,
@@ -375,7 +376,7 @@ mhg:AS_op23 a mhg:composition, frbr:work ;
                 mhg:AS_op23_5 .
 mhg:AS_op23_5 frbr:hasCreationDate "1923"^^xsd:gYear .
 
-mhg:AS_op25 a mhg:composition, frbr:work ;
+mhg:AS_op25 a mhg:composition , frbr:work ;
     frbr:hasCreationDate "1923"^^xsd:gYear ;
     dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" ;
@@ -385,49 +386,47 @@ mhg:AS_op25 a mhg:composition, frbr:work ;
                 mhg:AS_op25_4 ,
                 mhg:AS_op25_5 .
 
-mhg:AS_op31 a mhg:composition, frbr:work ;
+mhg:AS_op31 a mhg:composition , frbr:work ;
     frbr:hasCreationDate "1928"^^xsd:gYear ;
     dcterms:spatial wd:Q183 ;
     mhg:isoCountryCode "DEU" .
 
-mhg:AS_op47 a mhg:composition, frbr:work ;
+mhg:AS_op47 a mhg:composition , frbr:work ;
     frbr:hasCreationDate "1949"^^xsd:gYear ;
     dcterms:spatial wd:Q30 ;
     mhg:isoCountryCode "USA" .
 
-mhg:FHK_DieMaschine_op1 a mhg:composition ;
-    a frbr:work ; 
+mhg:FHK_DieMaschine_op1 a mhg:composition , frbr:work ; 
     frbr:hasCreationDate "1921"^^xsd:gYear ;
     dcterms:spatial wd:Q40 ; # Österreich
                     mhg:isoCountryCode "AUT" .
 
-mhg:FHK_Variationen_op14 a mhg:composition ;
-    a frbr:work ; 
+mhg:FHK_Variationen_op14 a mhg:composition , frbr:work ; 
     dcterms:spatial wd:Q40 ; # Österreich
                     mhg:isoCountryCode "AUT" . 
 
-mhg:IS_Movements a mhg:composition, frbr:work ;
+mhg:IS_Movements a mhg:composition , frbr:work ;
     rdfs:label "Movements for Piano and Orchestra" ;
     schema:sameAs wd:Q517007 ;
     frbr:hasCreationDate "1959"^^xsd:gYear ;
     dcterms:spatial wd:Q30 ;
     mhg:isoCountryCode "USA" .
 
-mhg:PB_Notations a mhg:composition, frbr:work ;
+mhg:PB_Notations a mhg:composition , frbr:work ;
     rdfs:label "Douze notations"@fr ;
     schema:sameAs wd:Q15260420 ;
     frbr:hasCreationDate "1945"^^xsd:gYear ;
     dcterms:spatial wd:Q142 ;
     mhg:isoCountryCode "FRA" .
 
-mhg:LN_CantoSospeso a mhg:composition, frbr:work ;
+mhg:LN_CantoSospeso a mhg:composition , frbr:work ;
     rdfs:label "Il canto sospeso"@it ;
     schema:sameAs wd:Q5996688 ;
     frbr:hasCreationDate "1956"^^xsd:gYear ;
     dcterms:spatial wd:Q38 ;
     mhg:isoCountryCode "ITA" .
 
-mhg:MB_ThreeCompositions a mhg:composition, frbr:work ;
+mhg:MB_ThreeCompositions a mhg:composition , frbr:work ;
     rdfs:label "Three Compositions for Piano"@en ;
     frbr:hasCreationDate "1947"^^xsd:gYear ;
     dcterms:spatial wd:Q30 ;
@@ -551,12 +550,12 @@ mhg:2_1_9_3_4_11_5_10_0_6_7_8 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
 mhg:3_2_10_4_5_0_6_11_1_7_8_9 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 ;
     mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_3 ; 
-                        rdfs:comment "as P, except Trio"@en ] .
+                        rdfs:comment "as P" , "except Trio"@en ] .
 mhg:4_3_11_5_6_1_7_0_2_8_9_10 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
 mhg:5_4_0_6_7_2_8_1_3_9_10_11 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 ;
     mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_3 ; 
-                        rdfs:comment "as P, except Trio"@en ] .
+                        rdfs:comment "as P" , "except Trio"@en ] .
 mhg:6_5_1_7_8_3_9_2_4_10_11_0 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
 mhg:7_6_2_8_9_4_10_3_5_11_0_1 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
 mhg:8_7_3_9_10_5_11_4_6_0_1_2 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 ;
@@ -567,7 +566,7 @@ mhg:9_8_4_10_11_6_0_5_7_1_2_3 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
 mhg:10_9_5_11_0_7_1_6_8_2_3_4 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 ;
     mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_3 ; 
-                        rdfs:comment "as P, except Trio"@en ] .
+                        rdfs:comment "as P", "except Trio"@en ] .
 mhg:11_10_6_0_1_8_2_7_9_3_4_5 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
 
 # P: 1_2_6_5_9_5_6_9_1_9_1
@@ -898,7 +897,7 @@ mhg:8_9_1_7_4_0_5_11_10_6_3_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_
 mhg:9_10_2_8_5_1_6_0_11_7_4_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
     mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
-                        rdfs:comment "as I, only Trios"@en ].
+                        rdfs:comment "as I", "only Trios"@en ].
 mhg:10_11_3_9_6_2_7_1_0_8_5_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
 mhg:11_0_4_10_7_3_8_2_1_9_6_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
 mhg:0_1_5_11_8_4_9_3_2_10_7_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
@@ -908,7 +907,7 @@ mhg:3_4_8_2_11_7_0_6_5_1_10_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_
 mhg:4_5_9_3_0_8_1_7_6_2_11_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
     mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
-                        rdfs:comment "as I, only Trios"@en ].
+                        rdfs:comment "as I", "only Trios"@en ].
 mhg:5_6_10_4_1_9_2_8_7_3_0_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
     mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_6 ; 
@@ -918,29 +917,29 @@ mhg:5_6_10_4_1_9_2_8_7_3_0_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_
 mhg:6_5_1_7_10_2_9_3_4_8_11_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
     mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
-                        rdfs:comment "as P, only Trios"@en ].
+                        rdfs:comment "as P", "only Trios"@en ].
 mhg:7_6_2_8_11_3_10_4_5_9_0_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
 mhg:8_7_3_9_0_4_11_5_6_10_1_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
 mhg:9_8_4_10_1_5_0_6_7_11_2_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
     mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
-                        rdfs:comment "as P, only Trios"@en ].
+                        rdfs:comment "as P", "only Trios"@en ].
 mhg:10_9_5_11_2_6_1_7_8_0_3_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
 mhg:11_10_6_0_3_7_2_8_9_1_4_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
 mhg:0_11_7_1_4_8_3_9_10_2_5_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
 mhg:1_0_8_2_5_9_4_10_11_3_6_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
     mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
-                        rdfs:comment "as P, only Trios"@en ].
+                        rdfs:comment "as P", "only Trios"@en ].
 mhg:2_1_9_3_6_10_5_11_0_4_7_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
 mhg:3_2_10_4_7_11_6_0_1_5_8_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
     mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
-                        rdfs:comment "as P, only Trios"@en ].
+                        rdfs:comment "as P", "only Trios"@en ].
 mhg:4_3_11_5_8_0_7_1_2_6_9_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
     mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
-                        rdfs:comment "as P, only Trios"@en ].
+                        rdfs:comment "as P", "only Trios"@en ].
 mhg:5_4_0_6_9_1_8_2_3_7_10_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
     mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_6 ; 
@@ -1004,7 +1003,7 @@ mhg:4_3_11_8_6_1_7_0_2_5_9_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_
 mhg:5_4_0_9_7_2_8_1_3_6_10_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 ; 
     mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_1 ; 
-                        rdfs:comment "as P5"] , 
+                        rdfs:comment "as P5" ] , 
                         [mhg:accordingTo <https://viva.pressbooks.pub/openmusictheory/chapter/anthology-twelve-tone/> ;
                         mhg:manifestedIn mhg:FHK_DieMaschine_op1 , mhg:FHK_Variationen_op14 ] .
 mhg:6_5_1_10_8_3_9_2_4_7_11_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
