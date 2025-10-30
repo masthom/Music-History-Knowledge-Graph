@@ -413,7 +413,7 @@ mhg:FHK_DieMaschine_op1 a mhg:composition , frbr:work ;
 
 mhg:FHK_Variationen_op14 a mhg:composition , frbr:work ; 
     rdfs:label "Variationen, Op. 14"@de ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40>> ;  # Österreich
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;  # Österreich
     mhg:isoCountryCode "AUT" . 
 
 mhg:IS_Movements a mhg:composition , frbr:work ;
@@ -425,16 +425,16 @@ mhg:IS_Movements a mhg:composition , frbr:work ;
 
 mhg:PB_Notations a mhg:composition , frbr:work ;
     rdfs:label "Douze notations"@fr , "Twelve Notations"@en ;
-    schema:sameAs <http://www.wikidata.org/entity/Q15260420>> ;
-    frbr:hasCreationDate "1945"^^xsd#gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q142>> ;
+    schema:sameAs <http://www.wikidata.org/entity/Q15260420> ;
+    frbr:hasCreationDate "1945"^^xsd:gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q142> ;
     mhg:isoCountryCode "FRA" .
 
 mhg:LN_CantoSospeso a mhg:composition , frbr:work ;
     rdfs:label "Il canto sospeso"@it ;
-    schema:sameAs <http://www.wikidata.org/entity/Q5996688>> ;
-    frbr:hasCreationDate "1956"^^xsd#gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q38>> ;
+    schema:sameAs <http://www.wikidata.org/entity/Q5996688> ;
+    frbr:hasCreationDate "1956"^^xsd:gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q38> ;
     mhg:isoCountryCode "ITA" .
 
 mhg:MB_AllSet a mhg:composition , frbr:work ;
@@ -446,8 +446,8 @@ mhg:MB_AllSet a mhg:composition , frbr:work ;
 
 mhg:MB_ThreeCompositions a mhg:composition , frbr:work ;
     rdfs:label "Three Compositions for Piano"@en ;
-    frbr:hasCreationDate "1947"^^xsd#gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q30>> ;
+    frbr:hasCreationDate "1947"^^xsd:gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
     mhg:isoCountryCode "USA" .
 
 #################################################################
