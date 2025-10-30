@@ -70,9 +70,36 @@ mhg:AntonWebern a mhg:composer ;
 mhg:ArnoldSchönberg a mhg:author,
         mhg:composer ;
     frbr:creatorOf mhg:AS_op23,
+        mhg:AS_op24,
         mhg:AS_op25,
+        mhg:AS_op26,
+        mhg:AS_op27,
+        mhg:AS_op28,
+        mhg:AS_op29,
+        mhg:AS_op30,
         mhg:AS_op31,
-        mhg:AS_op47 ;
+        mhg:AS_op32,
+        mhg:AS_op33,
+        mhg:AS_op34,
+        mhg:AS_op35,
+        mhg:AS_op36,
+        mhg:AS_op37,
+        mhg:AS_op38,
+        mhg:AS_op39,
+        mhg:AS_op40,
+        mhg:AS_op41,
+        mhg:AS_op42,
+        mhg:AS_op43a,
+        mhg:AS_op43b,
+        mhg:AS_op44,
+        mhg:AS_op45,
+        mhg:AS_op46,
+        mhg:AS_op47,
+        mhg:AS_op48,
+        mhg:AS_op49,
+        mhg:AS_op50a,
+        mhg:AS_op50b,
+        mhg:AS_op50c ;
     schema:birthDate "1874-09-13"^^xsd:date ;
     schema:birthPlace <http://www.wikidata.org/entity/Q1741> ;
     schema:deathDate "1951-07-13"^^xsd:date ;
