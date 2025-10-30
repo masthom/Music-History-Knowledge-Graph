@@ -367,6 +367,8 @@ mhg:AB_LyrischeSuite a mhg:composition , frbr:work ;
                  mhg:AB_LyrischeSuite_5,
                  mhg:AB_LyrischeSuite_6 .
 
+# Arnold Schönberg: Twelve tone Works
+# Op. 23 — Five Pieces for Piano
 mhg:AS_op23 a mhg:composition , frbr:work ;
     rdfs:label "Fünf Klavierstücke, Op. 23"@de , "Five Piano Pieces, Op. 23"@en ;
     schema:sameAs <http://www.wikidata.org/entity/Q2972899> ;
@@ -379,10 +381,19 @@ mhg:AS_op23 a mhg:composition , frbr:work ;
                 mhg:AS_op23_4 ,
                 mhg:AS_op23_5 .
 
+# Op. 24 — Serenade, Op. 24
+mhg:AS_op24 a mhg:composition , frbr:work ;
+    rdfs:label "Serenade, Op. 24"@en , "Serenade, Op. 24"@de ;
+    #schema:sameAs <http://www.wikidata.org/entity/Q2386739> ;
+    frbr:hasCreationDate "1920/1923"^^xsd:string ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    mhg:isoCountryCode "AUT" .
+
+# Op. 25 — Suite for Piano, Op. 25
 mhg:AS_op25 a mhg:composition , frbr:work ;
     rdfs:label "Suite für Klavier, Op. 25"@de , "Suite for Piano, Op. 25"@en ;
-    schema:sameAs <http://www.wikidata.org/entity/Q3503219> ;
-    frbr:hasCreationDate "1923"^^xsd:gYear ;
+    #schema:sameAs <http://www.wikidata.org/entity/Q3503219> ;
+    frbr:hasCreationDate "1921/1923"^^xsd:string ;
     dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
     mhg:isoCountryCode "AUT" ;
     frbr:hasPart mhg:AS_op25_1 ,
@@ -391,6 +402,47 @@ mhg:AS_op25 a mhg:composition , frbr:work ;
                 mhg:AS_op25_4 ,
                 mhg:AS_op25_5 .
 
+# Op. 26 — Wind Quintet, Op. 26
+mhg:AS_op26 a mhg:composition , frbr:work ;
+    rdfs:label "Bläserquintett, Op. 26"@de , "Wind Quintet, Op. 26"@en ;
+    # schema:sameAs noch nicht sicher gefunden ;
+    frbr:hasCreationDate "1923/1924"^^xsd:string ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q40>> ;
+    mhg:isoCountryCode "AUT" .
+
+# Op. 27 — Four Pieces, Op. 27
+mhg:AS_op27 a mhg:composition , frbr:work ;
+    rdfs:label "Vier Stücke, Op. 27"@de , "Four Pieces, Op. 27"@en ;
+    # schema:sameAs noch nicht sicher gefunden ;
+    frbr:hasCreationDate "1925"^^xsd:gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q40>> ;
+    mhg:isoCountryCode "AUT" .
+
+# Op. 28 — Three Satires, Op. 28
+mhg:AS_op28 a mhg:composition , frbr:work ;
+    rdfs:label "Drei Satiren, Op. 28"@de , "Three Satires, Op. 28"@en ;
+    # schema:sameAs noch nicht sicher gefunden ;
+    frbr:hasCreationDate "1925/1926"^^xsd:string ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q40>> ;
+    mhg:isoCountryCode "AUT" .
+
+# Op. 29 — Suite for Septet, Op. 29
+mhg:AS_op29 a mhg:composition , frbr:work ;
+    rdfs:label "Suite (für Septett), Op. 29"@de , "Suite for Septet, Op. 29"@en ;
+    # schema:sameAs noch nicht sicher gefunden ;
+    frbr:hasCreationDate "1924/1926"^^xsd:string ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q40>> ;
+    mhg:isoCountryCode "AUT" .
+
+# Op. 30 — String Quartet No. 3, Op. 30
+mhg:AS_op30 a mhg:composition , frbr:work ;
+    rdfs:label "Streichquartett Nr. 3, Op. 30"@de , "String Quartet No. 3, Op. 30"@en ;
+    # schema:sameAs noch nicht sicher gefunden ;
+    frbr:hasCreationDate "1927"^^xsd:gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q40>> ;
+    mhg:isoCountryCode "AUT" .
+
+# Op. 31 — Variations for Orchestra
 mhg:AS_op31 a mhg:composition , frbr:work ;
     rdfs:label "Variationen für Orchester, Op. 31"@de , "Variations for Orchestra, Op. 31"@en ;
    schema:sameAs <http://www.wikidata.org/entity/Q3554790> ;
@@ -398,6 +450,135 @@ mhg:AS_op31 a mhg:composition , frbr:work ;
     dcterms:spatial <http://www.wikidata.org/entity/Q183> ;
     mhg:isoCountryCode "DEU" .
 
+# Op. 32 — Von heute auf morgen (Oper in 1 Akt)
+mhg:AS_op32 a mhg:composition , frbr:work ;
+    rdfs:label "Von heute auf morgen, Op. 32"@de , "From Today to Tomorrow, Op. 32"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO: Link nicht gefunden
+    frbr:hasCreationDate "1928/1929"^^xsd:string ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q183> ;
+    mhg:isoCountryCode "DEU" .
+
+# Op. 33 — Two Piano Pieces
+mhg:AS_op33 a mhg:composition , frbr:work ;
+    rdfs:label "Zwei Klavierstücke, Op. 33"@de , "Two Piano Pieces, Op. 33"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO: Link nicht gefunden
+    frbr:hasCreationDate "1928/1931"^^xsd:string ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q183>> ;
+    mhg:isoCountryCode "DEU" .
+
+# Op. 34 — Accompaniment to a Film Scene
+mhg:AS_op34 a mhg:composition , frbr:work ;
+    rdfs:label "Begleitungsmusik zu einer Lichtspielscene, Op. 34"@de , "Accompaniment to a Film Scene, Op. 34"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO: Link nicht gefunden
+    frbr:hasCreationDate "1930"^^xsd:gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q183>> ;
+    mhg:isoCountryCode "DEU" .
+
+# Op. 35 — Six Pieces for Male Chorus
+mhg:AS_op35 a mhg:composition , frbr:work ;
+    rdfs:label "Sechs Stücke für Männerchor, Op. 35"@de , "Six Pieces for Male Chorus, Op. 35"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO: Link nicht gefunden
+    frbr:hasCreationDate "1929/1930"^^xxd:string ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q183>> ;
+    mhg:isoCountryCode "DEU" .
+
+# Op. 36 — Violin Concerto
+mhg:AS_op36 a mhg:composition , frbr:work ;
+    rdfs:label "Violinkonzert, Op. 36"@de , "Violin Concerto, Op. 36"@en ;
+    #schema:sameAs <http://www.wikidata.org/entity/Q634894> ;
+    frbr:hasCreationDate "1934/1936"^^xsd:string ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q183>> ;
+    mhg:isoCountryCode "DEU" .
+
+# Op. 37 — String Quartet No. 4
+mhg:AS_op37 a mhg:composition , frbr:work ;
+    rdfs:label "Streichquartett Nr. 4, Op. 37"@de , "String Quartet No. 4, Op. 37"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO: Link nicht gefunden
+    frbr:hasCreationDate "1936"^^xsd:gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q183>> ;
+    mhg:isoCountryCode "DEU" .
+
+# Op. 38 — Chamber Symphony No. 2
+mhg:AS_op38 a mhg:composition , frbr:work ;
+    rdfs:label "Kammersymphonie Nr. 2, Op. 38"@de , "Chamber Symphony No. 2, Op. 38"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity<Q...>> ;  # TODO: Link nicht gefunden
+    frbr:hasCreationDate "1906/1939"^^xsd:string ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q183>> ;
+    mhg:isoCountryCode "DEU" .
+
+# Op. 39 — Kol Nidre, Op. 39
+mhg:AS_op39 a mhg:composition , frbr:work ;
+    rdfs:label "Kol Nidre, Op. 39"@de , "Kol Nidre, Op. 39"@en ;
+    #schema:sameAs <http://www.wikidata.org/entity/Q402884> ;
+    frbr:hasCreationDate "1938"^^xsd:gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q183> ;
+    mhg:isoCountryCode "DEU" .
+
+# Op. 40 — Variations in D minor on a recitative for Organ, Op. 40
+mhg:AS_op40 a mhg:composition , frbr:work ;
+    rdfs:label "Variationen in d-Moll über ein Rezitativ für Orgel, Op. 40"@de , "Variations in D minor on a Recitative for Organ, Op. 40"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
+    frbr:hasCreationDate "1941"^^xsd:gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
+    mhg:isoCountryCode "USA" .
+
+# Op. 41 — Ode to Napoleon Buonaparte, Op. 41
+mhg:AS_op41 a mhg:composition , frbr:work ;
+    rdfs:label "Ode to Napoleon Buonaparte, Op. 41"@en ;
+    #schema:sameAs <http://www.wikidata.org/entity/Q683108> ;
+    frbr:hasCreationDate "1942"^^xsd:gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
+    mhg:isoCountryCode "USA" .
+
+# Op. 42 — Piano Concerto, Op. 42
+mhg:AS_op42 a mhg:composition , frbr:work ;
+    rdfs:label "Klavierkonzert, Op. 42"@de , "Piano Concerto, Op. 42"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
+    frbr:hasCreationDate "1942"^^xsd:gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q30>> ;
+    mhg:isoCountryCode "USA" .
+
+# Op. 43a — Theme and Variations, Op. 43a (for band)
+mhg:AS_op43a a mhg:composition , frbr:work ;
+    rdfs:label "Theme and Variations, Op. 43a (for band)"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
+    frbr:hasCreationDate "1943"^^xsd#gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q30>> ;
+    mhg:isoCountryCode "USA" .
+
+# Op. 43b — Theme and Variations, Op. 43b (for orchestra)
+mhg:AS_op43b a mhg:composition , frbr:work ;
+    rdfs:label "Theme and Variations, Op. 43b (for orchestra)"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity<Q...>> ;  # TODO
+    frbr:hasCreationDate "1943"^^xsd#gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q30>> ;
+    mhg:isoCountryCode "USA" .
+
+# Op. 44 — Prelude to Genesis Suite, Op. 44
+mhg:AS_op44 a mhg:composition , frbr:work ;
+    rdfs:label "Prelude to Genesis Suite, Op. 44"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity<Q...>> ;  # TODO
+    frbr:hasCreationDate "1945"^^xsd#gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q30>> ;
+    mhg:isoCountryCode "USA" .
+
+# Op. 45 — String Trio, Op. 45
+mhg:AS_op45 a mhg:composition , frbr:work ;
+    rdfs:label "Streichtrio, Op. 45"@de , "String Trio, Op. 45"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity<Q...>> ;  # TODO
+    frbr:hasCreationDate "1946"^^xsd#gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q30>> ;
+    mhg:isoCountryCode "USA" .
+
+# Op. 46 — A Survivor from Warsaw, Op. 46
+mhg:AS_op46 a mhg:composition , frbr:work ;
+    rdfs:label "A Survivor from Warsaw, Op. 46"@en ;
+    #schema:sameAs <http://www.wikidata.org/entity/Q972735> ;
+    frbr:hasCreationDate "1947"^^xsd:gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
+    mhg:isoCountryCode "USA" .
+
+# Op. 47 — Phantasy for Violin and Piano, Op. 47
 mhg:AS_op47 a mhg:composition , frbr:work ;
     rdfs:label "Phantasie für Violine mit Klavierbegleitung, Op. 47"@de , "Phantasy for Violin with Piano Accompaniment, Op. 47"@en ;
     schema:sameAs <http://www.wikidata.org/entity/Q2269974> ;
@@ -405,6 +586,47 @@ mhg:AS_op47 a mhg:composition , frbr:work ;
     dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
     mhg:isoCountryCode "USA" .
 
+# Op. 48 — Three Songs, Op. 48
+mhg:AS_op48 a mhg:composition , frbr:work ;
+    rdfs:label "Three Songs, Op. 48"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
+    frbr:hasCreationDate "1933"^^xsd#gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q30>> ;
+    mhg:isoCountryCode "USA" .
+
+# Op. 49 — Three Folksongs, Op. 49
+mhg:AS_op49 a mhg:composition , frbr:work ;
+    rdfs:label "Three Folksongs, Op. 49"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
+    frbr:hasCreationDate "1948"^^xsd#gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q30>> ;
+    mhg:isoCountryCode "USA" .
+
+# Op. 50a — Three times a thousand years / Dreimal tausend Jahre, Op. 50a
+mhg:AS_op50a a mhg:composition , frbr:work ;
+    rdfs:label "Dreimal tausend Jahre, Op. 50a"@de , "Three times a thousand years, Op. 50a"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
+    frbr:hasCreationDate "1949"^^xsd#gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q30>> ;
+    mhg:isoCountryCode "USA" .
+
+# Op. 50b — Psalm 130 “De profundis”, Op. 50b
+mhg:AS_op50b a mhg:composition , frbr:work ;
+    rdfs:label "Psalm 130 ‘De profundis’, Op. 50b"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity<Q...>> ;  # TODO
+    frbr:hasCreationDate "1950"^^xsd#gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q30>> ;
+    mhg:isoCountryCode "USA" .
+
+# Op. 50c — Modern Psalm (unfinished), Op. 50c
+mhg:AS_op50c a mhg:composition , frbr:work ;
+    rdfs:label "Modern Psalm (unfinished), Op. 50c"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity<Q...>> ;  # TODO
+    frbr:hasCreationDate "n.d."^^xsd:string ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q30>> ;
+    mhg:isoCountryCode "USA" .
+
+##Klein
 mhg:FHK_DieMaschine_op1 a mhg:composition , frbr:work ; 
     rdfs:label "Die Maschine, Op. 1"@de ;
     frbr:hasCreationDate "1921"^^xsd:gYear ;
