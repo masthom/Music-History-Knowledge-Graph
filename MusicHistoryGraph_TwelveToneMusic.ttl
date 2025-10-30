@@ -369,7 +369,7 @@ mhg:AB_LyrischeSuite a mhg:composition , frbr:work ;
 
 mhg:AS_op23 a mhg:composition , frbr:work ;
     rdfs:label "Fünf Klavierstücke, Op. 23"@de , "Five Piano Pieces, Op. 23"@en ;
-    # schema:sameAs ‑ Link derzeit **nicht gefunden** sicher;
+    schema:sameAs <http://www.wikidata.org/entity/Q2972899> ;
     frbr:hasCreationDate "1923"^^xsd:gYear ;
     dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
     mhg:isoCountryCode "AUT" ;
@@ -381,7 +381,7 @@ mhg:AS_op23 a mhg:composition , frbr:work ;
 
 mhg:AS_op25 a mhg:composition , frbr:work ;
     rdfs:label "Suite für Klavier, Op. 25"@de , "Suite for Piano, Op. 25"@en ;
-    # schema:sameAs ‑ Link derzeit **nicht gefunden** sicher;
+    schema:sameAs <http://www.wikidata.org/entity/Q3503219> ;
     frbr:hasCreationDate "1923"^^xsd:gYear ;
     dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
     mhg:isoCountryCode "AUT" ;
@@ -393,7 +393,7 @@ mhg:AS_op25 a mhg:composition , frbr:work ;
 
 mhg:AS_op31 a mhg:composition , frbr:work ;
     rdfs:label "Variationen für Orchester, Op. 31"@de , "Variations for Orchestra, Op. 31"@en ;
-    # schema:sameAs ‑ Link derzeit **nicht gefunden** sicher;
+   schema:sameAs <http://www.wikidata.org/entity/Q3554790> ;
     frbr:hasCreationDate "1928"^^xsd:gYear ;
     dcterms:spatial <http://www.wikidata.org/entity/Q183> ;
     mhg:isoCountryCode "DEU" .
