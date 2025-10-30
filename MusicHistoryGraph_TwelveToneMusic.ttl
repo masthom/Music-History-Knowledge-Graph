@@ -355,9 +355,10 @@ mhg:TheodorWAdorno a mhg:author,
 #################################################################
 
 mhg:AB_LyrischeSuite a mhg:composition , frbr:work ;
-    rdfs:label "Lyrische Suite"@de ;
+    rdfs:label "Lyrische Suite"@de , "Lyric Suite"@en ;
+    schema:sameAs <http://www.wikidata.org/entity/Q2355101> ;
     frbr:hasCreationDate "1926"^^xsd:gYear ;
-    dcterms:spatial wd:Q40 ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
     mhg:isoCountryCode "AUT" ;
     frbr:hasPart mhg:AB_LyrischeSuite_1,
                  mhg:AB_LyrischeSuite_2,
@@ -367,18 +368,22 @@ mhg:AB_LyrischeSuite a mhg:composition , frbr:work ;
                  mhg:AB_LyrischeSuite_6 .
 
 mhg:AS_op23 a mhg:composition , frbr:work ;
-    dcterms:spatial wd:Q40 ;
+    rdfs:label "Fünf Klavierstücke, Op. 23"@de , "Five Piano Pieces, Op. 23"@en ;
+    # schema:sameAs ‑ Link derzeit **nicht gefunden** sicher;
+    frbr:hasCreationDate "1923"^^xsd:gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
     mhg:isoCountryCode "AUT" ;
     frbr:hasPart mhg:AS_op23_1 ,
                 mhg:AS_op23_2 ,
                 mhg:AS_op23_3 ,
                 mhg:AS_op23_4 ,
                 mhg:AS_op23_5 .
-mhg:AS_op23_5 frbr:hasCreationDate "1923"^^xsd:gYear .
 
 mhg:AS_op25 a mhg:composition , frbr:work ;
+    rdfs:label "Suite für Klavier, Op. 25"@de , "Suite for Piano, Op. 25"@en ;
+    # schema:sameAs ‑ Link derzeit **nicht gefunden** sicher;
     frbr:hasCreationDate "1923"^^xsd:gYear ;
-    dcterms:spatial wd:Q40 ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
     mhg:isoCountryCode "AUT" ;
     frbr:hasPart mhg:AS_op25_1 ,
                 mhg:AS_op25_2 ,
@@ -387,49 +392,62 @@ mhg:AS_op25 a mhg:composition , frbr:work ;
                 mhg:AS_op25_5 .
 
 mhg:AS_op31 a mhg:composition , frbr:work ;
+    rdfs:label "Variationen für Orchester, Op. 31"@de , "Variations for Orchestra, Op. 31"@en ;
+    # schema:sameAs ‑ Link derzeit **nicht gefunden** sicher;
     frbr:hasCreationDate "1928"^^xsd:gYear ;
-    dcterms:spatial wd:Q183 ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q183> ;
     mhg:isoCountryCode "DEU" .
 
 mhg:AS_op47 a mhg:composition , frbr:work ;
+    rdfs:label "Phantasie für Violine mit Klavierbegleitung, Op. 47"@de , "Phantasy for Violin with Piano Accompaniment, Op. 47"@en ;
+    schema:sameAs <http://www.wikidata.org/entity/Q2269974> ;
     frbr:hasCreationDate "1949"^^xsd:gYear ;
-    dcterms:spatial wd:Q30 ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
     mhg:isoCountryCode "USA" .
 
 mhg:FHK_DieMaschine_op1 a mhg:composition , frbr:work ; 
+    rdfs:label "Die Maschine, Op. 1"@de ;
     frbr:hasCreationDate "1921"^^xsd:gYear ;
-    dcterms:spatial wd:Q40 ; # Österreich
-                    mhg:isoCountryCode "AUT" .
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    mhg:isoCountryCode "AUT" .
 
 mhg:FHK_Variationen_op14 a mhg:composition , frbr:work ; 
-    dcterms:spatial wd:Q40 ; # Österreich
-                    mhg:isoCountryCode "AUT" . 
+    rdfs:label "Variationen, Op. 14"@de ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40>> ;  # Österreich
+    mhg:isoCountryCode "AUT" . 
 
 mhg:IS_Movements a mhg:composition , frbr:work ;
-    rdfs:label "Movements for Piano and Orchestra" ;
-    schema:sameAs wd:Q517007 ;
+    rdfs:label "Movements for Piano and Orchestra"@en ;
+    schema:sameAs <http://www.wikidata.org/entity/Q517007> ;
     frbr:hasCreationDate "1959"^^xsd:gYear ;
-    dcterms:spatial wd:Q30 ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
     mhg:isoCountryCode "USA" .
 
 mhg:PB_Notations a mhg:composition , frbr:work ;
-    rdfs:label "Douze notations"@fr ;
-    schema:sameAs wd:Q15260420 ;
-    frbr:hasCreationDate "1945"^^xsd:gYear ;
-    dcterms:spatial wd:Q142 ;
+    rdfs:label "Douze notations"@fr , "Twelve Notations"@en ;
+    schema:sameAs <http://www.wikidata.org/entity/Q15260420>> ;
+    frbr:hasCreationDate "1945"^^xsd#gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q142>> ;
     mhg:isoCountryCode "FRA" .
 
 mhg:LN_CantoSospeso a mhg:composition , frbr:work ;
     rdfs:label "Il canto sospeso"@it ;
-    schema:sameAs wd:Q5996688 ;
-    frbr:hasCreationDate "1956"^^xsd:gYear ;
-    dcterms:spatial wd:Q38 ;
+    schema:sameAs <http://www.wikidata.org/entity/Q5996688>> ;
+    frbr:hasCreationDate "1956"^^xsd#gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q38>> ;
     mhg:isoCountryCode "ITA" .
+
+mhg:MB_AllSet a mhg:composition , frbr:work ;
+    rdfs:label "All Set"@en ;
+    schema:sameAs <http://www.wikidata.org/entity/Q4729615> ;
+    frbr:hasCreationDate "1957"^^xsd:gYear ;  # Entstehungsjahr laut Wikidata
+    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;  # USA
+    mhg:isoCountryCode "USA" .
 
 mhg:MB_ThreeCompositions a mhg:composition , frbr:work ;
     rdfs:label "Three Compositions for Piano"@en ;
-    frbr:hasCreationDate "1947"^^xsd:gYear ;
-    dcterms:spatial wd:Q30 ;
+    frbr:hasCreationDate "1947"^^xsd#gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q30>> ;
     mhg:isoCountryCode "USA" .
 
 #################################################################
