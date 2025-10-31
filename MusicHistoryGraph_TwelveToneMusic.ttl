@@ -6,7 +6,7 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <https://schema.org/> .
-@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wd: <https://www.wikidata.org/entity/> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 #################################################################
@@ -21,34 +21,34 @@ mhg:isoCountryCode rdfs:subPropertyOf dcterms:identifier ;
 #################################################################
 
 mhg:AlbanBerg a mhg:composer ;
-    mhg:pupilOf mhg:ArnoldSchönberg ;
-    frbr:creatorOf mhg:AB_9Blätter,
-        mhg:AB_LyrischeSuite ;
-        mhg:AB_Kammerkonzert ,
-        mhg:AB_SchliesseMirDieAugenBeide_2 ,
-        mhg:AB_LyrischeSuite ,
-        mhg:AB_DerWein ,
-        mhg:AB_Lulu ,
+    mhg:pupilOf mhg:ArnoldSchoenberg ;
+    frbr:creatorOf
+        mhg:AB_9Blaetter,
+        mhg:AB_LyrischeSuite,
+        mhg:AB_Kammerkonzert,
+        mhg:AB_SchliesseMirDieAugenBeide_2,
+        mhg:AB_DerWein,
+        mhg:AB_Lulu,
         mhg:AB_Violinkonzert ;
     schema:birthDate "1885-02-09"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q1741> ;
+    schema:birthPlace wd:Q1741 ;
     schema:deathDate "1935-12-24"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q1741> ;
+    schema:deathPlace wd:Q1741 ;
     schema:name "Alban Berg" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q78475>,
+    schema:sameAs wd:Q78475,
         <https://de.wikipedia.org/wiki/Alban_Berg>,
         <https://en.wikipedia.org/wiki/Alban_Berg> .
 
 mhg:AlexanderGoehr a mhg:composer ;
     schema:birthDate "1932-08-10"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q64> ;
+    schema:birthPlace wd:Q64 ;
     schema:deathDate "2024-08-26"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q23112> ;
+    schema:deathPlace wd:Q23112 ;
     schema:name "Alexander Goehr" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q215847> .
+    schema:sameAs wd:Q215847 .
     
 mhg:AntonWebern a mhg:composer ;
-    mhg:pupilOf mhg:ArnoldSchönberg ;
+    mhg:pupilOf mhg:ArnoldSchoenberg ;
     frbr:creatorOf mhg:AW_Wege,
         mhg:AW_op18,
         mhg:AW_op19,
@@ -65,15 +65,15 @@ mhg:AntonWebern a mhg:composer ;
         mhg:AW_op30,
         mhg:AW_op31 ;
     schema:birthDate "1883-12-03"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q1741> ;
+    schema:birthPlace wd:Q1741 ;
     schema:deathDate "1945-09-15"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q257244> ;
+    schema:deathPlace wd:Q257244 ;
     schema:name "Anton Webern" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q190933>,
+    schema:sameAs wd:Q190933,
         <https://de.wikipedia.org/wiki/Anton_Webern>,
         <https://en.wikipedia.org/wiki/Anton_Webern> .
 
-mhg:ArnoldSchönberg a mhg:author,
+mhg:ArnoldSchoenberg a mhg:author,
         mhg:composer ;
     frbr:creatorOf mhg:AS_op23,
         mhg:AS_op24,
@@ -107,75 +107,75 @@ mhg:ArnoldSchönberg a mhg:author,
         mhg:AS_op50b,
         mhg:AS_op50c ;
     schema:birthDate "1874-09-13"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q1741> ;
+    schema:birthPlace wd:Q1741 ;
     schema:deathDate "1951-07-13"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q65> ;
+    schema:deathPlace wd:Q65 ;
     schema:name "Arnold Schönberg" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q154770>,
+    schema:sameAs wd:Q154770,
         <https://de.wikipedia.org/wiki/Arnold_Sch%C3%B6nberg>,
         <https://en.wikipedia.org/wiki/Arnold_Schoenberg> .
 
 mhg:ArrigoBarnabe a mhg:composer ;
     schema:birthDate "1951-09-14"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q192387> ;
+    schema:birthPlace wd:Q192387 ;
     schema:name "Arrigo Barnabé" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q4795987> .
+    schema:sameAs wd:Q4795987 .
 
 mhg:BerndAloisZimmermann a mhg:composer ;
     schema:birthDate "1918-03-20"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q884073> ;
+    schema:birthPlace wd:Q884073 ;
     schema:deathDate "1970-08-10"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q365> ;
+    schema:deathPlace wd:Q365 ;
     schema:name "Bernd Alois Zimmermann" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q312582> .
+    schema:sameAs wd:Q312582 .
 
 mhg:BillEvans a mhg:composer ;
     schema:birthDate "1929-08-16"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q544890> ;
+    schema:birthPlace wd:Q544890 ;
     schema:deathDate "1980-09-15"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q60> ;
+    schema:deathPlace wd:Q60 ;
     schema:name "Bill Evans" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q208205> .
+    schema:sameAs wd:Q208205 .
 
 mhg:DavidShire a mhg:composer ;
     schema:birthDate "1937-07-03"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q40435> ;
+    schema:birthPlace wd:Q40435 ;
     schema:name "David Shire" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q719035> .
+    schema:sameAs wd:Q719035 .
 
 mhg:DikaNewlin a mhg:composer ;
     schema:birthDate "1923-05-23"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q6106> ;
+    schema:birthPlace wd:Q6106 ;
     schema:deathDate "2006-07-22"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q43421> ;
+    schema:deathPlace wd:Q43421 ;
     schema:name "Dika Newlin" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q1225258>,
+    schema:sameAs wd:Q1225258,
         <https://de.wikipedia.org/wiki/Dika_Newlin>,
         <https://en.wikipedia.org/wiki/Dika_Newlin> .
 
 mhg:EduardSteuermann a mhg:composer ;
     schema:birthDate "1892-06-18"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q156593> ;
+    schema:birthPlace wd:Q156593 ;
     schema:deathDate "1964-11-11"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q60> ;
+    schema:deathPlace wd:Q60 ;
     schema:name "Eduard Steuermann" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q214108> .
+    schema:sameAs wd:Q214108 .
 
 mhg:ErichItorKahn a mhg:composer ;
     schema:birthDate "1905-07-23"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q2153346> ;
+    schema:birthPlace wd:Q2153346 ;
     schema:deathDate "1956-03-05"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q60> ;
+    schema:deathPlace wd:Q60 ;
     schema:name "Erich Itor Kahn" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q215430> .
+    schema:sameAs wd:Q215430 .
 
 mhg:ErichSchmid a mhg:composer ;
     schema:birthDate "1907-05-01"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q65455> ;
+    schema:birthPlace wd:Q65455 ;
     schema:deathDate "2000-05-27"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q72> ;
+    schema:deathPlace wd:Q72 ;
     schema:name "Erich Schmid" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q690827> .
+    schema:sameAs wd:Q690827 .
 
 mhg:ErnstKrenek a mhg:author,
         mhg:composer ;
@@ -183,151 +183,151 @@ mhg:ErnstKrenek a mhg:author,
         mhg:EK_StudiesInCounterpoint,
         mhg:EK_SymphonicElegy ;
     schema:birthDate "1900-08-23"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q1741> ;
+    schema:birthPlace wd:Q1741 ;
     schema:deathDate "1991-12-22"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q488004> ;
+    schema:deathPlace wd:Q488004 ;
     schema:name "Ernst Krenek" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q158436>,
+    schema:sameAs wd:Q158436,
         <https://de.wikipedia.org/wiki/Ernst_Krenek>,
         <https://en.wikipedia.org/wiki/Ernst_Krenek> .
 
 mhg:ErwinStein a mhg:author, mhg:composer ;
     schema:birthDate "1885-11-19"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q1741> ;
+    schema:birthPlace wd:Q1741 ;
     schema:deathDate "1958-07-17"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q84> ;
+    schema:deathPlace wd:Q84 ;
     schema:name "Erwin Stein" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q1247683> .
+    schema:sameAs wd:Q1247683 .
 
 mhg:FritzHeinrichKlein a mhg:composer ;
     mhg:pupilOf mhg:AlbanBerg,
-        mhg:ArnoldSchönberg ;
+        mhg:ArnoldSchoenberg ;
     frbr:creatorOf mhg:FHK_DieMaschine_op1,
         mhg:FHK_Variationen_op14 ;
     schema:birthDate "1892-02-11"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q1781> ;
+    schema:birthPlace wd:Q1781 ;
     schema:deathDate "1977-07-02"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q41329> ;
+    schema:deathPlace wd:Q41329 ;
     schema:name "Fritz Heinrich Klein" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q86808>,
+    schema:sameAs wd:Q86808,
         <https://de.wikipedia.org/wiki/Fritz_Heinrich_Klein>,
         <https://en.wikipedia.org/wiki/Fritz_Heinrich_Klein> .
 
 mhg:HannsEisler a mhg:author,
         mhg:composer ;
     mhg:pupilOf mhg:AntonWebern,
-        mhg:ArnoldSchönberg ;
+        mhg:ArnoldSchoenberg ;
     frbr:creatorOf mhg:HE_14Arten,
         mhg:HE_DeutscheSymphonie ;
     schema:birthDate "1898-07-06"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q2079> ;
+    schema:birthPlace wd:Q2079 ;
     schema:deathDate "1962-09-06"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q56037> ;
+    schema:deathPlace wd:Q56037 ;
     schema:name "Hanns Eisler" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q78704>,
+    schema:sameAs wd:Q78704,
         <https://de.wikipedia.org/wiki/Hanns_Eisler>,
         <https://en.wikipedia.org/wiki/Hanns_Eisler> .
 
 mhg:HansErichApostel a mhg:composer ;
     schema:birthDate "1901-01-22"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q1040> ;
+    schema:birthPlace wd:Q1040 ;
     schema:deathDate "1972-11-30"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q1741> ;
+    schema:deathPlace wd:Q1741 ;
     schema:name "Hans Erich Apostel" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q643317> .
+    schema:sameAs wd:Q643317 .
 
 mhg:HerbertEimert a mhg:author,
         mhg:composer ;
     schema:birthDate "1897-11-12"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q7047> ;
+    schema:birthPlace wd:Q7047 ;
     schema:deathDate "1972-12-15"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q365> ;
+    schema:deathPlace wd:Q365 ;
     schema:name "Herbert Eimert" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q318631>,
+    schema:sameAs wd:Q318631,
         <https://de.wikipedia.org/wiki/Herbert_Eimert>,
         <https://en.wikipedia.org/wiki/Herbert_Eimert> .
 
 mhg:HermanHeiss a mhg:composer ;
     schema:birthDate "1897-12-23"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q2863> ;
+    schema:birthPlace wd:Q2863 ;
     schema:deathDate "1966-12-06"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q2863> ;
+    schema:deathPlace wd:Q2863 ;
     schema:name "Herman Heiß" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q1600538> .
+    schema:sameAs wd:Q1600538 .
 
 mhg:IgorStravinsky a mhg:composer ;
     frbr:creatorOf mhg:IS_Movements ;
     schema:birthDate "1882-06-17"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q649> ;
+    schema:birthPlace wd:Q649 ;
     schema:deathDate "1971-04-06"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q60> ;
+    schema:deathPlace wd:Q60 ;
     schema:name "Igor Stravinsky" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q7315>,
+    schema:sameAs wd:Q7315,
         <https://de.wikipedia.org/wiki/Igor_Strawinsky>,
         <https://en.wikipedia.org/wiki/Igor_Stravinsky> .
 
 mhg:JosefMatthiasHauer a mhg:author,
         mhg:composer ;
     schema:birthDate "1883-04-08"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q131612> ;
+    schema:birthPlace wd:Q131612 ;
     schema:deathDate "1959-09-22"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q1741> ;
+    schema:deathPlace wd:Q1741 ;
     schema:name "Josef Matthias Hauer" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q86359>,
+    schema:sameAs wd:Q86359,
         <https://de.wikipedia.org/wiki/Josef_Matthias_Hauer>,
         <https://en.wikipedia.org/wiki/Josef_Matthias_Hauer> .
 
 mhg:JosefRufer a mhg:author ;
-    mhg:pupilOf mhg:ArnoldSchönberg ;
+    mhg:pupilOf mhg:ArnoldSchoenberg ;
     frbr:creatorOf mhg:DieKompositionMitZwölfTönen ;
     schema:birthDate "1893-06-21"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q1741> ;
+    schema:birthPlace wd:Q1741 ;
     schema:deathDate "1985-03-07"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q64> ;
+    schema:deathPlace wd:Q64 ;
     schema:name "Josef Rufer" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q71198>,
+    schema:sameAs wd:Q71198,
         <https://de.wikipedia.org/wiki/Josef_Rufer>,
         <https://en.wikipedia.org/wiki/Josef_Rufer> .
 
 mhg:LeopoldSpinner a mhg:composer ;
     mhg:pupilOf mhg:AntonWebern,
-        mhg:ArnoldSchönberg ;
+        mhg:ArnoldSchoenberg ;
     schema:birthDate "1906-03-26"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q36036> ;
+    schema:birthPlace wd:Q36036 ;
     schema:deathDate "1980-12-12"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q84> ;
+    schema:deathPlace wd:Q84 ;
     schema:name "Leopold Spinner" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q214729>,
+    schema:sameAs wd:Q214729,
         <https://de.wikipedia.org/wiki/Leopold_Spinner>,
         <https://en.wikipedia.org/wiki/Leopold_Spinner> .
 
 mhg:LudwigZenk a mhg:composer ;
     mhg:pupilOf mhg:AntonWebern ;
     schema:birthDate "1891-05-01"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q1741> ;
+    schema:birthPlace wd:Q1741 ;
     schema:deathDate "1941-04-01"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q1741> ;
+    schema:deathPlace wd:Q1741 ;
     schema:name "Ludwig Zenk" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q26804631>,
+    schema:sameAs wd:Q26804631,
         <https://musiklexikon.ac.at/ml/musik_Z/Zenk_Ludwig.xml> .
 
 mhg:LuigiDallapiccola a mhg:composer ;
     schema:birthDate "1904-02-03"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q211968> ;
+    schema:birthPlace wd:Q211968 ;
     schema:deathDate "1975-02-19"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q2044> ;
+    schema:deathPlace wd:Q2044 ;
     schema:name "Luigi Dallapiccola" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q17575> .
+    schema:sameAs wd:Q17575 .
 
 mhg:LuigiNono a mhg:composer ;
     mhg:pupilOf mhg:BrunoMaderna ;
     frbr:creatorOf mhg:LN_CantoSospeso ;
     schema:birthDate "1924-01-29"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q641> ;
+    schema:birthPlace wd:Q641 ;
     schema:deathDate "1990-05-08"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q641> ;
+    schema:deathPlace wd:Q641 ;
     schema:name "Luigi Nono" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q160451>,
+    schema:sameAs wd:Q160451,
         <https://de.wikipedia.org/wiki/Luigi_Nono>,
         <https://en.wikipedia.org/wiki/Luigi_Nono> .
 
@@ -336,38 +336,38 @@ mhg:MiltonBabbitt a mhg:author,
     frbr:creatorOf mhg:MB_AllSet,
         mhg:MB_ThreeCompositions ;
     schema:birthDate "1916-05-10"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q1345> ;
+    schema:birthPlace wd:Q1345 ;
     schema:deathDate "2011-01-29"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q138518> ;
+    schema:deathPlace wd:Q138518 ;
     schema:name "Milton Babbitt" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q318518>,
+    schema:sameAs wd:Q318518,
         <https://de.wikipedia.org/wiki/Milton_Babbitt>,
         <https://en.wikipedia.org/wiki/Milton_Babbitt> .
 
 mhg:NikosSkalkotas a mhg:composer ;
     schema:birthDate "1904-03-21"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q1524> ;
+    schema:birthPlace wd:Q1524 ;
     schema:deathDate "1949-09-19"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q1524> ;
+    schema:deathPlace wd:Q1524 ;
     schema:name "Nikos Skalkotas" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q319566> .
+    schema:sameAs wd:Q319566 .
 
 mhg:PeterMaxwellDavies a mhg:composer ;
     schema:birthDate "1934-09-08"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q47952> ;
+    schema:birthPlace wd:Q47952 ;
     schema:deathDate "2016-03-14"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q1268170> ;
+    schema:deathPlace wd:Q1268170 ;
     schema:name "Peter Maxwell Davies" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q139223> .
+    schema:sameAs wd:Q139223 .
 
 mhg:PierreBoulez a mhg:composer ;
     frbr:creatorOf mhg:PB_Notations ;
     schema:birthDate "1925-03-26"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q213288> ;
+    schema:birthPlace wd:Q213288 ;
     schema:deathDate "2016-01-05"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q4100> ;
+    schema:deathPlace wd:Q4100 ;
     schema:name "Pierre Boulez" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q156193>,
+    schema:sameAs wd:Q156193,
         <https://de.wikipedia.org/wiki/Pierre_Boulez>,
         <https://en.wikipedia.org/wiki/Pierre_Boulez> .
 
@@ -376,11 +376,11 @@ mhg:TheodorWAdorno a mhg:author,
     mhg:pupilOf mhg:AlbanBerg ;
     frbr:creatorOf mhg:TWA_PdnM ;
     schema:birthDate "1903-09-11"^^xsd:date ;
-    schema:birthPlace <http://www.wikidata.org/entity/Q1794> ;
+    schema:birthPlace wd:Q1794 ;
     schema:deathDate "1969-08-06"^^xsd:date ;
-    schema:deathPlace <http://www.wikidata.org/entity/Q64147> ;
+    schema:deathPlace wd:Q64147 ;
     schema:name "Theodor W. Adorno" ;
-    schema:sameAs <http://www.wikidata.org/entity/Q152388>,
+    schema:sameAs wd:Q152388,
         <https://de.wikipedia.org/wiki/Theodor_W._Adorno>,
         <https://en.wikipedia.org/wiki/Theodor_W._Adorno> .
 #################################################################
@@ -392,25 +392,25 @@ mhg:TheodorWAdorno a mhg:author,
 mhg:AB_Kammerkonzert a mhg:composition , frbr:work ;
     frbr:created mhg:AlbanBerg ;
     rdfs:label "Kammerkonzert für Klavier, Geige mit 13 Bläsern"@de , "Chamber Concerto for Piano and Violin with 13 winds"@en ;
-    schema:sameAs <http://www.wikidata.org/entity/Q3192460> ;
+    schema:sameAs wd:Q3192460 ;
     frbr:hasCreationDate "1923-1925"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 mhg:AB_SchliesseMirDieAugenBeide_2 a mhg:composition , frbr:work ;
     frbr:created mhg:AlbanBerg ;
     rdfs:label "Schließe mir die Augen beide (Version 2 1925)"@de ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Zwei Versionen – keine eindeutige Wikidata-ID gefunden
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> .  # TODO: Zwei Versionen – keine eindeutige Wikidata-ID gefunden
     frbr:hasCreationDate "1907/1925"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 mhg:AB_LyrischeSuite a mhg:composition , frbr:work ;
     frbr:created mhg:AlbanBerg ;
     rdfs:label "Lyrische Suite"@de , "Lyric Suite"@en ;
-    schema:sameAs <http://www.wikidata.org/entity/Q2355101> ;
+    schema:sameAs wd:Q2355101 ;
     frbr:hasCreationDate "1926"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" ;
     frbr:hasPart mhg:AB_LyrischeSuite_1,
                  mhg:AB_LyrischeSuite_2,
@@ -422,25 +422,25 @@ mhg:AB_LyrischeSuite a mhg:composition , frbr:work ;
 mhg:AB_DerWein a mhg:composition , frbr:work ;
     frbr:created mhg:AlbanBerg ;
     rdfs:label "Der Wein – Konzertarie für Sopran und Orchester"@de ;
-    schema:sameAs <http://www.wikidata.org/entity/Q5261245> ; 
+    schema:sameAs wd:Q5261245 ;
     frbr:hasCreationDate "1929"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 mhg:AB_Lulu a mhg:composition , frbr:work ;
     frbr:created mhg:AlbanBerg ;
     rdfs:label "Lulu – Oper in 3 Akten"@de ;
-    schema:sameAs <http://www.wikidata.org/entity/Q837545> ;
+    schema:sameAs wd:Q837545 ;
     frbr:hasCreationDate "1929-1935"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 mhg:AB_Violinkonzert a mhg:composition , frbr:work ;
     frbr:created mhg:AlbanBerg ;
     rdfs:label "Violinkonzert"@de ;
-    schema:sameAs <http://www.wikidata.org/entity/Q25786> ;  
+    schema:sameAs wd:Q25786 ;  
     frbr:hasCreationDate "1935"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 
@@ -448,78 +448,78 @@ mhg:AB_Violinkonzert a mhg:composition , frbr:work ;
 
 mhg:AW_op17 a mhg:composition , frbr:work ;
     rdfs:label "Drei Volkstexte"@de ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: kein eindeutiger Wikidata-Eintrag für Op.17 gefunden
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> .  # TODO: kein eindeutiger Wikidata-Eintrag für Op.17 gefunden
     frbr:hasCreationDate "1924"^^xsd:gYear ;
     frbr:hasPart mhg:AW_op17_1 , mhg:AW_op17_2 , mhg:AW_op17_3 ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 mhg:AW_op18 a mhg:composition , frbr:work ;
     frbr:created mhg:AntonWebern ;
     rdfs:label "Drei Lieder"@de ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.18 keine eindeutige Wikidata-ID
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> .  # TODO: Op.18 keine eindeutige Wikidata-ID
     frbr:hasCreationDate "1925"^^xsd:gYear ;
     frbr:hasPart mhg:AW_op18_1 , mhg:AW_op18_2 , mhg:AW_op18_3 ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 mhg:AW_op19 a mhg:composition , frbr:work ;
     frbr:created mhg:AntonWebern ;
     rdfs:label "Zwei Lieder"@de ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.19 keine eindeutige Wikidata-ID
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> .  # TODO: Op.19 keine eindeutige Wikidata-ID
     frbr:hasCreationDate "1926"^^xsd:gYear ;
     frbr:hasPart mhg:AW_op19_1 , mhg:AW_op19_2 ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 mhg:AW_op20 a mhg:composition , frbr:work ;
     frbr:created mhg:AntonWebern ;
     rdfs:label "Streichtrio"@de ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.20 keine eindeutige Wikidata-Seite
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> .  # TODO: Op.20 keine eindeutige Wikidata-Seite
     frbr:hasCreationDate "1926-1927"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 mhg:AW_op21 a mhg:composition , frbr:work ;
     frbr:created mhg:AntonWebern ;
     rdfs:label "Symphonie"@de , "Symphony, Op. 21"@en ;
-    schema:sameAs <http://www.wikidata.org/entity/Q3507606> ;
+    schema:sameAs wd:Q3507606 ;
     frbr:hasCreationDate "1927-1928"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 mhg:AW_op22 a mhg:composition , frbr:work ;
     frbr:created mhg:AntonWebern ;
     rdfs:label "Quartett"@de ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.22 keine eindeutige Wikidata-ID
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> .  # TODO: Op.22 keine eindeutige Wikidata-ID
     frbr:hasCreationDate "1928-1930"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 mhg:AW_op23 a mhg:composition , frbr:work ;
     frbr:created mhg:AntonWebern ;
     rdfs:label "Drei Lieder aus 'viae inviae'"@de ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q3479804> .  # VORSICHT: möglicher Fehl-Link
+    # schema:sameAs <https://www.wikidata.org/entity/Q3479804> .  # VORSICHT: möglicher Fehl-Link
     frbr:hasCreationDate "1934"^^xsd:gYear ;
     frbr:hasPart mhg:AW_op23_1 , mhg:AW_op23_2 , mhg:AW_op23_3 ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 mhg:AW_op24 a mhg:composition , frbr:work ;
     frbr:created mhg:AntonWebern ;
     rdfs:label "Konzert (Concerto for Nine Instruments)"@de , "Concerto for Nine Instruments, Op. 24"@en ;
-    schema:sameAs <http://www.wikidata.org/entity/Q2991796> ;
+    schema:sameAs wd:Q2991796 ;
     frbr:hasCreationDate "1931-1934"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 mhg:AW_op25 a mhg:composition , frbr:work ;
     frbr:created mhg:AntonWebern ;
     rdfs:label "Drei Lieder (Hildegard Jone)"@de ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.25 keine eindeutige Wikidata-ID
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> .  # TODO: Op.25 keine eindeutige Wikidata-ID
     frbr:hasCreationDate "1934"^^xsd:gYear ;
     frbr:hasPart mhg:AW_op25_1 , mhg:AW_op25_2 , mhg:AW_op25_3 ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 mhg:AW_op25_1 a mhg:compositionPart ;
@@ -534,34 +534,34 @@ mhg:AW_op25_3 a mhg:compositionPart ;
 mhg:AW_op26 a mhg:composition , frbr:work ;
     frbr:created mhg:AntonWebern ;
     rdfs:label "Das Augenlicht"@de ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.26 Wikidata-Link nicht eindeutig
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> .  # TODO: Op.26 Wikidata-Link nicht eindeutig
     frbr:hasCreationDate "1935"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 mhg:AW_op27 a mhg:composition , frbr:work ;
     frbr:created mhg:AntonWebern ;
     rdfs:label "Variationen für Klavier"@de , "Variations for Piano, Op. 27"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.27 Variations — kein eindeutiger Wikidata-Eintrag
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> .  # TODO: Op.27 Variations — kein eindeutiger Wikidata-Eintrag
     frbr:hasCreationDate "1935-1936"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 mhg:AW_op28 a mhg:composition , frbr:work ;
     frbr:created mhg:AntonWebern ;
     rdfs:label "Streichquartett"@de , "String Quartet, Op. 28"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.28 — Wikidata-Link prüfen
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> .  # TODO: Op.28 — Wikidata-Link prüfen
     frbr:hasCreationDate "1936-1938"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 mhg:AW_op29 a mhg:composition , frbr:work ;
     frbr:created mhg:AntonWebern ;
     rdfs:label "Erste Kantate"@de ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.29 keine eindeutige Wikidata-ID
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> .  # TODO: Op.29 keine eindeutige Wikidata-ID
     frbr:hasCreationDate "1938-1940"^^xsd:string ;
     frbr:hasPart mhg:AW_op29_1 , mhg:AW_op29_2 , mhg:AW_op29_3 ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 mhg:AW_op29_1 a mhg:compositionPart ;
@@ -574,18 +574,18 @@ mhg:AW_op29_3 a mhg:compositionPart ;
 mhg:AW_op30 a mhg:composition , frbr:work ;
     frbr:created mhg:AntonWebern ;
     rdfs:label "Variationen für Orchester"@de , "Variations for Orchestra, Op. 30"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.30 keine eindeutige Wikidata-ID
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> .  # TODO: Op.30 keine eindeutige Wikidata-ID
     frbr:hasCreationDate "1940"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 mhg:AW_op31 a mhg:composition , frbr:work ;
     frbr:created mhg:AntonWebern ;
     rdfs:label "Zweite Kantate"@de ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.31 keine eindeutige Wikidata-ID
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> .  # TODO: Op.31 keine eindeutige Wikidata-ID
     frbr:hasCreationDate "1943"^^xsd:gYear ;
     frbr:hasPart mhg:AW_op31_1 , mhg:AW_op31_2 , mhg:AW_op31_3 , mhg:AW_op31_4 , mhg:AW_op31_5 , mhg:AW_op31_6 ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 mhg:AW_op31_1 a mhg:compositionPart ; rdfs:label "Schweigt auch die Welt"@de .
@@ -595,15 +595,14 @@ mhg:AW_op31_4 a mhg:compositionPart ; rdfs:label "Leichteste Bürden"@de .
 mhg:AW_op31_5 a mhg:compositionPart ; rdfs:label "Freundselig ist das Wort"@de .
 mhg:AW_op31_6 a mhg:compositionPart ; rdfs:label "Gelockert aus dem Schoße"@de .
 
-
 # Arnold Schönberg: Twelve-tone Works
 # Op. 23 — Five Pieces for Piano
 mhg:AS_op23 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Fünf Klavierstücke, Op. 23"@de , "Five Piano Pieces, Op. 23"@en ;
-    schema:sameAs <http://www.wikidata.org/entity/Q2972899> ;
+    schema:sameAs wd:Q2972899 ;
     frbr:hasCreationDate "1923"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" ;
     frbr:hasPart mhg:AS_op23_1 ,
                 mhg:AS_op23_2 ,
@@ -613,1274 +612,179 @@ mhg:AS_op23 a mhg:composition , frbr:work ;
 
 # Op. 24 — Serenade, Op. 24
 mhg:AS_op24 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Serenade, Op. 24"@en , "Serenade, Op. 24"@de ;
-    #schema:sameAs <http://www.wikidata.org/entity/Q2386739> ;
+    #schema:sameAs wd:Q2386739 ;
     frbr:hasCreationDate "1920/1923"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 # Op. 25 — Suite for Piano, Op. 25
 mhg:AS_op25 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Suite für Klavier, Op. 25"@de , "Suite for Piano, Op. 25"@en ;
-    #schema:sameAs <http://www.wikidata.org/entity/Q3503219> ;
+    #schema:sameAs wd:Q3503219 ;
     frbr:hasCreationDate "1921/1923"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
-    mhg:isoCountryCode "AUT" ;
-    frbr:hasPart mhg:AS_op25_1 ,
-                mhg:AS_op25_2 ,
-                mhg:AS_op25_3 ,
-                mhg:AS_op25_4 ,
-                mhg:AS_op25_5 .
+    dcterms:spatial wd:Q40 ;
+    mhg:isoCountryCode "AUT" .
 
 # Op. 26 — Wind Quintet, Op. 26
 mhg:AS_op26 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Bläserquintett, Op. 26"@de , "Wind Quintet, Op. 26"@en ;
     # schema:sameAs noch nicht sicher gefunden ;
     frbr:hasCreationDate "1923/1924"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40>> ;
-    mhg:isoCountryCode "AUT" .
+    dcterms:spatial wd:Q40 ;
 
 # Op. 27 — Four Pieces, Op. 27
 mhg:AS_op27 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Vier Stücke, Op. 27"@de , "Four Pieces, Op. 27"@en ;
     # schema:sameAs noch nicht sicher gefunden ;
     frbr:hasCreationDate "1925"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40>> ;
-    mhg:isoCountryCode "AUT" .
+    dcterms:spatial wd:Q40 ;
 
 # Op. 28 — Three Satires, Op. 28
 mhg:AS_op28 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Drei Satiren, Op. 28"@de , "Three Satires, Op. 28"@en ;
     # schema:sameAs noch nicht sicher gefunden ;
     frbr:hasCreationDate "1925/1926"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40>> ;
-    mhg:isoCountryCode "AUT" .
+    dcterms:spatial wd:Q40 ;
 
 # Op. 29 — Suite for Septet, Op. 29
 mhg:AS_op29 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Suite (für Septett), Op. 29"@de , "Suite for Septet, Op. 29"@en ;
     # schema:sameAs noch nicht sicher gefunden ;
     frbr:hasCreationDate "1924/1926"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40>> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 # Op. 30 — String Quartet No. 3, Op. 30
 mhg:AS_op30 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Streichquartett Nr. 3, Op. 30"@de , "String Quartet No. 3, Op. 30"@en ;
     # schema:sameAs noch nicht sicher gefunden ;
     frbr:hasCreationDate "1927"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40>> ;
+    dcterms:spatial wd:Q40 ;
     mhg:isoCountryCode "AUT" .
 
 # Op. 31 — Variations for Orchestra
 mhg:AS_op31 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Variationen für Orchester, Op. 31"@de , "Variations for Orchestra, Op. 31"@en ;
-    schema:sameAs <http://www.wikidata.org/entity/Q3554790> ;
+    schema:sameAs wd:Q3554790 ;
     frbr:hasCreationDate "1928"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q183> ;
+    dcterms:spatial wd:Q183 ;
     mhg:isoCountryCode "DEU" .
 
 # Op. 32 — Von heute auf morgen (Oper in 1 Akt)
 mhg:AS_op32 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Von heute auf morgen, Op. 32"@de , "From Today to Tomorrow, Op. 32"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO: Link nicht gefunden
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> ;  # TODO: Link nicht gefunden
     frbr:hasCreationDate "1928/1929"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q183> ;
+    dcterms:spatial wd:Q183 ;
     mhg:isoCountryCode "DEU" .
 
 # Op. 33 — Two Piano Pieces
 mhg:AS_op33 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Zwei Klavierstücke, Op. 33"@de , "Two Piano Pieces, Op. 33"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO: Link nicht gefunden
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> ;  # TODO: Link not found
     frbr:hasCreationDate "1928/1931"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q183>> ;
+    dcterms:spatial wd:Q183 ;
     mhg:isoCountryCode "DEU" .
 
 # Op. 34 — Accompaniment to a Film Scene
 mhg:AS_op34 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Begleitungsmusik zu einer Lichtspielscene, Op. 34"@de , "Accompaniment to a Film Scene, Op. 34"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO: Link nicht gefunden
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> ;  # TODO: Link not found
     frbr:hasCreationDate "1930"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q183>> ;
+    dcterms:spatial wd:Q183 ;
     mhg:isoCountryCode "DEU" .
 
 # Op. 35 — Six Pieces for Male Chorus
 mhg:AS_op35 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Sechs Stücke für Männerchor, Op. 35"@de , "Six Pieces for Male Chorus, Op. 35"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO: Link nicht gefunden
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> ;  # TODO: Link not found
     frbr:hasCreationDate "1929/1930"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q183>> ;
+    dcterms:spatial wd:Q183 ;
     mhg:isoCountryCode "DEU" .
 
 # Op. 36 — Violin Concerto
 mhg:AS_op36 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Violinkonzert, Op. 36"@de , "Violin Concerto, Op. 36"@en ;
-    #schema:sameAs <http://www.wikidata.org/entity/Q634894> ;
+    #schema:sameAs wd:Q634894 ;
     frbr:hasCreationDate "1934/1936"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q183>> ;
+    dcterms:spatial wd:Q183 ;
     mhg:isoCountryCode "DEU" .
 
 # Op. 37 — String Quartet No. 4
 mhg:AS_op37 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Streichquartett Nr. 4, Op. 37"@de , "String Quartet No. 4, Op. 37"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO: Link nicht gefunden
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> ;  # TODO: Link not found
     frbr:hasCreationDate "1936"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q183>> ;
+    dcterms:spatial wd:Q183 ;
     mhg:isoCountryCode "DEU" .
 
 # Op. 38 — Chamber Symphony No. 2
 mhg:AS_op38 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Kammersymphonie Nr. 2, Op. 38"@de , "Chamber Symphony No. 2, Op. 38"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...>> ;  # TODO: Link nicht gefunden
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> ;  # TODO: Link not found
     frbr:hasCreationDate "1906/1939"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q183>> ;
+    dcterms:spatial wd:Q183 ;
     mhg:isoCountryCode "DEU" ; 
     rdfs:comment "not a twelve-tone composition".
 
 # Op. 39 — Kol Nidre, Op. 39
 mhg:AS_op39 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Kol Nidre, Op. 39"@de , "Kol Nidre, Op. 39"@en ;
-    #schema:sameAs <http://www.wikidata.org/entity/Q402884> ;
+    #schema:sameAs wd:Q402884 ;
     frbr:hasCreationDate "1938"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q183> ;
+    dcterms:spatial wd:Q183 ;
     mhg:isoCountryCode "DEU" .
 
 # Op. 40 — Variations in D minor on a recitative for Organ, Op. 40
 mhg:AS_op40 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Variationen über ein Rezitativ für Orgel, Op. 40"@de , "Variations on a Recitative for Organ, Op. 40"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> ;  # TODO
     frbr:hasCreationDate "1941"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
+    dcterms:spatial wd:Q30 ;
     mhg:isoCountryCode "USA" ; 
     rdfs:comment "not a twelve-tone composition".
 
 # Op. 41 — Ode to Napoleon Buonaparte, Op. 41
 mhg:AS_op41 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Ode to Napoleon Buonaparte, Op. 41"@en ;
-    #schema:sameAs <http://www.wikidata.org/entity/Q683108> ;
+    #schema:sameAs wd:Q683108 ;
     frbr:hasCreationDate "1942"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
+    dcterms:spatial wd:Q30 ;
     mhg:isoCountryCode "USA" .
 
 # Op. 42 — Piano Concerto, Op. 42
 mhg:AS_op42 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Klavierkonzert, Op. 42"@de , "Piano Concerto, Op. 42"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> ;  # TODO
     frbr:hasCreationDate "1942"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
+    dcterms:spatial wd:Q30 ;
     mhg:isoCountryCode "USA" .
 
 # Op. 43a — Theme and Variations, Op. 43a (for band)
 mhg:AS_op43a a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
-    rdfs:label "Theme and Variations, Op. 43a (for band)"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
+    frbr:created mhg:ArnoldSchoenberg ;
+    rdfs:label "Thema und Variationen, Op. 43a"@de , "Theme and Variations, Op. 43a (for band)"@en ;
+    # schema:sameAs <https://www.wikidata.org/entity/Q...> ;  # TODO
     frbr:hasCreationDate "1943"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
+    dcterms:spatial wd:Q30 ;
     mhg:isoCountryCode "USA" .
-
-# Op. 43b — Theme and Variations, Op. 43b (for orchestra)
-mhg:AS_op43b a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
-    rdfs:label "Theme and Variations, Op. 43b (for orchestra)"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...>> ;  # TODO
-    frbr:hasCreationDate "1943"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
-    mhg:isoCountryCode "USA" .
-
-# # Op. 44 — Preludium for Orchestra, Op. 44
-mhg:AS_op44 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
-    rdfs:label "Preludium for Orchestra, Op. 44"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> ; # TODO
-    frbr:hasCreationDate "1945"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
-    mhg:isoCountryCode "USA" .
-
-# Op. 45 — String Trio, Op. 45
-mhg:AS_op45 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
-    rdfs:label "Streich-Trio, Op. 45"@de , "String Trio, Op. 45"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q3503194> ;
-    frbr:hasCreationDate "1946"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
-    mhg:isoCountryCode "USA" .
-
-# Op. 46 — A Survivor from Warsaw, Op. 46
-mhg:AS_op46 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
-    rdfs:label "Ein Überlebender aus Warschau, Op. 46"@de , "A Survivor from Warsaw, Op. 46"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q2339395> ;
-    frbr:hasCreationDate "1947"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
-    mhg:isoCountryCode "USA" .
-
-# Op. 47 — Phantasy for Violin and Piano, Op. 47
-mhg:AS_op47 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
-    rdfs:label "Phantasie für Violine mit Klavierbegleitung, Op. 47"@de , "Phantasy for Violin with Piano Accompaniment, Op. 47"@en ;
-    schema:sameAs <http://www.wikidata.org/entity/Q2269974> ;
-    frbr:hasCreationDate "1949"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
-    mhg:isoCountryCode "USA" .
-
-# Op. 48 — Three Songs, Op. 48
-mhg:AS_op48 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
-    rdfs:label "Three Songs, Op. 48"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
-    frbr:hasCreationDate "1933"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q183> ;
-    mhg:isoCountryCode "DEU" .
-
-# Op. 49 — Three Folksongs, Op. 49
-mhg:AS_op49 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
-    rdfs:label "Three Folksongs, Op. 49"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
-    frbr:hasCreationDate "1948"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
-    mhg:isoCountryCode "USA" .
-
-# Op. 50a — Three times a thousand years / Dreimal tausend Jahre, Op. 50a
-mhg:AS_op50a a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
-    rdfs:label "Dreimal tausend Jahre, Op. 50a"@de , "Three times a thousand years, Op. 50a"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
-    frbr:hasCreationDate "1949"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
-    mhg:isoCountryCode "USA" .
-
-# Op. 50b — Psalm 130 “De profundis”, Op. 50b
-mhg:AS_op50b a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
-    rdfs:label "Psalm 130 ‘De profundis’, Op. 50b"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
-    frbr:hasCreationDate "1950"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
-    mhg:isoCountryCode "USA" .
-
-# Op. 50c — Modern Psalm (unfinished), Op. 50c
-mhg:AS_op50c a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
-    rdfs:label "Modern Psalm (unfinished), Op. 50c"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
-    frbr:hasCreationDate "n.d."^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
-    mhg:isoCountryCode "USA" .
-
-##Klein
-mhg:FHK_DieMaschine_op1 a mhg:composition , frbr:work ;
-    frbr:created mhg:FritzHeinrichKlein ; 
-    rdfs:label "Die Maschine, Op. 1"@de ;
-    frbr:hasCreationDate "1921"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
-    mhg:isoCountryCode "AUT" .
-
-mhg:FHK_Variationen_op14 a mhg:composition , frbr:work ;
-    frbr:created mhg:FritzHeinrichKlein ; 
-    rdfs:label "Variationen, Op. 14"@de ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;  # Österreich
-    mhg:isoCountryCode "AUT" . 
-
-# Igor Stravinsky
-mhg:IS_Movements a mhg:composition , frbr:work ;
-    frbr:created mhg:IgorStravinsky ;
-    rdfs:label "Movements for Piano and Orchestra"@en ;
-    schema:sameAs <http://www.wikidata.org/entity/Q517007> ;
-    frbr:hasCreationDate "1959"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
-    mhg:isoCountryCode "USA" .
-
-# Lugi Nono
-mhg:LN_CantoSospeso a mhg:composition , frbr:work ;
-    frbr:created mhg:LuigiNono ;
-    rdfs:label "Il canto sospeso"@it ;
-    schema:sameAs <http://www.wikidata.org/entity/Q5996688> ;
-    frbr:hasCreationDate "1956"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q38> ;
-    mhg:isoCountryCode "ITA" .
-
-# Milton Babbitt
-mhg:MB_AllSet a mhg:composition , frbr:work ;
-    frbr:created mhg:MiltonBabbitt ;
-    rdfs:label "All Set"@en ;
-    schema:sameAs <http://www.wikidata.org/entity/Q4729615> ;
-    frbr:hasCreationDate "1957"^^xsd:gYear ;  # Entstehungsjahr laut Wikidata
-    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;  # USA
-    mhg:isoCountryCode "USA" .
-
-mhg:MB_ThreeCompositions a mhg:composition , frbr:work ;
-    frbr:created mhg:MiltonBabbitt ;
-    rdfs:label "Three Compositions for Piano"@en ;
-    frbr:hasCreationDate "1947"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
-    mhg:isoCountryCode "USA" .
-
-# Pierre Boulez
-mhg:PB_Notations a mhg:composition , frbr:work ;
-    frbr:created mhg:PierreBoulez ;
-    rdfs:label "Douze notations"@fr , "Twelve Notations"@en ;
-    schema:sameAs <http://www.wikidata.org/entity/Q15260420> ;
-    frbr:hasCreationDate "1945"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q142> ;
-    mhg:isoCountryCode "FRA" .
-
-#################################################################
-##ROW_CLASSes and ROW_FORMs
-#################################################################
-
-
-#P: 1_1_6_2_5_6_7_1_6_8_11
-#I: 11_11_6_10_7_6_5_11_6_4_1
-#R: 11_8_6_1_7_6_5_2_6_1_1
-#RI: 1_4_6_11_5_6_7_10_6_11_11
-mhg:1_1_6_2_5_6_7_1_6_8_11 a mhg:RowClass ;
-    mhg:hasRowForm
-        # ----- P-FORMEN -----
-        mhg:0_1_2_8_10_3_9_4_5_11_7_6,
-        mhg:1_2_3_9_11_4_10_5_6_0_8_7,
-        mhg:2_3_4_10_0_5_11_6_7_1_9_8,
-        mhg:3_4_5_11_1_6_0_7_8_2_10_9,
-        mhg:4_5_6_0_2_7_1_8_9_3_11_10,
-        mhg:5_6_7_1_3_8_2_9_10_4_0_11,
-        mhg:6_7_8_2_4_9_3_10_11_5_1_0,
-        mhg:7_8_9_3_5_10_4_11_0_6_2_1,
-        mhg:8_9_10_4_6_11_5_0_1_7_3_2,
-        mhg:9_10_11_5_7_0_6_1_2_8_4_3,
-        mhg:10_11_0_6_8_1_7_2_3_9_5_4,
-        mhg:11_0_1_7_9_2_8_3_4_10_6_5,
-
-        # ----- I-FORMEN -----
-        mhg:0_11_10_4_2_9_3_8_7_1_5_6,
-        mhg:1_0_11_5_3_10_4_9_8_2_6_7,
-        mhg:2_1_0_6_4_11_5_10_9_3_7_8,
-        mhg:3_2_1_7_5_0_6_11_10_4_8_9,
-        mhg:4_3_2_8_6_1_7_0_11_5_9_10,
-        mhg:5_4_3_9_7_2_8_1_0_6_10_11,
-        mhg:6_5_4_10_8_3_9_2_1_7_11_0,
-        mhg:7_6_5_11_9_4_10_3_2_8_0_1,
-        mhg:8_7_6_0_10_5_11_4_3_9_1_2,
-        mhg:9_8_7_1_11_6_0_5_4_10_2_3,
-        mhg:10_9_8_2_0_7_1_6_5_11_3_4,
-        mhg:11_10_9_3_1_8_2_7_6_0_4_5,
-
-        # ----- R-FORMEN -----
-        mhg:6_7_11_5_4_9_3_10_8_2_1_0,
-        mhg:7_8_0_6_5_10_4_11_9_3_2_1,
-        mhg:8_9_1_7_6_11_5_0_10_4_3_2,
-        mhg:9_10_2_8_7_0_6_1_11_5_4_3,
-        mhg:10_11_3_9_8_1_7_2_0_6_5_4,
-        mhg:11_0_4_10_9_2_8_3_1_7_6_5,
-        mhg:0_1_5_11_10_3_9_4_2_8_7_6,
-        mhg:1_2_6_0_11_4_10_5_3_9_8_7,
-        mhg:2_3_7_1_0_5_11_6_4_10_9_8,
-        mhg:3_4_8_2_1_6_0_7_5_11_10_9,
-        mhg:4_5_9_3_2_7_1_8_6_0_11_10,
-        mhg:5_6_10_4_3_8_2_9_7_1_0_11,
-
-        # RI-FORMEN -----
-        mhg:6_5_1_7_8_3_9_2_4_10_11_0,
-        mhg:7_6_2_8_9_4_10_3_5_11_0_1,
-        mhg:8_7_3_9_10_5_11_4_6_0_1_2,
-        mhg:9_8_4_10_11_6_0_5_7_1_2_3,
-        mhg:10_9_5_11_0_7_1_6_8_2_3_4,
-        mhg:11_10_6_0_1_8_2_7_9_3_4_5,
-        mhg:0_11_7_1_2_9_3_8_10_4_5_6,
-        mhg:1_0_8_2_3_10_4_9_11_5_6_7,
-        mhg:2_1_9_3_4_11_5_10_0_6_7_8,
-        mhg:3_2_10_4_5_0_6_11_1_7_8_9,
-        mhg:4_3_11_5_6_1_7_0_2_8_9_10,
-        mhg:5_4_0_6_7_2_8_1_3_9_10_11 ;
-    mhg:actualizedIn [ mhg:accordingTo mhg:AB_9Blätter ;
-                        mhg:actualizedIn mhg:AB_LyrischeSuite_2, mhg:AB_LyrischeSuite_3 ; 
-                        rdfs:comment "in mvt. 2 only motivic: ms. 24-28 (Va.) and passim"@en ] .
-# ——— P-FORMEN ———
-mhg:0_1_2_8_10_3_9_4_5_11_7_6 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:1_2_3_9_11_4_10_5_6_0_8_7 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:2_3_4_10_0_5_11_6_7_1_9_8 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:3_4_5_11_1_6_0_7_8_2_10_9 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:4_5_6_0_2_7_1_8_9_3_11_10 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:5_6_7_1_3_8_2_9_10_4_0_11 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:6_7_8_2_4_9_3_10_11_5_1_0 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:7_8_9_3_5_10_4_11_0_6_2_1 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:8_9_10_4_6_11_5_0_1_7_3_2 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:9_10_11_5_7_0_6_1_2_8_4_3 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:10_11_0_6_8_1_7_2_3_9_5_4 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:11_0_1_7_9_2_8_3_4_10_6_5 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-
-# ——— I-FORMEN ———
-mhg:0_11_10_4_2_9_3_8_7_1_5_6 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:1_0_11_5_3_10_4_9_8_2_6_7 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:2_1_0_6_4_11_5_10_9_3_7_8 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:3_2_1_7_5_0_6_11_10_4_8_9 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:4_3_2_8_6_1_7_0_11_5_9_10 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:5_4_3_9_7_2_8_1_0_6_10_11 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:6_5_4_10_8_3_9_2_1_7_11_0 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:7_6_5_11_9_4_10_3_2_8_0_1 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:8_7_6_0_10_5_11_4_3_9_1_2 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:9_8_7_1_11_6_0_5_4_10_2_3 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:10_9_8_2_0_7_1_6_5_11_3_4 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:11_10_9_3_1_8_2_7_6_0_4_5 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-
-# ——— R-FORMEN ———
-mhg:0_1_5_11_10_3_9_4_2_8_7_6 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:1_2_6_0_11_4_10_5_3_9_8_7 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:2_3_7_1_0_5_11_6_4_10_9_8 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:3_4_8_2_1_6_0_7_5_11_10_9 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:4_5_9_3_2_7_1_8_6_0_11_10 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:5_6_10_4_3_8_2_9_7_1_0_11 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:6_7_11_5_4_9_3_10_8_2_1_0 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:7_8_0_6_5_10_4_11_9_3_2_1 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:8_9_1_7_6_11_5_0_10_4_3_2 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:9_10_2_8_7_0_6_1_11_5_4_3 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:10_11_3_9_8_1_7_2_0_6_5_4 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:11_0_4_10_9_2_8_3_1_7_6_5 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-
-# ——— RI-FORMEN ———
-mhg:0_11_7_1_2_9_3_8_10_4_5_6 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:1_0_8_2_3_10_4_9_11_5_6_7 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:2_1_9_3_4_11_5_10_0_6_7_8 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:3_2_10_4_5_0_6_11_1_7_8_9 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 ;
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
-                        mhg:manifestedIn mhg:AB_LyrischeSuite_3 ; 
-                        rdfs:comment "as P" , "except Trio"@en ] .
-mhg:4_3_11_5_6_1_7_0_2_8_9_10 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:5_4_0_6_7_2_8_1_3_9_10_11 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 ;
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
-                        mhg:manifestedIn mhg:AB_LyrischeSuite_3 ; 
-                        rdfs:comment "as P" , "except Trio"@en ] .
-mhg:6_5_1_7_8_3_9_2_4_10_11_0 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:7_6_2_8_9_4_10_3_5_11_0_1 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:8_7_3_9_10_5_11_4_6_0_1_2 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 ;
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
-                        mhg:manifestedIn mhg:AB_LyrischeSuite_2, mhg:AB_LyrischeSuite_3 ; 
-                        rdfs:comment "in mvt. 2 only motivic: ms. 24-28 (Va.) and passim"@en , "in mvt. 3 as P, except Trio"@en ] .
-mhg:9_8_4_10_11_6_0_5_7_1_2_3 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-mhg:10_9_5_11_0_7_1_6_8_2_3_4 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 ;
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
-                        mhg:manifestedIn mhg:AB_LyrischeSuite_3 ; 
-                        rdfs:comment "as P", "except Trio"@en ] .
-mhg:11_10_6_0_1_8_2_7_9_3_4_5 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
-
-# P: 1_2_6_5_9_5_6_9_1_9_1
-# I: 11_10_6_7_3_7_6_3_11_3_11
-# R: 1_9_1_9_6_5_9_5_6_2_1
-# RI: 11_3_11_3_6_7_3_7_6_10_11
-mhg:1_2_6_5_9_5_6_9_1_9_1 a mhg:RowClass ;
-    mhg:hasRowForm
-        # P-Forms (0-11)
-        mhg:0_1_3_9_2_11_4_10_7_8_5_6 ,
-        mhg:1_2_4_10_3_0_5_11_8_9_6_7 ,
-        mhg:2_3_5_11_4_1_6_0_9_10_7_8 ,
-        mhg:3_4_6_0_5_2_7_1_10_11_8_9 ,
-        mhg:4_5_7_1_6_3_8_2_11_0_9_10 ,
-        mhg:5_6_8_2_7_4_9_3_0_1_10_11 ,
-        mhg:6_7_9_3_8_5_10_4_1_2_11_0 ,
-        mhg:7_8_10_4_9_6_11_5_2_3_0_1 ,
-        mhg:8_9_11_5_10_7_0_6_3_4_1_2 ,
-        mhg:9_10_0_6_11_8_1_7_4_5_2_3 ,
-        mhg:10_11_1_7_0_9_2_8_5_6_3_4 ,
-        mhg:11_0_2_8_1_10_3_9_6_7_4_5 ,
-        
-        # I-Forms (0-11)
-        mhg:0_11_9_3_10_1_8_2_5_4_7_6 ,
-        mhg:1_0_10_4_11_2_9_3_6_5_8_7 ,
-        mhg:2_1_11_5_0_3_10_4_7_6_9_8 ,
-        mhg:3_2_0_6_1_4_11_5_8_7_10_9 ,
-        mhg:4_3_1_7_2_5_0_6_9_8_11_10 ,
-        mhg:5_4_2_8_3_6_1_7_10_9_0_11 ,
-        mhg:6_5_3_9_4_7_2_8_11_10_1_0 ,
-        mhg:7_6_4_10_5_8_3_9_0_11_2_1 ,
-        mhg:8_7_5_11_6_9_4_10_1_0_3_2 ,
-        mhg:9_8_6_0_7_10_5_11_2_1_4_3 ,
-        mhg:10_9_7_1_8_11_6_0_3_2_5_4 ,
-        mhg:11_10_8_2_9_0_7_1_4_3_6_5 ,
-        
-        # R-Forms (0-11)
-        mhg:0_11_2_1_4_10_5_8_3_9_7_6 ,
-        mhg:1_0_3_2_5_11_6_9_4_10_8_7 ,
-        mhg:2_1_4_3_6_0_7_10_5_11_9_8 ,
-        mhg:3_2_5_4_7_1_8_11_6_0_10_9 ,
-        mhg:4_3_6_5_8_2_9_0_7_1_11_10 ,
-        mhg:5_4_7_6_9_3_10_1_8_2_0_11 ,
-        mhg:6_5_8_7_10_4_11_2_9_3_1_0 ,
-        mhg:7_6_9_8_11_5_0_3_10_4_2_1 ,
-        mhg:8_7_10_9_0_6_1_4_11_5_3_2 ,
-        mhg:9_8_11_10_1_7_2_5_0_6_4_3 ,
-        mhg:10_9_0_11_2_8_3_6_1_7_5_4 ,
-        mhg:11_10_1_0_3_9_4_7_2_8_6_5 ,
-        
-        # RI-Forms (0-11)
-        mhg:0_1_10_11_8_2_7_4_9_3_5_6 ,
-        mhg:1_2_11_0_9_3_8_5_10_4_6_7 ,
-        mhg:2_3_0_1_10_4_9_6_11_5_7_8 ,
-        mhg:3_4_1_2_11_5_10_7_0_6_8_9 ,
-        mhg:4_5_2_3_0_6_11_8_1_7_9_10 ,
-        mhg:5_6_3_4_1_7_0_9_2_8_10_11 ,
-        mhg:6_7_4_5_2_8_1_10_3_9_11_0 ,
-        mhg:7_8_5_6_3_9_2_11_4_10_0_1 ,
-        mhg:8_9_6_7_4_10_3_0_5_11_1_2 ,
-        mhg:9_10_7_8_5_11_4_1_6_0_2_3 ,
-        mhg:10_11_8_9_6_0_5_2_7_1_3_4 ,
-        mhg:11_0_9_10_7_1_6_3_8_2_4_5 ;
-    mhg:actualizedIn mhg:AS_op25 .
-
-mhg:0_1_3_9_2_11_4_10_7_8_5_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:1_2_4_10_3_0_5_11_8_9_6_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:2_3_5_11_4_1_6_0_9_10_7_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:3_4_6_0_5_2_7_1_10_11_8_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:4_5_7_1_6_3_8_2_11_0_9_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:5_6_8_2_7_4_9_3_0_1_10_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:6_7_9_3_8_5_10_4_1_2_11_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:7_8_10_4_9_6_11_5_2_3_0_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:8_9_11_5_10_7_0_6_3_4_1_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:9_10_0_6_11_8_1_7_4_5_2_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:10_11_1_7_0_9_2_8_5_6_3_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:11_0_2_8_1_10_3_9_6_7_4_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-
-mhg:0_11_9_3_10_1_8_2_5_4_7_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:1_0_10_4_11_2_9_3_6_5_8_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:2_1_11_5_0_3_10_4_7_6_9_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:3_2_0_6_1_4_11_5_8_7_10_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:4_3_1_7_2_5_0_6_9_8_11_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:5_4_2_8_3_6_1_7_10_9_0_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:6_5_3_9_4_7_2_8_11_10_1_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:7_6_4_10_5_8_3_9_0_11_2_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:8_7_5_11_6_9_4_10_1_0_3_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:9_8_6_0_7_10_5_11_2_1_4_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:10_9_7_1_8_11_6_0_3_2_5_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:11_10_8_2_9_0_7_1_4_3_6_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-
-mhg:0_11_2_1_4_10_5_8_3_9_7_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:1_0_3_2_5_11_6_9_4_10_8_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:2_1_4_3_6_0_7_10_5_11_9_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:3_2_5_4_7_1_8_11_6_0_10_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:4_3_6_5_8_2_9_0_7_1_11_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:5_4_7_6_9_3_10_1_8_2_0_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:6_5_8_7_10_4_11_2_9_3_1_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:7_6_9_8_11_5_0_3_10_4_2_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:8_7_10_9_0_6_1_4_11_5_3_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:9_8_11_10_1_7_2_5_0_6_4_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:10_9_0_11_2_8_3_6_1_7_5_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:11_10_1_0_3_9_4_7_2_8_6_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-
-mhg:0_1_10_11_8_2_7_4_9_3_5_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:1_2_11_0_9_3_8_5_10_4_6_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:2_3_0_1_10_4_9_6_11_5_7_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:3_4_1_2_11_5_10_7_0_6_8_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:4_5_2_3_0_6_11_8_1_7_9_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:5_6_3_4_1_7_0_9_2_8_10_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:6_7_4_5_2_8_1_10_3_9_11_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:7_8_5_6_3_9_2_11_4_10_0_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:8_9_6_7_4_10_3_0_5_11_1_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:9_10_7_8_5_11_4_1_6_0_2_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:10_11_8_9_6_0_5_2_7_1_3_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-mhg:11_0_9_10_7_1_6_3_8_2_4_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_2_6_5_9_5_6_9_1_9_1 .
-
-# P: 1_3_1_6_11_5_4_2_9_2_6
-# I: 11_9_11_6_1_7_8_10_3_10_6
-# R: 6_2_9_2_4_5_11_6_1_3_1
-# RI: 6_10_3_10_8_7_1_6_11_9_11
-mhg:1_3_1_6_11_5_4_2_9_2_6 a mhg:RowClass ;
-    mhg:hasRowForm
-        # P-Forms (0-11)
-        mhg:0_1_4_5_11_10_3_7_9_6_8_2 ,
-        mhg:1_2_5_6_0_11_4_8_10_7_9_3 ,
-        mhg:2_3_6_7_1_0_5_9_11_8_10_4 ,
-        mhg:3_4_7_8_2_1_6_10_0_9_11_5 ,
-        mhg:4_5_8_9_3_2_7_11_1_10_0_6 ,
-        mhg:5_6_9_10_4_3_8_0_2_11_1_7 ,
-        mhg:6_7_10_11_5_4_9_1_3_0_2_8 ,
-        mhg:7_8_11_0_6_5_10_2_4_1_3_9 ,
-        mhg:8_9_0_1_7_6_11_3_5_2_4_10 ,
-        mhg:9_10_1_2_8_7_0_4_6_3_5_11 ,
-        mhg:10_11_2_3_9_8_1_5_7_4_6_0 ,
-        mhg:11_0_3_4_10_9_2_6_8_5_7_1 ,
-        
-        # I-Forms (0-11)
-        mhg:0_11_8_7_1_2_9_5_3_6_4_10 ,
-        mhg:1_0_9_8_2_3_10_6_4_7_5_11 ,
-        mhg:2_1_10_9_3_4_11_7_5_8_6_0 ,
-        mhg:3_2_11_10_4_5_0_8_6_9_7_1 ,
-        mhg:4_3_0_11_5_6_1_9_7_10_8_2 ,
-        mhg:5_4_1_0_6_7_2_10_8_11_9_3 ,
-        mhg:6_5_2_1_7_8_3_11_9_0_10_4 ,
-        mhg:7_6_3_2_8_9_4_0_10_1_11_5 ,
-        mhg:8_7_4_3_9_10_5_1_11_2_0_6 ,
-        mhg:9_8_5_4_10_11_6_2_0_3_1_7 ,
-        mhg:10_9_6_5_11_0_7_3_1_4_2_8 ,
-        mhg:11_10_7_6_0_1_8_4_2_5_3_9 ,
-        
-        # R-Forms (0-11)
-        mhg:0_6_4_7_5_1_8_9_3_2_11_10 ,
-        mhg:1_7_5_8_6_2_9_10_4_3_0_11 ,
-        mhg:2_8_6_9_7_3_10_11_5_4_1_0 ,
-        mhg:3_9_7_10_8_4_11_0_6_5_2_1 ,
-        mhg:4_10_8_11_9_5_0_1_7_6_3_2 ,
-        mhg:5_11_9_0_10_6_1_2_8_7_4_3 ,
-        mhg:6_0_10_1_11_7_2_3_9_8_5_4 ,
-        mhg:7_1_11_2_0_8_3_4_10_9_6_5 ,
-        mhg:8_2_0_3_1_9_4_5_11_10_7_6 ,
-        mhg:9_3_1_4_2_10_5_6_0_11_8_7 ,
-        mhg:10_4_2_5_3_11_6_7_1_0_9_8 ,
-        mhg:11_5_3_6_4_0_7_8_2_1_10_9 ,
-        
-        # RI-Forms (0-11)
-        mhg:0_6_8_5_7_11_4_3_9_10_1_2 ,
-        mhg:1_7_9_6_8_0_5_4_10_11_2_3 ,
-        mhg:2_8_10_7_9_1_6_5_11_0_3_4 ,
-        mhg:3_9_11_8_10_2_7_6_0_1_4_5 ,
-        mhg:4_10_0_9_11_3_8_7_1_2_5_6 ,
-        mhg:5_11_1_10_0_4_9_8_2_3_6_7 ,
-        mhg:6_0_2_11_1_5_10_9_3_4_7_8 ,
-        mhg:7_1_3_0_2_6_11_10_4_5_8_9 ,
-        mhg:8_2_4_1_3_7_0_11_5_6_9_10 ,
-        mhg:9_3_5_2_4_8_1_0_6_7_10_11 ,
-        mhg:10_4_6_3_5_9_2_1_7_8_11_0 ,
-        mhg:11_5_7_4_6_10_3_2_8_9_0_1 ;
-    mhg:actualizedIn mhg:AS_op31 .
-
-mhg:0_6_8_5_7_11_4_3_9_10_1_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:1_7_9_6_8_0_5_4_10_11_2_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:2_8_10_7_9_1_6_5_11_0_3_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:3_9_11_8_10_2_7_6_0_1_4_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:4_10_0_9_11_3_8_7_1_2_5_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:5_11_1_10_0_4_9_8_2_3_6_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:6_0_2_11_1_5_10_9_3_4_7_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:7_1_3_0_2_6_11_10_4_5_8_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:8_2_4_1_3_7_0_11_5_6_9_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:9_3_5_2_4_8_1_0_6_7_10_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:10_4_6_3_5_9_2_1_7_8_11_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:11_5_7_4_6_10_3_2_8_9_0_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-
-mhg:0_6_4_7_5_1_8_9_3_2_11_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:1_7_5_8_6_2_9_10_4_3_0_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:2_8_6_9_7_3_10_11_5_4_1_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:3_9_7_10_8_4_11_0_6_5_2_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:4_10_8_11_9_5_0_1_7_6_3_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:5_11_9_0_10_6_1_2_8_7_4_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:6_0_10_1_11_7_2_3_9_8_5_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:7_1_11_2_0_8_3_4_10_9_6_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:8_2_0_3_1_9_4_5_11_10_7_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:9_3_1_4_2_10_5_6_0_11_8_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:10_4_2_5_3_11_6_7_1_0_9_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:11_5_3_6_4_0_7_8_2_1_10_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-
-mhg:0_11_8_7_1_2_9_5_3_6_4_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:1_0_9_8_2_3_10_6_4_7_5_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:2_1_10_9_3_4_11_7_5_8_6_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:3_2_11_10_4_5_0_8_6_9_7_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:4_3_0_11_5_6_1_9_7_10_8_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:5_4_1_0_6_7_2_10_8_11_9_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:6_5_2_1_7_8_3_11_9_0_10_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:7_6_3_2_8_9_4_0_10_1_11_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:8_7_4_3_9_10_5_1_11_2_0_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:9_8_5_4_10_11_6_2_0_3_1_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:10_9_6_5_11_0_7_3_1_4_2_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:11_10_7_6_0_1_8_4_2_5_3_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-
-mhg:0_1_4_5_11_10_3_7_9_6_8_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:1_2_5_6_0_11_4_8_10_7_9_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:2_3_6_7_1_0_5_9_11_8_10_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:3_4_7_8_2_1_6_10_0_9_11_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:4_5_8_9_3_2_7_11_1_10_0_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:5_6_9_10_4_3_8_0_2_11_1_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:6_7_10_11_5_4_9_1_3_0_2_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:7_8_11_0_6_5_10_2_4_1_3_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:8_9_0_1_7_6_11_3_5_2_4_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:9_10_1_2_8_7_0_4_6_3_5_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:10_11_2_3_9_8_1_5_7_4_6_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-mhg:11_0_3_4_10_9_2_6_8_5_7_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_1_6_11_5_4_2_9_2_6 .
-
-# P: 1_3_4_1_6_7_4_3_6_8_11
-# I: 11_9_8_11_6_5_8_9_6_4_1
-# R: 11_8_6_4_3_9_2_10_7_1_5_6
-# RI: 6_5_1_7_10_2_9_3_4_8_11_0
-mhg:1_3_4_1_6_7_4_3_6_8_11 a mhg:RowClass ;
-    mhg:hasRowForm
-        # ----- P-FORMEN -----
-        mhg:0_1_4_8_9_3_10_2_5_11_7_6 ,
-        mhg:1_2_5_9_10_4_11_3_6_0_8_7 ,
-        mhg:2_3_6_10_11_5_0_4_7_1_9_8 ,
-        mhg:3_4_7_11_0_6_1_5_8_2_10_9 ,
-        mhg:4_5_8_0_1_7_2_6_9_3_11_10 ,
-        mhg:5_6_9_1_2_8_3_7_10_4_0_11 ,
-        mhg:6_7_10_2_3_9_4_8_11_5_1_0 ,
-        mhg:7_8_11_3_4_10_5_9_0_6_2_1 ,
-        mhg:8_9_0_4_5_11_6_10_1_7_3_2 ,
-        mhg:9_10_1_5_6_0_7_11_2_8_4_3 ,
-        mhg:10_11_2_6_7_1_8_0_3_9_5_4 ,
-        mhg:11_0_3_7_8_2_9_1_4_10_6_5 ,
-
-        # ----- I-FORMEN -----
-        mhg:0_11_8_4_3_9_2_10_7_1_5_6 ,
-        mhg:1_0_9_5_4_10_3_11_8_2_6_7 ,
-        mhg:2_1_10_6_5_11_4_0_9_3_7_8 ,
-        mhg:3_2_11_7_6_0_5_1_10_4_8_9 ,
-        mhg:4_3_0_8_7_1_6_2_11_5_9_10 ,
-        mhg:5_4_1_9_8_2_7_3_0_6_10_11 ,
-        mhg:6_5_2_10_9_3_8_4_1_7_11_0 ,
-        mhg:7_6_3_11_10_4_9_5_2_8_0_1 ,
-        mhg:8_7_4_0_11_5_10_6_3_9_1_2 ,
-        mhg:9_8_5_1_0_6_11_7_4_10_2_3 ,
-        mhg:10_9_6_2_1_7_0_8_5_11_3_4 ,
-        mhg:11_10_7_3_2_8_1_9_6_0_4_5 ,
-
-        # ----- R-FORMEN -----
-        mhg:6_7_11_5_2_10_3_9_8_4_1_0 ,
-        mhg:7_8_0_6_3_11_4_10_9_5_2_1 ,
-        mhg:8_9_1_7_4_0_5_11_10_6_3_2 ,
-        mhg:9_10_2_8_5_1_6_0_11_7_4_3 ,
-        mhg:10_11_3_9_6_2_7_1_0_8_5_4 ,
-        mhg:11_0_4_10_7_3_8_2_1_9_6_5 ,
-        mhg:0_1_5_11_8_4_9_3_2_10_7_6 ,
-        mhg:1_2_6_0_9_5_10_4_3_11_8_7 ,
-        mhg:2_3_7_1_10_6_11_5_4_0_9_8 ,
-        mhg:3_4_8_2_11_7_0_6_5_1_10_9 ,
-        mhg:4_5_9_3_0_8_1_7_6_2_11_10 ,
-        mhg:5_6_10_4_1_9_2_8_7_3_0_11 ,
-
-        # ----- RI-FORMEN -----
-        mhg:6_5_1_7_10_2_9_3_4_8_11_0 ,
-        mhg:7_6_2_8_11_3_10_4_5_9_0_1 ,
-        mhg:8_7_3_9_0_4_11_5_6_10_1_2 ,
-        mhg:9_8_4_10_1_5_0_6_7_11_2_3 ,
-        mhg:10_9_5_11_2_6_1_7_8_0_3_4 ,
-        mhg:11_10_6_0_3_7_2_8_9_1_4_5 ,
-        mhg:0_11_7_1_4_8_3_9_10_2_5_6 ,
-        mhg:1_0_8_2_5_9_4_10_11_3_6_7 ,
-        mhg:2_1_9_3_6_10_5_11_0_4_7_8 ,
-        mhg:3_2_10_4_7_11_6_0_1_5_8_9 ,
-        mhg:4_3_11_5_8_0_7_1_2_6_9_10 ,
-        mhg:5_4_0_6_9_1_8_2_3_7_10_11 ; 
-    mhg:actualizedIn mhg:AB_LyrischeSuite_5, mhg:AB_LyrischeSuite_6.
-
-# ——— P-FORMEN ———
-mhg:0_1_4_8_9_3_10_2_5_11_7_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:1_2_5_9_10_4_11_3_6_0_8_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:2_3_6_10_11_5_0_4_7_1_9_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:3_4_7_11_0_6_1_5_8_2_10_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:4_5_8_0_1_7_2_6_9_3_11_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:5_6_9_1_2_8_3_7_10_4_0_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:6_7_10_2_3_9_4_8_11_5_1_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:7_8_11_3_4_10_5_9_0_6_2_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:8_9_0_4_5_11_6_10_1_7_3_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:9_10_1_5_6_0_7_11_2_8_4_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:10_11_2_6_7_1_8_0_3_9_5_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:11_0_3_7_8_2_9_1_4_10_6_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-
-# ——— I-FORMEN ———
-mhg:0_11_8_4_3_9_2_10_7_1_5_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:1_0_9_5_4_10_3_11_8_2_6_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:2_1_10_6_5_11_4_0_9_3_7_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:3_2_11_7_6_0_5_1_10_4_8_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:4_3_0_8_7_1_6_2_11_5_9_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:5_4_1_9_8_2_7_3_0_6_10_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:6_5_2_10_9_3_8_4_1_7_11_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:7_6_3_11_10_4_9_5_2_8_0_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:8_7_4_0_11_5_10_6_3_9_1_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:9_8_5_1_0_6_11_7_4_10_2_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:10_9_6_2_1_7_0_8_5_11_3_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:11_10_7_3_2_8_1_9_6_0_4_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-
-# ——— R-FORMEN ———
-mhg:6_7_11_5_2_10_3_9_8_4_1_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:7_8_0_6_3_11_4_10_9_5_2_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:8_9_1_7_4_0_5_11_10_6_3_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:9_10_2_8_5_1_6_0_11_7_4_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
-                        mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
-                        rdfs:comment "as I", "only Trios"@en ].
-mhg:10_11_3_9_6_2_7_1_0_8_5_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:11_0_4_10_7_3_8_2_1_9_6_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:0_1_5_11_8_4_9_3_2_10_7_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:1_2_6_0_9_5_10_4_3_11_8_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:2_3_7_1_10_6_11_5_4_0_9_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:3_4_8_2_11_7_0_6_5_1_10_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:4_5_9_3_0_8_1_7_6_2_11_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
-                        mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
-                        rdfs:comment "as I", "only Trios"@en ].
-mhg:5_6_10_4_1_9_2_8_7_3_0_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
-                        mhg:manifestedIn mhg:AB_LyrischeSuite_6 ; 
-                        rdfs:comment "as I"@en ].
-
-# ——— RI-FORMEN ———
-mhg:6_5_1_7_10_2_9_3_4_8_11_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
-                        mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
-                        rdfs:comment "as P", "only Trios"@en ].
-mhg:7_6_2_8_11_3_10_4_5_9_0_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:8_7_3_9_0_4_11_5_6_10_1_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:9_8_4_10_1_5_0_6_7_11_2_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
-                        mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
-                        rdfs:comment "as P", "only Trios"@en ].
-mhg:10_9_5_11_2_6_1_7_8_0_3_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:11_10_6_0_3_7_2_8_9_1_4_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:0_11_7_1_4_8_3_9_10_2_5_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:1_0_8_2_5_9_4_10_11_3_6_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
-                        mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
-                        rdfs:comment "as P", "only Trios"@en ].
-mhg:2_1_9_3_6_10_5_11_0_4_7_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
-mhg:3_2_10_4_7_11_6_0_1_5_8_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
-                        mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
-                        rdfs:comment "as P", "only Trios"@en ].
-mhg:4_3_11_5_8_0_7_1_2_6_9_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
-                        mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
-                        rdfs:comment "as P", "only Trios"@en ].
-mhg:5_4_0_6_9_1_8_2_3_7_10_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
-                        mhg:manifestedIn mhg:AB_LyrischeSuite_6 ; 
-                        rdfs:comment "as P"@en ].
-
-
-# P = RI: 1_4_3_2_5_6_7_10_9_8_11
-# I = R: 11_8_9_10_7_6_5_2_3_4_1
-mhg:1_4_3_2_5_6_7_10_9_8_11 a mhg:RowClass ;
-    mhg:hasRowForm
-        # P-Forms (0-11)
-        mhg:0_1_5_8_10_3_9_4_2_11_7_6 ,
-        mhg:1_2_6_9_11_4_10_5_3_0_8_7 ,
-        mhg:2_3_7_10_0_5_11_6_4_1_9_8 ,
-        mhg:3_4_8_11_1_6_0_7_5_2_10_9 ,
-        mhg:4_5_9_0_2_7_1_8_6_3_11_10 ,
-        mhg:5_6_10_1_3_8_2_9_7_4_0_11 ,
-        mhg:6_7_11_2_4_9_3_10_8_5_1_0 ,
-        mhg:7_8_0_3_5_10_4_11_9_6_2_1 ,
-        mhg:8_9_1_4_6_11_5_0_10_7_3_2 ,
-        mhg:9_10_2_5_7_0_6_1_11_8_4_3 ,
-        mhg:10_11_3_6_8_1_7_2_0_9_5_4 ,
-        mhg:11_0_4_7_9_2_8_3_1_10_6_5 ,
-        
-        # I-Forms (0-11)
-        mhg:0_11_7_4_2_9_3_8_10_1_5_6 ,
-        mhg:1_0_8_5_3_10_4_9_11_2_6_7 ,
-        mhg:2_1_9_6_4_11_5_10_0_3_7_8 ,
-        mhg:3_2_10_7_5_0_6_11_1_4_8_9 ,
-        mhg:4_3_11_8_6_1_7_0_2_5_9_10 ,
-        mhg:5_4_0_9_7_2_8_1_3_6_10_11 ,
-        mhg:6_5_1_10_8_3_9_2_4_7_11_0 ,
-        mhg:7_6_2_11_9_4_10_3_5_8_0_1 ,
-        mhg:8_7_3_0_10_5_11_4_6_9_1_2 ,
-        mhg:9_8_4_1_11_6_0_5_7_10_2_3 ,
-        mhg:10_9_5_2_0_7_1_6_8_11_3_4 ,
-        mhg:11_10_6_3_1_8_2_7_9_0_4_5 ; 
-    mhg:actualizedIn mhg:AB_LyrischeSuite_1 , mhg:FHK_DieMaschine_op1 , mhg:FHK_Variationen_op14 .
-        
-mhg:0_1_5_8_10_3_9_4_2_11_7_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-mhg:1_2_6_9_11_4_10_5_3_0_8_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-mhg:2_3_7_10_0_5_11_6_4_1_9_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-mhg:3_4_8_11_1_6_0_7_5_2_10_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-mhg:4_5_9_0_2_7_1_8_6_3_11_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-mhg:5_6_10_1_3_8_2_9_7_4_0_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-mhg:6_7_11_2_4_9_3_10_8_5_1_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-mhg:7_8_0_3_5_10_4_11_9_6_2_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-mhg:8_9_1_4_6_11_5_0_10_7_3_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-mhg:9_10_2_5_7_0_6_1_11_8_4_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-mhg:10_11_3_6_8_1_7_2_0_9_5_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-mhg:11_0_4_7_9_2_8_3_1_10_6_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-
-mhg:0_11_7_4_2_9_3_8_10_1_5_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-mhg:1_0_8_5_3_10_4_9_11_2_6_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-mhg:2_1_9_6_4_11_5_10_0_3_7_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
-                        mhg:manifestedIn mhg:AB_LyrischeSuite_1 ; 
-                        rdfs:comment "as P2"].
-mhg:3_2_10_7_5_0_6_11_1_4_8_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-mhg:4_3_11_8_6_1_7_0_2_5_9_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-mhg:5_4_0_9_7_2_8_1_3_6_10_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
-                        mhg:manifestedIn mhg:AB_LyrischeSuite_1 ; 
-                        rdfs:comment "as P5" ] , 
-                        [mhg:accordingTo <https://viva.pressbooks.pub/openmusictheory/chapter/anthology-twelve-tone/> ;
-                        mhg:manifestedIn mhg:FHK_DieMaschine_op1 , mhg:FHK_Variationen_op14 ] .
-mhg:6_5_1_10_8_3_9_2_4_7_11_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-mhg:7_6_2_11_9_4_10_3_5_8_0_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-mhg:8_7_3_0_10_5_11_4_6_9_1_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
-                        mhg:manifestedIn mhg:AB_LyrischeSuite_1 ; 
-                        rdfs:comment "as P8"].
-mhg:9_8_4_1_11_6_0_5_7_10_2_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-mhg:10_9_5_2_0_7_1_6_8_11_3_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
-mhg:11_10_6_3_1_8_2_7_9_0_4_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
-                        mhg:manifestedIn mhg:AB_LyrischeSuite_1 ; 
-                        rdfs:comment "as P11"].
-
-# P: 1_8_2_6_10_3_4_4_5_9_4
-# I: 11_4_10_6_2_9_8_8_7_3_8
-# R: 4_9_5_4_4_3_10_6_2_8_1
-# RI: 8_3_7_8_8_9_2_6_10_4_11
-mhg:1_8_2_6_10_3_4_4_5_9_4 a mhg:RowClass ;
-    mhg:hasRowForm
-        # P-Forms (0-11)
-        mhg:0_1_9_11_5_3_6_10_2_7_4_8 ,
-        mhg:1_2_10_0_6_4_7_11_3_8_5_9 ,
-        mhg:2_3_11_1_7_5_8_0_4_9_6_10 ,
-        mhg:3_4_0_2_8_6_9_1_5_10_7_11 ,
-        mhg:4_5_1_3_9_7_10_2_6_11_8_0 ,
-        mhg:5_6_2_4_10_8_11_3_7_0_9_1 ,
-        mhg:6_7_3_5_11_9_0_4_8_1_10_2 ,
-        mhg:7_8_4_6_0_10_1_5_9_2_11_3 ,
-        mhg:8_9_5_7_1_11_2_6_10_3_0_4 ,
-        mhg:9_10_6_8_2_0_3_7_11_4_1_5 ,
-        mhg:10_11_7_9_3_1_4_8_0_5_2_6 ,
-        mhg:11_0_8_10_4_2_5_9_1_6_3_7 ,
-        
-        # I-Forms (0-11)
-        mhg:0_11_3_1_7_9_6_2_10_5_8_4 ,
-        mhg:1_0_4_2_8_10_7_3_11_6_9_5 ,
-        mhg:2_1_5_3_9_11_8_4_0_7_10_6 ,
-        mhg:3_2_6_4_10_0_9_5_1_8_11_7 ,
-        mhg:4_3_7_5_11_1_10_6_2_9_0_8 ,
-        mhg:5_4_8_6_0_2_11_7_3_10_1_9 ,
-        mhg:6_5_9_7_1_3_0_8_4_11_2_10 ,
-        mhg:7_6_10_8_2_4_1_9_5_0_3_11 ,
-        mhg:8_7_11_9_3_5_2_10_6_1_4_0 ,
-        mhg:9_8_0_10_4_6_3_11_7_2_5_1 ,
-        mhg:10_9_1_11_5_7_4_0_8_3_6_2 ,
-        mhg:11_10_2_0_6_8_5_1_9_4_7_3 ,
-        
-        # R-Forms (0-11)
-        mhg:0_8_11_6_2_10_7_9_3_1_5_4 ,
-        mhg:1_9_0_7_3_11_8_10_4_2_6_5 ,
-        mhg:2_10_1_8_4_0_9_11_5_3_7_6 ,
-        mhg:3_11_2_9_5_1_10_0_6_4_8_7 ,
-        mhg:4_0_3_10_6_2_11_1_7_5_9_8 ,
-        mhg:5_1_4_11_7_3_0_2_8_6_10_9 ,
-        mhg:6_2_5_0_8_4_1_3_9_7_11_10 ,
-        mhg:7_3_6_1_9_5_2_4_10_8_0_11 ,
-        mhg:8_4_7_2_10_6_3_5_11_9_1_0 ,
-        mhg:9_5_8_3_11_7_4_6_0_10_2_1 ,
-        mhg:10_6_9_4_0_8_5_7_1_11_3_2 ,
-        mhg:11_7_10_5_1_9_6_8_2_0_4_3 ,
-        
-        # RI-Forms (0-11)
-        mhg:0_4_1_6_10_2_5_3_9_11_7_8 ,
-        mhg:1_5_2_7_11_3_6_4_10_0_8_9 ,
-        mhg:2_6_3_8_0_4_7_5_11_1_9_10 ,
-        mhg:3_7_4_9_1_5_8_6_0_2_10_11 ,
-        mhg:4_8_5_10_2_6_9_7_1_3_11_0 ,
-        mhg:5_9_6_11_3_7_10_8_2_4_0_1 ,
-        mhg:6_10_7_0_4_8_11_9_3_5_1_2 ,
-        mhg:7_11_8_1_5_9_0_10_4_6_2_3 ,
-        mhg:8_0_9_2_6_10_1_11_5_7_3_4 ,
-        mhg:9_1_10_3_7_11_2_0_6_8_4_5 ,
-        mhg:10_2_11_4_8_0_3_1_7_9_5_6 ,
-        mhg:11_3_0_5_9_1_4_2_8_10_6_7 ; 
-    mhg:actualizedIn mhg:AS_op47 .
-
-mhg:0_1_9_11_5_3_6_10_2_7_4_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:1_2_10_0_6_4_7_11_3_8_5_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:2_3_11_1_7_5_8_0_4_9_6_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:3_4_0_2_8_6_9_1_5_10_7_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:4_5_1_3_9_7_10_2_6_11_8_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:5_6_2_4_10_8_11_3_7_0_9_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:6_7_3_5_11_9_0_4_8_1_10_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:7_8_4_6_0_10_1_5_9_2_11_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:8_9_5_7_1_11_2_6_10_3_0_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:9_10_6_8_2_0_3_7_11_4_1_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:10_11_7_9_3_1_4_8_0_5_2_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:11_0_8_10_4_2_5_9_1_6_3_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-
-mhg:0_11_3_1_7_9_6_2_10_5_8_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:1_0_4_2_8_10_7_3_11_6_9_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:2_1_5_3_9_11_8_4_0_7_10_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:3_2_6_4_10_0_9_5_1_8_11_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:4_3_7_5_11_1_10_6_2_9_0_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:5_4_8_6_0_2_11_7_3_10_1_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:6_5_9_7_1_3_0_8_4_11_2_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:7_6_10_8_2_4_1_9_5_0_3_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:8_7_11_9_3_5_2_10_6_1_4_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:9_8_0_10_4_6_3_11_7_2_5_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:10_9_1_11_5_7_4_0_8_3_6_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:11_10_2_0_6_8_5_1_9_4_7_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-
-mhg:0_8_11_6_2_10_7_9_3_1_5_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:1_9_0_7_3_11_8_10_4_2_6_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:2_10_1_8_4_0_9_11_5_3_7_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:3_11_2_9_5_1_10_0_6_4_8_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:4_0_3_10_6_2_11_1_7_5_9_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:5_1_4_11_7_3_0_2_8_6_10_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:6_2_5_0_8_4_1_3_9_7_11_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:7_3_6_1_9_5_2_4_10_8_0_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:8_4_7_2_10_6_3_5_11_9_1_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:9_5_8_3_11_7_4_6_0_10_2_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:10_6_9_4_0_8_5_7_1_11_3_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:11_7_10_5_1_9_6_8_2_0_4_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-
-mhg:0_4_1_6_10_2_5_3_9_11_7_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:1_5_2_7_11_3_6_4_10_0_8_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:2_6_3_8_0_4_7_5_11_1_9_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:3_7_4_9_1_5_8_6_0_2_10_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:4_8_5_10_2_6_9_7_1_3_11_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:5_9_6_11_3_7_10_8_2_4_0_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:6_10_7_0_4_8_11_9_3_5_1_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:7_11_8_1_5_9_0_10_4_6_2_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:8_0_9_2_6_10_1_11_5_7_3_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:9_1_10_3_7_11_2_0_6_8_4_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:10_2_11_4_8_0_3_1_7_9_5_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-mhg:11_3_0_5_9_1_4_2_8_10_6_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_8_2_6_10_3_4_4_5_9_4 .
-
-# P: 3_6_10_10_5_3_1_6_10_10_7
-# I: 9_6_2_2_7_9_11_6_2_2_5
-# R: 7_10_10_6_1_3_5_10_10_6_3
-# RI: 5_2_2_6_11_9_7_2_2_6_9
-mhg:3_6_10_10_5_3_1_6_10_10_7 a mhg:RowClass ;
-    mhg:hasRowForm
-        # P-Forms (0-11)
-        mhg:0_3_9_7_5_10_1_2_8_6_4_11 ,
-        mhg:1_4_10_8_6_11_2_3_9_7_5_0 ,
-        mhg:2_5_11_9_7_0_3_4_10_8_6_1 ,
-        mhg:3_6_0_10_8_1_4_5_11_9_7_2 ,
-        mhg:4_7_1_11_9_2_5_6_0_10_8_3 ,
-        mhg:5_8_2_0_10_3_6_7_1_11_9_4 ,
-        mhg:6_9_3_1_11_4_7_8_2_0_10_5 ,
-        mhg:7_10_4_2_0_5_8_9_3_1_11_6 ,
-        mhg:8_11_5_3_1_6_9_10_4_2_0_7 ,
-        mhg:9_0_6_4_2_7_10_11_5_3_1_8 ,
-        mhg:10_1_7_5_3_8_11_0_6_4_2_9 ,
-        mhg:11_2_8_6_4_9_0_1_7_5_3_10 ,
-        
-        # I-Forms (0-11)
-        mhg:0_9_3_5_7_2_11_10_4_6_8_1 ,
-        mhg:1_10_4_6_8_3_0_11_5_7_9_2 ,
-        mhg:2_11_5_7_9_4_1_0_6_8_10_3 ,
-        mhg:3_0_6_8_10_5_2_1_7_9_11_4 ,
-        mhg:4_1_7_9_11_6_3_2_8_10_0_5 ,
-        mhg:5_2_8_10_0_7_4_3_9_11_1_6 ,
-        mhg:6_3_9_11_1_8_5_4_10_0_2_7 ,
-        mhg:7_4_10_0_2_9_6_5_11_1_3_8 ,
-        mhg:8_5_11_1_3_10_7_6_0_2_4_9 ,
-        mhg:9_6_0_2_4_11_8_7_1_3_5_10 ,
-        mhg:10_7_1_3_5_0_9_8_2_4_6_11 ,
-        mhg:11_8_2_4_6_1_10_9_3_5_7_0 ,
-        
-        # R-Forms (0-11)
-        mhg:0_5_7_9_3_2_11_6_8_10_4_1 ,
-        mhg:1_6_8_10_4_3_0_7_9_11_5_2 ,
-        mhg:2_7_9_11_5_4_1_8_10_0_6_3 ,
-        mhg:3_8_10_0_6_5_2_9_11_1_7_4 ,
-        mhg:4_9_11_1_7_6_3_10_0_2_8_5 ,
-        mhg:5_10_0_2_8_7_4_11_1_3_9_6 ,
-        mhg:6_11_1_3_9_8_5_0_2_4_10_7 ,
-        mhg:7_0_2_4_10_9_6_1_3_5_11_8 ,
-        mhg:8_1_3_5_11_10_7_2_4_6_0_9 ,
-        mhg:9_2_4_6_0_11_8_3_5_7_1_10 ,
-        mhg:10_3_5_7_1_0_9_4_6_8_2_11 ,
-        mhg:11_4_6_8_2_1_10_5_7_9_3_0 ,
-        
-        # RI-Forms (0-11)
-        mhg:0_7_5_3_9_10_1_6_4_2_8_11 ,
-        mhg:1_8_6_4_10_11_2_7_5_3_9_0 ,
-        mhg:2_9_7_5_11_0_3_8_6_4_10_1 ,
-        mhg:3_10_8_6_0_1_4_9_7_5_11_2 ,
-        mhg:4_11_9_7_1_2_5_10_8_6_0_3 ,
-        mhg:5_0_10_8_2_3_6_11_9_7_1_4 ,
-        mhg:6_1_11_9_3_4_7_0_10_8_2_5 ,
-        mhg:7_2_0_10_4_5_8_1_11_9_3_6 ,
-        mhg:8_3_1_11_5_6_9_2_0_10_4_7 ,
-        mhg:9_4_2_0_6_7_10_3_1_11_5_8 ,
-        mhg:10_5_3_1_7_8_11_4_2_0_6_9 ,
-        mhg:11_6_4_2_8_9_0_5_3_1_7_10 ; 
-    mhg:actualizedIn [mhg:accordingTo <https://viva.pressbooks.pub/openmusictheory/chapter/anthology-twelve-tone/> ;
-                        mhg:actualizedIn mhg:FHK_DieMaschine_op1 ] .
-
-mhg:0_3_9_7_5_10_1_2_8_6_4_11 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:1_4_10_8_6_11_2_3_9_7_5_0 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:2_5_11_9_7_0_3_4_10_8_6_1 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:3_6_0_10_8_1_4_5_11_9_7_2 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:4_7_1_11_9_2_5_6_0_10_8_3 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:5_8_2_0_10_3_6_7_1_11_9_4 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:6_9_3_1_11_4_7_8_2_0_10_5 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:7_10_4_2_0_5_8_9_3_1_11_6 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:8_11_5_3_1_6_9_10_4_2_0_7 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:9_0_6_4_2_7_10_11_5_3_1_8 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:10_1_7_5_3_8_11_0_6_4_2_9 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:11_2_8_6_4_9_0_1_7_5_3_10 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-
-mhg:0_9_3_5_7_2_11_10_4_6_8_1 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:1_10_4_6_8_3_0_11_5_7_9_2 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:2_11_5_7_9_4_1_0_6_8_10_3 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:3_0_6_8_10_5_2_1_7_9_11_4 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:4_1_7_9_11_6_3_2_8_10_0_5 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:5_2_8_10_0_7_4_3_9_11_1_6 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:6_3_9_11_1_8_5_4_10_0_2_7 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:7_4_10_0_2_9_6_5_11_1_3_8 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:8_5_11_1_3_10_7_6_0_2_4_9 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:9_6_0_2_4_11_8_7_1_3_5_10 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:10_7_1_3_5_0_9_8_2_4_6_11 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:11_8_2_4_6_1_10_9_3_5_7_0 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-
-mhg:0_5_7_9_3_2_11_6_8_10_4_1 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:1_6_8_10_4_3_0_7_9_11_5_2 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:2_7_9_11_5_4_1_8_10_0_6_3 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:3_8_10_0_6_5_2_9_11_1_7_4 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:4_9_11_1_7_6_3_10_0_2_8_5 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:5_10_0_2_8_7_4_11_1_3_9_6 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:6_11_1_3_9_8_5_0_2_4_10_7 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:7_0_2_4_10_9_6_1_3_5_11_8 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:8_1_3_5_11_10_7_2_4_6_0_9 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:9_2_4_6_0_11_8_3_5_7_1_10 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:10_3_5_7_1_0_9_4_6_8_2_11 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:11_4_6_8_2_1_10_5_7_9_3_0 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-
-mhg:0_7_5_3_9_10_1_6_4_2_8_11 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:1_8_6_4_10_11_2_7_5_3_9_0 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:2_9_7_5_11_0_3_8_6_4_10_1 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:3_10_8_6_0_1_4_9_7_5_11_2 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:4_11_9_7_1_2_5_10_8_6_0_3 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:5_0_10_8_2_3_6_11_9_7_1_4 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:6_1_11_9_3_4_7_0_10_8_2_5 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:7_2_0_10_4_5_8_1_11_9_3_6 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:8_3_1_11_5_6_9_2_0_10_4_7 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:9_4_2_0_6_7_10_3_1_11_5_8 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:10_5_3_1_7_8_11_4_2_0_6_9 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-mhg:11_6_4_2_8_9_0_5_3_1_7_10 a mhg:rowForm ; mhg:hasRowClass mhg:3_6_10_10_5_3_1_6_10_10_7 .
-
-#P: 4_10_4_11_2_8_8_10_1_3_7
-#I: 8_2_8_1_10_4_4_2_11_9_5
-#R: 7_3_1_10_8_8_2_11_4_10_4
-#RI:5_9_11_2_4_4_10_1_8_2_8
-mhg:4_10_4_11_2_8_8_10_1_3_7 a mhg:RowClass ;
-    mhg:actualizedIn mhg:AS_op23_5 ;
-    mhg:hasRowForm
-        # P-Formen
-        mhg:0_4_2_6_5_7_3_11_9_10_1_8 ,
-        mhg:1_5_3_7_6_8_4_0_10_11_2_9 ,
-        mhg:2_6_4_8_7_9_5_1_11_0_3_10 ,
-        mhg:3_7_5_9_8_10_6_2_0_1_4_11 ,
-        mhg:4_8_6_10_9_11_7_3_1_2_5_0 ,
-        mhg:5_9_7_11_10_0_8_4_2_3_6_1 ,
-        mhg:6_10_8_0_11_1_9_5_3_4_7_2 ,
-        mhg:7_11_9_1_0_2_10_6_4_5_8_3 ,
-        mhg:8_0_10_2_1_3_11_7_5_6_9_4 ,
-        mhg:9_1_11_3_2_4_0_8_6_7_10_5 ,
-        mhg:10_2_0_4_3_5_1_9_7_8_11_6 ,
-        mhg:11_3_1_5_4_6_2_10_8_9_0_7 ,
-
-        # I-Formen
-        mhg:0_8_10_6_7_5_9_1_3_2_11_4 ,
-        mhg:1_9_11_7_8_6_10_2_4_3_0_5 ,
-        mhg:2_10_0_8_9_7_11_3_5_4_1_6 ,
-        mhg:3_11_1_9_10_8_0_4_6_5_2_7 ,
-        mhg:4_0_2_10_11_9_1_5_7_6_3_8 ,
-        mhg:5_1_3_11_0_10_2_6_8_7_4_9 ,
-        mhg:6_2_4_0_1_11_3_7_9_8_5_10 ,
-        mhg:7_3_5_1_2_0_4_8_10_9_6_11 ,
-        mhg:8_4_6_2_3_1_5_9_11_10_7_0 ,
-        mhg:9_5_7_3_4_2_6_10_0_11_8_1 ,
-        mhg:10_6_8_4_5_3_7_11_1_0_9_2 ,
-        mhg:11_7_9_5_6_4_8_0_2_1_10_3 ,
-
-        # R-Formen
-        mhg:0_5_2_1_3_7_11_9_10_6_8_4 ,
-        mhg:1_6_3_2_4_8_0_10_11_7_9_5 ,
-        mhg:2_7_4_3_5_9_1_11_0_8_10_6 ,
-        mhg:3_8_5_4_6_10_2_0_1_9_11_7 ,
-        mhg:4_9_6_5_7_11_3_1_2_10_0_8 ,
-        mhg:5_10_7_6_8_0_4_2_3_11_1_9 ,
-        mhg:6_11_8_7_9_1_5_3_4_0_2_10 ,
-        mhg:7_0_9_8_10_2_6_4_5_1_3_11 ,
-        mhg:8_1_10_9_11_3_7_5_6_2_4_0 ,
-        mhg:9_2_11_10_0_4_8_6_7_3_5_1 ,
-        mhg:10_3_0_11_1_5_9_7_8_4_6_2 ,
-        mhg:11_4_1_0_2_6_10_8_9_5_7_3 ,
-        
-        # RI-Formen
-        mhg:0_7_10_11_9_5_1_3_2_6_4_8 ,
-        mhg:1_8_11_0_10_6_2_4_3_7_5_9 ,
-        mhg:2_9_0_1_11_7_3_5_4_8_6_10 ,
-        mhg:3_10_1_2_0_8_4_6_5_9_7_11 ,
-        mhg:4_11_2_3_1_9_5_7_6_10_8_0 ,
-        mhg:5_0_3_4_2_10_6_8_7_11_9_1 ,
-        mhg:6_1_4_5_3_11_7_9_8_0_10_2 ,
-        mhg:7_2_5_6_4_0_8_10_9_1_11_3 ,
-        mhg:8_3_6_7_5_1_9_11_10_2_0_4 ,
-        mhg:9_4_7_8_6_2_10_0_11_3_1_5 ,
-        mhg:10_5_8_9_7_3_11_1_0_4_2_6 ,
-        mhg:11_6_9_10_8_4_0_2_1_5_3_7 .
-
-# P-FORMS
-mhg:0_4_2_6_5_7_3_11_9_10_1_8 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:1_5_3_7_6_8_4_0_10_11_2_9 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:2_6_4_8_7_9_5_1_11_0_3_10 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:3_7_5_9_8_10_6_2_0_1_4_11 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:4_8_6_10_9_11_7_3_1_2_5_0 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:5_9_7_11_10_0_8_4_2_3_6_1 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:6_10_8_0_11_1_9_5_3_4_7_2 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:7_11_9_1_0_2_10_6_4_5_8_3 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:8_0_10_2_1_3_11_7_5_6_9_4 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:9_1_11_3_2_4_0_8_6_7_10_5 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:10_2_0_4_3_5_1_9_7_8_11_6 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:11_3_1_5_4_6_2_10_8_9_0_7 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-
-# I-FORMS
-mhg:0_8_10_6_7_5_9_1_3_2_11_4 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:1_9_11_7_8_6_10_2_4_3_0_5 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 ; 
-    mhg:manifestedIn [ mhg:manifestedIn mhg:AS_op23_5 ; 
-                        rdfs:comment: "as the only (P-)form"] .
-mhg:2_10_0_8_9_7_11_3_5_4_1_6 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:3_11_1_9_10_8_0_4_6_5_2_7 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:4_0_2_10_11_9_1_5_7_6_3_8 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:5_1_3_11_0_10_2_6_8_7_4_9 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:6_2_4_0_1_11_3_7_9_8_5_10 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:7_3_5_1_2_0_4_8_10_9_6_11 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:8_4_6_2_3_1_5_9_11_10_7_0 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:9_5_7_3_4_2_6_10_0_11_8_1 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:10_6_8_4_5_3_7_11_1_0_9_2 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:11_7_9_5_6_4_8_0_2_1_10_3 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-
-# R-FORMS
-mhg:8_1_10_9_11_3_7_5_6_2_4_0 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:9_2_11_10_0_4_8_6_7_3_5_1 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:10_3_0_11_1_5_9_7_8_4_6_2 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:11_4_1_0_2_6_10_8_9_5_7_3 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:0_5_2_1_3_7_11_9_10_6_8_4 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:1_6_3_2_4_8_0_10_11_7_9_5 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:2_7_4_3_5_9_1_11_0_8_10_6 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:3_8_5_4_6_10_2_0_1_9_11_7 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:4_9_6_5_7_11_3_1_2_10_0_8 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:5_10_7_6_8_0_4_2_3_11_1_9 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:6_11_8_7_9_1_5_3_4_0_2_10 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:7_0_9_8_10_2_6_4_5_1_3_11 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-
-# RI-FORMS
-mhg:4_11_2_3_1_9_5_7_6_10_8_0 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:5_0_3_4_2_10_6_8_7_11_9_1 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:6_1_4_5_3_11_7_9_8_0_10_2 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:7_2_5_6_4_0_8_10_9_1_11_3 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:8_3_6_7_5_1_9_11_10_2_0_4 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:9_4_7_8_6_2_10_0_11_3_1_5 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:10_5_8_9_7_3_11_1_0_4_2_6 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:11_6_9_10_8_4_0_2_1_5_3_7 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:0_7_10_11_9_5_1_3_2_6_4_8 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:1_8_11_0_10_6_2_4_3_7_5_9 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:2_9_0_1_11_7_3_5_4_8_6_10 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-mhg:3_10_1_2_0_8_4_6_5_9_7_11 mhg:hasRowClass mhg:4_10_4_11_2_8_8_10_1_3_7 .
-
