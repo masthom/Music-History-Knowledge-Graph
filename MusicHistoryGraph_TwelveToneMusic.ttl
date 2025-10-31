@@ -381,6 +381,22 @@ mhg:TheodorWAdorno a mhg:author,
 ## SELECTED WORKS
 #################################################################
 
+# Alban Berg: Twelve-tone Works
+
+mhg:AB_Kammerkonzert a mhg:composition , frbr:work ;
+    rdfs:label "Kammerkonzert für Klavier, Geige mit 13 Bläsern"@de , "Chamber Concerto for Piano and Violin with 13 winds"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: ID nicht eindeutig identifiziert
+    frbr:hasCreationDate "1923-1925"^^xsd:string ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    mhg:isoCountryCode "AUT" .
+
+mhg:AB_SchliesseMirDieAugenBeide a mhg:composition , frbr:work ;
+    rdfs:label "Schließe mir die Augen beide (2 Versionen, 1907 & 1925)"@de ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Zwei Versionen – keine eindeutige Wikidata-ID gefunden
+    frbr:hasCreationDate "1907/1925"^^xsd:string ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q40>> ;
+    mhg:isoCountryCode "AUT" .
+
 mhg:AB_LyrischeSuite a mhg:composition , frbr:work ;
     rdfs:label "Lyrische Suite"@de , "Lyric Suite"@en ;
     schema:sameAs <http://www.wikidata.org/entity/Q2355101> ;
@@ -393,6 +409,28 @@ mhg:AB_LyrischeSuite a mhg:composition , frbr:work ;
                  mhg:AB_LyrischeSuite_4,
                  mhg:AB_LyrischeSuite_5,
                  mhg:AB_LyrischeSuite_6 .
+
+mhg:AB_DerWein a mhg:composition , frbr:work ;
+    rdfs:label "Der Wein – Konzertarie für Sopran und Orchester"@de ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q235644> ;  # falsch geprüft: Der Wein (Alban Berg) link
+    frbr:hasCreationDate "1929"^^xsd:gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q40>> ;
+    mhg:isoCountryCode "AUT" .
+
+mhg:AB_Lulu a mhg:composition , frbr:work ;
+    rdfs:label "Lulu – Oper in 3 Akten"@de ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: ID für vollständige Oper inkl. Rekonstruktion prüfen
+    frbr:hasCreationDate "1929-1935"^^xsd:string ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q40>> ;
+    mhg:isoCountryCode "AUT" .
+
+mhg:AB_Violinkonzert a mhg:composition , frbr:work ;
+    rdfs:label "Violinkonzert („Dem Andenken eines Engels“)"@de ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q234910> ;  #falsch geprüft: Berg Violin Concerto link
+    frbr:hasCreationDate "1935"^^xsd:gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity<Q40>> ;
+    mhg:isoCountryCode "AUT" .
+
 
 # Anton Webern: Twelve-tone Works
 
