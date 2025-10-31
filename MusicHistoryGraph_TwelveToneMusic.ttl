@@ -394,7 +394,145 @@ mhg:AB_LyrischeSuite a mhg:composition , frbr:work ;
                  mhg:AB_LyrischeSuite_5,
                  mhg:AB_LyrischeSuite_6 .
 
-# Arnold Schönberg: Twelve tone Works
+# Anton Webern: Twelve-tone Works
+
+mhg:AW_op17 a mhg:composition , frbr:work ;
+    rdfs:label "Drei Volkstexte"@de ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: kein eindeutiger Wikidata-Eintrag für Op.17 gefunden
+    frbr:hasCreationDate "1924"^^xsd:gYear ;
+    frbr:hasPart mhg:AW_op17_1 , mhg:AW_op17_2 , mhg:AW_op17_3 ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    mhg:isoCountryCode "AUT" .
+
+mhg:AW_op18 a mhg:composition , frbr:work ;
+    rdfs:label "Drei Lieder"@de ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.18 keine eindeutige Wikidata-ID
+    frbr:hasCreationDate "1925"^^xsd:gYear ;
+    frbr:hasPart mhg:AW_op18_1 , mhg:AW_op18_2 , mhg:AW_op18_3 ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    mhg:isoCountryCode "AUT" .
+
+mhg:AW_op19 a mhg:composition , frbr:work ;
+    rdfs:label "Zwei Lieder"@de ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.19 keine eindeutige Wikidata-ID
+    frbr:hasCreationDate "1926"^^xsd:gYear ;
+    frbr:hasPart mhg:AW_op19_1 , mhg:AW_op19_2 ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    mhg:isoCountryCode "AUT" .
+
+mhg:AW_op20 a mhg:composition , frbr:work ;
+    rdfs:label "Streichtrio"@de ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.20 keine eindeutige Wikidata-Seite
+    frbr:hasCreationDate "1926-1927"^^xsd:string ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    mhg:isoCountryCode "AUT" .
+
+mhg:AW_op21 a mhg:composition , frbr:work ;
+    rdfs:label "Symphonie"@de , "Symphony, Op. 21"@en ;
+    schema:sameAs <http://www.wikidata.org/entity/Q3507606> ;
+    frbr:hasCreationDate "1927-1928"^^xsd:string ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    mhg:isoCountryCode "AUT" .
+
+mhg:AW_op22 a mhg:composition , frbr:work ;
+    rdfs:label "Quartett"@de ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.22 keine eindeutige Wikidata-ID
+    frbr:hasCreationDate "1928-1930"^^xsd:string ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    mhg:isoCountryCode "AUT" .
+
+mhg:AW_op23 a mhg:composition , frbr:work ;
+    rdfs:label "Drei Lieder aus 'viae inviae'"@de ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q3479804> .  # VORSICHT: möglicher Fehl-Link
+    frbr:hasCreationDate "1934"^^xsd:gYear ;
+    frbr:hasPart mhg:AW_op23_1 , mhg:AW_op23_2 , mhg:AW_op23_3 ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    mhg:isoCountryCode "AUT" .
+
+mhg:AW_op24 a mhg:composition , frbr:work ;
+    rdfs:label "Konzert (Concerto for Nine Instruments)"@de , "Concerto for Nine Instruments, Op. 24"@en ;
+    schema:sameAs <http://www.wikidata.org/entity/Q2991796> ;
+    frbr:hasCreationDate "1931-1934"^^xsd:string ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    mhg:isoCountryCode "AUT" .
+
+mhg:AW_op25 a mhg:composition , frbr:work ;
+    rdfs:label "Drei Lieder (Hildegard Jone)"@de ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.25 keine eindeutige Wikidata-ID
+    frbr:hasCreationDate "1934"^^xsd:gYear ;
+    frbr:hasPart mhg:AW_op25_1 , mhg:AW_op25_2 , mhg:AW_op25_3 ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    mhg:isoCountryCode "AUT" .
+
+mhg:AW_op25_1 a mhg:compositionPart ;
+    rdfs:label "Wie bin ich froh!"@de .
+
+mhg:AW_op25_2 a mhg:compositionPart ;
+    rdfs:label "Des Herzens Purpurvogel"@de .
+
+mhg:AW_op25_3 a mhg:compositionPart ;
+    rdfs:label "Sterne, Ihr silbernen Bienen"@de .
+
+mhg:AW_op26 a mhg:composition , frbr:work ;
+    rdfs:label "Das Augenlicht"@de ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.26 Wikidata-Link nicht eindeutig
+    frbr:hasCreationDate "1935"^^xsd:gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    mhg:isoCountryCode "AUT" .
+
+mhg:AW_op27 a mhg:composition , frbr:work ;
+    rdfs:label "Variationen für Klavier"@de , "Variations for Piano, Op. 27"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.27 Variations — kein eindeutiger Wikidata-Eintrag
+    frbr:hasCreationDate "1935-1936"^^xsd:string ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    mhg:isoCountryCode "AUT" .
+
+mhg:AW_op28 a mhg:composition , frbr:work ;
+    rdfs:label "Streichquartett"@de , "String Quartet, Op. 28"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.28 — Wikidata-Link prüfen
+    frbr:hasCreationDate "1936-1938"^^xsd:string ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    mhg:isoCountryCode "AUT" .
+
+mhg:AW_op29 a mhg:composition , frbr:work ;
+    rdfs:label "Erste Kantate"@de ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.29 keine eindeutige Wikidata-ID
+    frbr:hasCreationDate "1938-1940"^^xsd:string ;
+    frbr:hasPart mhg:AW_op29_1 , mhg:AW_op29_2 , mhg:AW_op29_3 ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    mhg:isoCountryCode "AUT" .
+
+mhg:AW_op29_1 a mhg:compositionPart ;
+    rdfs:label "Zündender Lichtblitz"@de .
+mhg:AW_op29_2 a mhg:compositionPart ;
+    rdfs:label "Kleiner Flügel"@de .
+mhg:AW_op29_3 a mhg:compositionPart ;
+    rdfs:label "Tönen die Seligen Saiten Apolls"@de .
+
+mhg:AW_op30 a mhg:composition , frbr:work ;
+    rdfs:label "Variationen für Orchester"@de , "Variations for Orchestra, Op. 30"@en ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.30 keine eindeutige Wikidata-ID
+    frbr:hasCreationDate "1940"^^xsd:gYear ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    mhg:isoCountryCode "AUT" .
+
+mhg:AW_op31 a mhg:composition , frbr:work ;
+    rdfs:label "Zweite Kantate"@de ;
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> .  # TODO: Op.31 keine eindeutige Wikidata-ID
+    frbr:hasCreationDate "1943"^^xsd:gYear ;
+    frbr:hasPart mhg:AW_op31_1 , mhg:AW_op31_2 , mhg:AW_op31_3 , mhg:AW_op31_4 , mhg:AW_op31_5 , mhg:AW_op31_6 ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
+    mhg:isoCountryCode "AUT" .
+
+mhg:AW_op31_1 a mhg:compositionPart ; rdfs:label "Schweigt auch die Welt"@de .
+mhg:AW_op31_2 a mhg:compositionPart ; rdfs:label "Sehr tief verhalten"@de .
+mhg:AW_op31_3 a mhg:compositionPart ; rdfs:label "Schöpfen aus Brunnen"@de .
+mhg:AW_op31_4 a mhg:compositionPart ; rdfs:label "Leichteste Bürden"@de .
+mhg:AW_op31_5 a mhg:compositionPart ; rdfs:label "Freundselig ist das Wort"@de .
+mhg:AW_op31_6 a mhg:compositionPart ; rdfs:label "Gelockert aus dem Schoße"@de .
+
+
+# Arnold Schönberg: Twelve-tone Works
 # Op. 23 — Five Pieces for Piano
 mhg:AS_op23 a mhg:composition , frbr:work ;
     rdfs:label "Fünf Klavierstücke, Op. 23"@de , "Five Piano Pieces, Op. 23"@en ;
