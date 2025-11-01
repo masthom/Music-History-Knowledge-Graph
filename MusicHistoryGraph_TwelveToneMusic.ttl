@@ -888,7 +888,7 @@ mhg:AS_op50c a mhg:composition , frbr:work ;
     dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
     mhg:isoCountryCode "USA" .
 
-##Klein
+# Fritz Heinrich Klein
 mhg:FHK_DieMaschine_op1 a mhg:composition , frbr:work ;
     frbr:created mhg:FritzHeinrichKlein ; 
     rdfs:label "Die Maschine, Op. 1"@de ;
