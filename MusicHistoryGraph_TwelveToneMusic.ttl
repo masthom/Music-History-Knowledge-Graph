@@ -21,9 +21,9 @@ mhg:isoCountryCode rdfs:subPropertyOf dcterms:identifier ;
 #################################################################
 
 mhg:AlbanBerg a mhg:composer ;
-    mhg:pupilOf mhg:ArnoldSchönberg ;
-    frbr:creatorOf mhg:AB_9Blätter,
-        mhg:AB_LyrischeSuite ;
+    mhg:pupilOf mhg:ArnoldSchoenberg ;
+    frbr:creatorOf mhg:AB_9Blaetter ,
+        mhg:AB_LyrischeSuite ,
         mhg:AB_Kammerkonzert ,
         mhg:AB_SchliesseMirDieAugenBeide_2 ,
         mhg:AB_LyrischeSuite ,
@@ -48,7 +48,7 @@ mhg:AlexanderGoehr a mhg:composer ;
     schema:sameAs <http://www.wikidata.org/entity/Q215847> .
     
 mhg:AntonWebern a mhg:composer ;
-    mhg:pupilOf mhg:ArnoldSchönberg ;
+    mhg:pupilOf mhg:ArnoldSchoenberg ;
     frbr:creatorOf mhg:AW_Wege,
         mhg:AW_op18,
         mhg:AW_op19,
@@ -73,7 +73,7 @@ mhg:AntonWebern a mhg:composer ;
         <https://de.wikipedia.org/wiki/Anton_Webern>,
         <https://en.wikipedia.org/wiki/Anton_Webern> .
 
-mhg:ArnoldSchönberg a mhg:author,
+mhg:ArnoldSchoenberg a mhg:author,
         mhg:composer ;
     frbr:creatorOf mhg:AS_op23,
         mhg:AS_op24,
@@ -201,7 +201,7 @@ mhg:ErwinStein a mhg:author, mhg:composer ;
 
 mhg:FritzHeinrichKlein a mhg:composer ;
     mhg:pupilOf mhg:AlbanBerg,
-        mhg:ArnoldSchönberg ;
+        mhg:ArnoldSchoenberg ;
     frbr:creatorOf mhg:FHK_DieMaschine_op1,
         mhg:FHK_Variationen_op14 ;
     schema:birthDate "1892-02-11"^^xsd:date ;
@@ -216,7 +216,7 @@ mhg:FritzHeinrichKlein a mhg:composer ;
 mhg:HannsEisler a mhg:author,
         mhg:composer ;
     mhg:pupilOf mhg:AntonWebern,
-        mhg:ArnoldSchönberg ;
+        mhg:ArnoldSchoenberg ;
     frbr:creatorOf mhg:HE_14Arten,
         mhg:HE_DeutscheSymphonie ;
     schema:birthDate "1898-07-06"^^xsd:date ;
@@ -278,7 +278,7 @@ mhg:JosefMatthiasHauer a mhg:author,
         <https://en.wikipedia.org/wiki/Josef_Matthias_Hauer> .
 
 mhg:JosefRufer a mhg:author ;
-    mhg:pupilOf mhg:ArnoldSchönberg ;
+    mhg:pupilOf mhg:ArnoldSchoenberg ;
     frbr:creatorOf mhg:DieKompositionMitZwölfTönen ;
     schema:birthDate "1893-06-21"^^xsd:date ;
     schema:birthPlace <http://www.wikidata.org/entity/Q1741> ;
@@ -291,7 +291,7 @@ mhg:JosefRufer a mhg:author ;
 
 mhg:LeopoldSpinner a mhg:composer ;
     mhg:pupilOf mhg:AntonWebern,
-        mhg:ArnoldSchönberg ;
+        mhg:ArnoldSchoenberg ;
     schema:birthDate "1906-03-26"^^xsd:date ;
     schema:birthPlace <http://www.wikidata.org/entity/Q36036> ;
     schema:deathDate "1980-12-12"^^xsd:date ;
@@ -599,7 +599,7 @@ mhg:AW_op31_6 a mhg:compositionPart ; rdfs:label "Gelockert aus dem Schoße"@de 
 # Arnold Schönberg: Twelve-tone Works
 # Op. 23 — Five Pieces for Piano
 mhg:AS_op23 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Fünf Klavierstücke, Op. 23"@de , "Five Piano Pieces, Op. 23"@en ;
     schema:sameAs <http://www.wikidata.org/entity/Q2972899> ;
     frbr:hasCreationDate "1923"^^xsd:gYear ;
@@ -613,7 +613,7 @@ mhg:AS_op23 a mhg:composition , frbr:work ;
 
 # Op. 24 — Serenade, Op. 24
 mhg:AS_op24 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Serenade, Op. 24"@en , "Serenade, Op. 24"@de ;
     #schema:sameAs <http://www.wikidata.org/entity/Q2386739> ;
     frbr:hasCreationDate "1920/1923"^^xsd:string ;
@@ -622,7 +622,7 @@ mhg:AS_op24 a mhg:composition , frbr:work ;
 
 # Op. 25 — Suite for Piano, Op. 25
 mhg:AS_op25 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Suite für Klavier, Op. 25"@de , "Suite for Piano, Op. 25"@en ;
     #schema:sameAs <http://www.wikidata.org/entity/Q3503219> ;
     frbr:hasCreationDate "1921/1923"^^xsd:string ;
@@ -636,52 +636,52 @@ mhg:AS_op25 a mhg:composition , frbr:work ;
 
 # Op. 26 — Wind Quintet, Op. 26
 mhg:AS_op26 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Bläserquintett, Op. 26"@de , "Wind Quintet, Op. 26"@en ;
     # schema:sameAs noch nicht sicher gefunden ;
     frbr:hasCreationDate "1923/1924"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40>> ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
     mhg:isoCountryCode "AUT" .
 
 # Op. 27 — Four Pieces, Op. 27
 mhg:AS_op27 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Vier Stücke, Op. 27"@de , "Four Pieces, Op. 27"@en ;
     # schema:sameAs noch nicht sicher gefunden ;
     frbr:hasCreationDate "1925"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40>> ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
     mhg:isoCountryCode "AUT" .
 
 # Op. 28 — Three Satires, Op. 28
 mhg:AS_op28 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Drei Satiren, Op. 28"@de , "Three Satires, Op. 28"@en ;
     # schema:sameAs noch nicht sicher gefunden ;
     frbr:hasCreationDate "1925/1926"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40>> ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
     mhg:isoCountryCode "AUT" .
 
 # Op. 29 — Suite for Septet, Op. 29
 mhg:AS_op29 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Suite (für Septett), Op. 29"@de , "Suite for Septet, Op. 29"@en ;
     # schema:sameAs noch nicht sicher gefunden ;
     frbr:hasCreationDate "1924/1926"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40>> ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
     mhg:isoCountryCode "AUT" .
 
 # Op. 30 — String Quartet No. 3, Op. 30
 mhg:AS_op30 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Streichquartett Nr. 3, Op. 30"@de , "String Quartet No. 3, Op. 30"@en ;
     # schema:sameAs noch nicht sicher gefunden ;
     frbr:hasCreationDate "1927"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q40>> ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q40> ;
     mhg:isoCountryCode "AUT" .
 
 # Op. 31 — Variations for Orchestra
 mhg:AS_op31 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Variationen für Orchester, Op. 31"@de , "Variations for Orchestra, Op. 31"@en ;
     schema:sameAs <http://www.wikidata.org/entity/Q3554790> ;
     frbr:hasCreationDate "1928"^^xsd:gYear ;
@@ -690,7 +690,7 @@ mhg:AS_op31 a mhg:composition , frbr:work ;
 
 # Op. 32 — Von heute auf morgen (Oper in 1 Akt)
 mhg:AS_op32 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Von heute auf morgen, Op. 32"@de , "From Today to Tomorrow, Op. 32"@en ;
     # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO: Link nicht gefunden
     frbr:hasCreationDate "1928/1929"^^xsd:string ;
@@ -699,62 +699,62 @@ mhg:AS_op32 a mhg:composition , frbr:work ;
 
 # Op. 33 — Two Piano Pieces
 mhg:AS_op33 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Zwei Klavierstücke, Op. 33"@de , "Two Piano Pieces, Op. 33"@en ;
     # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO: Link nicht gefunden
     frbr:hasCreationDate "1928/1931"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q183>> ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q183> ;
     mhg:isoCountryCode "DEU" .
 
 # Op. 34 — Accompaniment to a Film Scene
 mhg:AS_op34 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Begleitungsmusik zu einer Lichtspielscene, Op. 34"@de , "Accompaniment to a Film Scene, Op. 34"@en ;
     # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO: Link nicht gefunden
     frbr:hasCreationDate "1930"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q183>> ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q183> ;
     mhg:isoCountryCode "DEU" .
 
 # Op. 35 — Six Pieces for Male Chorus
 mhg:AS_op35 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Sechs Stücke für Männerchor, Op. 35"@de , "Six Pieces for Male Chorus, Op. 35"@en ;
     # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO: Link nicht gefunden
     frbr:hasCreationDate "1929/1930"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q183>> ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q183> ;
     mhg:isoCountryCode "DEU" .
 
 # Op. 36 — Violin Concerto
 mhg:AS_op36 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Violinkonzert, Op. 36"@de , "Violin Concerto, Op. 36"@en ;
     #schema:sameAs <http://www.wikidata.org/entity/Q634894> ;
     frbr:hasCreationDate "1934/1936"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q183>> ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q183> ;
     mhg:isoCountryCode "DEU" .
 
 # Op. 37 — String Quartet No. 4
 mhg:AS_op37 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Streichquartett Nr. 4, Op. 37"@de , "String Quartet No. 4, Op. 37"@en ;
     # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO: Link nicht gefunden
     frbr:hasCreationDate "1936"^^xsd:gYear ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q183>> ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q183> ;
     mhg:isoCountryCode "DEU" .
 
 # Op. 38 — Chamber Symphony No. 2
 mhg:AS_op38 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Kammersymphonie Nr. 2, Op. 38"@de , "Chamber Symphony No. 2, Op. 38"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...>> ;  # TODO: Link nicht gefunden
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO: Link nicht gefunden
     frbr:hasCreationDate "1906/1939"^^xsd:string ;
-    dcterms:spatial <http://www.wikidata.org/entity/Q183>> ;
+    dcterms:spatial <http://www.wikidata.org/entity/Q183> ;
     mhg:isoCountryCode "DEU" ; 
     rdfs:comment "not a twelve-tone composition".
 
 # Op. 39 — Kol Nidre, Op. 39
 mhg:AS_op39 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Kol Nidre, Op. 39"@de , "Kol Nidre, Op. 39"@en ;
     #schema:sameAs <http://www.wikidata.org/entity/Q402884> ;
     frbr:hasCreationDate "1938"^^xsd:gYear ;
@@ -763,7 +763,7 @@ mhg:AS_op39 a mhg:composition , frbr:work ;
 
 # Op. 40 — Variations in D minor on a recitative for Organ, Op. 40
 mhg:AS_op40 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Variationen über ein Rezitativ für Orgel, Op. 40"@de , "Variations on a Recitative for Organ, Op. 40"@en ;
     # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
     frbr:hasCreationDate "1941"^^xsd:gYear ;
@@ -773,7 +773,7 @@ mhg:AS_op40 a mhg:composition , frbr:work ;
 
 # Op. 41 — Ode to Napoleon Buonaparte, Op. 41
 mhg:AS_op41 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Ode to Napoleon Buonaparte, Op. 41"@en ;
     #schema:sameAs <http://www.wikidata.org/entity/Q683108> ;
     frbr:hasCreationDate "1942"^^xsd:gYear ;
@@ -782,7 +782,7 @@ mhg:AS_op41 a mhg:composition , frbr:work ;
 
 # Op. 42 — Piano Concerto, Op. 42
 mhg:AS_op42 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Klavierkonzert, Op. 42"@de , "Piano Concerto, Op. 42"@en ;
     # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
     frbr:hasCreationDate "1942"^^xsd:gYear ;
@@ -791,7 +791,7 @@ mhg:AS_op42 a mhg:composition , frbr:work ;
 
 # Op. 43a — Theme and Variations, Op. 43a (for band)
 mhg:AS_op43a a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Theme and Variations, Op. 43a (for band)"@en ;
     # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
     frbr:hasCreationDate "1943"^^xsd:gYear ;
@@ -800,16 +800,16 @@ mhg:AS_op43a a mhg:composition , frbr:work ;
 
 # Op. 43b — Theme and Variations, Op. 43b (for orchestra)
 mhg:AS_op43b a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Theme and Variations, Op. 43b (for orchestra)"@en ;
-    # schema:sameAs <http://www.wikidata.org/entity/Q...>> ;  # TODO
+    # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
     frbr:hasCreationDate "1943"^^xsd:gYear ;
     dcterms:spatial <http://www.wikidata.org/entity/Q30> ;
     mhg:isoCountryCode "USA" .
 
 # # Op. 44 — Preludium for Orchestra, Op. 44
 mhg:AS_op44 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Preludium for Orchestra, Op. 44"@en ;
     # schema:sameAs <http://www.wikidata.org/entity/Q...> ; # TODO
     frbr:hasCreationDate "1945"^^xsd:gYear ;
@@ -818,7 +818,7 @@ mhg:AS_op44 a mhg:composition , frbr:work ;
 
 # Op. 45 — String Trio, Op. 45
 mhg:AS_op45 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Streich-Trio, Op. 45"@de , "String Trio, Op. 45"@en ;
     # schema:sameAs <http://www.wikidata.org/entity/Q3503194> ;
     frbr:hasCreationDate "1946"^^xsd:gYear ;
@@ -827,7 +827,7 @@ mhg:AS_op45 a mhg:composition , frbr:work ;
 
 # Op. 46 — A Survivor from Warsaw, Op. 46
 mhg:AS_op46 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Ein Überlebender aus Warschau, Op. 46"@de , "A Survivor from Warsaw, Op. 46"@en ;
     # schema:sameAs <http://www.wikidata.org/entity/Q2339395> ;
     frbr:hasCreationDate "1947"^^xsd:gYear ;
@@ -836,7 +836,7 @@ mhg:AS_op46 a mhg:composition , frbr:work ;
 
 # Op. 47 — Phantasy for Violin and Piano, Op. 47
 mhg:AS_op47 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Phantasie für Violine mit Klavierbegleitung, Op. 47"@de , "Phantasy for Violin with Piano Accompaniment, Op. 47"@en ;
     schema:sameAs <http://www.wikidata.org/entity/Q2269974> ;
     frbr:hasCreationDate "1949"^^xsd:gYear ;
@@ -845,7 +845,7 @@ mhg:AS_op47 a mhg:composition , frbr:work ;
 
 # Op. 48 — Three Songs, Op. 48
 mhg:AS_op48 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Three Songs, Op. 48"@en ;
     # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
     frbr:hasCreationDate "1933"^^xsd:gYear ;
@@ -854,7 +854,7 @@ mhg:AS_op48 a mhg:composition , frbr:work ;
 
 # Op. 49 — Three Folksongs, Op. 49
 mhg:AS_op49 a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Three Folksongs, Op. 49"@en ;
     # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
     frbr:hasCreationDate "1948"^^xsd:gYear ;
@@ -863,7 +863,7 @@ mhg:AS_op49 a mhg:composition , frbr:work ;
 
 # Op. 50a — Three times a thousand years / Dreimal tausend Jahre, Op. 50a
 mhg:AS_op50a a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Dreimal tausend Jahre, Op. 50a"@de , "Three times a thousand years, Op. 50a"@en ;
     # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
     frbr:hasCreationDate "1949"^^xsd:gYear ;
@@ -872,7 +872,7 @@ mhg:AS_op50a a mhg:composition , frbr:work ;
 
 # Op. 50b — Psalm 130 “De profundis”, Op. 50b
 mhg:AS_op50b a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Psalm 130 ‘De profundis’, Op. 50b"@en ;
     # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
     frbr:hasCreationDate "1950"^^xsd:gYear ;
@@ -881,7 +881,7 @@ mhg:AS_op50b a mhg:composition , frbr:work ;
 
 # Op. 50c — Modern Psalm (unfinished), Op. 50c
 mhg:AS_op50c a mhg:composition , frbr:work ;
-    frbr:created mhg:ArnoldSchönberg ;
+    frbr:created mhg:ArnoldSchoenberg ;
     rdfs:label "Modern Psalm (unfinished), Op. 50c"@en ;
     # schema:sameAs <http://www.wikidata.org/entity/Q...> ;  # TODO
     frbr:hasCreationDate "n.d."^^xsd:string ;
@@ -1011,7 +1011,7 @@ mhg:1_1_6_2_5_6_7_1_6_8_11 a mhg:RowClass ;
         mhg:3_2_10_4_5_0_6_11_1_7_8_9,
         mhg:4_3_11_5_6_1_7_0_2_8_9_10,
         mhg:5_4_0_6_7_2_8_1_3_9_10_11 ;
-    mhg:actualizedIn [ mhg:accordingTo mhg:AB_9Blätter ;
+    mhg:actualizedIn [ mhg:accordingTo mhg:AB_9Blaetter ;
                         mhg:actualizedIn mhg:AB_LyrischeSuite_2, mhg:AB_LyrischeSuite_3 ; 
                         rdfs:comment "in mvt. 2 only motivic: ms. 24-28 (Va.) and passim"@en ] .
 # ——— P-FORMEN ———
@@ -1061,23 +1061,23 @@ mhg:0_11_7_1_2_9_3_8_10_4_5_6 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
 mhg:1_0_8_2_3_10_4_9_11_5_6_7 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
 mhg:2_1_9_3_4_11_5_10_0_6_7_8 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
 mhg:3_2_10_4_5_0_6_11_1_7_8_9 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 ;
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
+    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blaetter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_3 ; 
                         rdfs:comment "as P" , "except Trio"@en ] .
 mhg:4_3_11_5_6_1_7_0_2_8_9_10 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
 mhg:5_4_0_6_7_2_8_1_3_9_10_11 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 ;
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
+    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blaetter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_3 ; 
                         rdfs:comment "as P" , "except Trio"@en ] .
 mhg:6_5_1_7_8_3_9_2_4_10_11_0 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
 mhg:7_6_2_8_9_4_10_3_5_11_0_1 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
 mhg:8_7_3_9_10_5_11_4_6_0_1_2 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 ;
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
+    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blaetter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_2, mhg:AB_LyrischeSuite_3 ; 
                         rdfs:comment "in mvt. 2 only motivic: ms. 24-28 (Va.) and passim"@en , "in mvt. 3 as P, except Trio"@en ] .
 mhg:9_8_4_10_11_6_0_5_7_1_2_3 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
 mhg:10_9_5_11_0_7_1_6_8_2_3_4 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 ;
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
+    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blaetter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_3 ; 
                         rdfs:comment "as P", "except Trio"@en ] .
 mhg:11_10_6_0_1_8_2_7_9_3_4_5 mhg:hasRowClass mhg:1_1_6_2_5_6_7_1_6_8_11 .
@@ -1408,7 +1408,7 @@ mhg:6_7_11_5_2_10_3_9_8_4_1_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_
 mhg:7_8_0_6_3_11_4_10_9_5_2_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
 mhg:8_9_1_7_4_0_5_11_10_6_3_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
 mhg:9_10_2_8_5_1_6_0_11_7_4_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
+    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blaetter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
                         rdfs:comment "as I", "only Trios"@en ].
 mhg:10_11_3_9_6_2_7_1_0_8_5_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
@@ -1418,43 +1418,43 @@ mhg:1_2_6_0_9_5_10_4_3_11_8_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_
 mhg:2_3_7_1_10_6_11_5_4_0_9_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
 mhg:3_4_8_2_11_7_0_6_5_1_10_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
 mhg:4_5_9_3_0_8_1_7_6_2_11_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
+    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blaetter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
                         rdfs:comment "as I", "only Trios"@en ].
 mhg:5_6_10_4_1_9_2_8_7_3_0_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
+    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blaetter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_6 ; 
                         rdfs:comment "as I"@en ].
 
 # ——— RI-FORMEN ———
 mhg:6_5_1_7_10_2_9_3_4_8_11_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
+    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blaetter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
                         rdfs:comment "as P", "only Trios"@en ].
 mhg:7_6_2_8_11_3_10_4_5_9_0_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
 mhg:8_7_3_9_0_4_11_5_6_10_1_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
 mhg:9_8_4_10_1_5_0_6_7_11_2_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
+    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blaetter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
                         rdfs:comment "as P", "only Trios"@en ].
 mhg:10_9_5_11_2_6_1_7_8_0_3_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
 mhg:11_10_6_0_3_7_2_8_9_1_4_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
 mhg:0_11_7_1_4_8_3_9_10_2_5_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
 mhg:1_0_8_2_5_9_4_10_11_3_6_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
+    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blaetter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
                         rdfs:comment "as P", "only Trios"@en ].
 mhg:2_1_9_3_6_10_5_11_0_4_7_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 .
 mhg:3_2_10_4_7_11_6_0_1_5_8_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
+    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blaetter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
                         rdfs:comment "as P", "only Trios"@en ].
 mhg:4_3_11_5_8_0_7_1_2_6_9_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
+    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blaetter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_5 ; 
                         rdfs:comment "as P", "only Trios"@en ].
 mhg:5_4_0_6_9_1_8_2_3_7_10_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_3_4_1_6_7_4_3_6_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
+    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blaetter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_6 ; 
                         rdfs:comment "as P"@en ].
 
@@ -1508,13 +1508,13 @@ mhg:11_0_4_7_9_2_8_3_1_10_6_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_
 mhg:0_11_7_4_2_9_3_8_10_1_5_6 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
 mhg:1_0_8_5_3_10_4_9_11_2_6_7 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
 mhg:2_1_9_6_4_11_5_10_0_3_7_8 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
+    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blaetter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_1 ; 
                         rdfs:comment "as P2"].
 mhg:3_2_10_7_5_0_6_11_1_4_8_9 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
 mhg:4_3_11_8_6_1_7_0_2_5_9_10 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
 mhg:5_4_0_9_7_2_8_1_3_6_10_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
+    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blaetter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_1 ; 
                         rdfs:comment "as P5" ] , 
                         [mhg:accordingTo <https://viva.pressbooks.pub/openmusictheory/chapter/anthology-twelve-tone/> ;
@@ -1522,13 +1522,13 @@ mhg:5_4_0_9_7_2_8_1_3_6_10_11 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_
 mhg:6_5_1_10_8_3_9_2_4_7_11_0 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
 mhg:7_6_2_11_9_4_10_3_5_8_0_1 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
 mhg:8_7_3_0_10_5_11_4_6_9_1_2 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
+    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blaetter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_1 ; 
                         rdfs:comment "as P8"].
 mhg:9_8_4_1_11_6_0_5_7_10_2_3 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
 mhg:10_9_5_2_0_7_1_6_8_11_3_4 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 .
 mhg:11_10_6_3_1_8_2_7_9_0_4_5 a mhg:rowForm ; mhg:hasRowClass mhg:1_4_3_2_5_6_7_10_9_8_11 ; 
-    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blätter ;
+    mhg:manifestedIn [ mhg:accordingTo mhg:AB_9Blaetter ;
                         mhg:manifestedIn mhg:AB_LyrischeSuite_1 ; 
                         rdfs:comment "as P11"].
 
