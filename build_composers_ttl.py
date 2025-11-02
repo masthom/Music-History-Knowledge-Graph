@@ -28,10 +28,18 @@ with open("output.json", "r", encoding="utf-8") as f:
 
 # Alle Komponisten und ihre Werke sammeln
 composer_works = {}
+
 for key, entry in data.items():
-    comp = entry["Composer"]
-    work = entry["Work"]
+    # Nur echte Werkeinträge mit Komponist und Werk verarbeiten
+    if not isinstance(entry, dict):
+        continue
+    if "Composer" not in entry or "Work" not in entry:
+        continue
+
+    comp = entry["Composer"].strip()
+    work = entry["Work"].strip()
     composer_works.setdefault(comp, []).append(work)
+
 
 # Bestehende TTL-Datei laden (für Prefixe etc.)
 with open("Composers.ttl", "r", encoding="utf-8") as f:
