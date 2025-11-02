@@ -110,26 +110,30 @@ for composer, works in sorted(composer_works.items()):
 
     birth, death = get_birth_death_from_wikidata(composer)
 
-if birth:
-    birth_line = f'schema:birthDate "{birth}" ;'
-else:
-    birth_line = '# schema:birthDate "YYYY-MM-DD" ;'
+    if birth:
+        birth_line = f'schema:birthDate "{birth}" ;'
+    else:
+        birth_line = '# schema:birthDate "YYYY-MM-DD" ;'
 
-if death:
-    death_line = f'schema:deathDate "{death}" ;'
-else:
-    death_line = '# schema:deathDate "YYYY-MM-DD" ;'
+    if death:
+        death_line = f'schema:deathDate "{death}" ;'
+    else:
+        death_line = '# schema:deathDate "YYYY-MM-DD" ;'
 
-block = f"""mhg:{safe} a mhg:composer ;
-    frbr:creatorOf {creators} ;
-    schema:name "{composer}" ;
-    {birth_line}
-    {death_line}
-    # schema:birthPlace "..." ;
-    # schema:sameAs <...> .
+    block = f"""mhg:{safe} a mhg:composer ;
+        frbr:creatorOf {creators} ;
+        schema:name "{composer}" ;
+        {birth_line}
+        {death_line}
+        # schema:birthPlace "..." ;
+        # schema:sameAs <...> .
 
-"""
-out_lines.append(block)
+    """
+    out_lines.append(block)
+
+for i, (composer, works) in enumerate(sorted(composer_works.items()), 1):
+    print(f"[{i}/{len(composer_works)}] {composer} ...")
+    ...
 
 print("Anzahl erzeugter Komponistenblöcke:", len(out_lines))
 
@@ -140,6 +144,8 @@ with open(out_file, "w", encoding="utf-8") as f:
     f.writelines(out_lines)
 
 print(f"✅ Datei erzeugt: {out_file} ({len(composer_works)} Komponisten)")
+print("Beispielauszug:\n", "".join(out_lines[:5]))
+
 
 
 
