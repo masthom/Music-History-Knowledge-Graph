@@ -14,7 +14,7 @@
 
 mhg:TheodorWAdorno a mhg:composer ;
         frbr:creatorOf mhg:TA_Totenlied_auf_den_Kater ;
-        schema:name "Adorno, Theodor W." ;
+        schema:name "Adorno, Theodor W." .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -22,7 +22,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:HansErichApostel a mhg:composer ;
         frbr:creatorOf mhg:HA_Fischerhaus_Serenade_Op_45 ;
-        schema:name "Apostel, Hans Erich" ;
+        schema:name "Apostel, Hans Erich" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -34,7 +34,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:DA_Evensong_Of_Love_and_Angels,
                    mhg:DA_From_the_Diary_of_Virginia_Woolf,
                    mhg:DA_Miss_Havisham_s_Wedding_Night ;
-        schema:name "Argento, Dominick" ;
+        schema:name "Argento, Dominick" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -42,7 +42,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:KurtAtterberg a mhg:composer ;
         frbr:creatorOf mhg:KA_Symphony_9_Bbm_Op_54_Sinfonia_visionaria ;
-        schema:name "Atterberg, Kurt" ;
+        schema:name "Atterberg, Kurt" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -83,7 +83,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:MB_Two_Sonnets_of_Gerard_Manley_Hopkins,
                    mhg:MB_Vision_and_Prayer,
                    mhg:MB_Woodwind_Quartet ;
-        schema:name "Babbitt, Milton" ;
+        schema:name "Babbitt, Milton" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -91,7 +91,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:JohannSebastianBach a mhg:composer ;
         frbr:creatorOf mhg:JB_Chromatische_Fantasie ;
-        schema:name "Bach, Johann Sebastian" ;
+        schema:name "Bach, Johann Sebastian" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -99,7 +99,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:ChristineBadger a mhg:composer ;
         frbr:creatorOf mhg:CB_aleatoric_row_at_17_14_Graz ;
-        schema:name "Badger, Christine" ;
+        schema:name "Badger, Christine" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -107,7 +107,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:DavidBaker a mhg:composer ;
         frbr:creatorOf mhg:DB_Status_Symbol_from_The_Black_Experience ;
-        schema:name "Baker, David" ;
+        schema:name "Baker, David" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -115,7 +115,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:SamuelBarber a mhg:composer ;
         frbr:creatorOf mhg:SB_Piano_Sonata_Op_26 ;
-        schema:name "Barber, Samuel" ;
+        schema:name "Barber, Samuel" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -125,7 +125,7 @@ mhg:TheodorWAdorno a mhg:composer ;
         frbr:creatorOf mhg:BB_String_Quartet_No_4,
                    mhg:BB_Violin_Concerto_No_2_mvt_1,
                    mhg:BB_Violin_Concerto_No_2_mvt_3 ;
-        schema:name "Bartók, Béla" ;
+        schema:name "Bartók, Béla" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -133,7 +133,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:NormaBeecroft a mhg:composer ;
         frbr:creatorOf mhg:NB_Improvvisazioni_Concertanti_No_1 ;
-        schema:name "Beecroft, Norma" ;
+        schema:name "Beecroft, Norma" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -142,7 +142,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:RichardRodneyBennett a mhg:composer ;
         frbr:creatorOf mhg:RB_Five_Studies_for_Piano,
                    mhg:RB_Symphony ;
-        schema:name "Bennett, Richard Rodney" ;
+        schema:name "Bennett, Richard Rodney" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -176,7 +176,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:AB_Schliesse_mir_die_Augen_Beide,
                    mhg:AB_Violin_Concerto,
                    mhg:AB_Wozzeck_Act_I_Scene_4_Passacaglia ;
-        schema:name "Berg, Alban" ;
+        schema:name "Berg, Alban" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -184,7 +184,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:ArthurBerger a mhg:composer ;
         frbr:creatorOf mhg:AB_Chamber_Music_for_Thirteen_Players ;
-        schema:name "Berger, Arthur" ;
+        schema:name "Berger, Arthur" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -194,7 +194,7 @@ mhg:TheodorWAdorno a mhg:composer ;
         frbr:creatorOf mhg:LB_Chamber_Music,
                    mhg:LB_Cinque_Variazioni,
                    mhg:LB_Sequenza_I ;
-        schema:name "Berio, Luciano" ;
+        schema:name "Berio, Luciano" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -203,7 +203,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:RainerBischof a mhg:composer ;
         frbr:creatorOf mhg:RB_Und_so_sink_ich_leise_in_mich_selbst_hinein_sterreichischer_Liederzyklus_f_r_Mezzosopran_und_Violine_Op_17,
                    mhg:RB_Sonatine_f_r_Klarinette_solo_Op_1 ;
-        schema:name "Bischof, Rainer" ;
+        schema:name "Bischof, Rainer" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -225,7 +225,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:PB_Pli_selon_pli,
                    mhg:PB_Sonatine,
                    mhg:PB_Structures_Ia ;
-        schema:name "Boulez, Pierre" ;
+        schema:name "Boulez, Pierre" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -234,7 +234,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:BenjaminBritten a mhg:composer ;
         frbr:creatorOf mhg:BB_Missa_Brevis_in_D_Op_63,
                    mhg:BB_The_Turn_of_the_Screw ;
-        schema:name "Britten, Benjamin" ;
+        schema:name "Britten, Benjamin" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -244,7 +244,7 @@ mhg:TheodorWAdorno a mhg:composer ;
         frbr:creatorOf mhg:JC_Sonata_for_Clarinet,
                    mhg:JC_Sonata_for_Clarinet_mvt_2,
                    mhg:JC_Two_pieces_for_Piano ;
-        schema:name "Cage, John" ;
+        schema:name "Cage, John" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -252,7 +252,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:JuanCarlos a mhg:composer ;
         frbr:creatorOf mhg:JC_Canciones_y_Baladas_Balada_II ;
-        schema:name "Carlos, Juan" ;
+        schema:name "Carlos, Juan" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -269,7 +269,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:EC_String_Quartet_No_2_sketch_3,
                    mhg:EC_String_Quartet_No_3,
                    mhg:EC_Variations_for_Orchestra_sketch ;
-        schema:name "Carter, Elliott" ;
+        schema:name "Carter, Elliott" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -277,7 +277,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:JohnColtrane a mhg:composer ;
         frbr:creatorOf mhg:JC_Miles_Mode ;
-        schema:name "Coltrane, John" ;
+        schema:name "Coltrane, John" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -289,7 +289,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:AC_Inscape_Row_2,
                    mhg:AC_Inscape_Y_form_or_Row_1,
                    mhg:AC_Piano_Fantasy ;
-        schema:name "Copland, Aaron" ;
+        schema:name "Copland, Aaron" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -302,7 +302,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:RC_Sonata_breve,
                    mhg:RC_Tres_mensajes_breves,
                    mhg:RC_Violin_Concerto_mvt_1_3 ;
-        schema:name "Cordero, Roque" ;
+        schema:name "Cordero, Roque" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -310,7 +310,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:GordonCrosse a mhg:composer ;
         frbr:creatorOf mhg:GC_Elegy_for_Small_Orchestra_Op_1 ;
-        schema:name "Crosse, Gordon" ;
+        schema:name "Crosse, Gordon" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -346,7 +346,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:LD_Tre_poemi,
                    mhg:LD_Ulisse_opera,
                    mhg:LD_Variazioni_per_orchestra ;
-        schema:name "Dallapiccola, Luigi" ;
+        schema:name "Dallapiccola, Luigi" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -355,7 +355,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:JohannNepomukDavid a mhg:composer ;
         frbr:creatorOf mhg:JD_Sonata_for_violin_Op_58_No_1,
                    mhg:JD_Symphony_No_8_Op_59 ;
-        schema:name "David, Johann Nepomuk" ;
+        schema:name "David, Johann Nepomuk" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -367,7 +367,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:PD_Five_Pieces_for_Piano_Op_2_No_1_second_row,
                    mhg:PD_Five_Pieces_for_Piano_Op_2_No_2,
                    mhg:PD_Sonata_for_Trumpet_and_Piano_Op_1 ;
-        schema:name "Davies, Peter Maxwell" ;
+        schema:name "Davies, Peter Maxwell" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -391,7 +391,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:ED_Sonata_for_Alto_Saxophone_and_Piano_mvt_3_row_A,
                    mhg:ED_Sonata_for_Alto_Saxophone_and_Piano_mvt_3_row_B,
                    mhg:ED_Variations ;
-        schema:name "Denisov, Edison" ;
+        schema:name "Denisov, Edison" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -400,7 +400,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:PaulDessau a mhg:composer ;
         frbr:creatorOf mhg:PD_Guernica_for_piano,
                    mhg:PD_Les_Voix ;
-        schema:name "Dessau, Paul" ;
+        schema:name "Dessau, Paul" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -409,7 +409,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:DavidDiamond a mhg:composer ;
         frbr:creatorOf mhg:DD_The_World_of_Paul_Klee_frame_I,
                    mhg:DD_The_World_of_Paul_Klee_frame_I_II ;
-        schema:name "Diamond, David" ;
+        schema:name "Diamond, David" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -417,7 +417,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:BillDobbins a mhg:composer ;
         frbr:creatorOf mhg:BD_Concerto_for_Jazz_Orchestra ;
-        schema:name "Dobbins, Bill" ;
+        schema:name "Dobbins, Bill" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -425,7 +425,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:DavidDzubay a mhg:composer ;
         frbr:creatorOf mhg:DD_Di_Con_ver_gence_sions ;
-        schema:name "Dzubay, David" ;
+        schema:name "Dzubay, David" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -433,7 +433,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:HelmutEder a mhg:composer ;
         frbr:creatorOf mhg:HE_Concerto_for_violin_and_orchestra_Op_32 ;
-        schema:name "Eder, Helmut" ;
+        schema:name "Eder, Helmut" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -478,7 +478,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:HE_Vierzehn_Arten_den_Regen_zu_beschreiben_Film_music_for_Regen,
                    mhg:HE_Zwei_Elegien_No_1_In_die_St_dte_kam_ich,
                    mhg:HE_Zwei_Elegien_No_2_An_die_berlebenden ;
-        schema:name "Eisler, Hanns" ;
+        schema:name "Eisler, Hanns" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -486,7 +486,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:IvanErd a mhg:composer ;
         frbr:creatorOf mhg:IE_Die_Seidenraupen ;
-        schema:name "Eröd, Ivan" ;
+        schema:name "Eröd, Ivan" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -495,7 +495,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:BillEvans a mhg:composer ;
         frbr:creatorOf mhg:BE_Twelve_Tone_Tune,
                    mhg:BE_Twelve_Tone_Tune_Two ;
-        schema:name "Evans, Bill" ;
+        schema:name "Evans, Bill" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -503,7 +503,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:MichelFano a mhg:composer ;
         frbr:creatorOf mhg:MF_Sonata_for_Two_Pianos ;
-        schema:name "Fano, Michel" ;
+        schema:name "Fano, Michel" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -511,7 +511,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:BrianFerneyhough a mhg:composer ;
         frbr:creatorOf mhg:BF_Superscriptio ;
-        schema:name "Ferneyhough, Brian" ;
+        schema:name "Ferneyhough, Brian" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -519,7 +519,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:IrvingFine a mhg:composer ;
         frbr:creatorOf mhg:IF_Fantasia_for_String_Trio ;
-        schema:name "Fine, Irving" ;
+        schema:name "Fine, Irving" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -529,7 +529,7 @@ mhg:TheodorWAdorno a mhg:composer ;
         frbr:creatorOf mhg:VF_Chaconne_for_piano,
                    mhg:VF_Four_Songs_No_1_The_Lover_in_Winter_Plaineth_For_The_Spring,
                    mhg:VF_Four_Songs_No_2_Comfort_To_A_Youth_That_Had_Lost_His_Love ;
-        schema:name "Fine, Vivian" ;
+        schema:name "Fine, Vivian" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -539,7 +539,7 @@ mhg:TheodorWAdorno a mhg:composer ;
         frbr:creatorOf mhg:RF_Concerto_for_Alto_Sax,
                    mhg:RF_Fantasy_in_Two_Movements_for_solo_violin,
                    mhg:RF_Sonata_Quasi_una_Fantasia ;
-        schema:name "Finney, Ross Lee" ;
+        schema:name "Finney, Ross Lee" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -574,7 +574,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:HF_Trigramme,
                    mhg:HF_Triptychon,
                    mhg:HF_Zw_lftonspiel_f_r_Streichquartett_3_Dezember_1965 ;
-        schema:name "Florey, Hans" ;
+        schema:name "Florey, Hans" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -582,7 +582,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:WolfgangFortner a mhg:composer ;
         frbr:creatorOf mhg:WF_Sieben_Elegien ;
-        schema:name "Fortner, Wolfgang" ;
+        schema:name "Fortner, Wolfgang" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -590,7 +590,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:BenjaminFrankel a mhg:composer ;
         frbr:creatorOf mhg:BF_The_Curse_of_the_Werewolf ;
-        schema:name "Frankel, Benjamin" ;
+        schema:name "Frankel, Benjamin" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -615,7 +615,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:RG_Symphony_No_2,
                    mhg:RG_The_Plague,
                    mhg:RG_Three_Impromptus ;
-        schema:name "Gerhard, Roberto" ;
+        schema:name "Gerhard, Roberto" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -623,7 +623,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:FlorianGeler a mhg:composer ;
         frbr:creatorOf mhg:FG_Die_Dinge_des_Lebens_Klavierquartett ;
-        schema:name "Geßler, Florian" ;
+        schema:name "Geßler, Florian" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -631,7 +631,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:MichaelGielen a mhg:composer ;
         frbr:creatorOf mhg:MG_Six_Songs_for_bass_violin_viola_clarinet_bass_clarinet_and_piano ;
-        schema:name "Gielen, Michael" ;
+        schema:name "Gielen, Michael" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -669,7 +669,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:AG_String_Quartet_No_2_Op_26,
                    mhg:AG_Turbae_ad_Passionem_Gregorianam_Op_43_mvt_II,
                    mhg:AG_Violin_Concerto_Op_30 ;
-        schema:name "Ginastera, Alberto" ;
+        schema:name "Ginastera, Alberto" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -680,7 +680,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:AG_Piano_Trio_Op_20,
                    mhg:AG_Sonata_in_One_Movement_Op_2,
                    mhg:AG_Violin_Concerto_Op_13 ;
-        schema:name "Goehr, Alexander" ;
+        schema:name "Goehr, Alexander" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -690,7 +690,7 @@ mhg:TheodorWAdorno a mhg:composer ;
         frbr:creatorOf mhg:KG_Opus_2_for_13_Instruments_aka_Nummer_2,
                    mhg:KG_Sonata_for_Two_Pianos_aka_Opus_1_Nummer_1,
                    mhg:KG_Violin_concerto_No_2 ;
-        schema:name "Goeyvaerts, Karel" ;
+        schema:name "Goeyvaerts, Karel" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -702,7 +702,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:MG_4x4x4x4_row_3,
                    mhg:MG_4x4x4x4_row_4,
                    mhg:MG_Move_On ;
-        schema:name "Gotham, Mark" ;
+        schema:name "Gotham, Mark" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -710,7 +710,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:PeterMichaelHamel a mhg:composer ;
         frbr:creatorOf mhg:PH_Klangspirale_f_r_13_Spieler_oder_drei_Orchestergruppen ;
-        schema:name "Hamel, Peter Michael" ;
+        schema:name "Hamel, Peter Michael" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -722,7 +722,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:LH_Suite_for_Piano,
                    mhg:LH_Symphony_on_G,
                    mhg:LH_Untitled_Piano_Piece ;
-        schema:name "Harrison, Lou" ;
+        schema:name "Harrison, Lou" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -730,7 +730,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:KarlAmadeusHartmann a mhg:composer ;
         frbr:creatorOf mhg:KH_Symphony_No_4 ;
-        schema:name "Hartmann, Karl Amadeus" ;
+        schema:name "Hartmann, Karl Amadeus" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -738,7 +738,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:JoseMatthiasHauer a mhg:composer ;
         frbr:creatorOf mhg:JH_XXXII_Zw_lftonspiel_f_r_Violine_Bratsche_und_Cello ;
-        schema:name "Hauer, Jose Matthias" ;
+        schema:name "Hauer, Jose Matthias" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1032,7 +1032,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:JH_Zw_lftonspiel_in_drei_Teilen_f_r_zwei_Violinen_Bratsche_und_Cello_31_Juli_1953,
                    mhg:JH_Zw_lftonspiel_Johann_Sebastian_Bach_hat_das_Wohltemperierte_Klavier_im_Himmel_vollendet,
                    mhg:JH_twelve_tone_row_example ;
-        schema:name "Hauer, Josef Matthias" ;
+        schema:name "Hauer, Josef Matthias" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1075,7 +1075,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:MH_aus_dem_Liederbuch_f_r_Annemarie_Zur_Nachbarin_Text_Herwig_von_Kreutzbruck_Op_56_2,
                    mhg:MH_aus_den_f_nf_Liedern_nach_Texten_von_Elisabeth_P_schl_Sonnenaufgang_f_r_Singstimme_und_Klavier_Op_44_1,
                    mhg:MH_aus_den_f_nf_Liedern_nach_Texten_von_Karl_Hans_Haysen_f_r_Singstimme_und_Klavier_Erkenntnis_Op_45_2 ;
-        schema:name "Hendler, Maximilian" ;
+        schema:name "Hendler, Maximilian" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1083,7 +1083,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:PaulHindemith a mhg:composer ;
         frbr:creatorOf mhg:PH_Ludus_Tonalis ;
-        schema:name "Hindemith, Paul" ;
+        schema:name "Hindemith, Paul" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1091,7 +1091,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:KlausHuber a mhg:composer ;
         frbr:creatorOf mhg:KH_Zwei_S_tze ;
-        schema:name "Huber, Klaus" ;
+        schema:name "Huber, Klaus" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1103,7 +1103,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:KH_Po_me_for_Viola_and_Chamber_Orchestra_mvt_1,
                    mhg:KH_Po_me_for_Viola_and_Chamber_Orchestra_mvt_2,
                    mhg:KH_Po_me_for_Viola_and_Chamber_Orchestra_mvt_3 ;
-        schema:name "Husa, Karel" ;
+        schema:name "Husa, Karel" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1111,7 +1111,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:YorkHller a mhg:composer ;
         frbr:creatorOf mhg:YH_Der_Meister_und_Margarita ;
-        schema:name "Höller, York" ;
+        schema:name "Höller, York" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1122,7 +1122,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:CI_String_Quartet_No_2_mvt_2,
                    mhg:CI_Tone_Roads_No_1,
                    mhg:CI_Tone_Roads_No_3 ;
-        schema:name "Ives, Charles" ;
+        schema:name "Ives, Charles" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1130,7 +1130,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:HannsJelinek a mhg:composer ;
         frbr:creatorOf mhg:HJ_Zw_lftonwerk_Op_15 ;
-        schema:name "Jelinek, Hanns" ;
+        schema:name "Jelinek, Hanns" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1139,7 +1139,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:BenJohnston a mhg:composer ;
         frbr:creatorOf mhg:BJ_String_Quartet_No_6,
                    mhg:BJ_String_Quartet_No_7_mov_2 ;
-        schema:name "Johnston, Ben" ;
+        schema:name "Johnston, Ben" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1147,7 +1147,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:JoachimJung a mhg:composer ;
         frbr:creatorOf mhg:JJ_ ;
-        schema:name "Jung, Joachim" ;
+        schema:name "Jung, Joachim" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1156,7 +1156,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:ErichItorKahn a mhg:composer ;
         frbr:creatorOf mhg:EK_Bagatelle_f_r_Rene_Leibowitz,
                    mhg:EK_Short_Piano_Piece ;
-        schema:name "Kahn, Erich Itor" ;
+        schema:name "Kahn, Erich Itor" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1164,7 +1164,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:GeorgiaKalodiki a mhg:composer ;
         frbr:creatorOf mhg:GK_Six_Sketches_for_piano ;
-        schema:name "Kalodiki, Georgia" ;
+        schema:name "Kalodiki, Georgia" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1173,7 +1173,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:FritzKlein a mhg:composer ;
         frbr:creatorOf mhg:FK_Die_Maschine_Eine_extonale_Selbstsatire_Op_1,
                    mhg:FK_Variations_for_Piano ;
-        schema:name "Klein, Fritz" ;
+        schema:name "Klein, Fritz" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1182,7 +1182,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:FritzHeinrichKlein a mhg:composer ;
         frbr:creatorOf mhg:FK_Die_Maschine_Eine_extonale_Selbstsatire_von_Heautontimorumenus_Op_1_Das_Maschinen_Thema,
                    mhg:FK_Variationen_Op_14 ;
-        schema:name "Klein, Fritz Heinrich" ;
+        schema:name "Klein, Fritz Heinrich" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1190,7 +1190,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:PaulvonKlenau a mhg:composer ;
         frbr:creatorOf mhg:PK_Elisabeth_von_England ;
-        schema:name "Klenau, Paul von" ;
+        schema:name "Klenau, Paul von" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1202,7 +1202,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:JK_Cello_Concerto_mov_2_row_II_C,
                    mhg:JK_Symphonic_Sketches_mov_3_row_III_A,
                    mhg:JK_Woodwind_Quintet_mov_1_rows_I_A_and_I_B ;
-        schema:name "Kokkonen, Joonas" ;
+        schema:name "Kokkonen, Joonas" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1210,7 +1210,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:KrenekKrenek a mhg:composer ;
         frbr:creatorOf mhg:KK_Monologue_for_Solo_Clarinet_Op_157 ;
-        schema:name "Krenek" ;
+        schema:name "Krenek" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1249,7 +1249,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:EK_Zw_lf_Variationen_in_Drei_S_tzen_Op_79,
                    mhg:EK_concert_for_organ_and_string_orchestra_Op_230,
                    mhg:EK_twelve_tone_row_in_a_display_case_of_Steinerner_Saal_in_the_Musikverein_of_Vienna ;
-        schema:name "Krenek, Ernst" ;
+        schema:name "Krenek, Ernst" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1258,7 +1258,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:FelicitasKukuck a mhg:composer ;
         frbr:creatorOf mhg:FK_Der_Gottesknecht_6_Kantate,
                    mhg:FK_Wo_bist_Du_Trost_motet ;
-        schema:name "Kukuck, Felicitas" ;
+        schema:name "Kukuck, Felicitas" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1266,7 +1266,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:GyrgyKurtg a mhg:composer ;
         frbr:creatorOf mhg:GK_The_Sayings_of_P_ter_Bornemisza_Op_7 ;
-        schema:name "Kurtág, György" ;
+        schema:name "Kurtág, György" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1274,7 +1274,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:HelmutLachenmann a mhg:composer ;
         frbr:creatorOf mhg:HL_Mouvement_vor_der_Erstarrung_f_r_Ensemble ;
-        schema:name "Lachenmann, Helmut" ;
+        schema:name "Lachenmann, Helmut" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1385,7 +1385,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:PL_Trauermusik_f_r_Fagott_Kontrafagott_und_Pauke,
                    mhg:PL_Vier_Klavierst_cke_1988,
                    mhg:PL_kgV_3_4_zweistimmiger_Kanon_f_r_Klavier ;
-        schema:name "Lackner, Peter" ;
+        schema:name "Lackner, Peter" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1398,7 +1398,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:BL_HIOB_Musiktheater_f_r_Orchester_Chor_und_Solisten,
                    mhg:BL_Hemma_Music_Theatre_Hemma_Klagenfurt_2015,
                    mhg:BL_Monadologie_XIII_a_The_Saucy_Maid ;
-        schema:name "Lang, Bernhard" ;
+        schema:name "Lang, Bernhard" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1406,7 +1406,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:KlausLang a mhg:composer ;
         frbr:creatorOf mhg:KL_Von_der_Ligurischen_K_ste_zum_Trasimenischen_See_Trauermusik_f_r_Violine_und_Klavier ;
-        schema:name "Lang, Klaus" ;
+        schema:name "Lang, Klaus" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1415,7 +1415,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:RenLeibowitz a mhg:composer ;
         frbr:creatorOf mhg:RL_String_Quartet_No_3_Op_26,
                    mhg:RL_Trois_pi_ces_pour_piano_Op_19 ;
-        schema:name "Leibowitz, René" ;
+        schema:name "Leibowitz, René" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1423,7 +1423,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:DavidLewin a mhg:composer ;
         frbr:creatorOf mhg:DL_Just_a_Minute_Roger ;
-        schema:name "Lewin, David" ;
+        schema:name "Lewin, David" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1431,7 +1431,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:BaoShuLi a mhg:composer ;
         frbr:creatorOf mhg:BL_Tr_umerei_of_Jiuzhai_Gou ;
-        schema:name "Li, Bao-Shu" ;
+        schema:name "Li, Bao-Shu" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1439,7 +1439,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:GyrgyLigeti a mhg:composer ;
         frbr:creatorOf mhg:GL_Le_Grand_Macabre ;
-        schema:name "Ligeti, György" ;
+        schema:name "Ligeti, György" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1447,7 +1447,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:FranzLiszt a mhg:composer ;
         frbr:creatorOf mhg:FL_Eine_Faust_Symphonie ;
-        schema:name "Liszt, Franz" ;
+        schema:name "Liszt, Franz" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1455,7 +1455,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:ShiLinLu a mhg:composer ;
         frbr:creatorOf mhg:SL_A_Family_of_Red_Crowned_Cranes ;
-        schema:name "Lu, Shi-Lin" ;
+        schema:name "Lu, Shi-Lin" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1463,7 +1463,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:YenLu a mhg:composer ;
         frbr:creatorOf mhg:YL_A_Bird_Flying_By ;
-        schema:name "Lu, Yen" ;
+        schema:name "Lu, Yen" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1486,7 +1486,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:ZL_Three_Piano_Pieces_Arabeque_row_1,
                    mhg:ZL_Three_Piano_Pieces_Arabeque_row_2,
                    mhg:ZL_Three_Piano_Pieces_Reverie ;
-        schema:name "Luo, Zhong-Rong" ;
+        schema:name "Luo, Zhong-Rong" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1494,7 +1494,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:WitoldLutosawski a mhg:composer ;
         frbr:creatorOf mhg:WL_Musique_Fun_bre_Funeral_Music ;
-        schema:name "Lutosławski, Witold" ;
+        schema:name "Lutosławski, Witold" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1514,7 +1514,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:EL_The_Valley_of_Hatsu_se,
                    mhg:EL_Three_Improvisations_for_Piano_Solo,
                    mhg:EL_Time_Off_Not_a_Ghost_of_a_Chance_Op_68 ;
-        schema:name "Lutyens, Elisabeth" ;
+        schema:name "Lutyens, Elisabeth" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1526,7 +1526,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:BM_Quartetto,
                    mhg:BM_Streichquartett_Basisreihe_1,
                    mhg:BM_Streichquartett_Basisreihe_2 ;
-        schema:name "Maderna, Bruno" ;
+        schema:name "Maderna, Bruno" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1538,7 +1538,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:UM_Panta_Rhei,
                    mhg:UM_Panta_Rhei_secondary_row_mvt_4_Piano,
                    mhg:UM_Variations_for_Solo_Flute_theme ;
-        schema:name "Mamlok, Ursula" ;
+        schema:name "Mamlok, Ursula" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1546,7 +1546,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:FrankMartin a mhg:composer ;
         frbr:creatorOf mhg:FM_Petite_complainte ;
-        schema:name "Martin, Frank" ;
+        schema:name "Martin, Frank" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1556,7 +1556,7 @@ mhg:TheodorWAdorno a mhg:composer ;
         frbr:creatorOf mhg:DM_Fantasy_Variations,
                    mhg:DM_Notturno_Row_A,
                    mhg:DM_Notturno_Row_B ;
-        schema:name "Martino, Donald" ;
+        schema:name "Martino, Donald" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1564,7 +1564,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:HauerJosefMatthias a mhg:composer ;
         frbr:creatorOf mhg:HM_Zw_lftonspiel_f_r_Holzbl_ser_Streicher_und_Klavier_April_1951 ;
-        schema:name "Matthias, Hauer Josef" ;
+        schema:name "Matthias, Hauer Josef" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1572,7 +1572,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:JosefMatthias a mhg:composer ;
         frbr:creatorOf mhg:JM_Salambo_Op_60 ;
-        schema:name "Matthias, Josef" ;
+        schema:name "Matthias, Josef" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1584,7 +1584,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:OM_Mode_de_valeurs_et_d_intensit_s_Series_1,
                    mhg:OM_Mode_de_valeurs_et_d_intensit_s_Series_3,
                    mhg:OM_Mode_de_valeurs_et_d_intensit_s_Series_2 ;
-        schema:name "Messiaen, Olivier" ;
+        schema:name "Messiaen, Olivier" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1592,7 +1592,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:JosefMittendorfer a mhg:composer ;
         frbr:creatorOf mhg:JM_aleatoric_row ;
-        schema:name "Mittendorfer, Josef" ;
+        schema:name "Mittendorfer, Josef" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1602,7 +1602,7 @@ mhg:TheodorWAdorno a mhg:composer ;
         frbr:creatorOf mhg:RM_Ludi_Praeteriti_Games_of_the_Past_for_two_pianos,
                    mhg:RM_Musica_da_Camera,
                    mhg:RM_Three_Pieces_for_violin_and_piano_mvt_II ;
-        schema:name "Moevs, Robert" ;
+        schema:name "Moevs, Robert" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1662,7 +1662,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:RM_Vignette,
                    mhg:RM_Zoe,
                    mhg:RM_gradually ;
-        schema:name "Morris, Robert" ;
+        schema:name "Morris, Robert" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1670,7 +1670,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:TheaMusgrave a mhg:composer ;
         frbr:creatorOf mhg:TM_Triptych_Song_1 ;
-        schema:name "Musgrave, Thea" ;
+        schema:name "Musgrave, Thea" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1678,7 +1678,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:JeffNichols a mhg:composer ;
         frbr:creatorOf mhg:JN_its_darkening_opposite_or_Set_Portrait_in_a_Convex_Mirror ;
-        schema:name "Nichols, Jeff" ;
+        schema:name "Nichols, Jeff" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1687,7 +1687,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:GerhardNierhaus a mhg:composer ;
         frbr:creatorOf mhg:GN_Achat_f_r_Streichorchester_bzw_Streichsextett_und_Orgel,
                    mhg:GN_Polg_f_r_Orchester ;
-        schema:name "Nierhaus, Gerhard" ;
+        schema:name "Nierhaus, Gerhard" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1716,7 +1716,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:LN_La_terra_e_la_compagna_sketch_Series_8,
                    mhg:LN_Sar_dolce_tacere,
                    mhg:LN_Variazioni_canoniche_sulla_serie_dell_Op_41_di_Arnold_Sch_nberg ;
-        schema:name "Nono, Luigi" ;
+        schema:name "Nono, Luigi" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1725,7 +1725,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:AndrzejPanufnik a mhg:composer ;
         frbr:creatorOf mhg:AP_Sinfonia_di_Sfere_Symphony_No_5_Chord_1,
                    mhg:AP_Sinfonia_di_Sfere_Symphony_No_5_Chord_2 ;
-        schema:name "Panufnik, Andrzej" ;
+        schema:name "Panufnik, Andrzej" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1733,7 +1733,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:DimitriPapageorgiou a mhg:composer ;
         frbr:creatorOf mhg:DP_Jarra_Jarra_for_six_block_flutes ;
-        schema:name "Papageorgiou, Dimitri" ;
+        schema:name "Papageorgiou, Dimitri" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1752,7 +1752,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:YP_Suite_YP,
                    mhg:YP_Suite_Basic_row,
                    mhg:YP_Symphony_No_3 ;
-        schema:name "Papaioannou, Yannis" ;
+        schema:name "Papaioannou, Yannis" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1760,7 +1760,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:AntonyPayne a mhg:composer ;
         frbr:creatorOf mhg:AP_Miniature_Variations_on_a_Theme_of_E_L ;
-        schema:name "Payne, Antony" ;
+        schema:name "Payne, Antony" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1768,7 +1768,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:BarbaraPentland a mhg:composer ;
         frbr:creatorOf mhg:BP_String_Quartet_No_3 ;
-        schema:name "Pentland, Barbara" ;
+        schema:name "Pentland, Barbara" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1776,7 +1776,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:GeorgePerle a mhg:composer ;
         frbr:creatorOf mhg:GP_First_string_quartet ;
-        schema:name "Perle, George" ;
+        schema:name "Perle, George" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1784,7 +1784,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:WalterPiston a mhg:composer ;
         frbr:creatorOf mhg:WP_Symphony_No_8 ;
-        schema:name "Piston, Walter" ;
+        schema:name "Piston, Walter" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1792,7 +1792,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:HenriPousseur a mhg:composer ;
         frbr:creatorOf mhg:HP_Trois_Chants_Sacr_s ;
-        schema:name "Pousseur, Henri" ;
+        schema:name "Pousseur, Henri" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1810,7 +1810,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:HP_Ithaka,
                    mhg:HP_N_N_50_Die_Zeremonie_des_Abschieds,
                    mhg:HP_N_N_59_oder_Der_Ortsverlasser_f_r_Cembalo_und_Orgelpositiv ;
-        schema:name "Preßl, Hermann Markus" ;
+        schema:name "Preßl, Hermann Markus" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1818,7 +1818,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:HerrmannMarkusPrel a mhg:composer ;
         frbr:creatorOf mhg:HP_Fier_Fafeln_f_r_Fier_Fiolen ;
-        schema:name "Preßl, Herrmann Markus" ;
+        schema:name "Preßl, Herrmann Markus" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1829,7 +1829,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:AP_Perpetuum_Mobile,
                    mhg:AP_Symphony_No_1,
                    mhg:AP_Symphony_No_2 ;
-        schema:name "Pärt, Arvo" ;
+        schema:name "Pärt, Arvo" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1837,7 +1837,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:RogerReynolds a mhg:composer ;
         frbr:creatorOf mhg:RR_Ambages ;
-        schema:name "Reynolds, Roger" ;
+        schema:name "Reynolds, Roger" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1845,7 +1845,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:SigridRiegebauer a mhg:composer ;
         frbr:creatorOf mhg:SR_Toccata ;
-        schema:name "Riegebauer, Sigrid" ;
+        schema:name "Riegebauer, Sigrid" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1853,7 +1853,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:ErnstChristianRinner a mhg:composer ;
         frbr:creatorOf mhg:ER_Missa_DO_SI_MI_LA ;
-        schema:name "Rinner, Ernst Christian" ;
+        schema:name "Rinner, Ernst Christian" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1864,7 +1864,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:GR_String_Quartet_No_2_with_soprano_solo,
                    mhg:GR_Symphony_No_2,
                    mhg:GR_Twelve_Bagatelles_i ;
-        schema:name "Rochberg, George" ;
+        schema:name "Rochberg, George" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1872,7 +1872,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:EricRoss a mhg:composer ;
         frbr:creatorOf mhg:ER_Sotto_Passaggio_Op_53 ;
-        schema:name "Ross, Eric" ;
+        schema:name "Ross, Eric" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1880,7 +1880,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:CarlRuggles a mhg:composer ;
         frbr:creatorOf mhg:CR_Evocations_II_Series_X ;
-        schema:name "Ruggles, Carl" ;
+        schema:name "Ruggles, Carl" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1889,7 +1889,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:HenrikSande a mhg:composer ;
         frbr:creatorOf mhg:HS_Volkslied_f_r_zwei_Singstimmen_und_Klavier_24_12_2015,
                    mhg:HS_4032_T_ne_f_r_Klavier_sechsh_ndig ;
-        schema:name "Sande, Henrik" ;
+        schema:name "Sande, Henrik" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1905,7 +1905,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:CS_Sonata_No_1,
                    mhg:CS_Sonata_1942,
                    mhg:CS_Sonatina_No_2 ;
-        schema:name "Santoro, Claudio" ;
+        schema:name "Santoro, Claudio" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1913,7 +1913,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:KarlSchiske a mhg:composer ;
         frbr:creatorOf mhg:KS_Symphony_No_4 ;
-        schema:name "Schiske, Karl" ;
+        schema:name "Schiske, Karl" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1921,7 +1921,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:UteSchlerath a mhg:composer ;
         frbr:creatorOf mhg:US_ ;
-        schema:name "Schlerath, Ute" ;
+        schema:name "Schlerath, Ute" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1931,7 +1931,7 @@ mhg:TheodorWAdorno a mhg:composer ;
         frbr:creatorOf mhg:ES_Bagatellen_for_Piano_Op_14,
                    mhg:ES_Canon_Herrn_Dr_Anton_Webern_in_Ehrfurcht_als_Willkommensgruss_gewidmet,
                    mhg:ES_Notturno_Op_10_mvt_1 ;
-        schema:name "Schmid, Erich" ;
+        schema:name "Schmid, Erich" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -1971,7 +1971,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:AS_Symphony_No_7_mvt_3_row_y,
                    mhg:AS_Viola_Concerto,
                    mhg:AS_Violin_Sonata_2 ;
-        schema:name "Schnittke, Alfred" ;
+        schema:name "Schnittke, Alfred" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2023,7 +2023,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:AS_Violin_Phantasy_Op_47,
                    mhg:AS_Von_Heute_Auf_Morgen_Op_32,
                    mhg:AS_Wind_Quintet_Op_26 ;
-        schema:name "Schoenberg, Arnold" ;
+        schema:name "Schoenberg, Arnold" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2031,7 +2031,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:RobertSchollum a mhg:composer ;
         frbr:creatorOf mhg:RS_Oktett_in_acht_skizzen_Op_63 ;
-        schema:name "Schollum, Robert" ;
+        schema:name "Schollum, Robert" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2039,7 +2039,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:ThomasSchreiner a mhg:composer ;
         frbr:creatorOf mhg:TS_St_ck_f_r_drei_Violinen ;
-        schema:name "Schreiner, Thomas" ;
+        schema:name "Schreiner, Thomas" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2047,7 +2047,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:GuntherSchuller a mhg:composer ;
         frbr:creatorOf mhg:GS_Transformation ;
-        schema:name "Schuller, Gunther" ;
+        schema:name "Schuller, Gunther" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2065,7 +2065,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:JS_Modus_Caelestis_m_39,
                    mhg:JS_Wild_Angels_of_the_Open_Hills_2_Angels_of_the_Shadowed_Ancient_Land_m_11,
                    mhg:JS_Wild_Angels_of_the_Open_Hills_2_Angels_of_the_Shadowed_Ancient_Land_m_21 ;
-        schema:name "Schwantner, Joseph" ;
+        schema:name "Schwantner, Joseph" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2073,7 +2073,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:HumphreySearle a mhg:composer ;
         frbr:creatorOf mhg:HS_Toccata_alla_Passacaglia_Op_31 ;
-        schema:name "Searle, Humphrey" ;
+        schema:name "Searle, Humphrey" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2085,7 +2085,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:MS_String_Quartet_No_2,
                    mhg:MS_String_Quartet_No_2_mvt_3,
                    mhg:MS_Ulysses ;
-        schema:name "Seiber, Mátyás" ;
+        schema:name "Seiber, Mátyás" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2094,7 +2094,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:JohannSengstschmid a mhg:composer ;
         frbr:creatorOf mhg:JS_Meditation_f_r_Orgel_Op_43a,
                    mhg:JS_Scherzo_f_r_Blockfl_tenquartett_Op_28 ;
-        schema:name "Sengstschmid, Johann" ;
+        schema:name "Sengstschmid, Johann" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2104,7 +2104,7 @@ mhg:TheodorWAdorno a mhg:composer ;
         frbr:creatorOf mhg:RS_Piano_Sonata_No_3_mvt_1,
                    mhg:RS_Piano_Sonata_No_3_mvt_2,
                    mhg:RS_When_Lilacs_Last_in_the_Dooryard_Bloom_d ;
-        schema:name "Sessions, Roger" ;
+        schema:name "Sessions, Roger" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2112,7 +2112,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:RalphShapey a mhg:composer ;
         frbr:creatorOf mhg:RS_String_Quartet_No_9 ;
-        schema:name "Shapey, Ralph" ;
+        schema:name "Shapey, Ralph" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2123,7 +2123,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:DS_String_Quartet_No_13_B_flat_minor_Op_138,
                    mhg:DS_Symphony_No_14_mov_I,
                    mhg:DS_Symphony_No_14_mov_III ;
-        schema:name "Shostakovich, Dmitri" ;
+        schema:name "Shostakovich, Dmitri" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2365,7 +2365,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:NS_No_909_Infra_Inter_Ultrapolation_Quinquetone_Progression_Equal_Division_of_Five_Octaves_into_Six_Parts,
                    mhg:NS_No_915_Miscellaneous_Patterns_Diatessaron_Progression_Equal_Division_of_Five_Octaves_into_Twelve_Parts,
                    mhg:NS_No_997_Infra_Interpolation_Diapente_Progression_Equal_Division_of_Seven_Octaves_into_Twelve_Parts ;
-        schema:name "Slonimsky, Nicholas" ;
+        schema:name "Slonimsky, Nicholas" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2374,7 +2374,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:HaleSmith a mhg:composer ;
         frbr:creatorOf mhg:HS_Contours_for_Orchestra,
                    mhg:HS_Evocation ;
-        schema:name "Smith, Hale" ;
+        schema:name "Smith, Hale" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2415,7 +2415,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:LS_Zwei_Lieder,
                    mhg:LS_Zwei_Lieder_Op_24,
                    mhg:LS_Zwei_kleine_St_cke_for_Violin_and_Piano ;
-        schema:name "Spinner, Leopold" ;
+        schema:name "Spinner, Leopold" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2423,7 +2423,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:OthmarSteinbauer a mhg:composer ;
         frbr:creatorOf mhg:OS_Violinsonate_No_1_Op_15 ;
-        schema:name "Steinbauer, Othmar" ;
+        schema:name "Steinbauer, Othmar" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2452,7 +2452,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:KS_Tierkreis_Leo,
                    mhg:KS_Tierkreis_Sagittarius,
                    mhg:KS_Tierkreis_Scorpio ;
-        schema:name "Stockhausen, Karlheinz" ;
+        schema:name "Stockhausen, Karlheinz" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2460,7 +2460,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:RichardStrauss a mhg:composer ;
         frbr:creatorOf mhg:RS_Also_sprach_Zarathustra_Op_30 ;
-        schema:name "Strauss, Richard" ;
+        schema:name "Strauss, Richard" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2486,7 +2486,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:IS_The_Owl_and_the_Pussy_Cat,
                    mhg:IS_Threni_id_est_lamentationes_Jeremiae_prophetae,
                    mhg:IS_Variations_Aldous_Huxley_in_Memoriam ;
-        schema:name "Stravinsky, Igor" ;
+        schema:name "Stravinsky, Igor" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2508,7 +2508,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:LT_Three_Bagatelles_Bagatelle_1,
                    mhg:LT_Three_Bagatelles_Bagatelle_2,
                    mhg:LT_Three_Bagatelles_Bagatelle_3 ;
-        schema:name "Talma, Louise" ;
+        schema:name "Talma, Louise" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2516,7 +2516,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:OrestisToufektsis a mhg:composer ;
         frbr:creatorOf mhg:OT_MIKRO_ALLAXI_EpiEnteka_II_f_r_15_Musiker ;
-        schema:name "Toufektsis, Orestis" ;
+        schema:name "Toufektsis, Orestis" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2536,7 +2536,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:PT_Twice_a_Kiss_sketch_1,
                    mhg:PT_Twice_a_Kiss_sketch_2,
                    mhg:PT_Twice_a_Kiss_sketch_3 ;
-        schema:name "Tranchell, Peter" ;
+        schema:name "Tranchell, Peter" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2544,7 +2544,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:ErichUrbanner a mhg:composer ;
         frbr:creatorOf mhg:EU_Adagio ;
-        schema:name "Urbanner, Erich" ;
+        schema:name "Urbanner, Erich" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2559,7 +2559,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:AV_Musica_Stricta_mvt_3_row_F,
                    mhg:AV_Musica_Stricta_mvt_4_row_G,
                    mhg:AV_Musica_Stricta_mvt_4_row_H ;
-        schema:name "Volkonsky, Andrei" ;
+        schema:name "Volkonsky, Andrei" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2567,7 +2567,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:GeorgeWalker a mhg:composer ;
         frbr:creatorOf mhg:GW_Spatials ;
-        schema:name "Walker, George" ;
+        schema:name "Walker, George" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2575,7 +2575,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:WilliamWalton a mhg:composer ;
         frbr:creatorOf mhg:WW_Symphony_No_2 ;
-        schema:name "Walton, William" ;
+        schema:name "Walton, William" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2584,7 +2584,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:JianZhongWang a mhg:composer ;
         frbr:creatorOf mhg:JW_Five_Pieces_for_Piano_no_1_Pastorale,
                    mhg:JW_Five_Pieces_for_Piano_no_1_Pastorale_variant ;
-        schema:name "Wang, Jian-Zhong" ;
+        schema:name "Wang, Jian-Zhong" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2592,7 +2592,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:XiLinWang a mhg:composer ;
         frbr:creatorOf mhg:XW_A_Dilapidated_Tombstone ;
-        schema:name "Wang, Xi-Lin" ;
+        schema:name "Wang, Xi-Lin" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2607,7 +2607,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:BW_Humoreske_Op_49,
                    mhg:BW_Intermezzo,
                    mhg:BW_Lyric_Piece_Op_40a ;
-        schema:name "Weber, Ben" ;
+        schema:name "Weber, Ben" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2638,7 +2638,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:AW_Three_Songs_on_Texts_by_Hildegard_Jone_Op_25,
                    mhg:AW_Variations_for_Orchestra_Op_30,
                    mhg:AW_Variations_for_Piano_Op_27 ;
-        schema:name "Webern, Anton" ;
+        schema:name "Webern, Anton" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2646,7 +2646,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:AdolphWeiss a mhg:composer ;
         frbr:creatorOf mhg:AW_Prelude_for_Piano_No_11 ;
-        schema:name "Weiss, Adolph" ;
+        schema:name "Weiss, Adolph" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2654,7 +2654,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:PeterWestergaard a mhg:composer ;
         frbr:creatorOf mhg:PW_Mr_and_Mrs_Discobbolos ;
-        schema:name "Westergaard, Peter" ;
+        schema:name "Westergaard, Peter" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2662,7 +2662,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:OllyWilson a mhg:composer ;
         frbr:creatorOf mhg:OW_Piece_for_Four ;
-        schema:name "Wilson, Olly" ;
+        schema:name "Wilson, Olly" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2683,7 +2683,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:SW_Four_Studies_on_Basic_Rows_No_4_Basic_Row_7,
                    mhg:SW_Four_Studies_on_Basic_Rows_No_4_Basic_Row_8,
                    mhg:SW_Four_Studies_on_Basic_Rows_No_4_Basic_Row_9 ;
-        schema:name "Wolpe, Stefan" ;
+        schema:name "Wolpe, Stefan" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2698,7 +2698,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:CW_Second_Sonata_Voice_3,
                    mhg:CW_Sonata_for_Piano,
                    mhg:CW_Third_Piano_Sonata ;
-        schema:name "Wuorinen, Charles" ;
+        schema:name "Wuorinen, Charles" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2708,7 +2708,7 @@ mhg:TheodorWAdorno a mhg:composer ;
         frbr:creatorOf mhg:CY_Near_Distance,
                    mhg:CY_Symphony_No_2,
                    mhg:CY_Woodwind_Quintet ;
-        schema:name "Yi, Chen" ;
+        schema:name "Yi, Chen" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2726,7 +2726,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:IY_Gasa,
                    mhg:IY_Piri_for_solo_oboe,
                    mhg:IY_Riul_f_r_Klarinette_und_Klavier ;
-        schema:name "Yun, Isang" ;
+        schema:name "Yun, Isang" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2735,7 +2735,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:FrankZappa a mhg:composer ;
         frbr:creatorOf mhg:FZ_Brown_Shoes_Don_t_Make_It,
                    mhg:FZ_Waltz ;
-        schema:name "Zappa, Frank" ;
+        schema:name "Zappa, Frank" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2748,7 +2748,7 @@ mhg:TheodorWAdorno a mhg:composer ;
                    mhg:LZ_Piano_Sonata_No_2_Op_4,
                    mhg:LZ_Piano_Sonata_Op_1,
                    mhg:LZ_Tr_nen_Op_5_No_4 ;
-        schema:name "Zenk, Ludwig" ;
+        schema:name "Zenk, Ludwig" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2756,7 +2756,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:JinMinZhou a mhg:composer ;
         frbr:creatorOf mhg:JZ_Piano_Quintet_Scherzo ;
-        schema:name "Zhou, Jin-Min" ;
+        schema:name "Zhou, Jin-Min" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2765,7 +2765,7 @@ mhg:TheodorWAdorno a mhg:composer ;
     mhg:WilfriedZillig a mhg:composer ;
         frbr:creatorOf mhg:WZ_Das_Opfer,
                    mhg:WZ_Die_Windsbraut ;
-        schema:name "Zillig, Wilfried" ;
+        schema:name "Zillig, Wilfried" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2773,7 +2773,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:BerndAloisZimmerman a mhg:composer ;
         frbr:creatorOf mhg:BZ_Perspektiven ;
-        schema:name "Zimmerman, Bernd Alois" ;
+        schema:name "Zimmerman, Bernd Alois" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2781,7 +2781,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:BerndAloisZimmermann a mhg:composer ;
         frbr:creatorOf mhg:BZ_Ich_wandte_mich_um_und_sah_alles_Unrecht_das_geschah_unter_der_Sonne ;
-        schema:name "Zimmermann, Bernd Alois" ;
+        schema:name "Zimmermann, Bernd Alois" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;
@@ -2789,7 +2789,7 @@ mhg:TheodorWAdorno a mhg:composer ;
 
     mhg:JosefMatthiashauer a mhg:composer ;
         frbr:creatorOf mhg:JH_Zw_lftonspiel_f_r_Oechester_28_9_1954 ;
-        schema:name "hauer, Josef Matthias" ;
+        schema:name "hauer, Josef Matthias" .
         # schema:birthDate "YYYY-MM-DD" ;
         # schema:deathDate "YYYY-MM-DD" ;
         # schema:birthPlace "..." ;

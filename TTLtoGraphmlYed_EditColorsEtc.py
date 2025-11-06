@@ -2,8 +2,8 @@ from rdflib import Graph, URIRef, Literal
 import xml.etree.ElementTree as ET
 
 # === Konfiguration ===
-input_ttl = "MusicHistoryGraph_TwelveToneMusic.ttl"
-output_graphml = "MHG_TwelveToneMusic_Yed_color.graphml"
+input_ttl = "rows_rowclasses7.ttl"
+output_graphml = "MHG_rows_rowclasses.color.graphml"
 
 # Farben pro RDF-Typ (add your own)
 type_colors = {
