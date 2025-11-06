@@ -4,7 +4,7 @@
 Erzeugt eine TTL-Datei aus output.json:
 Für jedes Intervallmuster mhg:xxx_yyy... wird ein Triple erzeugt:
 
-mhg:xxx_yyy... a mhg:RowClass ;
+mhg:xxx_yyy... a mhg:rowClass ;
     mhg:hasRowForm mhg:... , mhg:... , ... .
 
 Alle 48 möglichen Reihenformen pro Werk werden aufgelistet.
@@ -38,7 +38,7 @@ def write_rowclass_blocks(output_data, outfile):
 
         # Für jedes Intervallmuster in SortedIntervalPatterns
         for pattern in info["SortedIntervalPatterns"]:
-            block = f"{pattern} a mhg:RowClass ;\n" \
+            block = f"{pattern} a mhg:rowClass ;\n" \
                     f"    mhg:hasRowForm {joined_forms} .\n\n"
             lines.append(block)
 

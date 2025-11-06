@@ -97,7 +97,7 @@ for rc, info in sorted(rowclasses.items(), key=lambda x: x[0]):
     works_str = " ,\n        ".join(f"mhg:{w}" for w in sorted(info["works"]))
 
     # --- RowClass-Deklaration ---
-    lines.append(f"{rc} a mhg:RowClass ;")
+    lines.append(f"{rc} a mhg:rowClass ;")
     lines.append(f"    mhg:actualizedIn {works_str} ;")
     lines.append(f"    mhg:hasRowForm")
 

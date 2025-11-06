@@ -66,7 +66,7 @@ def generate_ttl_output(interval_pattern, prime_forms, inversion_forms, retrogra
     output.append(f"# I: {i_pattern}")
     output.append(f"# R: {r_pattern}")
     output.append(f"# RI: {ri_pattern}")
-    output.append(f"mhg:{p_pattern} a mhg:RowClass ;")
+    output.append(f"mhg:{p_pattern} a mhg:rowClass ;")
     output.append("    mhg:hasRowForm")
     
     # P-Forms
