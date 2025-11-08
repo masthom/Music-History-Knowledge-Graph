@@ -1,7 +1,0 @@
-@prefix mhg: <http://example.org/mhg#> .
-@prefix frbr: <http://purl.org/vocab/frbr/core#> .
-@prefix schema: <http://schema.org/> .
-
-mhg:theodorWiesengrundAdorno a mhg:composer ;
-    frbr:creatorOf mhg:Adorno_Totenlied_auf_den_Kater ;
-    schema:name "Adorno, Theodor W." .

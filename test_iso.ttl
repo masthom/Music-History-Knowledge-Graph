@@ -1,0 +1,6 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix mhg: <http://music-history-graph.ch/twelve-tone-onto#> .
+
+mhg:isoCountryCode rdfs:subPropertyOf dcterms:identifier ;
+    rdfs:label "ISO 3166-1 alpha-3 country code"@en .
