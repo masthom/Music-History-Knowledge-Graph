@@ -1,0 +1,40 @@
+=== KONSISTENZBERICHT ===
+
+❌ Fehlende 'frbr:creator'-Beziehungen:
+  - EK_SymphonicElegy (von ErnstKrenek) fehlt als frbr:creator
+  - EK_StudiesInCounterpoint (von ErnstKrenek) fehlt als frbr:creator
+  - HE_DeutscheSymphonie (von HannsEisler) fehlt als frbr:creator
+  - DieKompositionMitZwölfTönen (von JosefRufer) fehlt als frbr:creator
+
+⚠️  Mögliche Tippfehler / Schreibabweichungen:
+  - AB_9Blaetter ≈ AB_Kammerkonzert
+  - AW_Wege ≈ AB_Kammerkonzert
+  - EK_LamentatioJeremiae ≈ PB_Notations
+  - HE_14Arten ≈ AB_LyrischeSuite
+  - TWA_PdnM ≈ AB_DerWein
+
+❌ RowClasses mit ungültigem 'actualizedIn'-Ziel:
+  - n2c47b9cdd5654d23b775fb4ca75e4613b1 → AB_LyrischeSuite_3 (kein gültiges Werk)
+  - 1_1_6_2_5_6_7_1_6_8_11 → n2c47b9cdd5654d23b775fb4ca75e4613b1 (kein gültiges Werk)
+  - 1_3_4_1_6_7_4_3_6_8_11 → AB_LyrischeSuite_6 (kein gültiges Werk)
+  - 3_6_10_10_5_3_1_6_10_10_7 → n2c47b9cdd5654d23b775fb4ca75e4613b20 (kein gültiges Werk)
+  - 4_10_4_11_2_8_8_10_1_3_7 → AS_op23_5 (kein gültiges Werk)
+
+❌ RowForms mit ungültigem Ziel (RowClass oder Werk):
+  - 3_2_10_4_5_0_6_11_1_7_8_9 → AB_LyrischeSuite_3 (nicht vorhanden oder falscher Typ)
+  - 5_4_0_6_7_2_8_1_3_9_10_11 → AB_LyrischeSuite_3 (nicht vorhanden oder falscher Typ)
+  - 8_7_3_9_10_5_11_4_6_0_1_2 → AB_LyrischeSuite_3 (nicht vorhanden oder falscher Typ)
+  - 10_9_5_11_0_7_1_6_8_2_3_4 → AB_LyrischeSuite_3 (nicht vorhanden oder falscher Typ)
+  - 9_10_2_8_5_1_6_0_11_7_4_3 → AB_LyrischeSuite_5 (nicht vorhanden oder falscher Typ)
+  - 4_5_9_3_0_8_1_7_6_2_11_10 → AB_LyrischeSuite_5 (nicht vorhanden oder falscher Typ)
+  - 5_6_10_4_1_9_2_8_7_3_0_11 → AB_LyrischeSuite_6 (nicht vorhanden oder falscher Typ)
+  - 6_5_1_7_10_2_9_3_4_8_11_0 → AB_LyrischeSuite_5 (nicht vorhanden oder falscher Typ)
+  - 9_8_4_10_1_5_0_6_7_11_2_3 → AB_LyrischeSuite_5 (nicht vorhanden oder falscher Typ)
+  - 1_0_8_2_5_9_4_10_11_3_6_7 → AB_LyrischeSuite_5 (nicht vorhanden oder falscher Typ)
+  - 3_2_10_4_7_11_6_0_1_5_8_9 → AB_LyrischeSuite_5 (nicht vorhanden oder falscher Typ)
+  - 4_3_11_5_8_0_7_1_2_6_9_10 → AB_LyrischeSuite_5 (nicht vorhanden oder falscher Typ)
+  - 5_4_0_6_9_1_8_2_3_7_10_11 → AB_LyrischeSuite_6 (nicht vorhanden oder falscher Typ)
+  - 2_1_9_6_4_11_5_10_0_3_7_8 → AB_LyrischeSuite_1 (nicht vorhanden oder falscher Typ)
+  - 8_7_3_0_10_5_11_4_6_9_1_2 → AB_LyrischeSuite_1 (nicht vorhanden oder falscher Typ)
+  - 11_10_6_3_1_8_2_7_9_0_4_5 → AB_LyrischeSuite_1 (nicht vorhanden oder falscher Typ)
+  - 1_9_11_7_8_6_10_2_4_3_0_5 → AS_op23_5 (nicht vorhanden oder falscher Typ)
