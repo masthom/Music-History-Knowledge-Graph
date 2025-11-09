@@ -2,7 +2,7 @@ from rdflib import Graph, Namespace, RDF
 from difflib import SequenceMatcher
 
 # === Datei laden ===
-ttl_file = "MusicHistoryGraph_TwelveToneMusic_NEW.ttl"
+ttl_file = "MusicHistoryGraph_TwelveToneMusic_NORMALIZED_SAFE.ttl"
 
 # === Namespaces ===
 mhg = Namespace("http://music-history-graph.ch/twelve-tone-onto#")
