@@ -2,7 +2,7 @@ from rdflib import Graph, Namespace, RDF
 from difflib import SequenceMatcher
 
 # === Datei laden ===
-ttl_file = "merged.ttl"
+ttl_file = "merged2.ttl"
 
 # === Namespaces ===
 mhg = Namespace("http://music-history-graph.ch/twelve-tone-onto#")
