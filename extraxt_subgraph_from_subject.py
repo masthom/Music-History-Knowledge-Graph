@@ -4,8 +4,8 @@ from collections import deque
 # Datei und Format anpassen
 INPUT_FILE = "MusicHistoryGraph_TwelveToneMusic_Complete.ttl"
 OUTPUT_FILE = "subgraph_expanded.ttl"
-START_URI = "http://music-history-graph.ch/twelve-tone-onto#Berg_LyrischeSuite"
-DEPTH = 2  # Anzahl der Schritte (z. B. 1 = direkte Nachbarn, 2 = Nachbarn der Nachbarn, ...)
+START_URI = "http://music-history-graph.ch/twelve-tone-onto#AlbanBerg"  # Start-URI
+DEPTH = 1  # Anzahl der Schritte (z. B. 1 = direkte Nachbarn, 2 = Nachbarn der Nachbarn, ...)
 
 # Graph laden
 g = Graph()
