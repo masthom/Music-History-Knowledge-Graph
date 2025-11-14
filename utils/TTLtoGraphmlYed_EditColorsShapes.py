@@ -38,7 +38,7 @@ def estimate_size(label):
 
 # === Graph laden ===
 g = rdflib.Graph()
-g.parse("MusicHistoryGraph_TwelveToneMusic.ttl", format="turtle")
+g.parse("subgraph_expanded.ttl", format="turtle")
 print(f"Triples loaded: {len(g)}")
 
 # === GraphML-Grundstruktur ===

@@ -1,6 +1,6 @@
 from rdflib import Graph
 
-file = "Music-History-Knowledge-Graph/MusicHistoryGraph_TwelveToneMusic_Complete.ttl"
+file = "merged.ttl"
 
 print(f"🔍 Überprüfe Datei: {file}")
 

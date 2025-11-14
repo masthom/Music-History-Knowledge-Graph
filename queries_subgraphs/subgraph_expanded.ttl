@@ -1,0 +1,1104 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core/> .
+@prefix mhg: <http://music-history-graph.ch/twelve-tone-onto#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+mhg:10_11_1_7_0_9_2_8_5_6_3_4 mhg:manifestedIn mhg:Schoenberg_Suite_for_Piano_Op_25 .
+
+mhg:10_11_8_9_6_0_5_2_7_1_3_4 mhg:manifestedIn mhg:Schoenberg_Suite_for_Piano_Op_25 .
+
+mhg:10_9_0_11_2_8_3_6_1_7_5_4 mhg:manifestedIn mhg:Schoenberg_Suite_for_Piano_Op_25 .
+
+mhg:10_9_7_1_8_11_6_0_3_2_5_4 mhg:manifestedIn mhg:Schoenberg_Suite_for_Piano_Op_25 .
+
+mhg:1_10_11_11_11_11_11_9_2_11_10 mhg:actualizedIn mhg:Berg_Lulu .
+
+mhg:1_1_1_1_5_11_9_1_1_4_11 mhg:actualizedIn mhg:Webern_Kinderstück .
+
+mhg:1_1_3_11_11_6_1_8_1_1_3 mhg:actualizedIn mhg:Webern_3_Volkstexte_Heiland_Unsere_Missetaten_Op_17_No_3 .
+
+mhg:1_1_3_11_11_8_11_11_9_1_1 mhg:actualizedIn mhg:Webern_Op_32_un_finished_later_sketch .
+
+mhg:1_1_3_1_1_3_1_9_1_7_11 mhg:actualizedIn mhg:Webern_3_Volkstexte_Armer_Sunder_Du_Op_17_No_1 .
+
+mhg:1_1_4_11_6_11_9_1_1_7_11 mhg:actualizedIn mhg:Webern_3_Volkstexte_Liebste_Jungfrau_Op_17_No_2 .
+
+mhg:1_1_6_11_8_2_6_11_8_10_5 mhg:actualizedIn mhg:Berg_Kammerkonzert .
+
+mhg:1_1_8_1_8_8_5_8_1_4_9 mhg:actualizedIn mhg:Webern_Cantata_II_Op_31 .
+
+mhg:1_1_9_11_6_1_1_3_11_11_8 mhg:actualizedIn mhg:Webern_Klavierstück .
+
+mhg:1_2_5_8_5_1_9_11_11_6_3 mhg:actualizedIn mhg:Berg_Kammerkonzert .
+
+mhg:1_2_6_5_9_5_6_9_1_9_1 mhg:actualizedIn mhg:Schoenberg_Suite_for_Piano_Op_25 .
+
+mhg:1_3_10_1_3_3_8_5_9_1_3 mhg:actualizedIn mhg:Webern_Three_Songs_on_Texts_by_Hildegard_Jone_Op_25 .
+
+mhg:1_3_11_11_3_1_3_11_11_3_1 mhg:actualizedIn mhg:Webern_Variations_for_Orchestra_Op_30 .
+
+mhg:1_3_1_1_8_1_6_1_1_8_1 mhg:actualizedIn mhg:Webern_3_Lieder_Ave_Regina_Coelorum_Op_18_No_3 .
+
+mhg:1_4_3_2_5_6_7_10_9_8_11 mhg:actualizedIn mhg:Berg_SchliesseMirDieAugenBeide_2,
+        mhg:Klein_DieMaschine_op1,
+        mhg:Klein_Variationen_op14 .
+
+mhg:1_4_9_4_9_1_4_11_3_11_2 mhg:actualizedIn mhg:Webern_Das_Augenlicht_Op_26 .
+
+mhg:1_6_9_10_1_6_11_3_6_5_8 mhg:actualizedIn mhg:Webern_3_Lieder_Schatzerl_Klein_Op_18_No_1 .
+
+mhg:1_7_7_6_2_11_6_1_1_8_5 mhg:actualizedIn mhg:Berg_Lulu .
+
+mhg:1_8_11_8_1_10_4_11_5_11_4 mhg:actualizedIn mhg:Webern_Concerto_for_Nine_Instruments_Konzert_Op_24 .
+
+mhg:1_8_2_4_11_5_11_4_10_8_1 mhg:actualizedIn mhg:Webern_Op_32_un_finished_initial_sketch .
+
+mhg:1_8_2_9_2_6_1_1_8_1_4 mhg:actualizedIn mhg:Webern_Variations_for_Piano_Op_27 .
+
+mhg:1_9_1_8_11_3_11_8_1_9_1 mhg:actualizedIn mhg:Webern_String_Quartet_Op_28 .
+
+mhg:1_9_4_9_4_4_9_4_9_4_9 mhg:actualizedIn mhg:Webern_3_Lieder_Erlösung_Op_18_No_2 .
+
+mhg:2_1_2_2_1_3_5_2_4_11_4 mhg:actualizedIn mhg:Berg_Der_Wein .
+
+mhg:2_1_2_2_2_4_9_1_5_2_2 mhg:actualizedIn mhg:Berg_Lulu .
+
+mhg:2_2_2_3_4_4_3_3_4_4_3 mhg:actualizedIn mhg:Berg_Violin_Concerto .
+
+mhg:2_2_2_4_10_3_8_2_4_2_2 mhg:actualizedIn mhg:Berg_Lulu .
+
+mhg:2_2_4_2_7_1_3_6_4_4_2 mhg:actualizedIn mhg:Berg_Lulu .
+
+mhg:2_7_1_9_10_3_10_7_3_11_8 mhg:actualizedIn mhg:Berg_Lulu .
+
+mhg:2_9_11_8_3_8_8_6_9_4_7 mhg:actualizedIn mhg:Webern_Three_Songs_Op_23 .
+
+mhg:3_10_10_10_8_2_1_10_10_10_8 mhg:actualizedIn mhg:Schoenberg_Wind_Quintet_Op_26 .
+
+mhg:3_11_11_4_11_6_1_8_1_1_9 mhg:actualizedIn mhg:Webern_Symphony_Op_21 .
+
+mhg:3_1_6_9_7_11_7_1_9_5_6 mhg:actualizedIn mhg:Schoenberg_String_Quartet_No_3_Op_30 .
+
+mhg:3_1_9_1_8_11_11_11_10_6_7 mhg:actualizedIn mhg:Webern_Quartet_for_Violin_Clarinet_Tenor_Sax_And_Piano_Op_22 .
+
+mhg:3_2_11_7_10_1_4_5_11_2_5 mhg:actualizedIn mhg:Berg_Lulu .
+
+mhg:3_6_1_3_7_10_5_6_9_5_9 mhg:actualizedIn mhg:Berg_Lulu .
+
+mhg:3_8_11_10_6_11_5_1_9_5_8 mhg:actualizedIn mhg:Webern_2_Lieder_Weiss_Wie_Lilien_Op_19_No_1,
+        mhg:Webern_2_Lieder_Ziehn_Die_Schafe_Op_19_No_2 .
+
+mhg:4_10_5_2_9_2_3_4_10_4_5 mhg:actualizedIn mhg:Berg_Lulu .
+
+mhg:4_11_4_1_3_11_3_8_8_1_8 mhg:actualizedIn mhg:Schoenberg_Suite_Op_29 .
+
+mhg:4_3_1_7_2_5_0_6_9_8_11_10 mhg:manifestedIn mhg:Schoenberg_Suite_for_Piano_Op_25 .
+
+mhg:4_3_6_5_8_2_9_0_7_1_11_10 mhg:manifestedIn mhg:Schoenberg_Suite_for_Piano_Op_25 .
+
+mhg:4_3_7_3_6_7_2_5_9_11_6 mhg:actualizedIn mhg:Berg_Lulu .
+
+mhg:4_5_2_3_0_6_11_8_1_7_9_10 mhg:manifestedIn mhg:Schoenberg_Suite_for_Piano_Op_25 .
+
+mhg:4_9_1_8_1_9_1_8_1_9_4 mhg:actualizedIn mhg:Webern_Cantata_I_Op_29 .
+
+mhg:5_4_1_6_3_11_5_2_1_6_7 mhg:actualizedIn mhg:Berg_Lulu .
+
+mhg:5_9_2_7_10_10_3_10_7_3_7 mhg:actualizedIn mhg:Berg_Lulu .
+
+mhg:5_9_8_3_6_1_10_5_5_5_6 mhg:actualizedIn mhg:Berg_Lulu .
+
+mhg:ErnstKrenek schema:birthPlace wd:Q1741 .
+
+mhg:ErwinStein schema:birthPlace wd:Q1741 .
+
+mhg:HansErichApostel schema:deathPlace wd:Q1741 .
+
+mhg:JosefMatthiasHauer schema:deathPlace wd:Q1741 .
+
+mhg:JosefRufer mhg:pupilOf mhg:ArnoldSchoenberg ;
+    schema:birthPlace wd:Q1741 .
+
+mhg:Schoenberg_Four_Pieces_for_Mixed_Chorus_No_2_Op_27_No_2 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Four_Pieces_for_Mixed_Chorus_No_3_Op_27_No_3 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Four_Pieces_for_Mixed_Chorus_No_4_Op_27_No_4 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Six_Pieces_for_Male_Chorus_No_1_Op_35 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Six_Pieces_for_Male_Chorus_No_2_Op_35 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Six_Pieces_for_Male_Chorus_No_3_Op_35 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Six_Pieces_for_Male_Chorus_No_5_Op_35 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Three_Satires_for_Mixed_Chorus_No_3_Op_28_No_3 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Three_Songs_No_1_Sommermüd_Op_48 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Three_Songs_No_2_Tot_Op_48 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Three_Songs_No_3_Mädchenlied_Op_48 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Two_Piano_Pieces_No_1_Op_33a frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Two_Piano_Pieces_No_2_Op_33b frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:0_11_6_5_10_9_1_2_7_8_4_3 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:0_11_7_8_1_2_6_5_10_9_4_3 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:0_1_5_4_11_10_6_7_2_3_8_9 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:0_1_6_7_2_3_11_10_5_4_8_9 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:10_11_3_2_9_8_4_5_0_1_6_7 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:10_11_4_5_0_1_9_8_3_2_6_7 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:10_9_4_3_8_7_11_0_5_6_2_1 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:10_9_5_6_11_0_4_3_8_7_2_1 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:11_0_4_3_10_9_5_6_1_2_7_8 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:11_0_5_6_1_2_10_9_4_3_7_8 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:11_10_5_4_9_8_0_1_6_7_3_2 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:11_10_6_7_0_1_5_4_9_8_3_2 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:1_0_7_6_11_10_2_3_8_9_5_4 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:1_0_8_9_2_3_7_6_11_10_5_4 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:1_2_6_5_0_11_7_8_3_4_9_10 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:1_2_7_8_3_4_0_11_6_5_9_10 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:2_1_8_7_0_11_3_4_9_10_6_5 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:2_1_9_10_3_4_8_7_0_11_6_5 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:2_3_7_6_1_0_8_9_4_5_10_11 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:2_3_8_9_4_5_1_0_7_6_10_11 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:3_2_10_11_4_5_9_8_1_0_7_6 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:3_2_9_8_1_0_4_5_10_11_7_6 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:3_4_8_7_2_1_9_10_5_6_11_0 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:3_4_9_10_5_6_2_1_8_7_11_0 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:4_3_10_9_2_1_5_6_11_0_8_7 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:4_3_11_0_5_6_10_9_2_1_8_7 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:4_5_10_11_6_7_3_2_9_8_0_1 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:4_5_9_8_3_2_10_11_6_7_0_1 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:5_4_0_1_6_7_11_10_3_2_9_8 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:5_4_11_10_3_2_6_7_0_1_9_8 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:5_6_10_9_4_3_11_0_7_8_1_2 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:5_6_11_0_7_8_4_3_10_9_1_2 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:6_5_0_11_4_3_7_8_1_2_10_9 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:6_5_1_2_7_8_0_11_4_3_10_9 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:6_7_0_1_8_9_5_4_11_10_2_3 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:6_7_11_10_5_4_0_1_8_9_2_3 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:7_6_1_0_5_4_8_9_2_3_11_10 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:7_6_2_3_8_9_1_0_5_4_11_10 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:7_8_0_11_6_5_1_2_9_10_3_4 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:7_8_1_2_9_10_6_5_0_11_3_4 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:8_7_2_1_6_5_9_10_3_4_0_11 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 ;
+    mhg:manifestedIn [ mhg:manifestedIn mhg:Webern_String_Trio_Op_20 ] .
+
+mhg:8_7_3_4_9_10_2_1_6_5_0_11 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:8_9_1_0_7_6_2_3_10_11_4_5 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:8_9_2_3_10_11_7_6_1_0_4_5 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:9_10_2_1_8_7_3_4_11_0_5_6 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:9_10_3_4_11_0_8_7_2_1_5_6 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:9_8_3_2_7_6_10_11_4_5_1_0 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:9_8_4_5_10_11_3_2_7_6_1_0 mhg:hasRowClass mhg:1_4_11_7_11_8_1_7_1_5_1 .
+
+mhg:Berg_LyrischeSuite rdfs:label "Lyrische Suite"@de,
+        "Lyric Suite"@en ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AlbanBerg ;
+    frbr:hasCreationDate "1926"^^xsd:gYear ;
+    frbr:hasPart mhg:Berg_LyrischeSuite_1,
+        mhg:Berg_LyrischeSuite_2,
+        mhg:Berg_LyrischeSuite_3,
+        mhg:Berg_LyrischeSuite_5,
+        mhg:Berg_LyrischeSuite_6 ;
+    schema:sameAs wd:Q2355101 .
+
+mhg:Eisler_An_den_Schlaf frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Chamber_Symphony_Film_music_for_White_Flood_row_1 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Chamber_Symphony_Film_music_for_White_Flood_row_2 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Der_Zweck_der_Musik frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Deutsche_Symphonie_mvt_4 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Deutsche_Symphonie_mvt_5 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Deutsche_Symphonie_mvt_7 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Deutsche_Symphonie_mvt_8 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Deutsche_Symphonie_mvt_9 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Deutsche_Symphonie_mvts_1_10 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Deutsche_Symphonie_mvts_2_6 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Five_Pieces_for_Orchestra_mvt_1 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Five_Pieces_for_Orchestra_mvt_2 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Five_Pieces_for_Orchestra_mvt_3 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Five_Pieces_for_Orchestra_mvt_4 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Five_Pieces_for_Orchestra_mvt_5 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Gegen_den_Krieg_Op_55 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Kleine_Symphonie_Op_29_mvt_1 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Man_lebt_von_einem_Tage_zu_dem_andern_Kantate_im_Exil frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Nonet_No_1_Film_music_for_The_Living_Land frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Palmström_Op_5_No_2 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Palmström_Op_5_No_4 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Palmström_Op_5_No_5 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Praeludium_und_Fuge_über_B_A_C_H_for_String_Trio_Op_46 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Sonata_for_Piano_No_2_in_Form_von_Variationen_Op_6_row_variant_1 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Sonata_for_Piano_No_2_in_Form_von_Variationen_Op_6_row_variant_2 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Sonata_for_Piano_No_2_in_Form_von_Variationen_Op_6_row_variant_3 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Sonata_for_Piano_No_2_in_Form_von_Variationen_Op_6_row_variant_4 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Sonata_for_Piano_No_2_in_Form_von_Variationen_Op_6_row_variant_5 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Sonata_for_violin_and_piano_Reisesonate frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Sonatina_for_Piano_Gradus_ad_parnassum_Op_44 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Spruch_for_voice_and_piano frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_String_Quartet frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Suite_for_Orchestra_No_1_mvt_4 frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Variations_for_Piano frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Vierzehn_Arten_den_Regen_zu_beschreiben_Film_music_for_Regen frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Zwei_Elegien_No_1_In_die_Städte_kam_ich frbr:creator mhg:HannsEisler .
+
+mhg:Eisler_Zwei_Elegien_No_2_An_die_Überlebenden frbr:creator mhg:HannsEisler .
+
+mhg:Klein_Variationen_op14 rdfs:label "Variationen, Op. 14"@de ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:FritzHeinrichKlein .
+
+mhg:Schoenberg_A_Survivor_From_Warsaw_Op_46 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Accompaniment_to_a_Film_Scene_Op_34 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Die_Jakobsleiter frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Fantasy_for_Piano_Four_Hands_I frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Fantasy_for_Piano_Four_Hands_II_fragment frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Fantasy_for_Violin_and_Piano_Op_47 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Five_Piano_Pieces_Op_23 rdfs:label "Fünf Klavierstücke, Op. 23"@de,
+        "Five Piano Pieces, Op. 23"@en ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:ArnoldSchoenberg ;
+    frbr:hasCreationDate "1920-1923" ;
+    frbr:hasPart mhg:Schoenberg_Five_Piano_Pieces_Op_23_1,
+        mhg:Schoenberg_Five_Piano_Pieces_Op_23_2,
+        mhg:Schoenberg_Five_Piano_Pieces_Op_23_3,
+        mhg:Schoenberg_Five_Piano_Pieces_Op_23_4,
+        mhg:Schoenberg_Five_Piano_Pieces_Op_23_5 ;
+    schema:sameAs wd:Q2972899 .
+
+mhg:Schoenberg_Four_Pieces_for_Mixed_Chorus_No_1_Op_27_No_1 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Israel_Exists_Again frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Modern_Psalms_The_First_Psalm_Op_50c frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Moses_und_Aron frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Ode_To_Napoleon_Buonaparte_Op_41 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Piano_Concerto_Op_42 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Prelude_To_A_Suite_From_Genesis_Op_44 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Psalm_130_De_Profundis_unfinished_Op_50B frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Serenade_mvt_4_Sonett_Op_24 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Serenade_mvt_5_Tanzscene_Op_24 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Serenade_op_24 rdfs:label "Serenade, Op. 24"@de,
+        "Serenade, Op. 24"@en ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:ArnoldSchoenberg ;
+    frbr:hasCreationDate "1920/1923"^^xsd:string ;
+    frbr:hasPart mhg:Schoenberg_Serenade_mvt_4_Sonett_Op_24,
+        mhg:Schoenberg_Serenade_mvt_5_Tanzscene_Op_24 .
+
+mhg:Schoenberg_Sonata_For_Organ frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_String_Quartet_No_4_Op_37 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_String_Trio_Op_45 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Three_Satires_for_Mixed_Chorus_No_1_Op_28_No_1 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Three_Times_a_Thousand_Years_Op_50a frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Variations_for_Orchestra_Op_31 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Violin_Concerto_Op_36 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_Von_Heute_Auf_Morgen_Op_32 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_op27 rdfs:label "Vier Stücke, Op. 27"@de,
+        "Four Pieces, Op. 27"@en ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:ArnoldSchoenberg ;
+    frbr:hasCreationDate "1925"^^xsd:gYear ;
+    frbr:hasPart mhg:Schoenberg_Four_Pieces_for_Mixed_Chorus_No_1_Op_27_No_1,
+        mhg:Schoenberg_Four_Pieces_for_Mixed_Chorus_No_1_Op_27_No_2,
+        mhg:Schoenberg_Four_Pieces_for_Mixed_Chorus_No_1_Op_27_No_3,
+        mhg:Schoenberg_Four_Pieces_for_Mixed_Chorus_No_1_Op_27_No_4 .
+
+mhg:Schoenberg_op28 rdfs:label "Drei Satiren, Op. 28"@de,
+        "Three Satires, Op. 28"@en ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:ArnoldSchoenberg ;
+    frbr:hasCreationDate "1925/1926"^^xsd:string ;
+    frbr:hasPart mhg:Schoenberg_Three_Satires_for_Mixed_Chorus_No_1_Op_28_No_1,
+        mhg:Schoenberg_Three_Satires_for_Mixed_Chorus_No_1_Op_28_No_3 .
+
+mhg:Schoenberg_op33 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_op35 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_op38 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_op39 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_op40 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_op43a frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_op43b frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_op48 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Schoenberg_op49 frbr:creator mhg:ArnoldSchoenberg .
+
+mhg:Spinner_Cantata_Op_11 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Chamber_Symphony_Op_28 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Concert_for_Piano_and_Orchestra_Op_4 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Concerto_for_Orchestra_Op_12 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Die_Nacht_Op_29 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Drei_Lieder_Op_15 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Drei_Lieder_Op_16 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Fantasy_for_Piano_Op_9 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Fünf_Lieder_Op_25 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Fünf_Lieder_Op_8 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Ich_lieb_eine_Blume_for_Four_part_mixed_Choir frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Inventions_for_Piano_Op_13 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Lieder_for_Voice_Clarinet_Violin_and_Cello frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Ouverture_for_Orchestra frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Ouverture_for_Orchestra_Op_5 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Prelude_and_Variations_for_Orchestra_Op_18 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Quintet_Op_14 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Ricercata_Op_21 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Schilflieder_Op_27 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Sonata_for_Clarinet_and_Piano_Op_17 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Sonata_for_Piano_Op_3 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Sonata_for_Violin_and_Piano_Op_1 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Sonatina_for_Cello_and_Piano_Op_26 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Sonatina_for_Piano_Op_22 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Sonatina_for_Wind_Instruments_Op_23 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_String_Quartet_No_2_Op_7 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_String_Quartet_Op_2 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Suite_for_Clarinet_and_Piano_Op_10 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Trio_for_Clarinet_Cello_and_Piano frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Trio_for_Violin_Cello_and_Piano_Op_6 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Variations_for_Violin_and_Piano_Op_19 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Zwei_Lieder frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Zwei_Lieder_Op_24 frbr:creator mhg:LeopoldSpinner .
+
+mhg:Spinner_Zwei_kleine_Stücke_for_Violin_and_Piano frbr:creator mhg:LeopoldSpinner .
+
+mhg:Webern_Drei_Lieder_op18 rdfs:label "Drei Lieder"@de ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1925"^^xsd:gYear ;
+    frbr:hasPart mhg:Webern_3_Lieder_Ave_Regina_Coelorum_Op_18_No_3,
+        mhg:Webern_3_Lieder_Erlösung_Op_18_No_2,
+        mhg:Webern_3_Lieder_Schatzerl_Klein_Op_18_No_1 .
+
+mhg:Webern_Drei_Volkstexte_op17 rdfs:label "Drei Volkstexte"@de ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:hasCreationDate "1924-25" ;
+    frbr:hasPart mhg:Webern_3_Volkstexte_Armer_Sunder_Du_Op_17_No_1,
+        mhg:Webern_3_Volkstexte_Heiland_Unsere_Missetaten_Op_17_No_3,
+        mhg:Webern_3_Volkstexte_Liebste_Jungfrau_Op_17_No_2 .
+
+mhg:Webern_Zwei_Lieder_op19 rdfs:label "Zwei Lieder"@de ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1925-26" ;
+    frbr:hasPart mhg:Webern_2_Lieder_Weiss_Wie_Lilien_Op_19_No_1,
+        mhg:Webern_2_Lieder_Ziehn_Die_Schafe_Op_19_No_2 .
+
+mhg:Zenk_Abend_in_Lans_Op_3_No_2 frbr:creator mhg:LudwigZenk .
+
+mhg:Zenk_Adagio_for_Orchestra frbr:creator mhg:LudwigZenk .
+
+mhg:Zenk_An_einen_Springbrunnnen_Op_6_No_1 frbr:creator mhg:LudwigZenk .
+
+mhg:Zenk_Piano_Sonata_No_2_Op_4 frbr:creator mhg:LudwigZenk .
+
+mhg:Zenk_Piano_Sonata_Op_1 frbr:creator mhg:LudwigZenk .
+
+mhg:Zenk_Tränen_Op_5_No_4 frbr:creator mhg:LudwigZenk .
+
+mhg:FritzHeinrichKlein mhg:pupilOf mhg:ArnoldSchoenberg ;
+    frbr:creatorOf mhg:Klein_DieMaschine_op1 .
+
+mhg:Klein_DieMaschine_op1 rdfs:label "Die Maschine, Op. 1"@de ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:FritzHeinrichKlein ;
+    frbr:hasCreationDate "1921"^^xsd:gYear .
+
+mhg:Berg_Der_Wein rdfs:label "Der Wein – Konzertarie für Sopran und Orchester"@de ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AlbanBerg ;
+    frbr:hasCreationDate "1929"^^xsd:gYear ;
+    schema:sameAs wd:Q5261245 .
+
+mhg:Berg_SchliesseMirDieAugenBeide_2 rdfs:label "Schließe mir die Augen beide (Version 2 1925)"@de ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AlbanBerg ;
+    frbr:hasCreationDate "1925"^^xsd:string .
+
+mhg:Berg_Violin_Concerto rdfs:label "Violinkonzert"@de ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AlbanBerg ;
+    frbr:hasCreationDate "1935"^^xsd:gYear ;
+    schema:sameAs wd:Q25786 .
+
+mhg:Schoenberg_String_Quartet_No_3_Op_30 rdfs:label "Streichquartett Nr. 3, Op. 30"@de,
+        "String Quartet No. 3, Op. 30"@en ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:ArnoldSchoenberg ;
+    frbr:hasCreationDate "1927"^^xsd:gYear .
+
+mhg:Schoenberg_Suite_Op_29 rdfs:label "Suite (für Septett), Op. 29"@de,
+        "Suite for Septet, Op. 29"@en ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:ArnoldSchoenberg ;
+    frbr:hasCreationDate "1924-1926"^^xsd:string .
+
+mhg:Schoenberg_Wind_Quintet_Op_26 rdfs:label "Bläserquintett, Op. 26"@de,
+        "Wind Quintet, Op. 26"@en ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:ArnoldSchoenberg ;
+    frbr:hasCreationDate "1923-1924"^^xsd:string .
+
+mhg:Webern_2_Lieder_Weiss_Wie_Lilien_Op_19_No_1 frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1925-26" .
+
+mhg:Webern_2_Lieder_Ziehn_Die_Schafe_Op_19_No_2 frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1925-26" .
+
+mhg:Webern_3_Lieder_Ave_Regina_Coelorum_Op_18_No_3 frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1925" .
+
+mhg:Webern_3_Lieder_Erlösung_Op_18_No_2 frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1925" .
+
+mhg:Webern_3_Lieder_Schatzerl_Klein_Op_18_No_1 frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1925" .
+
+mhg:Webern_3_Volkstexte_Armer_Sunder_Du_Op_17_No_1 frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1924-25" .
+
+mhg:Webern_3_Volkstexte_Heiland_Unsere_Missetaten_Op_17_No_3 frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1925" .
+
+mhg:Webern_3_Volkstexte_Liebste_Jungfrau_Op_17_No_2 frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1924-25" .
+
+mhg:Webern_Cantata_II_Op_31 rdfs:label "Zweite Kantate"@de ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1941-43" ;
+    frbr:hasPart mhg:Webern_op31_1,
+        mhg:Webern_op31_2,
+        mhg:Webern_op31_3,
+        mhg:Webern_op31_4,
+        mhg:Webern_op31_5,
+        mhg:Webern_op31_6 .
+
+mhg:Webern_Concerto_for_Nine_Instruments_Konzert_Op_24 rdfs:label "Konzert (Concerto for Nine Instruments)"@de,
+        "Concerto for Nine Instruments, Op. 24"@en ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1931-1934"^^xsd:string ;
+    schema:sameAs wd:Q2991796 .
+
+mhg:Webern_Das_Augenlicht_Op_26 rdfs:label "Das Augenlicht"@de ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1935"^^xsd:gYear .
+
+mhg:Webern_Kinderstück frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1924" .
+
+mhg:Webern_Klavierstück frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1925" .
+
+mhg:Webern_Op_32_un_finished_initial_sketch frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1945" .
+
+mhg:Webern_Op_32_un_finished_later_sketch frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1945" .
+
+mhg:Webern_Quartet_for_Violin_Clarinet_Tenor_Sax_And_Piano_Op_22 rdfs:label "Quartett"@de ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1928-1930"^^xsd:string .
+
+mhg:Webern_String_Trio_Op_20 rdfs:label "Streichtrio"@de ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1926-1927"^^xsd:string .
+
+mhg:Webern_Three_Songs_Op_23 rdfs:label "Drei Lieder aus 'viae inviae'"@de ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1933-34" ;
+    frbr:hasPart mhg:Webern_op23_1,
+        mhg:Webern_op23_2,
+        mhg:Webern_op23_3 .
+
+mhg:Webern_Three_Songs_on_Texts_by_Hildegard_Jone_Op_25 rdfs:label "Drei Lieder (Hildegard Jone)"@de ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1934"^^xsd:gYear ;
+    frbr:hasPart mhg:Webern_op25_1,
+        mhg:Webern_op25_2,
+        mhg:Webern_op25_3 .
+
+mhg:Webern_Variations_for_Piano_Op_27 rdfs:label "Variationen für Klavier"@de,
+        "Variations for Piano, Op. 27"@en ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1935-1936"^^xsd:string .
+
+mhg:Webern_Cantata_I_Op_29 rdfs:label "Erste Kantate"@de ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1938-1940"^^xsd:string ;
+    frbr:hasPart mhg:Webern_op29_1,
+        mhg:Webern_op29_2,
+        mhg:Webern_op29_3 .
+
+mhg:Webern_String_Quartet_Op_28 rdfs:label "Streichquartett"@de,
+        "String Quartet, Op. 28"@en ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1936-1938"^^xsd:string .
+
+mhg:Webern_Symphony_Op_21 rdfs:label "Symphonie"@de,
+        "Symphony, Op. 21"@en ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1927-1928"^^xsd:string ;
+    schema:sameAs wd:Q3507606 .
+
+mhg:Webern_Variations_for_Orchestra_Op_30 rdfs:label "Variationen für Orchester"@de,
+        "Variations for Orchestra, Op. 30"@en ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AntonWebern ;
+    frbr:hasCreationDate "1940"^^xsd:gYear .
+
+mhg:Berg_Kammerkonzert rdfs:label "Kammerkonzert für Klavier, Geige mit 13 Bläsern"@de,
+        "Chamber Concerto for Piano and Violin with 13 winds"@en ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AlbanBerg ;
+    frbr:hasCreationDate "1923-1925"^^xsd:string ;
+    schema:sameAs wd:Q3192460 .
+
+mhg:AlbanBerg mhg:pupilOf mhg:ArnoldSchoenberg ;
+    frbr:creatorOf mhg:Berg_Der_Wein,
+        mhg:Berg_Kammerkonzert,
+        mhg:Berg_Lulu,
+        mhg:Berg_LyrischeSuite,
+        mhg:Berg_SchliesseMirDieAugenBeide_2,
+        mhg:Berg_Violin_Concerto ;
+    schema:birthPlace wd:Q1741 ;
+    schema:deathPlace wd:Q1741 .
+
+mhg:LudwigZenk mhg:pupilOf mhg:AntonWebern ;
+    frbr:creatorOf mhg:Zenk_Abend_in_Lans_Op_3_No_2,
+        mhg:Zenk_Adagio_for_Orchestra,
+        mhg:Zenk_An_einen_Springbrunnnen_Op_6_No_1,
+        mhg:Zenk_Piano_Sonata_No_2_Op_4,
+        mhg:Zenk_Piano_Sonata_Op_1,
+        mhg:Zenk_Tränen_Op_5_No_4 ;
+    schema:birthDate "1891-05-01"^^xsd:date ;
+    schema:birthPlace wd:Q1741 ;
+    schema:deathDate "1941-04-01"^^xsd:date ;
+    schema:deathPlace wd:Q1741 ;
+    schema:name "Zenk, Ludwig" ;
+    schema:sameAs wd:Q26804631,
+        <https://musiklexikon.ac.at/ml/musik_Z/Zenk_Ludwig.xml> .
+
+mhg:Schoenberg_Suite_for_Piano_Op_25 rdfs:label "Suite für Klavier, Op. 25"@de,
+        "Suite for Piano, Op. 25"@en ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:ArnoldSchoenberg ;
+    frbr:hasCreationDate "1921-1923"^^xsd:string ;
+    frbr:hasPart mhg:Schoenberg_op25_1,
+        mhg:Schoenberg_op25_2,
+        mhg:Schoenberg_op25_3,
+        mhg:Schoenberg_op25_4,
+        mhg:Schoenberg_op25_5 .
+
+mhg:Berg_Lulu rdfs:label "Lulu – Oper in 3 Akten"@de ;
+    mhg:isoCountryCode "AUT" ;
+    dcterms:spatial wd:Q40 ;
+    frbr:creator mhg:AlbanBerg ;
+    frbr:hasCreationDate "1927-1935"^^xsd:string ;
+    schema:sameAs wd:Q837545 .
+
+mhg:AntonWebern mhg:pupilOf mhg:ArnoldSchoenberg ;
+    frbr:creatorOf mhg:Webern_Cantata_II_Op_31,
+        mhg:Webern_Cantata_I_Op_29,
+        mhg:Webern_Concerto_for_Nine_Instruments_Konzert_Op_24,
+        mhg:Webern_Das_Augenlicht_Op_26,
+        mhg:Webern_Drei_Lieder_op18,
+        mhg:Webern_Drei_Volkstexte_op17,
+        mhg:Webern_Kinderstück,
+        mhg:Webern_Klavierstück,
+        mhg:Webern_Op_32_un_finished_initial_sketch,
+        mhg:Webern_Op_32_un_finished_later_sketch,
+        mhg:Webern_Quartet_for_Violin_Clarinet_Tenor_Sax_And_Piano_Op_22,
+        mhg:Webern_String_Quartet_Op_28,
+        mhg:Webern_String_Trio_Op_20,
+        mhg:Webern_Symphony_Op_21,
+        mhg:Webern_Three_Songs_Op_23,
+        mhg:Webern_Three_Songs_on_Texts_by_Hildegard_Jone_Op_25,
+        mhg:Webern_Variations_for_Orchestra_Op_30,
+        mhg:Webern_Variations_for_Piano_Op_27,
+        mhg:Webern_Wege,
+        mhg:Webern_Zwei_Lieder_op19 ;
+    schema:birthDate "1883-12-03"^^xsd:date ;
+    schema:birthPlace wd:Q1741 ;
+    schema:deathDate "1945-09-15"^^xsd:date ;
+    schema:deathPlace wd:Q257244 ;
+    schema:name "Webern, Anton" ;
+    schema:sameAs wd:Q190933,
+        <https://de.wikipedia.org/wiki/Anton_Webern>,
+        <https://en.wikipedia.org/wiki/Anton_Webern> .
+
+mhg:LeopoldSpinner mhg:pupilOf mhg:AntonWebern,
+        mhg:ArnoldSchoenberg ;
+    frbr:creatorOf mhg:Spinner_Cantata_Op_11,
+        mhg:Spinner_Chamber_Symphony_Op_28,
+        mhg:Spinner_Concert_for_Piano_and_Orchestra_Op_4,
+        mhg:Spinner_Concerto_for_Orchestra_Op_12,
+        mhg:Spinner_Die_Nacht_Op_29,
+        mhg:Spinner_Drei_Lieder_Op_15,
+        mhg:Spinner_Drei_Lieder_Op_16,
+        mhg:Spinner_Fantasy_for_Piano_Op_9,
+        mhg:Spinner_Fünf_Lieder_Op_25,
+        mhg:Spinner_Fünf_Lieder_Op_8,
+        mhg:Spinner_Ich_lieb_eine_Blume_for_Four_part_mixed_Choir,
+        mhg:Spinner_Inventions_for_Piano_Op_13,
+        mhg:Spinner_Lieder_for_Voice_Clarinet_Violin_and_Cello,
+        mhg:Spinner_Ouverture_for_Orchestra,
+        mhg:Spinner_Ouverture_for_Orchestra_Op_5,
+        mhg:Spinner_Prelude_and_Variations_for_Orchestra_Op_18,
+        mhg:Spinner_Quintet_Op_14,
+        mhg:Spinner_Ricercata_Op_21,
+        mhg:Spinner_Schilflieder_Op_27,
+        mhg:Spinner_Sonata_for_Clarinet_and_Piano_Op_17,
+        mhg:Spinner_Sonata_for_Piano_Op_3,
+        mhg:Spinner_Sonata_for_Violin_and_Piano_Op_1,
+        mhg:Spinner_Sonatina_for_Cello_and_Piano_Op_26,
+        mhg:Spinner_Sonatina_for_Piano_Op_22,
+        mhg:Spinner_Sonatina_for_Wind_Instruments_Op_23,
+        mhg:Spinner_String_Quartet_No_2_Op_7,
+        mhg:Spinner_String_Quartet_Op_2,
+        mhg:Spinner_Suite_for_Clarinet_and_Piano_Op_10,
+        mhg:Spinner_Trio_for_Clarinet_Cello_and_Piano,
+        mhg:Spinner_Trio_for_Violin_Cello_and_Piano_Op_6,
+        mhg:Spinner_Variations_for_Violin_and_Piano_Op_19,
+        mhg:Spinner_Zwei_Lieder,
+        mhg:Spinner_Zwei_Lieder_Op_24,
+        mhg:Spinner_Zwei_kleine_Stücke_for_Violin_and_Piano ;
+    schema:birthDate "1906-03-26"^^xsd:date ;
+    schema:birthPlace wd:Q36036 ;
+    schema:deathDate "1980-12-12"^^xsd:date ;
+    schema:deathPlace wd:Q84 ;
+    schema:name "Spinner, Leopold" ;
+    schema:sameAs wd:Q214729,
+        <https://de.wikipedia.org/wiki/Leopold_Spinner>,
+        <https://en.wikipedia.org/wiki/Leopold_Spinner> .
+
+mhg:HannsEisler mhg:pupilOf mhg:AntonWebern,
+        mhg:ArnoldSchoenberg ;
+    frbr:creatorOf mhg:Eisler_An_den_Schlaf,
+        mhg:Eisler_Chamber_Symphony_Film_music_for_White_Flood_row_1,
+        mhg:Eisler_Chamber_Symphony_Film_music_for_White_Flood_row_2,
+        mhg:Eisler_Der_Zweck_der_Musik,
+        mhg:Eisler_Deutsche_Symphonie_mvt_4,
+        mhg:Eisler_Deutsche_Symphonie_mvt_5,
+        mhg:Eisler_Deutsche_Symphonie_mvt_7,
+        mhg:Eisler_Deutsche_Symphonie_mvt_8,
+        mhg:Eisler_Deutsche_Symphonie_mvt_9,
+        mhg:Eisler_Deutsche_Symphonie_mvts_1_10,
+        mhg:Eisler_Deutsche_Symphonie_mvts_2_6,
+        mhg:Eisler_Five_Pieces_for_Orchestra_mvt_1,
+        mhg:Eisler_Five_Pieces_for_Orchestra_mvt_2,
+        mhg:Eisler_Five_Pieces_for_Orchestra_mvt_3,
+        mhg:Eisler_Five_Pieces_for_Orchestra_mvt_4,
+        mhg:Eisler_Five_Pieces_for_Orchestra_mvt_5,
+        mhg:Eisler_Gegen_den_Krieg_Op_55,
+        mhg:Eisler_Kleine_Symphonie_Op_29_mvt_1,
+        mhg:Eisler_Man_lebt_von_einem_Tage_zu_dem_andern_Kantate_im_Exil,
+        mhg:Eisler_Nonet_No_1_Film_music_for_The_Living_Land,
+        mhg:Eisler_Palmström_Op_5_No_2,
+        mhg:Eisler_Palmström_Op_5_No_4,
+        mhg:Eisler_Palmström_Op_5_No_5,
+        mhg:Eisler_Praeludium_und_Fuge_über_B_A_C_H_for_String_Trio_Op_46,
+        mhg:Eisler_Sonata_for_Piano_No_2_in_Form_von_Variationen_Op_6_row_variant_1,
+        mhg:Eisler_Sonata_for_Piano_No_2_in_Form_von_Variationen_Op_6_row_variant_2,
+        mhg:Eisler_Sonata_for_Piano_No_2_in_Form_von_Variationen_Op_6_row_variant_3,
+        mhg:Eisler_Sonata_for_Piano_No_2_in_Form_von_Variationen_Op_6_row_variant_4,
+        mhg:Eisler_Sonata_for_Piano_No_2_in_Form_von_Variationen_Op_6_row_variant_5,
+        mhg:Eisler_Sonata_for_violin_and_piano_Reisesonate,
+        mhg:Eisler_Sonatina_for_Piano_Gradus_ad_parnassum_Op_44,
+        mhg:Eisler_Spruch_for_voice_and_piano,
+        mhg:Eisler_String_Quartet,
+        mhg:Eisler_Suite_for_Orchestra_No_1_mvt_4,
+        mhg:Eisler_Variations_for_Piano,
+        mhg:Eisler_Vierzehn_Arten_den_Regen_zu_beschreiben_Film_music_for_Regen,
+        mhg:Eisler_Zwei_Elegien_No_1_In_die_Städte_kam_ich,
+        mhg:Eisler_Zwei_Elegien_No_2_An_die_Überlebenden ;
+    schema:birthDate "1898-07-06"^^xsd:date ;
+    schema:birthPlace wd:Q2079 ;
+    schema:deathDate "1962-09-06"^^xsd:date ;
+    schema:deathPlace wd:Q56037 ;
+    schema:name "Eisler, Hanns" ;
+    schema:sameAs wd:Q78704,
+        <https://de.wikipedia.org/wiki/Hanns_Eisler>,
+        <https://en.wikipedia.org/wiki/Hanns_Eisler> .
+
+mhg:1_4_11_7_11_8_1_7_1_5_1 mhg:actualizedIn mhg:Webern_String_Trio_Op_20 ;
+    mhg:hasRowForm mhg:0_11_6_5_10_9_1_2_7_8_4_3,
+        mhg:0_11_7_8_1_2_6_5_10_9_4_3,
+        mhg:0_1_5_4_11_10_6_7_2_3_8_9,
+        mhg:0_1_6_7_2_3_11_10_5_4_8_9,
+        mhg:10_11_3_2_9_8_4_5_0_1_6_7,
+        mhg:10_11_4_5_0_1_9_8_3_2_6_7,
+        mhg:10_9_4_3_8_7_11_0_5_6_2_1,
+        mhg:10_9_5_6_11_0_4_3_8_7_2_1,
+        mhg:11_0_4_3_10_9_5_6_1_2_7_8,
+        mhg:11_0_5_6_1_2_10_9_4_3_7_8,
+        mhg:11_10_5_4_9_8_0_1_6_7_3_2,
+        mhg:11_10_6_7_0_1_5_4_9_8_3_2,
+        mhg:1_0_7_6_11_10_2_3_8_9_5_4,
+        mhg:1_0_8_9_2_3_7_6_11_10_5_4,
+        mhg:1_2_6_5_0_11_7_8_3_4_9_10,
+        mhg:1_2_7_8_3_4_0_11_6_5_9_10,
+        mhg:2_1_8_7_0_11_3_4_9_10_6_5,
+        mhg:2_1_9_10_3_4_8_7_0_11_6_5,
+        mhg:2_3_7_6_1_0_8_9_4_5_10_11,
+        mhg:2_3_8_9_4_5_1_0_7_6_10_11,
+        mhg:3_2_10_11_4_5_9_8_1_0_7_6,
+        mhg:3_2_9_8_1_0_4_5_10_11_7_6,
+        mhg:3_4_8_7_2_1_9_10_5_6_11_0,
+        mhg:3_4_9_10_5_6_2_1_8_7_11_0,
+        mhg:4_3_10_9_2_1_5_6_11_0_8_7,
+        mhg:4_3_11_0_5_6_10_9_2_1_8_7,
+        mhg:4_5_10_11_6_7_3_2_9_8_0_1,
+        mhg:4_5_9_8_3_2_10_11_6_7_0_1,
+        mhg:5_4_0_1_6_7_11_10_3_2_9_8,
+        mhg:5_4_11_10_3_2_6_7_0_1_9_8,
+        mhg:5_6_10_9_4_3_11_0_7_8_1_2,
+        mhg:5_6_11_0_7_8_4_3_10_9_1_2,
+        mhg:6_5_0_11_4_3_7_8_1_2_10_9,
+        mhg:6_5_1_2_7_8_0_11_4_3_10_9,
+        mhg:6_7_0_1_8_9_5_4_11_10_2_3,
+        mhg:6_7_11_10_5_4_0_1_8_9_2_3,
+        mhg:7_6_1_0_5_4_8_9_2_3_11_10,
+        mhg:7_6_2_3_8_9_1_0_5_4_11_10,
+        mhg:7_8_0_11_6_5_1_2_9_10_3_4,
+        mhg:7_8_1_2_9_10_6_5_0_11_3_4,
+        mhg:8_7_2_1_6_5_9_10_3_4_0_11,
+        mhg:8_7_3_4_9_10_2_1_6_5_0_11,
+        mhg:8_9_1_0_7_6_2_3_10_11_4_5,
+        mhg:8_9_2_3_10_11_7_6_1_0_4_5,
+        mhg:9_10_2_1_8_7_3_4_11_0_5_6,
+        mhg:9_10_3_4_11_0_8_7_2_1_5_6,
+        mhg:9_8_3_2_7_6_10_11_4_5_1_0,
+        mhg:9_8_4_5_10_11_3_2_7_6_1_0 .
+
+mhg:ArnoldSchoenberg frbr:creatorOf mhg:Schoenberg_A_Survivor_From_Warsaw_Op_46,
+        mhg:Schoenberg_Accompaniment_to_a_Film_Scene_Op_34,
+        mhg:Schoenberg_Die_Jakobsleiter,
+        mhg:Schoenberg_Fantasy_for_Piano_Four_Hands_I,
+        mhg:Schoenberg_Fantasy_for_Piano_Four_Hands_II_fragment,
+        mhg:Schoenberg_Fantasy_for_Violin_and_Piano_Op_47,
+        mhg:Schoenberg_Five_Piano_Pieces_Op_23,
+        mhg:Schoenberg_Israel_Exists_Again,
+        mhg:Schoenberg_Modern_Psalms_The_First_Psalm_Op_50c,
+        mhg:Schoenberg_Moses_und_Aron,
+        mhg:Schoenberg_Ode_To_Napoleon_Buonaparte_Op_41,
+        mhg:Schoenberg_Piano_Concerto_Op_42,
+        mhg:Schoenberg_Prelude_To_A_Suite_From_Genesis_Op_44,
+        mhg:Schoenberg_Psalm_130_De_Profundis_unfinished_Op_50B,
+        mhg:Schoenberg_Serenade_op_24,
+        mhg:Schoenberg_Sonata_For_Organ,
+        mhg:Schoenberg_String_Quartet_No_3_Op_30,
+        mhg:Schoenberg_String_Quartet_No_4_Op_37,
+        mhg:Schoenberg_String_Trio_Op_45,
+        mhg:Schoenberg_Suite_Op_29,
+        mhg:Schoenberg_Suite_for_Piano_Op_25,
+        mhg:Schoenberg_Three_Times_a_Thousand_Years_Op_50a,
+        mhg:Schoenberg_Variations_for_Orchestra_Op_31,
+        mhg:Schoenberg_Violin_Concerto_Op_36,
+        mhg:Schoenberg_Von_Heute_Auf_Morgen_Op_32,
+        mhg:Schoenberg_Wind_Quintet_Op_26,
+        mhg:Schoenberg_op27,
+        mhg:Schoenberg_op28,
+        mhg:Schoenberg_op33,
+        mhg:Schoenberg_op35,
+        mhg:Schoenberg_op38,
+        mhg:Schoenberg_op39,
+        mhg:Schoenberg_op40,
+        mhg:Schoenberg_op43a,
+        mhg:Schoenberg_op43b,
+        mhg:Schoenberg_op48,
+        mhg:Schoenberg_op49 ;
+    schema:birthDate "1874-09-13"^^xsd:date ;
+    schema:birthPlace wd:Q1741 ;
+    schema:deathDate "1951-07-13"^^xsd:date ;
+    schema:deathPlace wd:Q65 ;
+    schema:name "Schoenberg, Arnold" ;
+    schema:sameAs wd:Q154770,
+        <https://de.wikipedia.org/wiki/Arnold_Sch%C3%B6nberg>,
+        <https://en.wikipedia.org/wiki/Arnold_Schoenberg> .
+
+[] mhg:manifestedIn mhg:Schoenberg_Wind_Quintet_Op_26 .
+
+[] mhg:manifestedIn mhg:Webern_Symphony_Op_21 .
+
+[] mhg:manifestedIn mhg:Webern_Symphony_Op_21 .
+
+[] mhg:manifestedIn mhg:Schoenberg_String_Quartet_No_3_Op_30 .
+
+[] mhg:manifestedIn mhg:Webern_Quartet_for_Violin_Clarinet_Tenor_Sax_And_Piano_Op_22 .
+
+[] mhg:manifestedIn mhg:Berg_Lulu .
+
+[] mhg:manifestedIn mhg:Webern_3_Volkstexte_Heiland_Unsere_Missetaten_Op_17_No_3 .
+
+[] mhg:manifestedIn mhg:Webern_Op_32_un_finished_later_sketch .
+
+[] mhg:manifestedIn mhg:Webern_3_Volkstexte_Armer_Sunder_Du_Op_17_No_1 .
+
+[] mhg:manifestedIn mhg:Webern_3_Volkstexte_Liebste_Jungfrau_Op_17_No_2 .
+
+[] mhg:manifestedIn mhg:Berg_Lulu .
+
+[] mhg:manifestedIn mhg:Webern_2_Lieder_Weiss_Wie_Lilien_Op_19_No_1 .
+
+[] mhg:manifestedIn mhg:Webern_2_Lieder_Ziehn_Die_Schafe_Op_19_No_2 .
+
+[] mhg:manifestedIn mhg:Berg_Lulu .
+
+[] mhg:manifestedIn mhg:Schoenberg_Suite_Op_29 .
+
+[] mhg:manifestedIn mhg:Berg_Kammerkonzert .
+
+[] mhg:manifestedIn mhg:Berg_Lulu .
+
+[] mhg:manifestedIn mhg:Berg_Lulu .
+
+[] mhg:manifestedIn mhg:Webern_Cantata_I_Op_29 .
+
+[] mhg:manifestedIn mhg:Webern_Cantata_I_Op_29 .
+
+[] mhg:manifestedIn mhg:Webern_Cantata_II_Op_31 .
+
+[] mhg:manifestedIn mhg:Berg_Lulu .
+
+[] mhg:manifestedIn mhg:Berg_Lulu .
+
+[] mhg:manifestedIn mhg:Berg_Lulu .
+
+[] mhg:manifestedIn mhg:Webern_Klavierstück .
+
+[] mhg:manifestedIn mhg:Berg_Kammerkonzert .
+
+[] mhg:manifestedIn mhg:Schoenberg_Suite_for_Piano_Op_25 .
+
+[] mhg:manifestedIn mhg:Webern_Three_Songs_on_Texts_by_Hildegard_Jone_Op_25 .
+
+[] mhg:manifestedIn mhg:Webern_Variations_for_Orchestra_Op_30 .
+
+[] mhg:manifestedIn mhg:Webern_Variations_for_Orchestra_Op_30 .
+
+[] mhg:manifestedIn mhg:Webern_3_Lieder_Ave_Regina_Coelorum_Op_18_No_3 .
+
+[] mhg:manifestedIn mhg:Berg_SchliesseMirDieAugenBeide_2 .
+
+[] mhg:manifestedIn mhg:Webern_Das_Augenlicht_Op_26 .
+
+[] mhg:manifestedIn mhg:Webern_3_Lieder_Schatzerl_Klein_Op_18_No_1 .
+
+[] mhg:manifestedIn mhg:Berg_Lulu .
+
+[] mhg:manifestedIn mhg:Webern_Concerto_for_Nine_Instruments_Konzert_Op_24 .
+
+[] mhg:manifestedIn mhg:Webern_Op_32_un_finished_initial_sketch .
+
+[] mhg:manifestedIn mhg:Webern_Variations_for_Piano_Op_27 .
+
+[] mhg:manifestedIn mhg:Webern_String_Quartet_Op_28 .
+
+[] mhg:manifestedIn mhg:Webern_String_Quartet_Op_28 .
+
+[] mhg:manifestedIn mhg:Webern_3_Lieder_Erlösung_Op_18_No_2 .
+
+[] mhg:manifestedIn mhg:Berg_Der_Wein .
+
+[] mhg:manifestedIn mhg:Berg_Lulu .
+
+[] mhg:manifestedIn mhg:Berg_Violin_Concerto .
+
+[] mhg:manifestedIn mhg:Berg_Lulu .
+
+[] mhg:manifestedIn mhg:Berg_Lulu .
+
+[] mhg:manifestedIn mhg:Webern_Kinderstück .
+
+[] mhg:manifestedIn mhg:Berg_Lulu .
+
+[] mhg:manifestedIn mhg:Webern_Three_Songs_Op_23 .
+

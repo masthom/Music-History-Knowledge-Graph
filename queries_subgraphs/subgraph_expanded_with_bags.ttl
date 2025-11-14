@@ -1,0 +1,170 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core/> .
+@prefix mhg: <http://music-history-graph.ch/twelve-tone-onto#> .
+
+mhg:0_11_10_9_8_7_6_5_4_3_2_1 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:0_1_2_3_4_5_6_7_8_9_10_11 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 ;
+    mhg:manifestedIn [ mhg:accordingTo "SerialAnalyzer" ;
+            mhg:manifestedIn mhg:Wolpe_Four_Studies_on_Basic_Rows_No_4_Basic_Row_1 ;
+            dcterms:source "New" ],
+        [ mhg:accordingTo "SerialAnalyzer" ;
+            mhg:manifestedIn mhg:Wolpe_Four_Studies_on_Basic_Rows_No_4_Basic_Row_1 ;
+            dcterms:source "New" ] .
+
+mhg:10_11_0_1_2_3_4_5_6_7_8_9 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:10_9_8_7_6_5_4_3_2_1_0_11 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:11_0_1_2_3_4_5_6_7_8_9_10 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:11_10_9_8_7_6_5_4_3_2_1_0 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:1_0_11_10_9_8_7_6_5_4_3_2 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 ;
+    mhg:manifestedIn [ mhg:accordingTo "SerialAnalyzer" ;
+            mhg:manifestedIn mhg:Ginastera_Sonata_for_Guitar_Op_47_mvts_II_and_III_Row_Class_II_1,
+                mhg:Slonimsky_No_655_657_Permutations_Semitone_Progression_Equal_Division_of_One_Octave_into_Twelve_Parts,
+                mhg:Slonimsky_No_793_Infra_Ultrapolation_Sesquiquadritone_Progression_Equal_Division_of_Three_Octaves_into_Four_Parts,
+                mhg:Slonimsky_No_822_Ultrapolation_of_One_Note_Quinquetone_Progression_Equal_Division_of_Five_Octaves_into_Six_Parts,
+                mhg:Slonimsky_No_824_Infrapolation_of_One_Note_Quinquetone_Progression_Equal_Division_of_Five_Octaves_into_Six_Parts ;
+            dcterms:source "Fobes2006, p.169",
+                "FripertingerLackner2015" ],
+        [ mhg:accordingTo "SerialAnalyzer" ;
+            mhg:manifestedIn mhg:Ginastera_Sonata_for_Guitar_Op_47_mvts_II_and_III_Row_Class_II_1,
+                mhg:Slonimsky_No_655_657_Permutations_Semitone_Progression_Equal_Division_of_One_Octave_into_Twelve_Parts,
+                mhg:Slonimsky_No_793_Infra_Ultrapolation_Sesquiquadritone_Progression_Equal_Division_of_Three_Octaves_into_Four_Parts,
+                mhg:Slonimsky_No_822_Ultrapolation_of_One_Note_Quinquetone_Progression_Equal_Division_of_Five_Octaves_into_Six_Parts,
+                mhg:Slonimsky_No_824_Infrapolation_of_One_Note_Quinquetone_Progression_Equal_Division_of_Five_Octaves_into_Six_Parts ;
+            dcterms:source "Fobes2006, p.169",
+                "FripertingerLackner2015" ] .
+
+mhg:1_2_3_4_5_6_7_8_9_10_11_0 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 ;
+    mhg:manifestedIn [ mhg:accordingTo "SerialAnalyzer" ;
+            mhg:manifestedIn mhg:Lackner_INITIUM_TRIPLEX_28_Juni_2016_für_drei_Tasteninstrumente,
+                mhg:Lackner_Kanon_für_drei_Klaviere_28_6_2016,
+                mhg:Slonimsky_No_648_654_Permutations_Semitone_Progression_Equal_Division_of_One_Octave_into_Twelve_Parts ;
+            dcterms:source "FripertingerLackner2015" ],
+        [ mhg:accordingTo "SerialAnalyzer" ;
+            mhg:manifestedIn mhg:Lackner_INITIUM_TRIPLEX_28_Juni_2016_für_drei_Tasteninstrumente,
+                mhg:Lackner_Kanon_für_drei_Klaviere_28_6_2016,
+                mhg:Slonimsky_No_648_654_Permutations_Semitone_Progression_Equal_Division_of_One_Octave_into_Twelve_Parts ;
+            dcterms:source "FripertingerLackner2015" ] .
+
+mhg:2_1_0_11_10_9_8_7_6_5_4_3 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:2_3_4_5_6_7_8_9_10_11_0_1 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 ;
+    mhg:manifestedIn [ mhg:accordingTo "SerialAnalyzer" ;
+            mhg:manifestedIn mhg:Boulez_Le_Marteau_sans_Maître_cycle_of_Bourreaux_de_solitude ;
+            dcterms:source "Jameux1991, p.289" ],
+        [ mhg:accordingTo "SerialAnalyzer" ;
+            mhg:manifestedIn mhg:Boulez_Le_Marteau_sans_Maître_cycle_of_Bourreaux_de_solitude ;
+            dcterms:source "Jameux1991, p.289" ] .
+
+mhg:3_2_1_0_11_10_9_8_7_6_5_4 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:3_4_5_6_7_8_9_10_11_0_1_2 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:4_3_2_1_0_11_10_9_8_7_6_5 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:4_5_6_7_8_9_10_11_0_1_2_3 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:5_4_3_2_1_0_11_10_9_8_7_6 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:5_6_7_8_9_10_11_0_1_2_3_4 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:6_5_4_3_2_1_0_11_10_9_8_7 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:6_7_8_9_10_11_0_1_2_3_4_5 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:7_6_5_4_3_2_1_0_11_10_9_8 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:7_8_9_10_11_0_1_2_3_4_5_6 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:8_7_6_5_4_3_2_1_0_11_10_9 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:8_9_10_11_0_1_2_3_4_5_6_7 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:9_10_11_0_1_2_3_4_5_6_7_8 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:9_8_7_6_5_4_3_2_1_0_11_10 mhg:hasRowClass mhg:1_1_1_1_1_1_1_1_1_1_1 .
+
+mhg:AlbertoGinastera frbr:creatorOf mhg:Ginastera_Sonata_for_Guitar_Op_47_mvts_II_and_III_Row_Class_II_1 .
+
+mhg:PierreBoulez frbr:creatorOf mhg:Boulez_Le_Marteau_sans_Maître_cycle_of_Bourreaux_de_solitude .
+
+mhg:StefanWolpe frbr:creatorOf mhg:Wolpe_Four_Studies_on_Basic_Rows_No_4_Basic_Row_1 .
+
+mhg:PeterLackner frbr:creatorOf mhg:Lackner_INITIUM_TRIPLEX_28_Juni_2016_für_drei_Tasteninstrumente,
+        mhg:Lackner_Kanon_für_drei_Klaviere_28_6_2016 .
+
+mhg:Boulez_Le_Marteau_sans_Maître_cycle_of_Bourreaux_de_solitude frbr:creator mhg:PierreBoulez ;
+    frbr:hasCreationDate "1953-55" .
+
+mhg:Ginastera_Sonata_for_Guitar_Op_47_mvts_II_and_III_Row_Class_II_1 frbr:creator mhg:AlbertoGinastera ;
+    frbr:hasCreationDate "1976" .
+
+mhg:Lackner_INITIUM_TRIPLEX_28_Juni_2016_für_drei_Tasteninstrumente frbr:creator mhg:PeterLackner ;
+    frbr:hasCreationDate "2016/6/28" .
+
+mhg:Lackner_Kanon_für_drei_Klaviere_28_6_2016 frbr:creator mhg:PeterLackner ;
+    frbr:hasCreationDate "2016/6/28" .
+
+mhg:Slonimsky_No_648_654_Permutations_Semitone_Progression_Equal_Division_of_One_Octave_into_Twelve_Parts frbr:creator mhg:NicholasSlonimsky ;
+    frbr:hasCreationDate "1947" .
+
+mhg:Slonimsky_No_655_657_Permutations_Semitone_Progression_Equal_Division_of_One_Octave_into_Twelve_Parts frbr:creator mhg:NicholasSlonimsky ;
+    frbr:hasCreationDate "1947" .
+
+mhg:Slonimsky_No_793_Infra_Ultrapolation_Sesquiquadritone_Progression_Equal_Division_of_Three_Octaves_into_Four_Parts frbr:creator mhg:NicholasSlonimsky ;
+    frbr:hasCreationDate "1947" .
+
+mhg:Slonimsky_No_822_Ultrapolation_of_One_Note_Quinquetone_Progression_Equal_Division_of_Five_Octaves_into_Six_Parts frbr:creator mhg:NicholasSlonimsky ;
+    frbr:hasCreationDate "1947" .
+
+mhg:Slonimsky_No_824_Infrapolation_of_One_Note_Quinquetone_Progression_Equal_Division_of_Five_Octaves_into_Six_Parts frbr:creator mhg:NicholasSlonimsky ;
+    frbr:hasCreationDate "1947" .
+
+mhg:Wolpe_Four_Studies_on_Basic_Rows_No_4_Basic_Row_1 frbr:creator mhg:StefanWolpe ;
+    frbr:hasCreationDate "1935-36" .
+
+mhg:NicholasSlonimsky frbr:creatorOf mhg:Slonimsky_No_648_654_Permutations_Semitone_Progression_Equal_Division_of_One_Octave_into_Twelve_Parts,
+        mhg:Slonimsky_No_655_657_Permutations_Semitone_Progression_Equal_Division_of_One_Octave_into_Twelve_Parts,
+        mhg:Slonimsky_No_793_Infra_Ultrapolation_Sesquiquadritone_Progression_Equal_Division_of_Three_Octaves_into_Four_Parts,
+        mhg:Slonimsky_No_822_Ultrapolation_of_One_Note_Quinquetone_Progression_Equal_Division_of_Five_Octaves_into_Six_Parts,
+        mhg:Slonimsky_No_824_Infrapolation_of_One_Note_Quinquetone_Progression_Equal_Division_of_Five_Octaves_into_Six_Parts .
+
+mhg:1_1_1_1_1_1_1_1_1_1_1 mhg:actualizedIn mhg:Boulez_Le_Marteau_sans_Maître_cycle_of_Bourreaux_de_solitude,
+        mhg:Ginastera_Sonata_for_Guitar_Op_47_mvts_II_and_III_Row_Class_II_1,
+        mhg:Lackner_INITIUM_TRIPLEX_28_Juni_2016_für_drei_Tasteninstrumente,
+        mhg:Lackner_Kanon_für_drei_Klaviere_28_6_2016,
+        mhg:Slonimsky_No_648_654_Permutations_Semitone_Progression_Equal_Division_of_One_Octave_into_Twelve_Parts,
+        mhg:Slonimsky_No_655_657_Permutations_Semitone_Progression_Equal_Division_of_One_Octave_into_Twelve_Parts,
+        mhg:Slonimsky_No_793_Infra_Ultrapolation_Sesquiquadritone_Progression_Equal_Division_of_Three_Octaves_into_Four_Parts,
+        mhg:Slonimsky_No_822_Ultrapolation_of_One_Note_Quinquetone_Progression_Equal_Division_of_Five_Octaves_into_Six_Parts,
+        mhg:Slonimsky_No_824_Infrapolation_of_One_Note_Quinquetone_Progression_Equal_Division_of_Five_Octaves_into_Six_Parts,
+        mhg:Wolpe_Four_Studies_on_Basic_Rows_No_4_Basic_Row_1 ;
+    mhg:hasRowForm mhg:0_11_10_9_8_7_6_5_4_3_2_1,
+        mhg:0_1_2_3_4_5_6_7_8_9_10_11,
+        mhg:10_11_0_1_2_3_4_5_6_7_8_9,
+        mhg:10_9_8_7_6_5_4_3_2_1_0_11,
+        mhg:11_0_1_2_3_4_5_6_7_8_9_10,
+        mhg:11_10_9_8_7_6_5_4_3_2_1_0,
+        mhg:1_0_11_10_9_8_7_6_5_4_3_2,
+        mhg:1_2_3_4_5_6_7_8_9_10_11_0,
+        mhg:2_1_0_11_10_9_8_7_6_5_4_3,
+        mhg:2_3_4_5_6_7_8_9_10_11_0_1,
+        mhg:3_2_1_0_11_10_9_8_7_6_5_4,
+        mhg:3_4_5_6_7_8_9_10_11_0_1_2,
+        mhg:4_3_2_1_0_11_10_9_8_7_6_5,
+        mhg:4_5_6_7_8_9_10_11_0_1_2_3,
+        mhg:5_4_3_2_1_0_11_10_9_8_7_6,
+        mhg:5_6_7_8_9_10_11_0_1_2_3_4,
+        mhg:6_5_4_3_2_1_0_11_10_9_8_7,
+        mhg:6_7_8_9_10_11_0_1_2_3_4_5,
+        mhg:7_6_5_4_3_2_1_0_11_10_9_8,
+        mhg:7_8_9_10_11_0_1_2_3_4_5_6,
+        mhg:8_7_6_5_4_3_2_1_0_11_10_9,
+        mhg:8_9_10_11_0_1_2_3_4_5_6_7,
+        mhg:9_10_11_0_1_2_3_4_5_6_7_8,
+        mhg:9_8_7_6_5_4_3_2_1_0_11_10 .
+
