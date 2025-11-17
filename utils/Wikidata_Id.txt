@@ -1,0 +1,369 @@
+==================================================
+ZUSAMMENFASSUNG:
+Erfolgreich gefunden: 19
+Nicht gefunden: 1
+
+Nicht gefundene Namen:
+  - Bao-Shu Li
+
+VALUES ?person {
+  wd:Q192185    # Aaron Copland
+  wd:Q4684407    # Adolph Weiss
+  wd:Q78475    # Alban Berg
+  wd:Q311389    # Alberto Ginastera
+  wd:Q215847    # Alexander Goehr
+  wd:Q158078    # Alfred Schnittke
+  wd:Q502265    # Andrei Volkonsky
+  wd:Q442963    # Andrzej Panufnik
+  wd:Q190933    # Anton Webern
+  wd:Q21263154    # Antony Payne
+  wd:Q154770    # Arnold Schoenberg
+  wd:Q4795987    # Arrigo Barnabé
+  wd:Q123408758    # Arthur Berger
+  wd:Q189534    # Arvo Pärt
+  # NICHT GEFUNDEN: Bao-Shu Li
+  wd:Q435339    # Barbara Pentland
+  wd:Q816527    # Ben Johnston
+  wd:Q103148528    # Ben Weber
+  wd:Q150767    # Benjamin Britten
+  wd:Q286856    # Benjamin Frankel
+}
+ZUSAMMENFASSUNG:
+Erfolgreich gefunden: 139
+Nicht gefunden: 10
+
+Nicht gefundene Namen:
+  - Christine Badger
+  - Georgia Kalodiki
+  - Gerhard Nierhaus
+  - Henrik Sande
+  - Herman Heiß
+  - Jin-Min Zhou
+  - Shi-Lin Lu
+  - Wilfried Zillig
+  - Xi-Lin Wang
+  - Zhong-Rong Luo
+
+VALUES ?person {
+  wd:Q312582    # Bernd Alois Zimmermann
+  wd:Q825509    # Bernhard Lang
+  wd:Q4908783    # Bill Dobbins
+  wd:Q208205    # Bill Evans
+  wd:Q462291    # Brian Ferneyhough
+  wd:Q351383    # Bruno Maderna
+  wd:Q83326    # Béla Bartók
+  wd:Q958763    # Carl Ruggles
+  wd:Q309648    # Charles Ives
+  wd:Q961861    # Charles Wuorinen
+  wd:Q42063    # Chen Yi
+  # NICHT GEFUNDEN: Christine Badger
+  wd:Q1103858    # Claudio Santoro
+  wd:Q115693467    # David Baker
+  wd:Q107055430    # David Diamond
+  wd:Q94689370    # David Dzubay
+  wd:Q102352652    # David Lewin
+  wd:Q719035    # David Shire
+  wd:Q1225258    # Dika Newlin
+  wd:Q102434600    # Dimitri Papageorgiou
+  wd:Q80135    # Dmitri Shostakovich
+  wd:Q2630943    # Dominick Argento
+  wd:Q357171    # Donald Martino
+  wd:Q275659    # Edison Denisov
+  wd:Q214108    # Eduard Steuermann
+  wd:Q451307    # Elisabeth Lutyens
+  wd:Q318835    # Elliott Carter
+  wd:Q112058514    # Eric Ross
+  wd:Q215430    # Erich Itor Kahn
+  wd:Q1353168    # Erich Schmid
+  wd:Q701716    # Erich Urbanner
+  wd:Q111435206    # Ernst Christian Rinner
+  wd:Q158436    # Ernst Krenek
+  wd:Q1363504    # Erwin Stein
+  wd:Q1403077    # Felicitas Kukuck
+  wd:Q88709459    # Florian Geßler
+  wd:Q123910    # Frank Martin
+  wd:Q127330    # Frank Zappa
+  wd:Q41309    # Franz Liszt
+  wd:Q86808    # Fritz Heinrich Klein
+  wd:Q201359    # George Perle
+  wd:Q710733    # George Rochberg
+  wd:Q1508496    # George Walker
+  # NICHT GEFUNDEN: Georgia Kalodiki
+  # NICHT GEFUNDEN: Gerhard Nierhaus
+  wd:Q5585035    # Gordon Crosse
+  wd:Q102171992    # Gunther Schuller
+  wd:Q48184    # György Kurtág
+  wd:Q154331    # György Ligeti
+  wd:Q373286    # Hale Smith
+  wd:Q78704    # Hanns Eisler
+  wd:Q324094    # Hanns Jelinek
+  wd:Q643317    # Hans Erich Apostel
+  wd:Q94615974    # Hans Florey
+  wd:Q85677    # Helmut Eder
+  wd:Q549442    # Helmut Lachenmann
+  wd:Q739405    # Henri Pousseur
+  # NICHT GEFUNDEN: Henrik Sande
+  wd:Q318631    # Herbert Eimert
+  # NICHT GEFUNDEN: Herman Heiß
+  wd:Q2439066    # Hermann Markus Preßl
+  wd:Q1351430    # Humphrey Searle
+  wd:Q7314    # Igor Stravinsky
+  wd:Q706781    # Irving Fine
+  wd:Q153611    # Isang Yun
+  wd:Q1121393    # Ivan Eröd
+  wd:Q110960613    # Jeff Nichols
+  wd:Q21612162    # Jian-Zhong Wang
+  # NICHT GEFUNDEN: Jin-Min Zhou
+  wd:Q565484    # Johann Nepomuk David
+  wd:Q1339    # Johann Sebastian Bach
+  wd:Q1672320    # Johann Sengstschmid
+  wd:Q180727    # John Cage
+  wd:Q7346    # John Coltrane
+  wd:Q651112    # Joonas Kokkonen
+  wd:Q86359    # Josef Matthias Hauer
+  wd:Q1705295    # Josef Mittendorfer
+  wd:Q71198    # Josef Rufer
+  wd:Q323596    # Joseph Schwantner
+  wd:Q2737004    # Juan Carlos
+  wd:Q1153170    # Karel Goeyvaerts
+  wd:Q1729163    # Karel Husa
+  wd:Q366100    # Karl Amadeus Hartmann
+  wd:Q876427    # Karl Schiske
+  wd:Q154556    # Karlheinz Stockhausen
+  wd:Q107431940    # Klaus Huber
+  wd:Q112507467    # Klaus Lang
+  wd:Q440388    # Kurt Atterberg
+  wd:Q214729    # Leopold Spinner
+  wd:Q590911    # Lou Harrison
+  wd:Q6688971    # Louise Talma
+  wd:Q221450    # Luciano Berio
+  wd:Q26804631    # Ludwig Zenk
+  wd:Q17575    # Luigi Dallapiccola
+  wd:Q160451    # Luigi Nono
+  wd:Q130837345    # Mark Gotham
+  wd:Q1753596    # Maximilian Hendler
+  wd:Q213913    # Michael Gielen
+  wd:Q3309599    # Michel Fano
+  wd:Q107004197    # Milton Babbitt
+  wd:Q214123    # Mátyás Seiber
+  wd:Q555602    # Nicholas Slonimsky
+  wd:Q452352    # Nikos Skalkotas
+  wd:Q1999255    # Norma Beecroft
+  wd:Q151593    # Olivier Messiaen
+  wd:Q7088409    # Olly Wilson
+  wd:Q66481126    # Orestis Toufektsis
+  wd:Q2036955    # Othmar Steinbauer
+  wd:Q213613    # Paul Dessau
+  wd:Q57244    # Paul Hindemith
+  wd:Q25930    # Paul von Klenau
+  wd:Q108381622    # Peter Lackner
+  wd:Q139223    # Peter Maxwell Davies
+  wd:Q2077045    # Peter Michael Hamel
+  wd:Q7177367    # Peter Tranchell
+  wd:Q2079003    # Peter Westergaard
+  wd:Q156193    # Pierre Boulez
+  wd:Q22075389    # Rainer Bischof
+  wd:Q2129780    # Ralph Shapey
+  wd:Q966373    # René Leibowitz
+  wd:Q959863    # Richard Rodney Bennett
+  wd:Q13894    # Richard Strauss
+  wd:Q2232385    # Robert Moevs
+  wd:Q464876    # Robert Morris
+  wd:Q1607673    # Robert Schollum
+  wd:Q713949    # Roberto Gerhard
+  wd:Q673278    # Roger Reynolds
+  wd:Q550632    # Roger Sessions
+  wd:Q331437    # Roque Cordero
+  wd:Q323394    # Ross Lee Finney
+  wd:Q216870    # Samuel Barber
+  # NICHT GEFUNDEN: Shi-Lin Lu
+  wd:Q102185463    # Sigrid Riegebauer
+  wd:Q213905    # Stefan Wolpe
+  wd:Q539794    # Thea Musgrave
+  wd:Q152388    # Theodor W. Adorno
+  wd:Q123493    # Thomas Schreiner
+  wd:Q2501752    # Ursula Mamlok
+  wd:Q4993231    # Vivian Fine
+  wd:Q711052    # Walter Piston
+  # NICHT GEFUNDEN: Wilfried Zillig
+  wd:Q310939    # William Walton
+  wd:Q156472    # Witold Lutosławski
+  wd:Q694204    # Wolfgang Fortner
+  # NICHT GEFUNDEN: Xi-Lin Wang
+  wd:Q1522683    # Yannis Papaioannou
+  wd:Q102270990    # Yen Lu
+  wd:Q96753    # York Höller
+  # NICHT GEFUNDEN: Zhong-Rong Luo
+}
+
+# CSV Format:
+Name,QID
+Aaron Copland,Q192185
+Adolph Weiss,Q4684407
+Alban Berg,Q78475
+Alberto Ginastera,Q311389
+Alexander Goehr,Q215847
+Alfred Schnittke,Q158078
+Andrei Volkonsky,Q502265
+Andrzej Panufnik,Q442963
+Anton Webern,Q190933
+Antony Payne,Q21263154
+Arnold Schoenberg,Q154770
+Arrigo Barnabé,Q4795987
+Arthur Berger,Q123408758
+Arvo Pärt,Q189534
+Bao-Shu Li,NOT_FOUND
+Barbara Pentland,Q435339
+Ben Johnston,Q816527
+Ben Weber,Q103148528
+Benjamin Britten,Q150767
+Benjamin Frankel,Q286856
+Bernd Alois Zimmermann,Q312582
+Bernhard Lang,Q825509
+Bill Dobbins,Q4908783
+Bill Evans,Q208205
+Brian Ferneyhough,Q462291
+Bruno Maderna,Q351383
+Béla Bartók,Q83326
+Carl Ruggles,Q958763
+Charles Ives,Q309648
+Charles Wuorinen,Q961861
+Chen Yi,Q42063
+Christine Badger,NOT_FOUND
+Claudio Santoro,Q1103858
+David Baker,Q115693467
+David Diamond,Q107055430
+David Dzubay,Q94689370
+David Lewin,Q102352652
+David Shire,Q719035
+Dika Newlin,Q1225258
+Dimitri Papageorgiou,Q102434600
+Dmitri Shostakovich,Q80135
+Dominick Argento,Q2630943
+Donald Martino,Q357171
+Edison Denisov,Q275659
+Eduard Steuermann,Q214108
+Elisabeth Lutyens,Q451307
+Elliott Carter,Q318835
+Eric Ross,Q112058514
+Erich Itor Kahn,Q215430
+Erich Schmid,Q1353168
+Erich Urbanner,Q701716
+Ernst Christian Rinner,Q111435206
+Ernst Krenek,Q158436
+Erwin Stein,Q1363504
+Felicitas Kukuck,Q1403077
+Florian Geßler,Q88709459
+Frank Martin,Q123910
+Frank Zappa,Q127330
+Franz Liszt,Q41309
+Fritz Heinrich Klein,Q86808
+George Perle,Q201359
+George Rochberg,Q710733
+George Walker,Q1508496
+Georgia Kalodiki,NOT_FOUND
+Gerhard Nierhaus,NOT_FOUND
+Gordon Crosse,Q5585035
+Gunther Schuller,Q102171992
+György Kurtág,Q48184
+György Ligeti,Q154331
+Hale Smith,Q373286
+Hanns Eisler,Q78704
+Hanns Jelinek,Q324094
+Hans Erich Apostel,Q643317
+Hans Florey,Q94615974
+Helmut Eder,Q85677
+Helmut Lachenmann,Q549442
+Henri Pousseur,Q739405
+Henrik Sande,NOT_FOUND
+Herbert Eimert,Q318631
+Herman Heiß,NOT_FOUND
+Hermann Markus Preßl,Q2439066
+Humphrey Searle,Q1351430
+Igor Stravinsky,Q7314
+Irving Fine,Q706781
+Isang Yun,Q153611
+Ivan Eröd,Q1121393
+Jeff Nichols,Q110960613
+Jian-Zhong Wang,Q21612162
+Jin-Min Zhou,NOT_FOUND
+Johann Nepomuk David,Q565484
+Johann Sebastian Bach,Q1339
+Johann Sengstschmid,Q1672320
+John Cage,Q180727
+John Coltrane,Q7346
+Joonas Kokkonen,Q651112
+Josef Matthias Hauer,Q86359
+Josef Mittendorfer,Q1705295
+Josef Rufer,Q71198
+Joseph Schwantner,Q323596
+Juan Carlos,Q2737004
+Karel Goeyvaerts,Q1153170
+Karel Husa,Q1729163
+Karl Amadeus Hartmann,Q366100
+Karl Schiske,Q876427
+Karlheinz Stockhausen,Q154556
+Klaus Huber,Q107431940
+Klaus Lang,Q112507467
+Kurt Atterberg,Q440388
+Leopold Spinner,Q214729
+Lou Harrison,Q590911
+Louise Talma,Q6688971
+Luciano Berio,Q221450
+Ludwig Zenk,Q26804631
+Luigi Dallapiccola,Q17575
+Luigi Nono,Q160451
+Mark Gotham,Q130837345
+Maximilian Hendler,Q1753596
+Michael Gielen,Q213913
+Michel Fano,Q3309599
+Milton Babbitt,Q107004197
+Mátyás Seiber,Q214123
+Nicholas Slonimsky,Q555602
+Nikos Skalkotas,Q452352
+Norma Beecroft,Q1999255
+Olivier Messiaen,Q151593
+Olly Wilson,Q7088409
+Orestis Toufektsis,Q66481126
+Othmar Steinbauer,Q2036955
+Paul Dessau,Q213613
+Paul Hindemith,Q57244
+Paul von Klenau,Q25930
+Peter Lackner,Q108381622
+Peter Maxwell Davies,Q139223
+Peter Michael Hamel,Q2077045
+Peter Tranchell,Q7177367
+Peter Westergaard,Q2079003
+Pierre Boulez,Q156193
+Rainer Bischof,Q22075389
+Ralph Shapey,Q2129780
+René Leibowitz,Q966373
+Richard Rodney Bennett,Q959863
+Richard Strauss,Q13894
+Robert Moevs,Q2232385
+Robert Morris,Q464876
+Robert Schollum,Q1607673
+Roberto Gerhard,Q713949
+Roger Reynolds,Q673278
+Roger Sessions,Q550632
+Roque Cordero,Q331437
+Ross Lee Finney,Q323394
+Samuel Barber,Q216870
+Shi-Lin Lu,NOT_FOUND
+Sigrid Riegebauer,Q102185463
+Stefan Wolpe,Q213905
+Thea Musgrave,Q539794
+Theodor W. Adorno,Q152388
+Thomas Schreiner,Q123493
+Ursula Mamlok,Q2501752
+Vivian Fine,Q4993231
+Walter Piston,Q711052
+Wilfried Zillig,NOT_FOUND
+William Walton,Q310939
+Witold Lutosławski,Q156472
+Wolfgang Fortner,Q694204
+Xi-Lin Wang,NOT_FOUND
+Yannis Papaioannou,Q1522683
+Yen Lu,Q102270990
+York Höller,Q96753
+Zhong-Rong Luo,NOT_FOUND
