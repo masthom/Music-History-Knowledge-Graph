@@ -1,0 +1,1705 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core/> .
+@prefix mhg: <http://music-history-graph.ch/twelve-tone-onto#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+mhg:1_10_10_5_8_6_4_7_3_11_2 mhg:actualizedIn mhg:Krenek_String_Quartet_No_6_Op_78 .
+
+mhg:1_10_4_4_9_6_8_11_3_1_5 mhg:actualizedIn mhg:Krenek_Kette_Kreis_und_Spiegel_Circle_Chain_and_Mirror_Op_160 .
+
+mhg:1_2_4_1_2_8_3_5_2_1_6 mhg:actualizedIn mhg:Krenek_Kafka_songs_Op_82 .
+
+mhg:1_2_4_9_1_1_4_4_7_2_9 mhg:actualizedIn mhg:Krenek_Karl_V .
+
+mhg:1_2_7_1_5_1_1_2_11_2_5 mhg:actualizedIn mhg:Krenek_Sonatine_for_Flute_and_Viola_Op_92_2a .
+
+mhg:1_2_7_4_3_6_8_9_5_11_10 mhg:actualizedIn mhg:Krenek_Zwölf_Variationen_in_Drei_Sätzen_Op_79 .
+
+mhg:1_2_7_4_3_6_8_9_5_9_2 mhg:actualizedIn mhg:Krenek_Zwölf_Variationen_in_Drei_Satzen .
+
+mhg:1_3_4_1_9_11_2_3_5_11_9 mhg:actualizedIn mhg:Krenek_concert_for_organ_and_string_orchestra_Op_230 .
+
+mhg:1_5_9_11_3_11_7_8_3_10_1 mhg:actualizedIn mhg:Krenek_Monologue_for_Solo_Clarinet_Op_157 .
+
+mhg:1_8_1_10_10_11_9_1_4_4_5 mhg:actualizedIn mhg:Krenek_Four_Songs_Op_112 .
+
+mhg:1_8_2_11_4_1_4_11_2_8_1 mhg:actualizedIn mhg:Krenek_Symphonic_Elegy_for_String_Orchestra_Op_105 .
+
+mhg:1_9_9_10_6_3_4_10_5_11_7 mhg:actualizedIn mhg:Krenek_String_Quartet_No_7_Op_96 .
+
+mhg:2_5_11_7_8_6_5_2_7_6_5 mhg:actualizedIn mhg:Krenek_Karl_V_King_Francis_Row .
+
+mhg:2_5_6_7_3_6_5_11_6_3_10 mhg:actualizedIn mhg:Krenek_Eight_Piano_Pieces .
+
+mhg:2_5_9_5_1_8_11_6_4_10_7 mhg:actualizedIn mhg:Krenek_Sonata_No_3_Op_92_No_4 .
+
+mhg:2_7_9_4_1_2_2_4_9_1_3 mhg:actualizedIn mhg:Krenek_Sonata_for_Viola_and_Piano_Op_117 .
+
+mhg:3_1_10_4_7_6_2_8_5_10_3 mhg:actualizedIn mhg:Krenek_Sechs_Vermessene_Op_168 .
+
+mhg:3_1_6_4_7_2_9_11_10_8_5 mhg:actualizedIn mhg:Krenek_Symphonic_Piece_for_string_Orchestra_Op_86 .
+
+mhg:3_2_11_4_1_9_4_1_2_6_7 mhg:actualizedIn mhg:Krenek_twelve_tone_row_in_a_display_case_of_Steinerner_Saal_in_the_Musikverein_of_Vienna .
+
+mhg:3_3_7_3_7_8_1_1_1_7_9 mhg:actualizedIn mhg:Krenek_Twelve_Short_Piano_Pieces_Op_83 .
+
+mhg:3_7_6_5_2_9_11_10_8_1_4 mhg:actualizedIn mhg:Krenek_Studies_in_Counterpoint_ii,
+        mhg:Krenek_Symeon_der_Stylit .
+
+mhg:3_8_10_1_6_4_11_11_8_11_4 mhg:actualizedIn mhg:Krenek_Studies_in_Counterpoint,
+        mhg:Krenek_Studies_in_Counterpoint_i,
+        mhg:Krenek_Suite_Op_84_for_solo_cello .
+
+mhg:3_8_5_10_11_6_1_2_7_4_9 mhg:actualizedIn mhg:Krenek_Quaestio_temporis_Op_170 .
+
+mhg:4_9_1_6_10_11_6_8_2_6_7 mhg:actualizedIn mhg:Krenek_Sestina_Op_161 .
+
+mhg:AlbanBerg schema:birthPlace wd:Q1741 ;
+    schema:deathPlace wd:Q1741 .
+
+mhg:AntonWebern schema:birthPlace wd:Q1741 .
+
+mhg:ArnoldSchoenberg schema:birthPlace wd:Q1741 .
+
+mhg:ErwinStein schema:birthPlace wd:Q1741 .
+
+mhg:GyörgyLigeti schema:deathPlace wd:Q1741 .
+
+mhg:HannsJelinek schema:birthPlace wd:Q1741 ;
+    schema:deathPlace wd:Q1741 .
+
+mhg:HansErichApostel schema:deathPlace wd:Q1741 .
+
+mhg:IvanErőd schema:deathPlace wd:Q1741 .
+
+mhg:JosefMatthiasHauer schema:deathPlace wd:Q1741 .
+
+mhg:KarlSchiske schema:deathPlace wd:Q1741 .
+
+mhg:OthmarSteinbauer schema:birthPlace wd:Q1741 .
+
+mhg:RainerBischof schema:birthPlace wd:Q1741 .
+
+mhg:RobertSchollum schema:birthPlace wd:Q1741 ;
+    schema:deathPlace wd:Q1741 .
+
+mhg:0_10_7_6_4_2 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:0_10_8_5_4_2 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:0_10_8_6_3_2 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:0_10_8_6_4_1 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:0_10_8_6_4_3 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:0_10_8_6_4_3_7_5_2_1_11_9 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:0_10_8_6_5_2 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:0_10_8_6_5_2_7_4_3_1_11_9 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:0_10_8_7_4_2 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:0_10_8_7_4_2_6_5_3_1_11_9 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:0_10_9_6_4_2 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:0_10_9_6_4_2_7_5_3_1_11_8 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:0_11_8_6_4_2 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:0_11_8_6_4_2_7_5_3_1_10_9 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:0_11_9_7_5_3 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:0_1_3_5_7_9 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:0_1_4_6_8_10 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:0_1_4_6_8_10_5_7_9_11_2_3 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:0_2_3_6_8_10 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:0_2_3_6_8_10_5_7_9_11_1_4 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:0_2_4_5_8_10 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:0_2_4_5_8_10_6_7_9_11_1_3 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:0_2_4_6_7_10 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:0_2_4_6_7_10_5_8_9_11_1_3 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:0_2_4_6_8_11 mhg:hasRowClass mhg:2_2_2_2_3 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_2: rotation 2 not transposed" .
+
+mhg:0_2_4_6_8_9 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:0_2_4_6_8_9_5_7_10_11_1_3 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:0_2_4_6_9_10 mhg:hasRowClass mhg:1_3_2_2_2 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_2: rotation 3 transposed on pc 11" .
+
+mhg:0_2_4_7_8_10 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:0_2_5_6_8_10 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:0_3_4_6_8_10 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:0_3_5_7_9_11 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:0_3_5_7_9_11_6_8_10_1_2_4 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:0_9_7_5_3_1 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:0_9_7_5_3_1_6_4_2_11_10_8 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:0_9_8_6_4_2 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:10_0_1_4_6_8 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:10_0_1_4_6_8_3_5_7_9_11_2 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:10_0_2_3_6_8 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:10_0_2_3_6_8_4_5_7_9_11_1 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:10_0_2_4_5_8 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:10_0_2_4_5_8_3_6_7_9_11_1 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:10_0_2_4_6_7 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:10_0_2_4_6_7_3_5_8_9_11_1 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:10_0_2_4_6_9 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:10_0_2_4_7_8 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:10_0_2_5_6_8 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:10_0_3_4_6_8 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:10_11_1_3_5_7 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:10_11_2_4_6_8 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:10_11_2_4_6_8_3_5_7_9_0_1 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:10_1_2_4_6_8 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:10_1_3_5_7_9 mhg:hasRowClass mhg:2_2_2_2_3 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_1: rotation 4 not transposed" .
+
+mhg:10_1_3_5_7_9_4_6_8_11_0_2 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 , 
+        [ mhg:accordingTo "SerialAnalyzer" ;
+            mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+            dcterms:source "Krenek1960, p.212" ;
+            rdfs:comment "P: rotation 4 not transposed" ] .
+
+mhg:10_7_5_3_1_11 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:10_7_5_3_1_11_4_2_0_9_8_6 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:10_7_6_4_2_0 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:10_8_5_4_2_0 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:10_8_6_3_2_0 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:10_8_6_4_1_0 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:10_8_6_4_2_1 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:10_8_6_4_2_11 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:10_8_6_4_2_1_5_3_0_11_9_7 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:10_8_6_4_3_0 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:10_8_6_4_3_0_5_2_1_11_9_7 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:10_8_6_5_2_0 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:10_8_6_5_2_0_4_3_1_11_9_7 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:10_8_7_4_2_0 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:10_8_7_4_2_0_5_3_1_11_9_6 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:10_9_6_4_2_0 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:10_9_6_4_2_0_5_3_1_11_8_7 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:10_9_7_5_3_1 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:11_0_2_4_6_8 mhg:hasRowClass mhg:1_2_2_2_2 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_2: rotation 1 not transposed" .
+
+mhg:11_0_3_5_7_9 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:11_0_3_5_7_9_4_6_8_10_1_2 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:11_10_7_5_3_1 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:11_10_7_5_3_1_6_4_2_0_9_8 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:11_10_8_6_4_2 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:11_1_2_5_7_9 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:11_1_2_5_7_9_4_6_8_10_0_3 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:11_1_3_4_7_9 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:11_1_3_4_7_9_5_6_8_10_0_2 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:11_1_3_5_6_9 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:11_1_3_5_6_9_4_7_8_10_0_2 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:11_1_3_5_7_10 mhg:hasRowClass mhg:2_2_2_2_3 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_2: rotation 2 transposed to pc 11" .
+
+mhg:11_1_3_5_7_8 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:11_1_3_5_7_8_4_6_9_10_0_2 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:11_1_3_5_8_9 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:11_1_3_6_7_9 mhg:hasRowClass mhg:2_1_3_2_2 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_2: rotation 4 transposed to pc 11" .
+
+mhg:11_1_4_5_7_9 mhg:hasRowClass mhg:2_2_1_3_2 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_2: rotation 5 transposed to pc 11" .
+
+mhg:11_2_3_5_7_9 mhg:hasRowClass mhg:2_2_2_1_3 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_2: rotation 6 transposed to pc 11" .
+
+mhg:11_2_4_6_8_10 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:11_2_4_6_8_10_5_7_9_0_1_3 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:11_8_6_4_2_0 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:11_8_6_4_2_0_5_3_1_10_9_7 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:11_8_7_5_3_1 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:11_9_6_5_3_1 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:11_9_7_4_3_1 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:11_9_7_5_2_1 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:11_9_7_5_3_0 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:11_9_7_5_3_2 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:11_9_7_5_3_2_6_4_1_0_10_8 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:11_9_7_5_4_1 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:11_9_7_5_4_1_6_3_2_0_10_8 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:11_9_7_6_3_1 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:11_9_7_6_3_1_5_4_2_0_10_8 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:11_9_8_5_3_1 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:11_9_8_5_3_1_6_4_2_0_10_7 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:1_0_10_8_6_4 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:1_0_9_7_5_3 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:1_0_9_7_5_3_8_6_4_2_11_10 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:1_10_8_6_4_2 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:1_10_8_6_4_2_7_5_3_0_11_9 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:1_10_9_7_5_3 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:1_11_10_7_5_3 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:1_11_10_7_5_3_8_6_4_2_0_9 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:1_11_8_7_5_3 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:1_11_9_6_5_3 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:1_11_9_7_4_3 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:1_11_9_7_5_2 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:1_11_9_7_5_4 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:1_11_9_7_5_4_8_6_3_2_0_10 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:1_11_9_7_6_3 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:1_11_9_7_6_3_8_5_4_2_0_10 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:1_11_9_8_5_3 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:1_11_9_8_5_3_7_6_4_2_0_10 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:1_2_4_6_8_10 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:1_2_5_7_9_11 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:1_2_5_7_9_11_6_8_10_0_3_4 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:1_3_4_7_9_11 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:1_3_4_7_9_11_6_8_10_0_2_5 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:1_3_5_6_9_11 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:1_3_5_6_9_11_7_8_10_0_2_4 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:1_3_5_7_10_11 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:1_3_5_7_8_11 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:1_3_5_7_8_11_6_9_10_0_2_4 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:1_3_5_7_9_0 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:1_3_5_7_9_10 mhg:hasRowClass mhg:1_2_2_2_2 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_1: rotation 5 not transposed" .
+
+mhg:1_3_5_7_9_10_6_8_11_0_2_4 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 ;
+    mhg:manifestedIn [ mhg:accordingTo "SerialAnalyzer" ;
+            mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+            dcterms:source "Krenek1960, p.212" ;
+            rdfs:comment "P: rotation 5 not transposed" ] .
+
+mhg:1_3_5_8_9_11 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:1_3_6_7_9_11 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:1_4_5_7_9_11 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:1_4_6_8_10_0 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:1_4_6_8_10_0_7_9_11_2_3_5 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:2_0_10_7_6_4 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:2_0_10_8_5_4 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:2_0_10_8_6_3 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:2_0_10_8_6_5 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:2_0_10_8_6_5_9_7_4_3_1_11 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:2_0_10_8_7_4 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:2_0_10_8_7_4_9_6_5_3_1_11 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:2_0_10_9_6_4 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:2_0_10_9_6_4_8_7_5_3_1_11 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:2_0_11_8_6_4 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:2_0_11_8_6_4_9_7_5_3_1_10 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:2_0_9_8_6_4 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:2_11_10_8_6_4 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:2_11_9_7_5_3 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:2_11_9_7_5_3_8_6_4_1_0_10 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:2_1_10_8_6_4 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:2_1_10_8_6_4_9_7_5_3_0_11 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:2_1_11_9_7_5 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:2_3_5_7_9_11 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:2_3_6_8_10_0 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:2_3_6_8_10_0_7_9_11_1_4_5 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:2_4_5_8_10_0 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:2_4_5_8_10_0_7_9_11_1_3_6 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:2_4_6_7_10_0 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:2_4_6_7_10_0_8_9_11_1_3_5 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:2_4_6_8_10_1 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:2_4_6_8_10_11 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:2_4_6_8_10_11_7_9_0_1_3_5 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:2_4_6_8_11_0 mhg:hasRowClass mhg:1_3_2_2_2 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_2: rotation 3 not transposed" .
+
+mhg:2_4_6_8_9_0 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:2_4_6_8_9_0_7_10_11_1_3_5 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:2_4_6_9_10_0 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:2_4_7_8_10_0 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:2_5_6_8_10_0 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:2_5_7_9_11_1 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:2_5_7_9_11_1_8_10_0_3_4_6 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:3_0_10_8_6_4 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:3_0_10_8_6_4_9_7_5_2_1_11 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:3_0_11_9_7_5 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:3_1_0_9_7_5 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:3_1_0_9_7_5_10_8_6_4_2_11 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:3_1_10_9_7_5 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:3_1_11_10_7_5 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:3_1_11_10_7_5_9_8_6_4_2_0 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:3_1_11_8_7_5 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:3_1_11_9_6_5 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:3_1_11_9_7_4 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:3_1_11_9_7_6 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:3_1_11_9_7_6_10_8_5_4_2_0 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:3_1_11_9_8_5 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:3_1_11_9_8_5_10_7_6_4_2_0 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:3_2_0_10_8_6 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:3_2_11_9_7_5 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:3_2_11_9_7_5_10_8_6_4_1_0 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:3_4_6_8_10_0 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:3_4_7_9_11_1 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:3_4_7_9_11_1_8_10_0_2_5_6 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:3_5_6_9_11_1 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:3_5_6_9_11_1_8_10_0_2_4_7 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:3_5_7_10_11_1 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:3_5_7_8_11_1 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:3_5_7_8_11_1_9_10_0_2_4_6 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:3_5_7_9_0_1 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:3_5_7_9_10_1 mhg:hasRowClass mhg:2_2_2_1_3 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_1: rotation 6 not transposed" .
+
+mhg:3_5_7_9_10_1_8_11_0_2_4_6 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 ;
+    mhg:manifestedIn [ mhg:accordingTo "SerialAnalyzer" ;
+            mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+            dcterms:source "Krenek1960, p.212" ;
+            rdfs:comment "P: rotation 6 not transposed" ] .
+
+mhg:3_5_7_9_11_0 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:3_5_7_9_11_0_8_10_1_2_4_6 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:3_5_7_9_11_2 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:3_5_8_9_11_1 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:3_6_7_9_11_1 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:3_6_8_10_0_2 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:3_6_8_10_0_2_9_11_1_4_5_7 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:4_1_0_10_8_6 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:4_1_11_9_7_5 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:4_1_11_9_7_5_10_8_6_3_2_0 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:4_2_0_10_7_6 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:4_2_0_10_8_5 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:4_2_0_10_8_7 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:4_2_0_10_8_7_11_9_6_5_3_1 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:4_2_0_10_9_6 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:4_2_0_10_9_6_11_8_7_5_3_1 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:4_2_0_11_8_6 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:4_2_0_11_8_6_10_9_7_5_3_1 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:4_2_0_9_8_6 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:4_2_11_10_8_6 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:4_2_1_10_8_6 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:4_2_1_10_8_6_11_9_7_5_3_0 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:4_3_0_10_8_6 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:4_3_0_10_8_6_11_9_7_5_2_1 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:4_3_1_11_9_7 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:4_5_7_9_11_1 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:4_5_8_10_0_2 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:4_5_8_10_0_2_9_11_1_3_6_7 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:4_6_7_10_0_2 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:4_6_7_10_0_2_9_11_1_3_5_8 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:4_6_8_10_0_1 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:4_6_8_10_0_1_9_11_2_3_5_7 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:4_6_8_10_0_3 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:4_6_8_10_11_2 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:4_6_8_10_11_2_9_0_1_3_5_7 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:4_6_8_10_1_2 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:4_6_8_11_0_2 mhg:hasRowClass mhg:2_1_3_2_2 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_2: rotation 4 not transposed" .
+
+mhg:4_6_8_9_0_2 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:4_6_8_9_0_2_10_11_1_3_5_7 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:4_6_9_10_0_2 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:4_7_8_10_0_2 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:4_7_9_11_1_3 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:4_7_9_11_1_3_10_0_2_5_6_8 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:5_2_0_10_8_6 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:5_2_0_10_8_6_11_9_7_4_3_1 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:5_2_1_11_9_7 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:5_3_0_11_9_7 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:5_3_1_0_9_7 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:5_3_1_0_9_7_11_10_8_6_4_2 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:5_3_1_10_9_7 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:5_3_1_11_10_7 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:5_3_1_11_10_7_0_9_8_6_4_2 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:5_3_1_11_8_7 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:5_3_1_11_9_6 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:5_3_1_11_9_8 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:5_3_1_11_9_8_0_10_7_6_4_2 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:5_3_2_11_9_7 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:5_3_2_11_9_7_0_10_8_6_4_1 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:5_4_1_11_9_7 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:5_4_1_11_9_7_0_10_8_6_3_2 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:5_4_2_0_10_8 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:5_6_8_10_0_2 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:5_6_9_11_1_3 mhg:hasRowClass mhg:1_3_2_2_2 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_1: rotation 3 transposed on pc 5" .
+
+mhg:5_6_9_11_1_3_10_0_2_4_7_8 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:5_7_10_11_1_3 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:5_7_8_11_1_3 mhg:hasRowClass mhg:2_1_3_2_2 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_1: rotation 2 transposed to pc 5" .
+
+mhg:5_7_8_11_1_3_10_0_2_4_6_9 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:5_7_9_0_1_3 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:5_7_9_10_1_3 mhg:hasRowClass mhg:2_2_1_3_2 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_1: rotation 1 not transposed" .
+
+mhg:5_7_9_10_1_3_11_0_2_4_6_8 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 ;
+    mhg:manifestedIn [ mhg:accordingTo "SerialAnalyzer" ;
+            mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+            dcterms:source "Krenek1960, p.212" ;
+            rdfs:comment "P: rotation 1 not transposed" ] .
+
+mhg:5_7_9_11_0_3 mhg:hasRowClass mhg:2_2_2_1_3 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_1: rotation 6 transposed to pc 5" .
+
+mhg:5_7_9_11_0_3_10_1_2_4_6_8 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:5_7_9_11_1_2 mhg:hasRowClass mhg:1_2_2_2_2 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_1: rotation 5 transposed to pc 5" .
+
+mhg:5_7_9_11_1_2_10_0_3_4_6_8 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:5_7_9_11_1_4 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:5_7_9_11_2_3 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:5_8_10_0_2_4 mhg:hasRowClass mhg:2_2_2_2_3 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_1: rotation 4 transposed to pc 5" .
+
+mhg:5_8_10_0_2_4_11_1_3_6_7_9 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:5_8_9_11_1_3 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:6_3_1_11_9_7 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:6_3_1_11_9_7_0_10_8_5_4_2 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:6_3_2_0_10_8 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:6_4_1_0_10_8 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:6_4_2_0_10_7 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:6_4_2_0_10_9 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:6_4_2_0_10_9_1_11_8_7_5_3 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:6_4_2_0_11_8 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:6_4_2_0_11_8_1_10_9_7_5_3 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:6_4_2_0_9_8 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:6_4_2_11_10_8 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:6_4_2_1_10_8 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:6_4_2_1_10_8_0_11_9_7_5_3 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:6_4_3_0_10_8 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:6_4_3_0_10_8_1_11_9_7_5_2 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:6_5_2_0_10_8 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:6_5_2_0_10_8_1_11_9_7_4_3 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:6_5_3_1_11_9 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:6_7_10_0_2_4 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:6_7_10_0_2_4_11_1_3_5_8_9 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:6_7_9_11_1_3 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:6_8_10_0_1_4 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:6_8_10_0_1_4_11_2_3_5_7_9 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:6_8_10_0_2_3 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:6_8_10_0_2_3_11_1_4_5_7_9 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:6_8_10_0_2_5 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:6_8_10_0_3_4 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:6_8_10_11_2_4 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:6_8_10_11_2_4_0_1_3_5_7_9 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:6_8_10_1_2_4 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:6_8_11_0_2_4 mhg:hasRowClass mhg:2_2_1_3_2 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_2: rotation 5 not transposed" .
+
+mhg:6_8_9_0_2_4 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:6_8_9_0_2_4_11_1_3_5_7_10 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:6_9_10_0_2_4 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:6_9_11_1_3_5 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:6_9_11_1_3_5_0_2_4_7_8_10 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:7_10_0_2_4_6 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:7_10_0_2_4_6_1_3_5_8_9_11 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:7_10_11_1_3_5 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:7_4_2_0_10_8 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:7_4_2_0_10_8_1_11_9_6_5_3 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:7_4_3_1_11_9 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:7_5_2_1_11_9 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:7_5_3_0_11_9 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:7_5_3_1_0_9 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:7_5_3_1_0_9_2_11_10_8_6_4 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:7_5_3_1_10_9 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:7_5_3_1_11_10 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:7_5_3_1_11_10_2_0_9_8_6_4 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:7_5_3_1_11_8 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:7_5_3_2_11_9 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:7_5_3_2_11_9_1_0_10_8_6_4 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:7_5_4_1_11_9 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:7_5_4_1_11_9_2_0_10_8_6_3 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:7_6_3_1_11_9 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:7_6_3_1_11_9_2_0_10_8_5_4 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:7_6_4_2_0_10 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:7_8_10_0_2_4 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:7_8_11_1_3_5 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:7_8_11_1_3_5_0_2_4_6_9_10 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:7_9_0_1_3_5 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:7_9_10_1_3_5 mhg:hasRowClass mhg:2_1_3_2_2 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_1: rotation 2 not transposed" .
+
+mhg:7_9_10_1_3_5_0_2_4_6_8_11 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 ;
+    mhg:manifestedIn [ mhg:accordingTo "SerialAnalyzer" ;
+            mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+            dcterms:source "Krenek1960, p.212" ;
+            rdfs:comment "P: rotation 2 not transposed" ] .
+
+mhg:7_9_11_0_3_5 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:7_9_11_0_3_5_1_2_4_6_8_10 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:7_9_11_1_2_5 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:7_9_11_1_2_5_0_3_4_6_8_10 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:7_9_11_1_3_4 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:7_9_11_1_3_4_0_2_5_6_8_10 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:7_9_11_1_3_6 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:7_9_11_1_4_5 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:7_9_11_2_3_5 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:8_10_0_1_4_6 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:8_10_0_1_4_6_2_3_5_7_9_11 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:8_10_0_2_3_6 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:8_10_0_2_3_6_1_4_5_7_9_11 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:8_10_0_2_4_5 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:8_10_0_2_4_5_1_3_6_7_9_11 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:8_10_0_2_4_7 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:8_10_0_2_5_6 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:8_10_0_3_4_6 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:8_10_11_2_4_6 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:8_10_11_2_4_6_1_3_5_7_9_0 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:8_10_1_2_4_6 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:8_11_0_2_4_6 mhg:hasRowClass mhg:2_2_2_1_3 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_2: rotation 6 not transposed" .
+
+mhg:8_11_1_3_5_7 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:8_11_1_3_5_7_2_4_6_9_10_0 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:8_5_3_1_11_9 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:8_5_3_1_11_9_2_0_10_7_6_4 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:8_5_4_2_0_10 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:8_6_3_2_0_10 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:8_6_4_1_0_10 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:8_6_4_2_0_11 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:8_6_4_2_0_11_3_1_10_9_7_5 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:8_6_4_2_0_9 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:8_6_4_2_11_10 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:8_6_4_2_1_10 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:8_6_4_2_1_10_3_0_11_9_7_5 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:8_6_4_3_0_10 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:8_6_4_3_0_10_2_1_11_9_7_5 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:8_6_5_2_0_10 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:8_6_5_2_0_10_3_1_11_9_7_4 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:8_7_4_2_0_10 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:8_7_4_2_0_10_3_1_11_9_6_5 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:8_7_5_3_1_11 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:8_9_0_2_4_6 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:8_9_0_2_4_6_1_3_5_7_10_11 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:8_9_11_1_3_5 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:9_0_1_3_5_7 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:9_0_2_4_6_8 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:9_0_2_4_6_8_3_5_7_10_11_1 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:9_10_0_2_4_6 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:9_10_1_3_5_7 mhg:hasRowClass mhg:1_3_2_2_2 ;
+    mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    rdfs:comment "P hexachord_1: rotation 3 not transposed" .
+
+mhg:9_10_1_3_5_7_2_4_6_8_11_0 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 ;
+    mhg:manifestedIn [ mhg:accordingTo "SerialAnalyzer" ;
+            mhg:manifestedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+            dcterms:source "Krenek1960, p.212" ;
+            rdfs:comment "P: rotation 3 not transposed" ] .
+
+mhg:9_11_0_3_5_7 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:9_11_0_3_5_7_2_4_6_8_10_1 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:9_11_1_2_5_7 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:9_11_1_2_5_7_3_4_6_8_10_0 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:9_11_1_3_4_7 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:9_11_1_3_4_7_2_5_6_8_10_0 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:9_11_1_3_5_6 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:9_11_1_3_5_6_2_4_7_8_10_0 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:9_11_1_3_5_8 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:9_11_1_3_6_7 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:9_11_1_4_5_7 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:9_11_2_3_5_7 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:9_6_4_2_0_10 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:9_6_4_2_0_10_3_1_11_8_7_5 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:9_6_5_3_1_11 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:9_7_4_3_1_11 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:9_7_5_2_1_11 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:9_7_5_3_0_11 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:9_7_5_3_1_0 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:9_7_5_3_1_0_4_2_11_10_8_6 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:9_7_5_3_1_10 mhg:hasRowClass mhg:2_2_2_2_3 .
+
+mhg:9_7_5_3_2_11 mhg:hasRowClass mhg:2_2_2_1_3 .
+
+mhg:9_7_5_3_2_11_4_1_0_10_8_6 mhg:hasRowClass mhg:2_2_2_1_3_7_3_1_2_2_2 .
+
+mhg:9_7_5_4_1_11 mhg:hasRowClass mhg:2_2_1_3_2 .
+
+mhg:9_7_5_4_1_11_3_2_0_10_8_6 mhg:hasRowClass mhg:2_2_1_3_2_8_1_2_2_2_2 .
+
+mhg:9_7_6_3_1_11 mhg:hasRowClass mhg:2_1_3_2_2 .
+
+mhg:9_7_6_3_1_11_4_2_0_10_8_5 mhg:hasRowClass mhg:2_1_3_2_2_7_2_2_2_2_3 .
+
+mhg:9_8_5_3_1_11 mhg:hasRowClass mhg:1_3_2_2_2 .
+
+mhg:9_8_5_3_1_11_4_2_0_10_7_6 mhg:hasRowClass mhg:1_3_2_2_2_7_2_2_2_3_1 .
+
+mhg:9_8_6_4_2_0 mhg:hasRowClass mhg:1_2_2_2_2 .
+
+mhg:Krenek_Eight_Piano_Pieces frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1946" .
+
+mhg:Krenek_Four_Songs_Op_112 frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1946-1947" .
+
+mhg:Krenek_Kafka_songs_Op_82 frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1938-1939" .
+
+mhg:Krenek_Karl_V frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1938" .
+
+mhg:Krenek_Karl_V_King_Francis_Row frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1938" .
+
+mhg:Krenek_Kette_Kreis_und_Spiegel_Circle_Chain_and_Mirror_Op_160 frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1956-57" .
+
+mhg:Krenek_Monologue_for_Solo_Clarinet_Op_157 frbr:creator mhg:KrenekKrenek ;
+    frbr:hasCreationDate "1956" .
+
+mhg:Krenek_Sechs_Vermessene_Op_168 frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1958" .
+
+mhg:Krenek_Sestina_Op_161 frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1957" .
+
+mhg:Krenek_Sonata_No_3_Op_92_No_4 frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1942" .
+
+mhg:Krenek_Sonata_for_Viola_and_Piano_Op_117 frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1948" .
+
+mhg:Krenek_Sonatine_for_Flute_and_Viola_Op_92_2a frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1942" .
+
+mhg:Krenek_String_Quartet_No_6_Op_78 frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1936" .
+
+mhg:Krenek_String_Quartet_No_7_Op_96 frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1943-44" .
+
+mhg:Krenek_Studies_in_Counterpoint frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1940" .
+
+mhg:Krenek_Studies_in_Counterpoint_i frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1937" .
+
+mhg:Krenek_Studies_in_Counterpoint_ii frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1937" .
+
+mhg:Krenek_Suite_Op_84_for_solo_cello frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1939" .
+
+mhg:Krenek_Symeon_der_Stylit frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1935-1936" .
+
+mhg:Krenek_Symphonic_Piece_for_string_Orchestra_Op_86 frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1939" .
+
+mhg:Krenek_Twelve_Short_Piano_Pieces_Op_83 frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1938" .
+
+mhg:Krenek_Zwölf_Variationen_in_Drei_Satzen frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1937" .
+
+mhg:Krenek_Zwölf_Variationen_in_Drei_Sätzen_Op_79 frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1957/1940/1937" .
+
+mhg:Krenek_concert_for_organ_and_string_orchestra_Op_230 frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1979/1-2" .
+
+mhg:Krenek_twelve_tone_row_in_a_display_case_of_Steinerner_Saal_in_the_Musikverein_of_Vienna frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1985/8/8" .
+
+mhg:Krenek_Quaestio_temporis_Op_170 frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1959" .
+
+mhg:Krenek_Symphonic_Elegy_for_String_Orchestra_Op_105 frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1946" .
+
+mhg:1_3_2_2_2_7_2_2_2_3_1 mhg:actualizedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    mhg:hasRowForm mhg:0_11_8_6_4_2_7_5_3_1_10_9,
+        mhg:0_1_4_6_8_10_5_7_9_11_2_3,
+        mhg:10_11_2_4_6_8_3_5_7_9_0_1,
+        mhg:10_9_6_4_2_0_5_3_1_11_8_7,
+        mhg:11_0_3_5_7_9_4_6_8_10_1_2,
+        mhg:11_10_7_5_3_1_6_4_2_0_9_8,
+        mhg:1_0_9_7_5_3_8_6_4_2_11_10,
+        mhg:1_2_5_7_9_11_6_8_10_0_3_4,
+        mhg:2_1_10_8_6_4_9_7_5_3_0_11,
+        mhg:2_3_6_8_10_0_7_9_11_1_4_5,
+        mhg:3_2_11_9_7_5_10_8_6_4_1_0,
+        mhg:3_4_7_9_11_1_8_10_0_2_5_6,
+        mhg:4_3_0_10_8_6_11_9_7_5_2_1,
+        mhg:4_5_8_10_0_2_9_11_1_3_6_7,
+        mhg:5_4_1_11_9_7_0_10_8_6_3_2,
+        mhg:5_6_9_11_1_3_10_0_2_4_7_8,
+        mhg:6_5_2_0_10_8_1_11_9_7_4_3,
+        mhg:6_7_10_0_2_4_11_1_3_5_8_9,
+        mhg:7_6_3_1_11_9_2_0_10_8_5_4,
+        mhg:7_8_11_1_3_5_0_2_4_6_9_10,
+        mhg:8_7_4_2_0_10_3_1_11_9_6_5,
+        mhg:8_9_0_2_4_6_1_3_5_7_10_11,
+        mhg:9_10_1_3_5_7_2_4_6_8_11_0,
+        mhg:9_8_5_3_1_11_4_2_0_10_7_6 .
+
+mhg:2_2_2_1_3_7_3_1_2_2_2 mhg:actualizedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    mhg:hasRowForm mhg:0_10_8_6_5_2_7_4_3_1_11_9,
+        mhg:0_2_4_6_7_10_5_8_9_11_1_3,
+        mhg:10_0_2_4_5_8_3_6_7_9_11_1,
+        mhg:10_8_6_4_3_0_5_2_1_11_9_7,
+        mhg:11_1_3_5_6_9_4_7_8_10_0_2,
+        mhg:11_9_7_5_4_1_6_3_2_0_10_8,
+        mhg:1_11_9_7_6_3_8_5_4_2_0_10,
+        mhg:1_3_5_7_8_11_6_9_10_0_2_4,
+        mhg:2_0_10_8_7_4_9_6_5_3_1_11,
+        mhg:2_4_6_8_9_0_7_10_11_1_3_5,
+        mhg:3_1_11_9_8_5_10_7_6_4_2_0,
+        mhg:3_5_7_9_10_1_8_11_0_2_4_6,
+        mhg:4_2_0_10_9_6_11_8_7_5_3_1,
+        mhg:4_6_8_10_11_2_9_0_1_3_5_7,
+        mhg:5_3_1_11_10_7_0_9_8_6_4_2,
+        mhg:5_7_9_11_0_3_10_1_2_4_6_8,
+        mhg:6_4_2_0_11_8_1_10_9_7_5_3,
+        mhg:6_8_10_0_1_4_11_2_3_5_7_9,
+        mhg:7_5_3_1_0_9_2_11_10_8_6_4,
+        mhg:7_9_11_1_2_5_0_3_4_6_8_10,
+        mhg:8_10_0_2_3_6_1_4_5_7_9_11,
+        mhg:8_6_4_2_1_10_3_0_11_9_7_5,
+        mhg:9_11_1_3_4_7_2_5_6_8_10_0,
+        mhg:9_7_5_3_2_11_4_1_0_10_8_6 .
+
+mhg:ErnstKrenek frbr:creatorOf mhg:Krenek_Eight_Piano_Pieces,
+        mhg:Krenek_Four_Songs_Op_112,
+        mhg:Krenek_Kafka_songs_Op_82,
+        mhg:Krenek_Karl_V,
+        mhg:Krenek_Karl_V_King_Francis_Row,
+        mhg:Krenek_Kette_Kreis_und_Spiegel_Circle_Chain_and_Mirror_Op_160,
+        mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93,
+        mhg:Krenek_Monologue_for_Solo_Clarinet_Op_157,
+        mhg:Krenek_Quaestio_temporis_Op_170,
+        mhg:Krenek_Sechs_Vermessene_Op_168,
+        mhg:Krenek_Sestina_Op_161,
+        mhg:Krenek_Sonata_No_3_Op_92_No_4,
+        mhg:Krenek_Sonata_for_Viola_and_Piano_Op_117,
+        mhg:Krenek_Sonatine_for_Flute_and_Viola_Op_92_2a,
+        mhg:Krenek_String_Quartet_No_6_Op_78,
+        mhg:Krenek_String_Quartet_No_7_Op_96,
+        mhg:Krenek_Studies_in_Counterpoint,
+        mhg:Krenek_Studies_in_Counterpoint_i,
+        mhg:Krenek_Studies_in_Counterpoint_ii,
+        mhg:Krenek_Suite_Op_84_for_solo_cello,
+        mhg:Krenek_Symeon_der_Stylit,
+        mhg:Krenek_Symphonic_Elegy_for_String_Orchestra_Op_105,
+        mhg:Krenek_Symphonic_Piece_for_string_Orchestra_Op_86,
+        mhg:Krenek_Twelve_Short_Piano_Pieces_Op_83,
+        mhg:Krenek_Zwölf_Variationen_in_Drei_Satzen,
+        mhg:Krenek_Zwölf_Variationen_in_Drei_Sätzen_Op_79,
+        mhg:Krenek_concert_for_organ_and_string_orchestra_Op_230,
+        mhg:Krenek_twelve_tone_row_in_a_display_case_of_Steinerner_Saal_in_the_Musikverein_of_Vienna ;
+    schema:birthDate "1900-08-23"^^xsd:date ;
+    schema:birthPlace wd:Q1741 ;
+    schema:deathDate "1991-12-22"^^xsd:date ;
+    schema:deathPlace wd:Q488004 ;
+    schema:name "Krenek, Ernst" ;
+    schema:sameAs wd:Q158436,
+        <https://de.wikipedia.org/wiki/Ernst_Krenek>,
+        <https://en.wikipedia.org/wiki/Ernst_Krenek> .
+
+mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 frbr:creator mhg:ErnstKrenek ;
+    frbr:hasCreationDate "1941" .
+
+mhg:1_2_2_2_2 mhg:actualizedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    mhg:hasRowForm mhg:0_10_8_6_4_3,
+        mhg:0_11_9_7_5_3,
+        mhg:0_1_3_5_7_9,
+        mhg:0_2_4_6_8_9,
+        mhg:10_0_2_4_6_7,
+        mhg:10_11_1_3_5_7,
+        mhg:10_8_6_4_2_1,
+        mhg:10_9_7_5_3_1,
+        mhg:11_0_2_4_6_8,
+        mhg:11_10_8_6_4_2,
+        mhg:11_1_3_5_7_8,
+        mhg:11_9_7_5_3_2,
+        mhg:1_0_10_8_6_4,
+        mhg:1_11_9_7_5_4,
+        mhg:1_2_4_6_8_10,
+        mhg:1_3_5_7_9_10,
+        mhg:2_0_10_8_6_5,
+        mhg:2_1_11_9_7_5,
+        mhg:2_3_5_7_9_11,
+        mhg:2_4_6_8_10_11,
+        mhg:3_1_11_9_7_6,
+        mhg:3_2_0_10_8_6,
+        mhg:3_4_6_8_10_0,
+        mhg:3_5_7_9_11_0,
+        mhg:4_2_0_10_8_7,
+        mhg:4_3_1_11_9_7,
+        mhg:4_5_7_9_11_1,
+        mhg:4_6_8_10_0_1,
+        mhg:5_3_1_11_9_8,
+        mhg:5_4_2_0_10_8,
+        mhg:5_6_8_10_0_2,
+        mhg:5_7_9_11_1_2,
+        mhg:6_4_2_0_10_9,
+        mhg:6_5_3_1_11_9,
+        mhg:6_7_9_11_1_3,
+        mhg:6_8_10_0_2_3,
+        mhg:7_5_3_1_11_10,
+        mhg:7_6_4_2_0_10,
+        mhg:7_8_10_0_2_4,
+        mhg:7_9_11_1_3_4,
+        mhg:8_10_0_2_4_5,
+        mhg:8_6_4_2_0_11,
+        mhg:8_7_5_3_1_11,
+        mhg:8_9_11_1_3_5,
+        mhg:9_10_0_2_4_6,
+        mhg:9_11_1_3_5_6,
+        mhg:9_7_5_3_1_0,
+        mhg:9_8_6_4_2_0 .
+
+mhg:1_3_2_2_2 mhg:actualizedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    mhg:hasRowForm mhg:0_10_8_6_3_2,
+        mhg:0_11_8_6_4_2,
+        mhg:0_1_4_6_8_10,
+        mhg:0_2_4_6_9_10,
+        mhg:10_0_2_4_7_8,
+        mhg:10_11_2_4_6_8,
+        mhg:10_8_6_4_1_0,
+        mhg:10_9_6_4_2_0,
+        mhg:11_0_3_5_7_9,
+        mhg:11_10_7_5_3_1,
+        mhg:11_1_3_5_8_9,
+        mhg:11_9_7_5_2_1,
+        mhg:1_0_9_7_5_3,
+        mhg:1_11_9_7_4_3,
+        mhg:1_2_5_7_9_11,
+        mhg:1_3_5_7_10_11,
+        mhg:2_0_10_8_5_4,
+        mhg:2_1_10_8_6_4,
+        mhg:2_3_6_8_10_0,
+        mhg:2_4_6_8_11_0,
+        mhg:3_1_11_9_6_5,
+        mhg:3_2_11_9_7_5,
+        mhg:3_4_7_9_11_1,
+        mhg:3_5_7_9_0_1,
+        mhg:4_2_0_10_7_6,
+        mhg:4_3_0_10_8_6,
+        mhg:4_5_8_10_0_2,
+        mhg:4_6_8_10_1_2,
+        mhg:5_3_1_11_8_7,
+        mhg:5_4_1_11_9_7,
+        mhg:5_6_9_11_1_3,
+        mhg:5_7_9_11_2_3,
+        mhg:6_4_2_0_9_8,
+        mhg:6_5_2_0_10_8,
+        mhg:6_7_10_0_2_4,
+        mhg:6_8_10_0_3_4,
+        mhg:7_5_3_1_10_9,
+        mhg:7_6_3_1_11_9,
+        mhg:7_8_11_1_3_5,
+        mhg:7_9_11_1_4_5,
+        mhg:8_10_0_2_5_6,
+        mhg:8_6_4_2_11_10,
+        mhg:8_7_4_2_0_10,
+        mhg:8_9_0_2_4_6,
+        mhg:9_10_1_3_5_7,
+        mhg:9_11_1_3_6_7,
+        mhg:9_7_5_3_0_11,
+        mhg:9_8_5_3_1_11 .
+
+mhg:2_1_3_2_2 mhg:actualizedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    mhg:hasRowForm mhg:0_10_8_5_4_2,
+        mhg:0_10_9_6_4_2,
+        mhg:0_2_3_6_8_10,
+        mhg:0_2_4_7_8_10,
+        mhg:10_0_1_4_6_8,
+        mhg:10_0_2_5_6_8,
+        mhg:10_8_6_3_2_0,
+        mhg:10_8_7_4_2_0,
+        mhg:11_1_2_5_7_9,
+        mhg:11_1_3_6_7_9,
+        mhg:11_9_7_4_3_1,
+        mhg:11_9_8_5_3_1,
+        mhg:1_11_10_7_5_3,
+        mhg:1_11_9_6_5_3,
+        mhg:1_3_4_7_9_11,
+        mhg:1_3_5_8_9_11,
+        mhg:2_0_10_7_6_4,
+        mhg:2_0_11_8_6_4,
+        mhg:2_4_5_8_10_0,
+        mhg:2_4_6_9_10_0,
+        mhg:3_1_0_9_7_5,
+        mhg:3_1_11_8_7_5,
+        mhg:3_5_6_9_11_1,
+        mhg:3_5_7_10_11_1,
+        mhg:4_2_0_9_8_6,
+        mhg:4_2_1_10_8_6,
+        mhg:4_6_7_10_0_2,
+        mhg:4_6_8_11_0_2,
+        mhg:5_3_1_10_9_7,
+        mhg:5_3_2_11_9_7,
+        mhg:5_7_8_11_1_3,
+        mhg:5_7_9_0_1_3,
+        mhg:6_4_2_11_10_8,
+        mhg:6_4_3_0_10_8,
+        mhg:6_8_10_1_2_4,
+        mhg:6_8_9_0_2_4,
+        mhg:7_5_3_0_11_9,
+        mhg:7_5_4_1_11_9,
+        mhg:7_9_10_1_3_5,
+        mhg:7_9_11_2_3_5,
+        mhg:8_10_0_3_4_6,
+        mhg:8_10_11_2_4_6,
+        mhg:8_6_4_1_0_10,
+        mhg:8_6_5_2_0_10,
+        mhg:9_11_0_3_5_7,
+        mhg:9_11_1_4_5_7,
+        mhg:9_7_5_2_1_11,
+        mhg:9_7_6_3_1_11 .
+
+mhg:2_1_3_2_2_7_2_2_2_2_3 mhg:actualizedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    mhg:hasRowForm mhg:0_10_9_6_4_2_7_5_3_1_11_8,
+        mhg:0_2_3_6_8_10_5_7_9_11_1_4,
+        mhg:0_3_5_7_9_11_6_8_10_1_2_4,
+        mhg:0_9_7_5_3_1_6_4_2_11_10_8,
+        mhg:10_0_1_4_6_8_3_5_7_9_11_2,
+        mhg:10_1_3_5_7_9_4_6_8_11_0_2,
+        mhg:10_7_5_3_1_11_4_2_0_9_8_6,
+        mhg:10_8_7_4_2_0_5_3_1_11_9_6,
+        mhg:11_1_2_5_7_9_4_6_8_10_0_3,
+        mhg:11_2_4_6_8_10_5_7_9_0_1_3,
+        mhg:11_8_6_4_2_0_5_3_1_10_9_7,
+        mhg:11_9_8_5_3_1_6_4_2_0_10_7,
+        mhg:1_10_8_6_4_2_7_5_3_0_11_9,
+        mhg:1_11_10_7_5_3_8_6_4_2_0_9,
+        mhg:1_3_4_7_9_11_6_8_10_0_2_5,
+        mhg:1_4_6_8_10_0_7_9_11_2_3_5,
+        mhg:2_0_11_8_6_4_9_7_5_3_1_10,
+        mhg:2_11_9_7_5_3_8_6_4_1_0_10,
+        mhg:2_4_5_8_10_0_7_9_11_1_3_6,
+        mhg:2_5_7_9_11_1_8_10_0_3_4_6,
+        mhg:3_0_10_8_6_4_9_7_5_2_1_11,
+        mhg:3_1_0_9_7_5_10_8_6_4_2_11,
+        mhg:3_5_6_9_11_1_8_10_0_2_4_7,
+        mhg:3_6_8_10_0_2_9_11_1_4_5_7,
+        mhg:4_1_11_9_7_5_10_8_6_3_2_0,
+        mhg:4_2_1_10_8_6_11_9_7_5_3_0,
+        mhg:4_6_7_10_0_2_9_11_1_3_5_8,
+        mhg:4_7_9_11_1_3_10_0_2_5_6_8,
+        mhg:5_2_0_10_8_6_11_9_7_4_3_1,
+        mhg:5_3_2_11_9_7_0_10_8_6_4_1,
+        mhg:5_7_8_11_1_3_10_0_2_4_6_9,
+        mhg:5_8_10_0_2_4_11_1_3_6_7_9,
+        mhg:6_3_1_11_9_7_0_10_8_5_4_2,
+        mhg:6_4_3_0_10_8_1_11_9_7_5_2,
+        mhg:6_8_9_0_2_4_11_1_3_5_7_10,
+        mhg:6_9_11_1_3_5_0_2_4_7_8_10,
+        mhg:7_10_0_2_4_6_1_3_5_8_9_11,
+        mhg:7_4_2_0_10_8_1_11_9_6_5_3,
+        mhg:7_5_4_1_11_9_2_0_10_8_6_3,
+        mhg:7_9_10_1_3_5_0_2_4_6_8_11,
+        mhg:8_10_11_2_4_6_1_3_5_7_9_0,
+        mhg:8_11_1_3_5_7_2_4_6_9_10_0,
+        mhg:8_5_3_1_11_9_2_0_10_7_6_4,
+        mhg:8_6_5_2_0_10_3_1_11_9_7_4,
+        mhg:9_0_2_4_6_8_3_5_7_10_11_1,
+        mhg:9_11_0_3_5_7_2_4_6_8_10_1,
+        mhg:9_6_4_2_0_10_3_1_11_8_7_5,
+        mhg:9_7_6_3_1_11_4_2_0_10_8_5 .
+
+mhg:2_2_1_3_2 mhg:actualizedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    mhg:hasRowForm mhg:0_10_7_6_4_2,
+        mhg:0_10_8_7_4_2,
+        mhg:0_2_4_5_8_10,
+        mhg:0_2_5_6_8_10,
+        mhg:10_0_2_3_6_8,
+        mhg:10_0_3_4_6_8,
+        mhg:10_8_5_4_2_0,
+        mhg:10_8_6_5_2_0,
+        mhg:11_1_3_4_7_9,
+        mhg:11_1_4_5_7_9,
+        mhg:11_9_6_5_3_1,
+        mhg:11_9_7_6_3_1,
+        mhg:1_11_8_7_5_3,
+        mhg:1_11_9_8_5_3,
+        mhg:1_3_5_6_9_11,
+        mhg:1_3_6_7_9_11,
+        mhg:2_0_10_9_6_4,
+        mhg:2_0_9_8_6_4,
+        mhg:2_4_6_7_10_0,
+        mhg:2_4_7_8_10_0,
+        mhg:3_1_10_9_7_5,
+        mhg:3_1_11_10_7_5,
+        mhg:3_5_7_8_11_1,
+        mhg:3_5_8_9_11_1,
+        mhg:4_2_0_11_8_6,
+        mhg:4_2_11_10_8_6,
+        mhg:4_6_8_9_0_2,
+        mhg:4_6_9_10_0_2,
+        mhg:5_3_0_11_9_7,
+        mhg:5_3_1_0_9_7,
+        mhg:5_7_10_11_1_3,
+        mhg:5_7_9_10_1_3,
+        mhg:6_4_1_0_10_8,
+        mhg:6_4_2_1_10_8,
+        mhg:6_8_10_11_2_4,
+        mhg:6_8_11_0_2_4,
+        mhg:7_5_2_1_11_9,
+        mhg:7_5_3_2_11_9,
+        mhg:7_9_0_1_3_5,
+        mhg:7_9_11_0_3_5,
+        mhg:8_10_0_1_4_6,
+        mhg:8_10_1_2_4_6,
+        mhg:8_6_3_2_0_10,
+        mhg:8_6_4_3_0_10,
+        mhg:9_11_1_2_5_7,
+        mhg:9_11_2_3_5_7,
+        mhg:9_7_4_3_1_11,
+        mhg:9_7_5_4_1_11 .
+
+mhg:2_2_1_3_2_8_1_2_2_2_2 mhg:actualizedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    mhg:hasRowForm mhg:0_10_8_6_4_3_7_5_2_1_11_9,
+        mhg:0_10_8_7_4_2_6_5_3_1_11_9,
+        mhg:0_2_4_5_8_10_6_7_9_11_1_3,
+        mhg:0_2_4_6_8_9_5_7_10_11_1_3,
+        mhg:10_0_2_3_6_8_4_5_7_9_11_1,
+        mhg:10_0_2_4_6_7_3_5_8_9_11_1,
+        mhg:10_8_6_4_2_1_5_3_0_11_9_7,
+        mhg:10_8_6_5_2_0_4_3_1_11_9_7,
+        mhg:11_1_3_4_7_9_5_6_8_10_0_2,
+        mhg:11_1_3_5_7_8_4_6_9_10_0_2,
+        mhg:11_9_7_5_3_2_6_4_1_0_10_8,
+        mhg:11_9_7_6_3_1_5_4_2_0_10_8,
+        mhg:1_11_9_7_5_4_8_6_3_2_0_10,
+        mhg:1_11_9_8_5_3_7_6_4_2_0_10,
+        mhg:1_3_5_6_9_11_7_8_10_0_2_4,
+        mhg:1_3_5_7_9_10_6_8_11_0_2_4,
+        mhg:2_0_10_8_6_5_9_7_4_3_1_11,
+        mhg:2_0_10_9_6_4_8_7_5_3_1_11,
+        mhg:2_4_6_7_10_0_8_9_11_1_3_5,
+        mhg:2_4_6_8_10_11_7_9_0_1_3_5,
+        mhg:3_1_11_10_7_5_9_8_6_4_2_0,
+        mhg:3_1_11_9_7_6_10_8_5_4_2_0,
+        mhg:3_5_7_8_11_1_9_10_0_2_4_6,
+        mhg:3_5_7_9_11_0_8_10_1_2_4_6,
+        mhg:4_2_0_10_8_7_11_9_6_5_3_1,
+        mhg:4_2_0_11_8_6_10_9_7_5_3_1,
+        mhg:4_6_8_10_0_1_9_11_2_3_5_7,
+        mhg:4_6_8_9_0_2_10_11_1_3_5_7,
+        mhg:5_3_1_0_9_7_11_10_8_6_4_2,
+        mhg:5_3_1_11_9_8_0_10_7_6_4_2,
+        mhg:5_7_9_10_1_3_11_0_2_4_6_8,
+        mhg:5_7_9_11_1_2_10_0_3_4_6_8,
+        mhg:6_4_2_0_10_9_1_11_8_7_5_3,
+        mhg:6_4_2_1_10_8_0_11_9_7_5_3,
+        mhg:6_8_10_0_2_3_11_1_4_5_7_9,
+        mhg:6_8_10_11_2_4_0_1_3_5_7_9,
+        mhg:7_5_3_1_11_10_2_0_9_8_6_4,
+        mhg:7_5_3_2_11_9_1_0_10_8_6_4,
+        mhg:7_9_11_0_3_5_1_2_4_6_8_10,
+        mhg:7_9_11_1_3_4_0_2_5_6_8_10,
+        mhg:8_10_0_1_4_6_2_3_5_7_9_11,
+        mhg:8_10_0_2_4_5_1_3_6_7_9_11,
+        mhg:8_6_4_2_0_11_3_1_10_9_7_5,
+        mhg:8_6_4_3_0_10_2_1_11_9_7_5,
+        mhg:9_11_1_2_5_7_3_4_6_8_10_0,
+        mhg:9_11_1_3_5_6_2_4_7_8_10_0,
+        mhg:9_7_5_3_1_0_4_2_11_10_8_6,
+        mhg:9_7_5_4_1_11_3_2_0_10_8_6 .
+
+mhg:2_2_2_1_3 mhg:actualizedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    mhg:hasRowForm mhg:0_10_8_6_5_2,
+        mhg:0_2_4_6_7_10,
+        mhg:0_3_4_6_8_10,
+        mhg:0_9_8_6_4_2,
+        mhg:10_0_2_4_5_8,
+        mhg:10_1_2_4_6_8,
+        mhg:10_7_6_4_2_0,
+        mhg:10_8_6_4_3_0,
+        mhg:11_1_3_5_6_9,
+        mhg:11_2_3_5_7_9,
+        mhg:11_8_7_5_3_1,
+        mhg:11_9_7_5_4_1,
+        mhg:1_10_9_7_5_3,
+        mhg:1_11_9_7_6_3,
+        mhg:1_3_5_7_8_11,
+        mhg:1_4_5_7_9_11,
+        mhg:2_0_10_8_7_4,
+        mhg:2_11_10_8_6_4,
+        mhg:2_4_6_8_9_0,
+        mhg:2_5_6_8_10_0,
+        mhg:3_0_11_9_7_5,
+        mhg:3_1_11_9_8_5,
+        mhg:3_5_7_9_10_1,
+        mhg:3_6_7_9_11_1,
+        mhg:4_1_0_10_8_6,
+        mhg:4_2_0_10_9_6,
+        mhg:4_6_8_10_11_2,
+        mhg:4_7_8_10_0_2,
+        mhg:5_2_1_11_9_7,
+        mhg:5_3_1_11_10_7,
+        mhg:5_7_9_11_0_3,
+        mhg:5_8_9_11_1_3,
+        mhg:6_3_2_0_10_8,
+        mhg:6_4_2_0_11_8,
+        mhg:6_8_10_0_1_4,
+        mhg:6_9_10_0_2_4,
+        mhg:7_10_11_1_3_5,
+        mhg:7_4_3_1_11_9,
+        mhg:7_5_3_1_0_9,
+        mhg:7_9_11_1_2_5,
+        mhg:8_10_0_2_3_6,
+        mhg:8_11_0_2_4_6,
+        mhg:8_5_4_2_0_10,
+        mhg:8_6_4_2_1_10,
+        mhg:9_0_1_3_5_7,
+        mhg:9_11_1_3_4_7,
+        mhg:9_6_5_3_1_11,
+        mhg:9_7_5_3_2_11 .
+
+mhg:2_2_2_2_3 mhg:actualizedIn mhg:Krenek_Lamentatio_Jeremiae_Prophetae_Op_93 ;
+    mhg:hasRowForm mhg:0_10_8_6_4_1,
+        mhg:0_2_4_6_8_11,
+        mhg:0_3_5_7_9_11,
+        mhg:0_9_7_5_3_1,
+        mhg:10_0_2_4_6_9,
+        mhg:10_1_3_5_7_9,
+        mhg:10_7_5_3_1_11,
+        mhg:10_8_6_4_2_11,
+        mhg:11_1_3_5_7_10,
+        mhg:11_2_4_6_8_10,
+        mhg:11_8_6_4_2_0,
+        mhg:11_9_7_5_3_0,
+        mhg:1_10_8_6_4_2,
+        mhg:1_11_9_7_5_2,
+        mhg:1_3_5_7_9_0,
+        mhg:1_4_6_8_10_0,
+        mhg:2_0_10_8_6_3,
+        mhg:2_11_9_7_5_3,
+        mhg:2_4_6_8_10_1,
+        mhg:2_5_7_9_11_1,
+        mhg:3_0_10_8_6_4,
+        mhg:3_1_11_9_7_4,
+        mhg:3_5_7_9_11_2,
+        mhg:3_6_8_10_0_2,
+        mhg:4_1_11_9_7_5,
+        mhg:4_2_0_10_8_5,
+        mhg:4_6_8_10_0_3,
+        mhg:4_7_9_11_1_3,
+        mhg:5_2_0_10_8_6,
+        mhg:5_3_1_11_9_6,
+        mhg:5_7_9_11_1_4,
+        mhg:5_8_10_0_2_4,
+        mhg:6_3_1_11_9_7,
+        mhg:6_4_2_0_10_7,
+        mhg:6_8_10_0_2_5,
+        mhg:6_9_11_1_3_5,
+        mhg:7_10_0_2_4_6,
+        mhg:7_4_2_0_10_8,
+        mhg:7_5_3_1_11_8,
+        mhg:7_9_11_1_3_6,
+        mhg:8_10_0_2_4_7,
+        mhg:8_11_1_3_5_7,
+        mhg:8_5_3_1_11_9,
+        mhg:8_6_4_2_0_9,
+        mhg:9_0_2_4_6_8,
+        mhg:9_11_1_3_5_8,
+        mhg:9_6_4_2_0_10,
+        mhg:9_7_5_3_1_10 .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Sechs_Vermessene_Op_168 ;
+    dcterms:source "Krenek1960, p.229; Houser1977" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Kette_Kreis_und_Spiegel_Circle_Chain_and_Mirror_Op_160 ;
+    dcterms:source "Krenek1960, p.213; Houser1977" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Zwölf_Variationen_in_Drei_Satzen ;
+    dcterms:source "Houser1977" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Kafka_songs_Op_82 ;
+    dcterms:source "FripertingerLackner2015" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Zwölf_Variationen_in_Drei_Sätzen_Op_79 ;
+    dcterms:source "FripertingerLackner2015" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Sonata_for_Viola_and_Piano_Op_117 ;
+    dcterms:source "New" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Symphonic_Elegy_for_String_Orchestra_Op_105 ;
+    dcterms:source "Ogdon1955, Ex. 64; Stewart1991, p.251" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Sonatine_for_Flute_and_Viola_Op_92_2a ;
+    dcterms:source "New" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Symphonic_Elegy_for_String_Orchestra_Op_105 ;
+    dcterms:source "Ogdon1955, Ex. 64; Stewart1991, p.251" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Eight_Piano_Pieces ;
+    dcterms:source "Houser1977" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Karl_V ;
+    dcterms:source "Stewart1991, p.169; Tregear2001" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_String_Quartet_No_6_Op_78 ;
+    dcterms:source "Ogdon1955, Exx. 37, 44" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Studies_in_Counterpoint_ii,
+        mhg:Krenek_Symeon_der_Stylit ;
+    dcterms:source "FripertingerLackner2015" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_concert_for_organ_and_string_orchestra_Op_230 ;
+    dcterms:source "FripertingerLackner2015" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Quaestio_temporis_Op_170 ;
+    dcterms:source "Krenek1960, p.230" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Monologue_for_Solo_Clarinet_Op_157 ;
+    dcterms:source "Riehl2012" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Studies_in_Counterpoint_i ;
+    dcterms:source "FripertingerLackner2015" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Four_Songs_Op_112 ;
+    dcterms:source "FripertingerLackner2015" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_twelve_tone_row_in_a_display_case_of_Steinerner_Saal_in_the_Musikverein_of_Vienna ;
+    dcterms:source "FripertingerLackner2015" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Karl_V_King_Francis_Row ;
+    dcterms:source "Stewart1991, p.170" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Twelve_Short_Piano_Pieces_Op_83 ;
+    dcterms:source "New, Preface to the score" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Sonata_No_3_Op_92_No_4 ;
+    dcterms:source "Ogdon1955, Ex. 56" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Quaestio_temporis_Op_170 ;
+    dcterms:source "Krenek1960, p.230" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Sestina_Op_161 ;
+    dcterms:source "Krenek1960, p.224; Houser1977; Stewart1991, p.290" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Symphonic_Piece_for_string_Orchestra_Op_86 ;
+    dcterms:source "Houser1977" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_String_Quartet_No_7_Op_96 ;
+    dcterms:source "Stewart1991, p.250" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Krenek_Studies_in_Counterpoint,
+        mhg:Krenek_Suite_Op_84_for_solo_cello ;
+    dcterms:source "Krenek1940; Houser1977",
+        "Perle1991" .
+

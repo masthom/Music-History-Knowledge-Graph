@@ -1,0 +1,5 @@
+@prefix ns1: <http://purl.org/vocab/frbr/core/> .
+
+<http://music-history-graph.ch/twelve-tone-onto#Krenek_Lamentatio_Jeremiae_Prophetae_Op_93> ns1:creator <http://music-history-graph.ch/twelve-tone-onto#ErnstKrenek> ;
+    ns1:hasCreationDate "1941" .
+
