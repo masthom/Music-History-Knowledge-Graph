@@ -2,9 +2,9 @@ from rdflib import Graph, URIRef
 from collections import deque
 
 # Datei und Format anpassen
-INPUT_FILE = "MusicHistoryGraph_TwelveToneMusic_Complete.ttl"
+INPUT_FILE = "Music-History-Knowledge-Graph/MusicHistoryGraph_TwelveToneMusic_CompleteAdjust.ttl"
 OUTPUT_FILE = "subgraph_expanded.ttl"
-START_URI = "http://music-history-graph.ch/twelve-tone-onto#AlbanBerg"  # Start-URI
+START_URI = "http://music-history-graph.ch/twelve-tone-onto#Zender_Canto_IV"  # Start-URI
 DEPTH = 1  # Anzahl der Schritte (z. B. 1 = direkte Nachbarn, 2 = Nachbarn der Nachbarn, ...)
 
 # Graph laden
