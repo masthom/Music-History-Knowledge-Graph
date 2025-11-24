@@ -19,20 +19,20 @@ def generate_rotations(pattern_str):
     return rotations
 
 def process_ttl_file(input_ttl_path, output_ttl_path):
-    # Regex zum Extrahieren der rowClass-Muster
-    pattern_extract = re.compile(r'mhg:([0-9_]+)\s+a\s+mhg:rowClass\s*[;.]')
+    # Regex zum Extrahieren der Intervallpattern-Muster
+    pattern_extract = re.compile(r'mhg:ip_([0-9_]+)\s+a\s+mhg:intervalPattern\s*[;.]')
     original_patterns = set()
     
-    # Lese die Eingabedatei und sammle alle Intervallmuster
+    # Lese die Eingabedatei und sammle alle Intervallpattern-Muster
     with open(input_ttl_path, 'r', encoding='utf-8') as f:
         content = f.read()
         matches = pattern_extract.findall(content)
         for match in matches:
             original_patterns.add(match)
     
-    print(f"Gefundene rowClass-Muster: {len(original_patterns)}")
+    print(f"Gefundene Intervallpattern-Muster: {len(original_patterns)}")
     
-    # Berechne geschlossene Muster für jedes Originalmuster
+    # Berechne geschlossene Muster für jedes Intervallpattern
     closed_map = {}
     for pattern in original_patterns:
         closed_pattern = calculate_closure_interval(pattern)
@@ -43,7 +43,7 @@ def process_ttl_file(input_ttl_path, output_ttl_path):
     print(f"Geschlossene Muster: {len(closed_map)}")
     
     # Finde Rotationsgruppen
-    rotation_groups = {}
+    rotation_groups = []
     used_patterns = set()
     
     for closed_pat, originals in closed_map.items():
@@ -54,35 +54,38 @@ def process_ttl_file(input_ttl_path, output_ttl_path):
         rotations = generate_rotations(closed_pat)
         current_group = set()
         
-        # Sammle alle originalen rowClasses, die zu diesen Rotationen gehören
+        # Sammle alle originalen Intervallpatterns, die zu diesen Rotationen gehören
         for rot in rotations:
             if rot in closed_map:
                 current_group.update(closed_map[rot])
                 used_patterns.add(rot)
         
         if len(current_group) > 1:
-            # Finde die numerisch kleinste rowClass in der Gruppe
-            sorted_group = sorted(current_group, key=lambda x: [int(n) for n in x.split('_')])
-            smallest = sorted_group[0]
-            rotation_groups[smallest] = sorted_group[1:]  # Ohne die kleinste selbst
+            rotation_groups.append(current_group)
     
     print(f"Gefundene Rotationsgruppen: {len(rotation_groups)}")
     
     # Schreibe die Ausgabedatei
     with open(output_ttl_path, 'w', encoding='utf-8') as f:
-        # Schreibe zuerst die isRotationOf-Beziehungen
-        for smallest, rotations in rotation_groups.items():
-            for rotation in rotations:
-                f.write(f"mhg:{smallest} mhg:isRotationOf mhg:{rotation} .\n")
-                f.write(f"mhg:{rotation} mhg:isRotationOf mhg:{smallest} .\n")
+        # Schreibe isRotationOf-Beziehungen für alle Paare in jeder Gruppe
+        for group in rotation_groups:
+            group_list = list(group)
+            # Erzeuge alle Paare innerhalb der Gruppe
+            for i in range(len(group_list)):
+                for j in range(i+1, len(group_list)):
+                    a = group_list[i]
+                    b = group_list[j]
+                    f.write(f"mhg:ip_{a} mhg:isRotationOf mhg:ip_{b} .\n")
+                    f.write(f"mhg:ip_{b} mhg:isRotationOf mhg:ip_{a} .\n")
         
-        # Schreibe dann die hasRotations-Beziehungen
-        for smallest, rotations in rotation_groups.items():
-            if rotations:
-                rotations_list = ", ".join([f"mhg:{r}" for r in rotations])
-                f.write(f"mhg:{smallest} mhg:hasRotations {rotations_list} .\n")
+        # Schreibe hasRotations-Beziehungen für die kleinste Pattern jeder Gruppe
+        for group in rotation_groups:
+            sorted_group = sorted(group, key=lambda x: [int(n) for n in x.split('_')])
+            smallest = sorted_group[0]
+            rotations_list = ", ".join([f"mhg:ip_{r}" for r in sorted_group[1:]])
+            f.write(f"mhg:ip_{smallest} mhg:hasRotations {rotations_list} .\n")
 
 if __name__ == "__main__":
-    input_ttl = "MusicHistoryGraph_TwelveToneMusic_CompleteAdjust.ttl"  # Ihre Test-Datei
-    output_ttl = "rotation_results.ttl"
+    input_ttl = "MusicHistoryGraph_TwelveToneMusic_Complete.ttl"  # Ihre Test-Datei
+    output_ttl = "rotation_results4.ttl"
     process_ttl_file(input_ttl, output_ttl)

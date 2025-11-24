@@ -1,0 +1,25 @@
+mhg:rotationGroup_1_5_10_11_4_4_6_9_7_1_10 a mhg:rotationGroup ; 
+mhg:hasRotations mhg:ip_1_5_10_11_4_4_6_9_7_1_10 ,
+mhg:ip_5_10_11_4_4_6_9_7_1_10_4,
+mhg:ip_10_11_4_4_6_9_7_1_10_4_1, 
+mhg:ip_11_4_4_6_9_7_1_10_4_1_5, 
+mhg:ip_4_4_6_9_7_1_10_4_1_5_10, 
+mhg:ip_4_6_9_7_1_10_4_1_5_10_11,  
+mhg:ip_6_9_7_1_10_4_1_5_10_11_4, 
+mhg:ip_9_7_1_10_4_1_5_10_11_4_4, 
+mhg:ip_7_1_10_4_1_5_10_11_4_4_6,
+mhg:ip_1_10_4_1_5_10_11_4_4_6_9, 
+mhg:ip_10_4_1_5_10_11_4_4_6_9_7, 
+mhg:ip_4_1_5_10_11_4_4_6_9_7_1 ; 
+mhg:hasRotation1 mhg:ip_1_5_10_11_4_4_6_9_7_1_10 ;
+mhg:hasRotation2 mhg:ip_5_10_11_4_4_6_9_7_1_10_4,
+mhg:hasRotation3 mhg:ip_10_11_4_4_6_9_7_1_10_4_1, 
+mhg:hasRotation4 mhg:ip_11_4_4_6_9_7_1_10_4_1_5, 
+mhg:hasRotation5 mhg:ip_4_4_6_9_7_1_10_4_1_5_10, 
+mhg:hasRotation6 mhg:ip_4_6_9_7_1_10_4_1_5_10_11,  
+mhg:hasRotation7 mhg:ip_6_9_7_1_10_4_1_5_10_11_4, 
+mhg:hasRotation8 mhg:ip_9_7_1_10_4_1_5_10_11_4_4, 
+mhg:hasRotation9 mhg:ip_7_1_10_4_1_5_10_11_4_4_6,
+mhg:hasRotation10 mhg:ip_1_10_4_1_5_10_11_4_4_6_9, 
+mhg:hasRotation11 mhg:ip_10_4_1_5_10_11_4_4_6_9_7, 
+mhg:hasRotation12 mhg:ip_4_1_5_10_11_4_4_6_9_7_1 .
