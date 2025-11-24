@@ -151,4 +151,4 @@ def validate_ttl(ttl_path, output_txt="validation_log.txt"):
 # Run example
 # ---------------------------------------------------------
 if __name__ == "__main__":
-    validate_ttl("MusicHistoryGraph_TwelveToneMusic_Complete.ttl")
+    validate_ttl("MusicHistoryGraph_TwelveToneMusic_CompleteAdjust.ttl")
