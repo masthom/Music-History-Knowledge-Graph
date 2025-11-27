@@ -1469,7 +1469,8 @@ mhg:KlausLang a mhg:composer ;
 
 mhg:RenéLeibowitz a mhg:composer ;
     frbr:creatorOf mhg:Leibowitz_String_Quartet_No_3_Op_26 ,
-        mhg:Leibowitz_Trois_pièces_pour_piano_Op_19 ;
+        mhg:Leibowitz_Trois_pièces_pour_piano_Op_19 , 
+        mhg:Leibowitz_Vier_Klavierstücke_op8 ;
     schema:name "Leibowitz, René" ;
     schema:sameAs <http://www.wikidata.org/entity/Q966373> ;
     schema:birthDate "1913-02-17"^^xsd:date ;
@@ -6278,13 +6279,17 @@ mhg:Lang_Von_der_Ligurischen_Küste_zum_Trasimenischen_See_Trauermusik_für_Viol
     frbr:creator mhg:KlausLang ;
     frbr:hasCreationDate "1993" .
 
-mhg:Leibowitz_String_Quartet_No_3_Op_26 a mhg:composition , frbr:work ;
-    frbr:creator mhg:RenLeibowitz ;
-    frbr:hasCreationDate "1951" .
+mhg:Leibowitz_Vier_Klavierstücke_op8 a mhg:composition , frbr:work ;
+    frbr:creator mhg:RenéLeibowitz ;
+    frbr:hasCreationDate "1941-43" .
 
 mhg:Leibowitz_Trois_pièces_pour_piano_Op_19 a mhg:composition , frbr:work ;
-    frbr:creator mhg:RenLeibowitz ;
+    frbr:creator mhg:RenéLeibowitz ;
     frbr:hasCreationDate "1949" .
+
+mhg:Leibowitz_String_Quartet_No_3_Op_26 a mhg:composition , frbr:work ;
+    frbr:creator mhg:RenéLeibowitz ;
+    frbr:hasCreationDate "1951" .
 
 mhg:Lewin_Just_a_Minute_Roger a mhg:composition , frbr:work ;
     frbr:creator mhg:DavidLewin ;
@@ -55260,7 +55265,9 @@ mhg:rc_1_5_10_5_6_11_6_11_10_5_1 a mhg:rowClass ;
     mhg:ip_11_7_2_7_6_1_6_1_2_7_11 , ##I
     mhg:ip_1_5_10_11_6_11_6_5_10_5_1 , ##R
     mhg:ip_11_7_2_1_6_1_6_7_2_7_11 ; ##RI
-    mhg:actualizedIn mhg:Dessau_Les_Voix ;
+    mhg:actualizedIn mhg:Dessau_Les_Voix , mhg:Leibowitz_Vier_Klavierstücke_op8 , 
+    [ mhg:actualizedIn mhg:Leibowitz_Vier_Klavierstücke_op8 ; 
+    mhg:accordingTo "Meine, Ein Zwölftöner in Paris, Augsburg 2000, S. 175, 268 ff."];
     mhg:hasRowForm
         # P-Formen
         mhg:rf_1_2_7_5_10_4_3_9_8_6_11_0 ,
