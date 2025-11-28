@@ -1,8 +1,0 @@
-mhg:rotationGroup_1_3_2_2_2_2 a mhg:rotationGroup ;
-    mhg:hasRotationGroupElement # mhg:ip_2_1_3_2_2_2_0   ##not yet detected,
-                 # mhg:ip_1_3_2_2_2_2_0   ##not yet detected,
-                 # mhg:ip_3_2_2_2_2_1_0   ##not yet detected,
-                 # mhg:ip_2_2_2_2_1_3_0   ##not yet detected,
-                 # mhg:ip_2_2_2_1_3_2_0   ##not yet detected,
-                 # mhg:ip_2_2_1_3_2_2_0   ##not yet detected .
-

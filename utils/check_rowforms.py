@@ -2,6 +2,8 @@ import re
 import sys
 from datetime import datetime
 
+##TODO: Index berücksichtigen (rc_, ip_, rf_)
+
 # ---------------------------------------------------------
 # Utility: Parse "mhg:1_2_3_..." → [1,2,3,...]
 # ---------------------------------------------------------
@@ -151,4 +153,4 @@ def validate_ttl(ttl_path, output_txt="validation_log.txt"):
 # Run example
 # ---------------------------------------------------------
 if __name__ == "__main__":
-    validate_ttl("MusicHistoryGraph_TwelveToneMusic_CompleteAdjust.ttl")
+    validate_ttl("MusicHistoryGraph_TwelveToneMusic_Reordered.ttl")
