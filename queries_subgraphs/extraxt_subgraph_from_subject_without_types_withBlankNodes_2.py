@@ -4,7 +4,7 @@ from collections import deque
 # === Einstellungen ===
 INPUT_FILE = "Music-History-Knowledge-Graph/MusicHistoryGraph_TwelveToneMusic_Complete.ttl"
 OUTPUT_FILE = "subgraph_expanded_with_bags.ttl"
-START_URI = "http://music-history-graph.ch/twelve-tone-onto#rc_1_2_2_2_2"
+START_URI = "http://music-history-graph.ch/twelve-tone-onto#ip_1_2_2_2_2"
 DEPTH = 2  # BFS-Tiefe
 
 # === Graph laden ===
