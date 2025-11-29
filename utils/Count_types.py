@@ -6,7 +6,7 @@ def count_entity_types(ttl_file):
     """
     Zählt alle Tripel der Form:
       <subject> a mhg:<Typ> .
-    für ausgewählte Typen (composer, composition, compositionPart, rowClass, rowForm).
+    für ausgewählte Typen (composer, composition, compositionPart, rowClass, rowForm ...).
     """
 
     # Suchmuster für RDF-Typen
@@ -15,12 +15,14 @@ def count_entity_types(ttl_file):
         "mhg:composition",
         "mhg:compositionPart",
         "mhg:rowClass",
+        "mhg:intervalPattern",
         "mhg:rowForm",
+        "mhg:rotationGroup"
     ]
 
     # Regex vorbereiten (alle Typen in einer Zeile prüfen)
     pattern = re.compile(
-        r"\b[a-zA-Z0-9_]+:\S*\s+a\s+(mhg:(?:composer|composition|compositionPart|rowClass|rowForm))\b"
+        r"\b[a-zA-Z0-9_]+:\S*\s+a\s+(mhg:(?:composer|composition|compositionPart|rowClass|intervalPattern|rowForm|rotationGroup))\b"
     )
 
     counts = defaultdict(int)
@@ -49,12 +51,13 @@ def count_entity_types(ttl_file):
     print("-" * 60)
     print(f"{'GESAMT':<25} {total:>8}")
 
+    '''
     print("\n🔎 Beispielzeilen (max. 5 pro Typ):")
     for t in types_to_count:
         if examples[t]:
             print(f"\n🧩 {t}:")
             for lno, text in examples[t]:
-                print(f"  Zeile {lno}: {text}")
+                print(f"  Zeile {lno}: {text}") '''
 
     return counts
 
