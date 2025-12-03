@@ -1,3 +1,3 @@
-A RDF graph representing music-historical connections. Currently focusing primarily on twelve-tone music and other serial music.
+A RDF graph representing music-historical connections. Currently focusing primarily on twelve-tone music or other serial music.
 
 Data was largely processed with gratitude from https://github.com/MarkGotham/Serial_Analyser.
