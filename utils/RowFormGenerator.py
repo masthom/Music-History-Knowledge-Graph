@@ -90,11 +90,11 @@ def generate_ttl_output_from_forms(forms):
     retrograde_inversion_forms = rows["RI"]
 
     output = []
-    output.append("# Normalisierte Intervallmuster")
-    output.append(f"# P: {p_pattern}")
-    output.append(f"# I: {i_pattern}")
-    output.append(f"# R: {r_pattern}")
-    output.append(f"# RI: {ri_pattern}")
+    output.append("## Intervallmuster")
+    output.append(f"## P: {p_pattern}")
+    output.append(f"## I: {i_pattern}")
+    output.append(f"## R: {r_pattern}")
+    output.append(f"## RI: {ri_pattern}")
     output.append(f"mhg:rc_{p_pattern} a mhg:rowClass ;")
     output.append(f"    mhg:hasIntervalPattern mhg:ip_{p_pattern} ; # P")
     output.append(f"    mhg:hasIntervalPattern mhg:ip_{i_pattern} ; # I")
@@ -103,25 +103,25 @@ def generate_ttl_output_from_forms(forms):
     output.append("    mhg:hasRowForm")
 
     # Listen in der rowClass
-    output.append("        # P-Forms (0-11)")
+    output.append("        # P-Forms")
     last_idx = len(prime_forms) - 1
     for i, row in enumerate(prime_forms):
         suffix = _list_suffix(i, last_idx, final_dot=False)
         output.append(f"        mhg:rf_{format_row_name(row)}{suffix}")
 
-    output.append("\n        # I-Forms (0-11)")
+    output.append("\n        # I-Forms")
     last_idx = len(inversion_forms) - 1
     for i, row in enumerate(inversion_forms):
         suffix = _list_suffix(i, last_idx, final_dot=False)
         output.append(f"        mhg:rf_{format_row_name(row)}{suffix}")
 
-    output.append("\n        # R-Forms (0-11)")
+    output.append("\n        # R-Forms")
     last_idx = len(retrograde_forms) - 1
     for i, row in enumerate(retrograde_forms):
         suffix = _list_suffix(i, last_idx, final_dot=False)
         output.append(f"        mhg:rf_{format_row_name(row)}{suffix}")
 
-    output.append("\n        # RI-Forms (0-11)")
+    output.append("\n        # RI-Forms")
     last_idx = len(retrograde_inversion_forms) - 1
     for i, row in enumerate(retrograde_inversion_forms):
         suffix = _list_suffix(i, last_idx, final_dot=True)
