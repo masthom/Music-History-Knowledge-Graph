@@ -1,3 +1,4 @@
+# last updated: 2025-12-04
 # Twelve-Tone Row Form Generator (korrigiert: IP-Zuordnung aus Row-Intervallen)
 # Wichtig: jede RowForm bekommt ihr IntervalPattern aus den tatsächlichen Pitch-Differenzen.
 
