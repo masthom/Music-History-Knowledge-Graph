@@ -1,155 +1,234 @@
-#Python 3.10.5 (tags/v3.10.5:f377153, Jun  6 2022, 16:14:13) [MSC v.1929 64 bit (AMD64)] on win32
-#Type "help", "copyright", "credits" or "license()" for more information.
-def generate_row_forms(interval_pattern):
-    """
-    Generiert alle 48 RowForms basierend auf einem Intervallmuster
-    """
-    # Konvertiere Intervallmuster in Liste von Integers
-    intervals = [int(x) for x in interval_pattern.split('_')]
-    
-    # 1. PRIME-FORMS (P-Forms)
-    prime_forms = []
-    for start_note in range(12):
-        row = [start_note]
-        current_note = start_note
-        for interval in intervals:
-            current_note = (current_note + interval) % 12
-            row.append(current_note)
-        prime_forms.append(row)
-    
-    # 2. INVERSION-FORMS (I-Forms)
-    inversion_forms = []
-    for start_note in range(12):
-        row = [start_note]
-        current_note = start_note
-        for interval in intervals:
-            current_note = (current_note - interval) % 12
-            row.append(current_note)
-        inversion_forms.append(row)
-    
-    # 3. RETROGRADE-FORMS (R-Forms) - Umgekehrte Prime-Forms
-    retrograde_forms = []
-    for p_form in prime_forms:
-        retrograde_forms.append(list(reversed(p_form)))
-    
-    # 4. RETROGRADE-INVERSION-FORMS (RI-Forms) - Umgekehrte Inversion-Forms
-    retrograde_inversion_forms = []
-    for i_form in inversion_forms:
-        retrograde_inversion_forms.append(list(reversed(i_form)))
-    
-    return prime_forms, inversion_forms, retrograde_forms, retrograde_inversion_forms
+# Twelve-Tone Row Form Generator (korrigiert: IP-Zuordnung aus Row-Intervallen)
+# Wichtig: jede RowForm bekommt ihr IntervalPattern aus den tatsächlichen Pitch-Differenzen.
+
+def invert_intervals(intervals):
+    return [(12 - x) % 12 for x in intervals]
+
+def reverse_intervals(intervals):
+    return list(reversed(intervals))
+
+def generate_rows_from_interval_pattern(interval_list):
+    rows = []
+    for start in range(12):
+        row = [start]
+        current = start
+        for iv in interval_list:
+            current = (current + iv) % 12
+            row.append(current)
+        rows.append(row)
+    return rows
+
+def intervals_to_str(intervals):
+    return '_'.join(str(x) for x in intervals)
+
+def compute_and_normalize(interval_pattern_str):
+    base_P0 = [int(x) for x in interval_pattern_str.split('_')]
+
+    P0 = base_P0
+    I0 = invert_intervals(P0)
+    R0 = reverse_intervals(P0)
+    RI0 = reverse_intervals(I0)
+
+    originals = {"P": P0, "I": I0, "R": R0, "RI": RI0}
+
+    sorted_items = sorted(originals.items(), key=lambda it: it[1])
+    smallest_old_label, smallest_pattern = sorted_items[0]
+
+    new_P = list(smallest_pattern)
+    new_I = invert_intervals(new_P)
+    new_R = reverse_intervals(new_P)
+    new_RI = reverse_intervals(new_I)
+
+    normalized = {"P": new_P, "I": new_I, "R": new_R, "RI": new_RI}
+
+    prime_forms = generate_rows_from_interval_pattern(new_P)
+    inversion_interval_list = [(-x) % 12 for x in new_P]
+    inversion_forms = generate_rows_from_interval_pattern(inversion_interval_list)
+    retrograde_forms = [list(reversed(r)) for r in prime_forms]
+    retrograde_inversion_forms = [list(reversed(r)) for r in inversion_forms]
+
+    row_forms = {"P": prime_forms, "I": inversion_forms, "R": retrograde_forms, "RI": retrograde_inversion_forms}
+
+    norm_to_label = {tuple(v): k for k, v in normalized.items()}
+    mapping_old_to_new = {old: norm_to_label.get(tuple(p), None) for old, p in originals.items()}
+
+    normalized_str = {k: intervals_to_str(v) for k, v in normalized.items()}
+
+    return {
+        "originals": {k: intervals_to_str(v) for k, v in originals.items()},
+        "normalized_intervals": normalized_str,
+        "row_forms": row_forms,
+        "mapping": mapping_old_to_new
+    }
 
 def format_row_name(row):
-    """Formatiert eine Row als String mit Unterstrichen"""
-    return '_'.join(str(note) for note in row)
+    return '_'.join(str(x) for x in row)
 
-def generate_ttl_output(interval_pattern, prime_forms, inversion_forms, retrograde_forms, retrograde_inversion_forms):
-    """Generiert die TTL-Ausgabe"""
-    
-    # Berechne die anderen Intervallmuster für die Kommentare
-    intervals = [int(x) for x in interval_pattern.split('_')]
-    
-    # P-Intervallmuster (Eingabe)
-    p_pattern = interval_pattern
-    
-    # I-Intervallmuster (negative Intervalle)
-    i_pattern = '_'.join(str((-int(x)) % 12) for x in intervals)
-    
-    # R-Intervallmuster (umgekehrt)
-    r_pattern = '_'.join(str(x) for x in reversed(intervals))
-    
-    # RI-Intervallmuster (umgekehrt und negiert)
-    ri_pattern = '_'.join(str((-int(x)) % 12) for x in reversed(intervals))
-    
+def _list_suffix(index, last_index, final_dot=False):
+    if index < last_index:
+        return ","
+    else:
+        return " ." if final_dot else " ,"
+
+def row_to_intervals(row):
+    """Berechnet Intervallfolge (Differenzen) aus einer Row (Liste von Pitch-Klassen)."""
+    iv = [ (row[i+1] - row[i]) % 12 for i in range(len(row)-1) ]
+    return iv
+
+def generate_ttl_output_from_forms(forms):
+    patterns = forms["normalized_intervals"]
+    rows = forms["row_forms"]
+
+    p_pattern = patterns["P"]
+    i_pattern = patterns["I"]
+    r_pattern = patterns["R"]
+    ri_pattern = patterns["RI"]
+
+    prime_forms = rows["P"]
+    inversion_forms = rows["I"]
+    retrograde_forms = rows["R"]
+    retrograde_inversion_forms = rows["RI"]
+
     output = []
+    output.append("# Normalisierte Intervallmuster")
     output.append(f"# P: {p_pattern}")
     output.append(f"# I: {i_pattern}")
     output.append(f"# R: {r_pattern}")
     output.append(f"# RI: {ri_pattern}")
-    output.append(f"mhg:{p_pattern} a mhg:rowClass ;")
+    output.append(f"mhg:rc_{p_pattern} a mhg:rowClass ;")
+    output.append(f"    mhg:hasIntervalPattern mhg:ip_{p_pattern} ; # P")
+    output.append(f"    mhg:hasIntervalPattern mhg:ip_{i_pattern} ; # I")
+    output.append(f"    mhg:hasIntervalPattern mhg:ip_{r_pattern} ; # R")
+    output.append(f"    mhg:hasIntervalPattern mhg:ip_{ri_pattern} ; # RI")
     output.append("    mhg:hasRowForm")
-    
-    # P-Forms
+
+    # Listen in der rowClass
     output.append("        # P-Forms (0-11)")
+    last_idx = len(prime_forms) - 1
     for i, row in enumerate(prime_forms):
-        prefix = "        " if i == 0 else "        "
-        suffix = "," if i < 11 else " ,"
-        output.append(f"{prefix}mhg:{format_row_name(row)}{suffix}")
-    
-    # I-Forms
-    output.append("        \n        # I-Forms (0-11)")
+        suffix = _list_suffix(i, last_idx, final_dot=False)
+        output.append(f"        mhg:rf_{format_row_name(row)}{suffix}")
+
+    output.append("\n        # I-Forms (0-11)")
+    last_idx = len(inversion_forms) - 1
     for i, row in enumerate(inversion_forms):
-        prefix = "        " if i == 0 else "        "
-        suffix = "," if i < 11 else " ,"
-        output.append(f"{prefix}mhg:{format_row_name(row)}{suffix}")
-    
-    # R-Forms
-    output.append("        \n        # R-Forms (0-11)")
+        suffix = _list_suffix(i, last_idx, final_dot=False)
+        output.append(f"        mhg:rf_{format_row_name(row)}{suffix}")
+
+    output.append("\n        # R-Forms (0-11)")
+    last_idx = len(retrograde_forms) - 1
     for i, row in enumerate(retrograde_forms):
-        prefix = "        " if i == 0 else "        "
-        suffix = "," if i < 11 else " ,"
-        output.append(f"{prefix}mhg:{format_row_name(row)}{suffix}")
-    
-    # RI-Forms
-    output.append("        \n        # RI-Forms (0-11)")
+        suffix = _list_suffix(i, last_idx, final_dot=False)
+        output.append(f"        mhg:rf_{format_row_name(row)}{suffix}")
+
+    output.append("\n        # RI-Forms (0-11)")
+    last_idx = len(retrograde_inversion_forms) - 1
     for i, row in enumerate(retrograde_inversion_forms):
-        prefix = "        " if i == 0 else "        "
-        suffix = "," if i < 11 else " ."
-        output.append(f"{prefix}mhg:{format_row_name(row)}{suffix}")
-    
-    # RowForm-Deklarationen
+        suffix = _list_suffix(i, last_idx, final_dot=True)
+        output.append(f"        mhg:rf_{format_row_name(row)}{suffix}")
+
+    # Intervallmuster-Deklarationen
+    output.append("\n# Intervallmuster-Deklarationen")
+    for label in ["P", "I", "R", "RI"]:
+        pattern_str = patterns[label]
+        output.append(f"mhg:ip_{pattern_str} a mhg:intervalPattern ;")
+        output.append(f"    mhg:hasRowClass mhg:rc_{p_pattern} .")
+
+    # RowForm-Deklarationen: robust durch Intervall-Extraktion aus der Row selbst
     output.append("\n# RowForm-Deklarationen")
+
+    # Erzeuge rowname -> ip, basierend auf tatsächlichen Row-Intervallen
+    rowname_to_ip = {}
+    for label in ["P", "I", "R", "RI"]:
+        for row in rows[label]:
+            rowname = format_row_name(row)
+            iv = row_to_intervals(row)              # Intervalle direkt aus der Row
+            ip_str = intervals_to_str(iv)
+            rowname_to_ip[rowname] = ip_str
+
+    emitted = set()
+    # Ausgabe in stabiler Reihenfolge (P, I, R, RI)
+    for label in ["P", "I", "R", "RI"]:
+        for row in rows[label]:
+            rowname = format_row_name(row)
+            if rowname in emitted:
+                continue
+            emitted.add(rowname)
+            ip_for_row = rowname_to_ip.get(rowname, p_pattern)
+            output.append(f"mhg:rf_{rowname} a mhg:rowForm ;")
+            output.append(f"    mhg:hasIntervalPattern mhg:ip_{ip_for_row} ;")
+            output.append(f"    mhg:hasRowClass mhg:rc_{p_pattern} .")
+
+    return "\n".join(output)
+
+def parse_user_input(user_input):
+    """
+    Erlaubt ausschließlich Eingaben mit explizitem Prefix:
+    - ip_<pattern>
+    - rf_<row>
     
-    for row in prime_forms + inversion_forms + retrograde_forms + retrograde_inversion_forms:
-        row_name = format_row_name(row)
-        output.append(f"mhg:{row_name} a mhg:rowForm ; mhg:hasRowClass mhg:{p_pattern} .")
-    
-    return '\n'.join(output)
+    Alles andere führt zu einer Fehlermeldung.
+    """
+    s = user_input.strip()
+
+    if s.startswith("ip_"):
+        pattern_str = s[3:]  # "ip_2_4_6" → "2_4_6"
+        return pattern_str
+
+    elif s.startswith("rf_"):
+        row_str = s[3:]      # "rf_0_2_6_9" → "0_2_6_9"
+        try:
+            row = [int(x) for x in row_str.split("_")]
+        except:
+            raise ValueError("Ungültiges RowForm-Format nach 'rf_'. Erwartet: rf_0_2_6_9 ...")
+        
+        if len(row) < 2:
+            raise ValueError("RowForm muss mindestens zwei Tonhöhen enthalten.")
+        
+        intervals = row_to_intervals(row)
+        return intervals_to_str(intervals)
+
+    else:
+        raise ValueError(
+            "Ungültige Eingabe. Einzugeben ist entweder:\n"
+            "  ip_<intervallpattern>  (z.B. ip_2_4_3)\n"
+            "oder\n"
+            "  rf_<rowform>           (z.B. rf_0_2_6_9)\n"
+            "Eingaben ohne 'ip_' oder 'rf_' werden nicht akzeptiert."
+        )
 
 def main():
-    # Beispiel-Intervallmuster
-    interval_pattern = "1_3_1_6_11_5_4_2_9_2_6"
-    
-    print("Twelve-Tone Row Forms Generator")
-    print("===============================")
-    
-    # Benutzer kann eigenes Intervallmuster eingeben
-    user_input = input(f"Intervallmuster eingeben (Enter für Beispiel '{interval_pattern}'): ").strip()
+    example = "rf_0_2_1_4_3_7 oder ip_2_11_3_11_4"
+    print("Twelve-Tone Row Forms Generator (korrigierte IP-Zuordnung)")
+    user_input = input(f"Reihenform oder Intervallmuster eingeben (Beispiel '{example}') + Return: ").strip()
     if user_input:
-        interval_pattern = user_input
-    
+        pattern = parse_user_input(user_input)
+    else:
+        print("Bitte Eingabe mit ip_ oder rf_.")
+        return
+
     try:
-        # Generiere alle RowForms
-        prime_forms, inversion_forms, retrograde_forms, retrograde_inversion_forms = generate_row_forms(interval_pattern)
-        
-        # Generiere TTL-Ausgabe
-        ttl_output = generate_ttl_output(interval_pattern, prime_forms, inversion_forms, retrograde_forms, retrograde_inversion_forms)
-        
-        print("\n" + "="*50)
-        print("TTL-AUSGABE:")
-        print("="*50)
-        print(ttl_output)
-        
-        # Zusätzliche Informationen
-        print("\n" + "="*50)
-        print("ZUSAMMENFASSUNG:")
-        print("="*50)
-        print(f"RowClass: mhg:{interval_pattern}")
-        print(f"Anzahl P-Forms: {len(prime_forms)}")
-        print(f"Anzahl I-Forms: {len(inversion_forms)}")
-        print(f"Anzahl R-Forms: {len(retrograde_forms)}")
-        print(f"Anzahl RI-Forms: {len(retrograde_inversion_forms)}")
-        print(f"Gesamtanzahl RowForms: {len(prime_forms) + len(inversion_forms) + len(retrograde_forms) + len(retrograde_inversion_forms)}")
-        
-        # Beispiel der ersten RowForms jeder Kategorie
-        print(f"\nBeispiel P0: {format_row_name(prime_forms[0])}")
-        print(f"Beispiel I0: {format_row_name(inversion_forms[0])}")
-        print(f"Beispiel R0: {format_row_name(retrograde_forms[0])}")
-        print(f"Beispiel RI0: {format_row_name(retrograde_inversion_forms[0])}")
-        
+        result = compute_and_normalize(pattern)
+
+        print("\nUrsprüngliche Intervallmuster (aus P0):")
+        for k, v in result["originals"].items():
+            print(f"{k}: {v}")
+
+        print("\nNormalisierte Intervallmuster (neu benannt, kleinste -> P):")
+        for k, v in result["normalized_intervals"].items():
+            print(f"{k}: {v}")
+
+        print("\nMapping (ursprünglich -> neu):")
+        for old, new in result["mapping"].items():
+            print(f"{old} -> {new}")
+
+        print("\nTTL-Ausgabe:\n")
+        ttl = generate_ttl_output_from_forms(result)
+        print(ttl)
+
     except Exception as e:
-        print(f"Fehler: {e}")
-        print("Stellen Sie sicher, dass das Intervallmuster im Format '1_2_3_4_5_6_7_8_9_10_11' eingegeben wurde.")
+        print("Fehler:", e)
+        print("Bitte ein korrektes Intervallmuster im Format 'a_b_c_...' eingeben (z.B. 5_1_3_2).")
 
 if __name__ == "__main__":
     main()
