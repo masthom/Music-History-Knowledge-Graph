@@ -107,7 +107,7 @@ def print_report(data: dict):
 if __name__ == "__main__":
     # === Beispiel-Input ===
     # rowClass der Rotation 1 (Unterstrich-getrennt)
-    input_pattern = "2_8_11_7_2_1_8_8_6_3_5"   # ersetze durch dein Muster
+    input_pattern = "1_6_10_1_5"   # ersetze durch dein Muster
 
     # Modulus (standard 12 für Pitch Classes). Ändere, wenn du in anderem Modul arbeiten willst.
     mod = 12
