@@ -1,0 +1,340 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix frbr: <http://purl.org/vocab/frbr/core/> .
+@prefix mhg: <http://music-history-graph.ch/twelve-tone-onto#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+mhg:rc_1_10_7_11_2 mhg:actualizedIn mhg:Stravinsky_Movements .
+
+mhg:rc_1_1_5_1_10 mhg:actualizedIn mhg:Stravinsky_Movements .
+
+mhg:rc_1_1_6_10_1 mhg:actualizedIn mhg:Stravinsky_Movements .
+
+mhg:rc_1_5_1_10_6 mhg:actualizedIn mhg:Stravinsky_Movements .
+
+mhg:rc_1_5_1_1_6 mhg:actualizedIn mhg:Stravinsky_Movements .
+
+mhg:rc_1_5_2_11_7 mhg:actualizedIn mhg:Stravinsky_Movements .
+
+mhg:rc_1_6_10_1_5 mhg:actualizedIn mhg:Stravinsky_Movements .
+
+mhg:rc_1_6_10_1_5_10_11_2_5_1_10 mhg:actualizedIn mhg:Stravinsky_Movements .
+
+mhg:rc_2_6_11_11_7 mhg:actualizedIn mhg:Stravinsky_Movements .
+
+mhg:rf_0_11_1_6_7_5 mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_0_1_11_6_5_7 mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_0_5_6_4_11_10 mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_0_7_6_8_1_2 mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_10_8_9_2_3_4 mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_1_6_7_5_0_11 mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_2_3_4_10_8_9 mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_3_1_2_7_8_9 mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_3_4_10_8_9_2 mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_3_4_10_8_9_2_0_11_1_6_7_5 mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_3_4_5_11_9_10 mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_3_4_9_10_11_5 mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_3_8_9_10_4_2 mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_3_9_7_8_1_2 mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_4_10_8_9_2_3 mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_5_0_11_1_6_7 mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_6_7_5_0_11_1 mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_8_9_2_3_4_10 mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_9_2_3_4_10_8 mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:IgorStravinsky frbr:creatorOf mhg:Stravinsky_Movements .
+
+mhg:ip_10_7_11_2_5 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:ip_5_2_11_7_10 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:ip_7_10_1_5_2 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_0_10_5_4_6_11 mhg:hasRowClass mhg:rc_2_5_1_10_7 ;
+    mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_0_2_7_8_6_1 mhg:hasIntervalPattern mhg:ip_2_5_1_10_7 ;
+    mhg:hasRowClass mhg:rc_2_5_1_10_7 ;
+    mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_0_5_7_6_1_11 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_0_7_5_6_11_1 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_10_0_5_6_4_11 mhg:hasIntervalPattern mhg:ip_2_5_1_10_7 ;
+    mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_10_3_5_4_11_9 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_10_5_3_4_9_11 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_10_8_3_2_4_9 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_11_1_6_7_5_0 mhg:hasIntervalPattern mhg:ip_2_5_1_10_7 ;
+    mhg:hasRowClass mhg:rc_2_5_1_10_7 ;
+    mhg:manifestedIn [ mhg:accordingTo "masthom" ;
+            mhg:manifestedIn mhg:Stravinsky_Movements ;
+            rdfs:comment "Hexachord 2, rotation 1, not transposed" ],
+        mhg:Stravinsky_Movements .
+
+mhg:rf_11_4_6_5_0_10 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_11_6_4_5_10_0 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_11_9_4_3_5_10 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_1_11_6_5_7_0 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_1_3_8_9_7_2 mhg:hasIntervalPattern mhg:ip_2_5_1_10_7 ;
+    mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_1_6_8_7_2_0 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_1_8_6_7_0_2 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_2_0_7_6_8_1 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_2_4_9_10_8_3 mhg:hasIntervalPattern mhg:ip_2_5_1_10_7 ;
+    mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_2_7_9_8_3_1 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_2_9_7_8_1_3 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_3_10_8_9_2_4 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_3_1_8_7_9_2 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_3_5_10_11_9_4 mhg:hasIntervalPattern mhg:ip_2_5_1_10_7 ;
+    mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_3_8_10_9_4_2 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_4_11_9_10_3_5 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_4_2_9_8_10_3 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_4_6_11_0_10_5 mhg:hasIntervalPattern mhg:ip_2_5_1_10_7 ;
+    mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_4_9_11_10_5_3 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_5_0_10_11_4_6 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_5_10_0_11_6_4 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_5_3_10_9_11_4 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_5_7_0_1_11_6 mhg:hasIntervalPattern mhg:ip_2_5_1_10_7 ;
+    mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_6_11_1_0_7_5 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_6_1_11_0_5_7 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_6_4_11_10_0_5 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_6_8_1_2_0_7 mhg:hasIntervalPattern mhg:ip_2_5_1_10_7 ;
+    mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_7_0_2_1_8_6 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_7_2_0_1_6_8 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_7_5_0_11_1_6 mhg:hasRowClass mhg:rc_2_5_1_10_7 ;
+    mhg:manifestedIn mhg:Stravinsky_Movements .
+
+mhg:rf_7_9_2_3_1_8 mhg:hasIntervalPattern mhg:ip_2_5_1_10_7 ;
+    mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_8_10_3_4_2_9 mhg:hasIntervalPattern mhg:ip_2_5_1_10_7 ;
+    mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_8_1_3_2_9_7 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_8_3_1_2_7_9 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_8_6_1_0_2_7 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_9_11_4_5_3_10 mhg:hasIntervalPattern mhg:ip_2_5_1_10_7 ;
+    mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_9_2_4_3_10_8 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_9_4_2_3_8_10 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:rf_9_7_2_1_3_8 mhg:hasRowClass mhg:rc_2_5_1_10_7 .
+
+mhg:ip_2_5_1_10_7 mhg:hasRotationGroup mhg:rotationGroup_1_10_7_11_2 ;
+    mhg:hasRowClass mhg:rc_2_5_1_10_7 ;
+    mhg:rotationIndex 4 .
+
+mhg:rc_2_5_1_10_7 mhg:actualizedIn mhg:Stravinsky_Movements ;
+    mhg:hasIntervalPattern mhg:ip_10_7_11_2_5,
+        mhg:ip_2_5_1_10_7,
+        mhg:ip_5_2_11_7_10,
+        mhg:ip_7_10_1_5_2 ;
+    mhg:hasRowForm mhg:rf_0_10_5_4_6_11,
+        mhg:rf_0_2_7_8_6_1,
+        mhg:rf_0_5_7_6_1_11,
+        mhg:rf_0_7_5_6_11_1,
+        mhg:rf_10_0_5_6_4_11,
+        mhg:rf_10_3_5_4_11_9,
+        mhg:rf_10_5_3_4_9_11,
+        mhg:rf_10_8_3_2_4_9,
+        mhg:rf_11_1_6_7_5_0,
+        mhg:rf_11_4_6_5_0_10,
+        mhg:rf_11_6_4_5_10_0,
+        mhg:rf_11_9_4_3_5_10,
+        mhg:rf_1_11_6_5_7_0,
+        mhg:rf_1_3_8_9_7_2,
+        mhg:rf_1_6_8_7_2_0,
+        mhg:rf_1_8_6_7_0_2,
+        mhg:rf_2_0_7_6_8_1,
+        mhg:rf_2_4_9_10_8_3,
+        mhg:rf_2_7_9_8_3_1,
+        mhg:rf_2_9_7_8_1_3,
+        mhg:rf_3_10_8_9_2_4,
+        mhg:rf_3_1_8_7_9_2,
+        mhg:rf_3_5_10_11_9_4,
+        mhg:rf_3_8_10_9_4_2,
+        mhg:rf_4_11_9_10_3_5,
+        mhg:rf_4_2_9_8_10_3,
+        mhg:rf_4_6_11_0_10_5,
+        mhg:rf_4_9_11_10_5_3,
+        mhg:rf_5_0_10_11_4_6,
+        mhg:rf_5_10_0_11_6_4,
+        mhg:rf_5_3_10_9_11_4,
+        mhg:rf_5_7_0_1_11_6,
+        mhg:rf_6_11_1_0_7_5,
+        mhg:rf_6_1_11_0_5_7,
+        mhg:rf_6_4_11_10_0_5,
+        mhg:rf_6_8_1_2_0_7,
+        mhg:rf_7_0_2_1_8_6,
+        mhg:rf_7_2_0_1_6_8,
+        mhg:rf_7_5_0_11_1_6,
+        mhg:rf_7_9_2_3_1_8,
+        mhg:rf_8_10_3_4_2_9,
+        mhg:rf_8_1_3_2_9_7,
+        mhg:rf_8_3_1_2_7_9,
+        mhg:rf_8_6_1_0_2_7,
+        mhg:rf_9_11_4_5_3_10,
+        mhg:rf_9_2_4_3_10_8,
+        mhg:rf_9_4_2_3_8_10,
+        mhg:rf_9_7_2_1_3_8 .
+
+mhg:Stravinsky_Movements rdfs:label "Movements for Piano and Orchestra"@en ;
+    mhg:isoCountryCode "USA" ;
+    dcterms:spatial wd:Q30 ;
+    frbr:creator mhg:IgorStravinsky ;
+    frbr:hasCreationDate "1958-59" ;
+    schema:sameAs wd:Q517007 .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 1, rotation 0" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 1, rotation 4, not transposed" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 1, rotation 1, transposed" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 1, rotation 4, transposed" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 2, rotation 4, not transposed" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 2, rotation 5, transposed" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 2, rotation 5, not transposed" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 1, rotation 5, not transposed" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 2, rotation 2, transposed" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 2, rotation 3, not transposed" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 1, rotation 2, not transposed" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 1, rotation 2, transposed" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 1, rotation 3, transposed" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 2, rotation 0" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 2, rotation 3, transposed" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 2, rotation 1, transposed" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 1, rotation 3, not transposed" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 1, rotation 1, not transposed" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 2, rotation 4, transposed" .
+
+[] mhg:accordingTo "SerialAnalyzer" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    dcterms:source "Kuster2000" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 1, rotation 5, transposed" .
+
+[] mhg:accordingTo "masthom" ;
+    mhg:manifestedIn mhg:Stravinsky_Movements ;
+    rdfs:comment "Hexachord 2, rotation 2, not transposed" .
+
