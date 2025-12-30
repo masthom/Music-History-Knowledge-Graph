@@ -1,0 +1,11 @@
+mhg:rotationGroup_1_2_7_1_3 a mhg:rotationGroup ;
+    mhg:hasRotationGroupElement mhg:ip_1_2_7_1_3 ,  ##not yet detected
+                 mhg:ip_2_7_1_3_10 ,  ##not yet detected
+                 mhg:ip_7_1_3_10_1 ,  ##not yet detected
+                 mhg:ip_1_3_10_1_2 ,
+                 mhg:ip_3_10_1_2_7 ,  ##not yet detected
+                 mhg:ip_10_1_2_7_1 .  ##not yet detected
+
+mhg:ip_1_3_10_1_2 a mhg:intervalPattern ;
+    mhg:hasRotationGroup mhg:rotationGroup_1_2_7_1_3 ;
+    mhg:rotationIndex 3 .
